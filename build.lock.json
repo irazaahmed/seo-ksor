@@ -1,0 +1,472 @@
+{
+  "format": 1,
+  "build_id": "sha256:b7e10442352821e561939f900ccb8cce63e347e572e0240640a10dc9f9776a4a",
+  "ksor_version": "0.0.60",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
+    "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
+  },
+  "source_commit": null,
+  "dirty": true,
+  "as_of": "2026-09-14T15:04:41.955Z",
+  "drafts": "hidden",
+  "instance_sha256": "7ea70aaeffc4ead270a43e14576b793fbdfdae4575c1be2ab6ef0c1978ff2f87",
+  "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
+  "people_sha256": "e102c72e207bae84186f39049aaaeed6518a5eefbae517293b10b8e5624a64cc",
+  "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ledger_entries": [],
+  "audiences": {
+    "registry": [],
+    "viewers": {
+      "public": [
+        "public"
+      ]
+    }
+  },
+  "documents": [
+    {
+      "path": "apk-websites/apk-file-hosting-and-adsense.md",
+      "sha256": "ce8e12964a3e5442ca04f44d1a04f74e072e331f1604533d672698a403a7946f",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "content-writing/article-writing-and-seo-structure.md",
+      "sha256": "345449ad779e0ae28e80287413b2924b9062dca8f1e5c2638e76001f2c181ff6",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "content-writing/multilingual-keyword-and-content-workflow.md",
+      "sha256": "6e2ba684eb648bcff2e3194b1f4e67cda70e7016ac429d5e36830f13b53813f8",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "content-writing/nlp-entity-extraction-for-content.md",
+      "sha256": "6518e20c86349ce0295034e17d15cef622dda92328da1658789d2a3695bfc5c4",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "content-writing/seo-content-writing-guide.md",
+      "sha256": "b5237b322e94781aed5cca58e096ff773aa0a281b6640b40ae47885019bf63a7",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "glossary.md",
+      "sha256": "c1134bdfa30bbc2fef42134b248347438173024da8f0d152cad8cea6f13a043b",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-and-planning.md",
+      "sha256": "a7a5ae113c75285aee86427406115dd81b5b0d29aa82aea8449c442a0e9cb74f",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/keyword-process-overview.md",
+      "sha256": "be3991bc2187087f08d54e0a6ddbfad7e721213ffcec52ed618d7755a16b618e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/keyword-research-methods.md",
+      "sha256": "784fc318108fbaa12f970877059a17294061f2d4d328556407b86a9dd2061c6e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/local-seo-fundamentals.md",
+      "sha256": "fbb15e6c4f6e0732139993a98f9b9fc46898f474156c1cccf085ffc09c28839e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/apk-niche-research.md",
+      "sha256": "83ac48d4ec133fc5d2279a52c77bfab5d9be8df5755d5d3b363cc2c56fdf0702",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/country-and-language-targeting.md",
+      "sha256": "dda32ac37bd23e7dc735a47b6dac6ce3b3092e026328285e6e15caa4b168d235",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-niches-ahrefs-filters.md",
+      "sha256": "0ef5aca68062d814ec641495b78da6f84de973f07ff103c99133e346bdb94eb2",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-niches-ai-tools.md",
+      "sha256": "99529542ced3c0430fe81742b82c72108a93c55c51bb6f8c4c0395b6756c2609",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-niches-marketplaces.md",
+      "sha256": "273fe480570912a29a87887c7aa4101635da4fe17bde37b9917e2033bc93d1af",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/overview.md",
+      "sha256": "971f153ed1accc7ee0f47e6c70bc05272717443fb85f513b1cd3a840c0ec6af3",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/anchor-text-and-backlink-distribution.md",
+      "sha256": "32dab77373975e1d59d79c550c6535a258ca38bc2a1296efe609fd61da5bf975",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/backlinks-from-authority-sites.md",
+      "sha256": "63d8db817f5276ffde6c99a75e3fefb58c591f80c1594807bcc45456ffba1a04",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/community-and-forum-link-building.md",
+      "sha256": "19f1ff4277cc0fde57475e37af603a46310f0516bddcf3835081739900a7bd1b",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/contextual-backlinks-guest-post-niche-edit.md",
+      "sha256": "166cb09cd1fdd11abe48748ffd2b18d7fb12733b7309cd0a6ebd4b0c37ad0d52",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/guest-post-link-building-strategy.md",
+      "sha256": "1805533ef06bb46080a24a12f05fa6c0dd4656f1d6b59f3fc640c67a2a88d8bd",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/off-page-seo-fundamentals.md",
+      "sha256": "a4b6e9e12b5316b1426bf1e8763771c67152c07fb85fe2b118272ea0f6e1a842",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/content-strategy-honeymoon-period.md",
+      "sha256": "35db8b81889df9d64da8ef6e5850f6aba48db030de6ba22b45e80e7c1a5dac20",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/google-search-console-and-analytics.md",
+      "sha256": "2cd148b8349b811f1509c26d92e5c5a560dc87c9a7aa96b584e5e5dc5968a087",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/on-page-seo-fundamentals.md",
+      "sha256": "03c6ef43f7885373f6c747307986dd73eb5c6085307e1580aa3b94c22716b05c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/on-page-seo-meta-and-linking.md",
+      "sha256": "c0415fdb88402c4083e2c46b207ca369b079a63b9a9c28857de3b72629943dbe",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/on-page-seo-wordpress-basics.md",
+      "sha256": "767144c48f8a95be77d8a49d03c7d69938f37d95ce79c6c8cb2ea45178487533",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/reverse-engineering-on-page-seo.md",
+      "sha256": "f19e3c475f43d39b5b82637207c4cef7a3d27009166b15d64ae495518992dd6c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/schema-markup.md",
+      "sha256": "8ce4f6a192235aec6171d3b8811ef58e9ca21b38762bea28e30aa5d4c908b996",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/technical-seo-advanced.md",
+      "sha256": "b18ceecd0f722993cc387be910e423b8272acc2b42d7144d4e80a5e2448908a9",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/technical-seo-basics.md",
+      "sha256": "24b2fa69b17342bc6037410755f24708e7aa294bdf6ca7f2a6f7901acc5d15ee",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/website-audit-process.md",
+      "sha256": "5f3da67687b31eb0bdee9bad79d520ba63d2cde47973f97d9a4a12b632d139d5",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "on-page-and-technical-seo/website-speed-optimization.md",
+      "sha256": "f53436a087ffe5f7e856c291c2d820afd10d7d50417cb61114914e4e5ada5730",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "why-seo-matters.md",
+      "sha256": "bd039eed2a365fe8947c7c993051620c463b0cc9a4abe4d704e2594942850047",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "wordpress/introduction-to-wordpress.md",
+      "sha256": "0c00660091a5400abd244180cdc33f5f07b02608f12102f49635522acf3a24bc",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "wordpress/wordpress-setup-theme-and-design.md",
+      "sha256": "9f33526e909b326fdc740c0310fb053b863d451879eed10d985c2d1331440f7e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    }
+  ],
+  "companions": [],
+  "assets": [],
+  "indexes": [
+    {
+      "path": "apk-websites/index.md",
+      "sha256": "f48edc563c2082eefb81d81ef4f655010f2b0a5e18a751f94260d9b63ff1232f"
+    },
+    {
+      "path": "content-writing/index.md",
+      "sha256": "73c0a57a26515849c79669339a77eb282e280686e8708a1ba42b87ac8c66aabf"
+    },
+    {
+      "path": "index.md",
+      "sha256": "b7c0c5517e13af9ffe6d76e98c2a2add9bd54ab01c8b9630dccf2217b986f9e7"
+    },
+    {
+      "path": "keyword-research-and-content-planning/index.md",
+      "sha256": "0b448a47ad9a2ae5f625dd2598f74bf4733ef91690029a8578d435e5f3aec7ae"
+    },
+    {
+      "path": "local-seo/index.md",
+      "sha256": "8bddcf18fbb0f835b1386f91892ddd88485b379e874f935348a15a1b23f00b1b"
+    },
+    {
+      "path": "niche-research/index.md",
+      "sha256": "8421f51e4293a4147ac8eb998d49c67774442f489723282d90e37f54c8c2cd60"
+    },
+    {
+      "path": "off-page-seo/index.md",
+      "sha256": "608d88860f0217cac1259639f27a3bb72df2cafa2b037bc1a0dc1bd8fd45da94"
+    },
+    {
+      "path": "on-page-and-technical-seo/index.md",
+      "sha256": "4e866188344359ffcf63f324def10c9be664446a07d03b619a3b1cfda7c88fd1"
+    },
+    {
+      "path": "wordpress/index.md",
+      "sha256": "1c15e8fb22647775db7309d61765efa7d528f9e2d3776719428b60e958fee899"
+    }
+  ],
+  "bundles": [
+    {
+      "viewer": "public",
+      "sha256": "b271765b8ba92cb180ebd81be8956cc35409c4e5ddd2531ecb38a56a783949df",
+      "files": 45
+    }
+  ]
+}

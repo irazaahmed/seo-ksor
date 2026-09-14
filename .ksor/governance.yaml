@@ -1,0 +1,10 @@
+# The Governance Policy: who has authority over this record. `public` is
+# implicit; register a restricted audience here before any document names it:
+#   audiences:
+#     internal:
+#       description: Employees
+version: "0.1"
+approval_authorities:
+  - actors: [human:ahmedraza]
+takedown_authorities:
+  actors: [human:ahmedraza]

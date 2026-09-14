@@ -1,0 +1,74 @@
+---
+type: Document
+title: "Finding niches, Method 1: reverse-engineering marketplaces"
+description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
+status: stable
+order: 4
+generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+ksor:
+  audience: [public]
+  owner: human:ahmedraza
+  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+sources:
+  - id: sebt-rise-notes
+    title: iSkills SEBT RISE Batch 14 — course notes
+    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+---
+
+## The goal
+
+1. Find a low-competition (untapped) niche.
+2. Find a good competitor in it and replicate what works.
+
+## Step-by-step
+
+1. **Browse marketplaces** where people buy and sell websites: Flippa
+   (flippa.com), Empire Flippers (empireflippers.com), Motion Invest
+   (motioninvest.com), FE International (feinternational.com).
+2. **Filter for high performers** — sort by revenue, profit, traffic, or
+   growth rate; look at content sites, SaaS, e-commerce, or dropshipping;
+   choose categories like health, tech, finance, pets, fitness, or hobbies.
+3. **Analyze a promising site** with Ahrefs, SEMrush, or Similar Web — check
+   its SEO, traffic sources, and backlinks, and identify what actually drives
+   its traffic (organic search, paid ads, or social).
+4. **Check keyword opportunities** — in Ahrefs Site Explorer, enter the site's
+   URL, look at its top-ranking keywords, and find ones with high search
+   volume but low competition.
+5. **Analyze monetization** — see how the site earns (ads, affiliate,
+   digital products, dropshipping) and which model fits the niche best.
+6. **Validate demand and trends** — check Google Trends for growth or
+   decline, and check forums, Reddit, and Facebook groups for active
+   discussion of the topic.
+7. **Choose and validate** — confirm consistent demand and more than one
+   monetization option, and avoid saturated or declining markets.
+
+## Reverse-engineering directly
+
+`ahrefs.com → Site Explorer → paste the site URL → Keywords`, then filter for
+the best keyword. Example subject studied this way: `capitalexotic.com`
+(Capital Exotics).
+
+> [!NOTE]
+> If reverse-engineering a tool like Ahrefs or SEMrush turns up no dedicated
+> website for a specific micro-niche, that is not disqualifying. If the
+> intent is clear, search volume is high, and Google Trends shows consistent
+> searches over the past 12 months, a dedicated site for it can still be
+> created — the gap itself is the opportunity.
+
+## Brand hijacking
+
+Brand hijacking means targeting an established brand's name, keywords, or
+audience within a niche to capture its traffic and visibility. It can be
+intentional or unintentional, and shows up in SEO and affiliate marketing in
+several forms:[^sebt-rise-notes]
+
+1. **Using brand keywords** — content built around a well-known brand's name
+   (e.g. "Nike Shoes Review") to capture its search traffic.
+2. **Affiliate hijacking** — ranking for brand-related keywords and
+   redirecting users to affiliate products.
+3. **Mimicking brand identity** — a site, logo, or content designed to
+   closely resemble a well-known brand, to borrow its credibility.
+4. **Paid ads on brand names** — running PPC ads on a competitor's brand name
+   to intercept its clicks.
+
+[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
