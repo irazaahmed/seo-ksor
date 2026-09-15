@@ -44,14 +44,18 @@ export default function OpengraphImage(): ImageResponse {
             }}
           >
             <svg width="52" height="52" viewBox="0 0 256 256" fill="none">
-              <circle cx="108" cy="108" r="52" stroke="#fff" strokeWidth="18" />
+              <path
+                d="M52 60 h152 a24 24 0 0 1 24 24 v88 a24 24 0 0 1 -24 24 H120 l-38 34 v-34 H52 a24 24 0 0 1 -24 -24 V84 a24 24 0 0 1 24 -24 Z"
+                fill="#ffffff"
+              />
+              <circle cx="118" cy="118" r="34" stroke="#1d4ed8" strokeWidth="15" />
               <line
-                x1="147"
-                y1="147"
-                x2="196"
-                y2="196"
-                stroke="#fff"
-                strokeWidth="20"
+                x1="142"
+                y1="142"
+                x2="168"
+                y2="168"
+                stroke="#1d4ed8"
+                strokeWidth="16"
                 strokeLinecap="round"
               />
             </svg>
