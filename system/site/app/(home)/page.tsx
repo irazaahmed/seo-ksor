@@ -3,6 +3,9 @@ import type { ReactElement } from "react";
 import mark from "@/app/icon.png";
 import { FooterMark } from "@/components/footer-mark";
 import { HomeCover } from "@/components/home-cover";
+import { LandingConnect } from "@/components/landing-connect";
+import { LandingStats } from "@/components/landing-stats";
+import { LandingTopics } from "@/components/landing-topics";
 import { appName, appPurpose, appTitle } from "@/lib/shared";
 import { entriesUnder, entryFor, getSortedPages } from "@/lib/source";
 
@@ -46,6 +49,9 @@ export default function HomePage(): ReactElement {
   const entries = entriesUnder("");
   const lead = entries.find((entry) => entry.url === first.url) ?? entryFor(first);
   const behind = entries.filter((entry) => entry.url !== lead.url).slice(0, 3);
+  // Folders hold documents; the two root-level leaves (glossary,
+  // why-seo-matters) do not — so this counts topic AREAS, not every entry.
+  const topics = entries.filter((entry) => entry.documents > 0).length;
 
   return (
     <main className="flex flex-1 flex-col">
@@ -65,14 +71,15 @@ export default function HomePage(): ReactElement {
         firstUrl={first.url}
         lead={lead}
         behind={behind}
-        // Signed from inside the cover, so the front door is one screen rather
-        // than a band with a strip of page beneath it.
-        foot={
-          <p className="mx-auto w-full max-w-6xl px-6 font-mono text-xs tracking-wider text-[var(--ksor-cover-muted)] uppercase">
-            <FooterMark />
-          </p>
-        }
       />
+      <LandingStats documents={pages.length} topics={topics} />
+      <LandingTopics entries={entries} />
+      <LandingConnect />
+      <footer className="border-t border-fd-border bg-fd-muted/10">
+        <p className="mx-auto w-full max-w-6xl px-6 py-8 font-mono text-xs tracking-wider text-fd-muted-foreground uppercase">
+          <FooterMark />
+        </p>
+      </footer>
     </main>
   );
 }
