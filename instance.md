@@ -1,7 +1,7 @@
 ---
 format: 2
-name: seo-ksor
-title: SEO Knowledge System of Record
+name: askseo
+title: AskSEO
 description: An SEO curriculum record — Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy) — as the owner adds it.
 toolchain:
   requires: ">=0.0.60"

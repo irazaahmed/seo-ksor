@@ -2,7 +2,7 @@
 okf_version: "0.2"
 ---
 
-# SEO Knowledge System of Record
+# AskSEO
 
 * [SEO glossary and web basics](glossary.md) - Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 * [Why SEO matters, and what ranks a page](why-seo-matters.md) - Why SEO is treated as a standalone skill in this course, and the balance of factors — authority, content, backlinks, niche difficulty — that decide a ranking.

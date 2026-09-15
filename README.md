@@ -1,4 +1,4 @@
-# SEO Knowledge System of Record
+# AskSEO
 
 A governed **Knowledge System of Record (KSoR)** for SEO — Complete SEO,
 Local SEO, Blogging, and Quick Skills (Etsy), sourced from real course
