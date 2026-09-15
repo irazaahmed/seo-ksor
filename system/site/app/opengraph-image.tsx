@@ -40,22 +40,22 @@ export default function OpengraphImage(): ImageResponse {
               width: 88,
               height: 88,
               borderRadius: 22,
-              backgroundImage: "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)",
+              backgroundImage: "linear-gradient(135deg, #60a5fa 0%, #2563eb 50%, #1e3a8a 100%)",
             }}
           >
             <svg width="52" height="52" viewBox="0 0 256 256" fill="none">
               <path
-                d="M52 60 h152 a24 24 0 0 1 24 24 v88 a24 24 0 0 1 -24 24 H120 l-38 34 v-34 H52 a24 24 0 0 1 -24 -24 V84 a24 24 0 0 1 24 -24 Z"
+                d="M54 58 h148 a26 26 0 0 1 26 26 v82 a26 26 0 0 1 -26 26 H124 l-40 36 v-36 H54 a26 26 0 0 1 -26 -26 V84 a26 26 0 0 1 26 -26 Z"
                 fill="#ffffff"
               />
-              <circle cx="118" cy="118" r="34" stroke="#1d4ed8" strokeWidth="15" />
+              <circle cx="120" cy="116" r="33" stroke="#2f3fc4" strokeWidth="16" />
               <line
-                x1="142"
-                y1="142"
-                x2="168"
-                y2="168"
-                stroke="#1d4ed8"
-                strokeWidth="16"
+                x1="143"
+                y1="139"
+                x2="171"
+                y2="167"
+                stroke="#2f3fc4"
+                strokeWidth="18"
                 strokeLinecap="round"
               />
             </svg>
