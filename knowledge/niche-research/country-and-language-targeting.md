@@ -4,11 +4,11 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 8
-generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -31,6 +31,14 @@ Steps:
    (e.g. `google.com.mx` for Mexico).
 5. Look for low-competition opportunities: topics with limited
    high-authority competitors in that country.
+
+## Finding a macro site per country
+
+When you don't already have a macro site to reverse-engineer in a target
+country, ask ChatGPT or Claude to name one — an established, well-known site
+in that country's market. Then run it through Ahrefs Site Explorer the same
+way as any other macro site: check its top pages, pull their top keywords,
+and look for micro niches inside them.[^iskills-course-notes]
 
 ## Researching for other languages
 

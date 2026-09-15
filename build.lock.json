@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:65369dbcb081dacee046ed66ee60deddf9632ce810b74512eaedda73dfd62fb0",
+  "build_id": "sha256:f26203bd7d3655dab44ccb255a2785dd691d54005b43ecba7d96b2faea85ce2b",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "e09f2e5ae79066f7d98e83a1fa113c8a44f2bd61",
-  "dirty": false,
-  "as_of": "2026-09-15T18:21:28.468Z",
+  "dirty": true,
+  "as_of": "2026-09-15T18:35:09.507Z",
   "drafts": "hidden",
   "instance_sha256": "3e0b3222c326b0ac4e21e883f004ee0ebda179b5eac0a61f53bf510dcda1a884",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "2e8fc79722b3082aa48b35e5da0221fbdffef34663437c33a7447e5437921f24",
+      "sha256": "06a9306a5c415e6c14a3801983a114db7cb3adbde33663cda3d55a70671af17b",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "3fd03f76932b6f9429eae83e90e0077f19b4998e8a77330c92b7f8753922cf92",
+      "sha256": "d084fffd24cfecb9f7aadc4f8db5677c9980b9616ef5fdc82a4e9322b04d2dc6",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "6fc1207f9dc6438ae868101d0d8719f54c12fa6c78d12e5aa89325770fb5b662",
+      "sha256": "f9e6fa80623a53b36bfde9ad52c13984696a5299ad56f238fa2f8f31c14dbd48",
       "status": "stable",
       "audience": [
         "public"
@@ -192,7 +192,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "4870feda13199c0cd5b19752985336031cd39781e308e118d79ee775a537978f",
+      "sha256": "a4e2a4fb34db5c433cde00cca342d87d6bd2e08fb3f64a68efe4d3d14a17110c",
       "status": "stable",
       "audience": [
         "public"
@@ -487,7 +487,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "75e459efab311eabb997a1a89055444ab0399248c01020b936560d3bb3443e05",
+      "sha256": "a3dc92749223b6724e6587e4fc2122fee4fc17199f95343ce8341618358f06db",
       "files": 47
     }
   ]

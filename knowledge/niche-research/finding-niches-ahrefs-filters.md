@@ -4,11 +4,11 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -38,6 +38,21 @@ A later pass on the same method added a second filter set:
 - Word count = 2
 - Use an "include" term such as *generate*, *calculate*, or *click* — any word
   a user would search alongside your niche.
+
+## A revision pass on the same filters
+
+Revisiting this method later added a few more filter details worth
+combining with the ones above, still inside Ahrefs Keyword Explorer with a
+country selected:[^iskills-course-notes]
+
+- **Intent** — filter to informational intent.
+- **Volume** — around 30,000.
+- **KD** — up to 25.
+- **SERP Features** — open the "All" rule and deselect whichever features
+  make a keyword less worth targeting for your case, e.g. exclude keywords
+  where Google already shows an AI Overview, or where video results
+  dominate the page.
+- An **"include"** term, same as before, matching your niche.
 
 ## Combination ideas
 

@@ -4,11 +4,11 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -47,6 +47,13 @@ sources:
 `ahrefs.com → Site Explorer → paste the site URL → Keywords`, then filter for
 the best keyword. Example subject studied this way: `capitalexotic.com`
 (Capital Exotics).
+
+The fuller version of the same method, worth running on any established
+("macro") site: open it in Site Explorer, review its top pages, pull the top
+keywords from whichever pages look strongest, then search those keywords on
+Google's own SERP. This is the path from a macro site down to a nano
+niche — one page on a big site can point you straight at a small niche worth
+owning outright.[^iskills-course-notes]
 
 > [!NOTE]
 > If reverse-engineering a tool like Ahrefs or SEMrush turns up no dedicated
