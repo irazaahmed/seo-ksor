@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:b7e10442352821e561939f900ccb8cce63e347e572e0240640a10dc9f9776a4a",
+  "build_id": "sha256:f2a37c7b4dc61c58d1bfa28c9deabb8714425a8b5aac51a466ffd71c67a05a19",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,12 +8,12 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "95fcfc2f3604757cded3b7fddfb4ccf4829b1a9d",
-  "dirty": false,
-  "as_of": "2026-09-15T11:01:32.143Z",
+  "dirty": true,
+  "as_of": "2026-09-15T11:30:22.629Z",
   "drafts": "hidden",
   "instance_sha256": "7ea70aaeffc4ead270a43e14576b793fbdfdae4575c1be2ab6ef0c1978ff2f87",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
-  "people_sha256": "e102c72e207bae84186f39049aaaeed6518a5eefbae517293b10b8e5624a64cc",
+  "people_sha256": "614e1f6e02b3910a5edd6c973c5f00f33637ef10eef7c3425e5cec12e331b6ff",
   "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "ledger_entries": [],
   "audiences": {
