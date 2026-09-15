@@ -1,10 +1,9 @@
 # AskSEO
 
-A governed **Knowledge System of Record (KSoR)** for SEO — Complete SEO,
-Local SEO, Blogging, and Quick Skills (Etsy), sourced from real course
-material. It exists so anyone can connect this record to Claude or ChatGPT
-over MCP and be guided strictly from what's actually in it, instead of a
-generic AI answer.
+A governed knowledge record for SEO — Complete SEO, Local SEO, Blogging, and
+Quick Skills (Etsy), sourced from real course material. It exists so anyone
+can connect this record to Claude or ChatGPT over MCP and be guided strictly
+from what's actually in it, instead of a generic AI answer.
 
 ## What this covers
 
@@ -72,9 +71,5 @@ npm run refresh   # re-embeds only what changed
   repository
 - **Policy:** `.ksor/governance.yaml`
 
-## Built on KSoR
-
-This project is scaffolded from [`@panaversity/ksor`](https://github.com/panaversity/ksor),
-a governed knowledge-system framework. `AGENTS.md` is the full working
-contract for this repository — read it before changing how documents are
-written, structured, or served.
+`AGENTS.md` is the full working contract for this repository — read it
+before changing how documents are written, structured, or served.
