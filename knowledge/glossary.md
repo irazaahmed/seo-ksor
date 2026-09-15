@@ -4,11 +4,11 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -28,7 +28,9 @@ later document uses a word without defining it.[^iskills-course-notes]
 - **Keyword** — a specific word or phrase people type into a search engine.
   Example: "best running shoes" is a keyword.
 - **Search volume** — how many times a keyword is searched in a search engine
-  within a period, usually monthly.
+  within a period, usually monthly. Not the same thing as **search traffic**,
+  which is how many visits a *website* actually gets from search — a keyword
+  or niche has a search volume; a website has search traffic.
 - **SERP (Search Engine Results Page)** — the page a search engine shows after
   a query: websites, pages, images, videos.
 - **Trend** — a general movement in a direction over time (fashion,
@@ -39,6 +41,9 @@ later document uses a word without defining it.[^iskills-course-notes]
 - **Search intent / user intent** — the goal behind a user's search query;
   understanding it lets a search engine (and a content writer) return the most
   relevant result.
+- **Citation** — a mention of a website or source, used as a reference or
+  credibility signal (e.g. a search engine or an AI answer citing a page as
+  where an answer came from).
 
 ## Types of niches (by intent)
 
@@ -60,8 +65,14 @@ later document uses a word without defining it.[^iskills-course-notes]
 
 ## How a search engine works
 
-A search engine (Google, Bing, Yahoo) follows three steps to surface relevant
-pages among billions:
+"Search engine" is no longer only Google, Bing, and Yahoo — an LLM (ChatGPT,
+Claude, Gemini) now also answers search-like questions directly, sometimes
+citing a page as its source. The mechanics below describe a traditional
+search engine; a later document covers what changes when the "search engine"
+is an AI answering directly (see *Why SEO matters, and what ranks a page*).
+
+A traditional search engine follows three steps to surface relevant pages
+among billions:
 
 1. **Crawling** — bots (crawlers/spiders) scan the internet for new and
    updated pages, following links from page to page.

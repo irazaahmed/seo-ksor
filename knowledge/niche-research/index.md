@@ -5,4 +5,6 @@
 * [Finding niches, Method 2: the Ahrefs/SEMrush filter method](finding-niches-ahrefs-filters.md) - Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 * [APK niche research](apk-niche-research.md) - Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 * [Finding niches, Method 3: AI tools and NLP categories](finding-niches-ai-tools.md) - Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
+* [Finding SaaS and AI tool niches](finding-niches-saas-and-ai-tools.md) - Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack — Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store.
+* [Easy-to-rank niche categories](easy-niche-categories.md) - Niche categories that are consistently easier to rank than others — informational, downloadable, and government-related — plus finding them with Ahrefs Content Explorer.
 * [Country and language targeting for niches](country-and-language-targeting.md) - How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.

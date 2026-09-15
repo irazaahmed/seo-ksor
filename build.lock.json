@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:352acf9fd0e00019e2cc8fec1a7b3bff0dc55215c1a7eb863dc0a4883a2a3395",
+  "build_id": "sha256:c5e321ce5b9738e6882e20a3b28c75648034ed503055b0aeac7c77e54a8cc84a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "7eb97d3aa7a78127ff5d9a04fd7f3a5660c1406a",
+  "source_commit": "aa0f4dc417cf86c0e93dd1cfa7a44b2b15c42a63",
   "dirty": true,
-  "as_of": "2026-09-15T11:38:01.480Z",
+  "as_of": "2026-09-15T12:56:06.771Z",
   "drafts": "hidden",
   "instance_sha256": "5b8b68a3b935eb6b4a05e2d02c171219a770307d2800f860de3f67cc2511a12a",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -82,7 +82,7 @@
     },
     {
       "path": "glossary.md",
-      "sha256": "287b2aa9c6d4ed2fd3be1a693281173d1da3274dbe9d376f181160142670f99e",
+      "sha256": "cb732acc50714fffb1ced659f0712a3ff85d4d1f02f81435cf20c9118f3a45ee",
       "status": "stable",
       "audience": [
         "public"
@@ -148,7 +148,18 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "fee3ecbcf5415f8758a32313ca37151cb5f475c0c75f4b8a5ae8d4b356c30b7b",
+      "sha256": "2e8fc79722b3082aa48b35e5da0221fbdffef34663437c33a7447e5437921f24",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/easy-niche-categories.md",
+      "sha256": "3fd03f76932b6f9429eae83e90e0077f19b4998e8a77330c92b7f8753922cf92",
       "status": "stable",
       "audience": [
         "public"
@@ -191,8 +202,19 @@
       ]
     },
     {
+      "path": "niche-research/finding-niches-saas-and-ai-tools.md",
+      "sha256": "a4240b1adc338aa7ace75da8af8c4d7ee786b0c64716b5eecb1e535a60bfaab8",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "niche-research/overview.md",
-      "sha256": "0976a179f4f4aadd37126947d5a9d246649236007eb19a610479488330bf70f6",
+      "sha256": "be84fad4ab426bfec0a563d1a3132649053750df9331a6930b780b3aec94d66f",
       "status": "stable",
       "audience": [
         "public"
@@ -390,7 +412,7 @@
     },
     {
       "path": "why-seo-matters.md",
-      "sha256": "1d7f4dd60ec9e0866b0078ee5cf5c0bbebed7d476a62d1abc39e6281591d44d3",
+      "sha256": "48e9c4fcf14222458f76eef1744772f729cc0e4b185757f7e3d51ff9157b74c9",
       "status": "stable",
       "audience": [
         "public"
@@ -447,7 +469,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "8421f51e4293a4147ac8eb998d49c67774442f489723282d90e37f54c8c2cd60"
+      "sha256": "6d46a9fe77d62ad0139124ec0cb622b00da351ebfb5ad6c78e17dcb463e5dce1"
     },
     {
       "path": "off-page-seo/index.md",
@@ -465,8 +487,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "50e6c47a5244b1a0720c7153acb84b66b9da972fdccd54852e456df06b34899b",
-      "files": 45
+      "sha256": "1920192d2773a6055b3333e244fc78106ba62ccfd21967eee6e34fd277a65af7",
+      "files": 47
     }
   ]
 }

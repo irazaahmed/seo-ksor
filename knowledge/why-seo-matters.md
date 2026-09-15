@@ -4,11 +4,11 @@ title: Why SEO matters, and what ranks a page
 description: Why SEO is treated as a standalone skill in this course, and the balance of factors — authority, content, backlinks, niche difficulty — that decide a ranking.
 status: stable
 order: 2
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -49,6 +49,22 @@ A page's ranking rests on several factors working together, not any single one:
 - **Profitability** — the revenue potential the SEO effort is working toward.
 - **Volume, country, language** — search volume, geography and language
   together shape which strategy applies.
+
+## SEO now includes AEO and GEO
+
+SEO is often called the mother of digital marketing — most other channels
+(content, social, paid) eventually lean on it. What is new is that "ranking"
+no longer means only a link on a results page:[^iskills-course-notes]
+
+- **AEO (Answer Engine Optimization)** — optimizing to be the answer an AI
+  assistant gives directly (e.g. a voice assistant or an AI Overview), not
+  just a link it shows.
+- **GEO (Generative Engine Optimization)** — optimizing to be cited or used
+  as a source when a generative AI (ChatGPT, Claude, Gemini) composes an
+  answer.
+
+Both sit on top of the same foundation as traditional SEO — real content,
+real authority, real structure — rather than replacing it.
 
 ## How platforms measure authority
 

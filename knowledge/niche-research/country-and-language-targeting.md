@@ -4,11 +4,11 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 8
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -61,6 +61,15 @@ Refining steps:
 4. Filter results down to the best niches for that language.
 
 Worked example (Mexico, in Ahrefs): KD ≤ 10, Volume ≥ 40K, DR ≤ 15.
+
+## Scaling one niche across countries
+
+Once a niche is validated in one country, the same niche and structure can be
+repeated across several countries at once — e.g. building 10 versions of the
+same site for Germany, Italy, Vietnam, Thailand, and other target markets.
+Each copy still needs its own local keyword research and translation done
+properly (see above); it is the niche and the site structure that gets
+reused, not the content verbatim.[^iskills-course-notes]
 
 ## Tier system: revenue potential by country and language
 
