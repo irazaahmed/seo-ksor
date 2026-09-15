@@ -1,8 +1,10 @@
 import Link from "next/link";
 import type { ReactElement } from "react";
 
+import { displayActor } from "@/lib/actor-display";
 import { badgeLabel, badgeTone } from "@/lib/governance";
 import type { LifecycleBadge } from "@/lib/lifecycle-rule";
+import { peopleBook } from "@/lib/people";
 import type { RecordEntry } from "@/lib/source";
 
 /**
@@ -69,7 +71,7 @@ export function RecordStack({
 
         {!footed ? null : (
           <div className="mt-6 flex items-baseline justify-between gap-4 border-t border-[var(--ksor-cover-panel-rule)] pt-4 font-mono text-[11px] text-[var(--ksor-cover-muted)]">
-            <span>{lead.owner ?? ""}</span>
+            <span>{lead.owner === null ? "" : displayActor(lead.owner, peopleBook())}</span>
             {lead.documents === 0 ? null : (
               <span className="tracking-wider uppercase tabular-nums">
                 {`${lead.documents} ${lead.documents === 1 ? "doc" : "docs"}`}
