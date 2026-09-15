@@ -18,7 +18,7 @@ const STEPS: { icon: typeof MessageCircle; title: string; body: string }[] = [
   {
     icon: Search,
     title: "Ask",
-    body: "Ask anything the SEBT NEXT syllabus covers — niche research, keyword research, on-page SEO, and more.",
+    body: "Ask anything this record covers — niche research, keyword research, on-page SEO, and more.",
   },
   {
     icon: Sparkles,

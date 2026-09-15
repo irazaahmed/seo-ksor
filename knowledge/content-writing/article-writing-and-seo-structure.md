@@ -4,15 +4,15 @@ title: Article structure — headings, competitor analysis, and keyword prominen
 description: How to structure an SEO article with HTML headings, build it from competitor heading analysis, and place the main keyword for maximum prominence.
 status: stable
 order: 12
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Heading structure
@@ -24,7 +24,7 @@ sources:
 - Avoid H5/H6 — not useful for a standard article.
 
 Other core tags: `<p>` paragraphs, `<table>` tables, `<li>`/`<ol>`/`<ul>` lists,
-`<a href>` links, `<strong>` bold text.[^sebt-rise-notes]
+`<a href>` links, `<strong>` bold text.[^iskills-course-notes]
 
 ### Template
 
@@ -180,4 +180,4 @@ wrinkle repair, cream for fine lines, firming night cream.
 - Headings analyzed and used?
 - AI prompted with consistent instructions throughout?
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

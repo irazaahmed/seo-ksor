@@ -4,21 +4,21 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 8
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Country-specific niche research
 
 Country-targeted SEO matters because ranking in one specific region is
-usually far easier than ranking globally.[^sebt-rise-notes]
+usually far easier than ranking globally.[^iskills-course-notes]
 
 Steps:
 
@@ -65,7 +65,7 @@ Worked example (Mexico, in Ahrefs): KD ≤ 10, Volume ≥ 40K, DR ≤ 15.
 ## Tier system: revenue potential by country and language
 
 Monetization depends on traffic source and user location — higher-tier
-countries generate more ad revenue:[^sebt-rise-notes]
+countries generate more ad revenue:[^iskills-course-notes]
 
 - **Tier 1 countries** (USA, UK, Canada, Australia):
   - English-speaking users: $15–20 per 1,000 visits
@@ -86,4 +86,4 @@ visits/month: total traffic of about 88K visitors/month translates to
 revenue via `(traffic / 1,000) × RPM`. Higher traffic combined with
 low-competition keywords is what compounds into meaningfully more revenue.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

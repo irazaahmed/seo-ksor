@@ -4,15 +4,15 @@ title: Technical SEO — advanced crawl control
 description: Robots.txt, meta robots tags, llms.txt, sitemap.xml, crawl-budget optimization, canonical tags, and .htaccess — the files that control how a crawler treats a site.
 status: stable
 order: 23
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Robots.txt
@@ -22,7 +22,7 @@ sources:
 - **Usage:** allow/disallow specific directories or pages; block duplicate
   content from being crawled.
 - In WordPress, the Rank Math plugin can manage `robots.txt` settings
-  directly.[^sebt-rise-notes]
+  directly.[^iskills-course-notes]
 
 ## Robots meta tags and X-Robots-Tag
 
@@ -66,4 +66,4 @@ Typical uses: HTTP/HTTPS duplicates, www/non-www duplicates, and pagination.
 A server configuration file used for 301 redirects, forcing HTTPS, blocking
 specific IPs, and custom error pages.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

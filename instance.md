@@ -1,8 +1,8 @@
 ---
 format: 2
-name: sebt-seo
-title: SEBT SEO Knowledge Record
-description: The SEO curriculum taught at iSkills' SEBT batches — Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy) — as the owner adds it.
+name: seo-ksor
+title: SEO Knowledge System of Record
+description: An SEO curriculum record — Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy) — as the owner adds it.
 toolchain:
   requires: ">=0.0.60"
   scaffolded: "0.0.60"
@@ -28,16 +28,15 @@ database:
 # version: 0.1.0
 ---
 
-This record is authoritative for the SEO curriculum taught at iSkills by M.
-Tanveer Nandla, specifically the SEBT NEXT batch syllabus — Complete SEO,
-Local SEO, Blogging, Quick Skills (Etsy), and related modules — plus material
-carried over from the SEBT RISE batch that the owner has added. It does not
-cover other iSkills courses, institute administration (fees, admissions,
-attendance, schedules), general or outdated SEO tactics not taught in this
-course, or any content the owner has not explicitly added to this record.
+This record is authoritative for its own SEO curriculum — Complete SEO, Local
+SEO, Blogging, Quick Skills (Etsy), and related modules, sourced from real
+course material and expanded as the owner adds more. It does not cover
+institute administration (fees, admissions, attendance, schedules), general
+or outdated SEO tactics not taught in this material, or any content the owner
+has not explicitly added to this record.
 
-Read by both students and agents. When a question falls outside this scope,
-say so plainly — "not in the SEBT SEO Knowledge Record" — rather than
+Read by anyone — students, practitioners, and agents alike. When a question
+falls outside this scope, say so plainly — "not in this record" — rather than
 guessing from training data; you may then use a browsing/search tool to find
 an answer from the open web, and should say clearly that the answer came from
 the web rather than from this record. All documents are visible to every

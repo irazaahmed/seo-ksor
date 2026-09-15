@@ -1,22 +1,22 @@
 ---
 type: Document
 title: SEO glossary and web basics
-description: Core SEO and web-infrastructure terms used throughout the SEBT SEO curriculum — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
+description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 These are the base terms the rest of this record assumes. Read this first if a
-later document uses a word without defining it.[^sebt-rise-notes]
+later document uses a word without defining it.[^iskills-course-notes]
 
 ## Niche and domain terms
 
@@ -90,4 +90,4 @@ pages among billions:
   version of HTTP; it protects data moving between a browser and a website
   from interception.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

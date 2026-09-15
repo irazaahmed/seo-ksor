@@ -4,15 +4,15 @@ title: Manual and tool-based keyword research methods
 description: Google Instant, manual keyword tools, and the Ahrefs/SEMrush competitor-export methods for building a keyword list, including topical authority and keyword cannibalization.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Two SEO terms to know first
@@ -23,7 +23,7 @@ sources:
 - **Keyword cannibalization** — when multiple pages on the same site target
   the same keyword, Google gets confused about which to rank, and both pages
   suffer. Always cluster keywords and write unique content per cluster to
-  avoid this.[^sebt-rise-notes]
+  avoid this.[^iskills-course-notes]
 
 ## Method 1: Google Instant (manual)
 
@@ -90,4 +90,4 @@ before moving to article-writing prep.
 | SEMrush | Site scraping, keyword clusters |
 | Google Sheets | Organize and format the data |
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

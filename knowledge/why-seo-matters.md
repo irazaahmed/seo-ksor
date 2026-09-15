@@ -4,15 +4,15 @@ title: Why SEO matters, and what ranks a page
 description: Why SEO is treated as a standalone skill in this course, and the balance of factors — authority, content, backlinks, niche difficulty — that decide a ranking.
 status: stable
 order: 2
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## SEO as a skill, not just a task
@@ -23,7 +23,7 @@ SEO is treated as a skill in its own right, separate from any one business:
 - Freelancing is a job built on it; niche research costs time; site
   development costs domain, time and design; off-page SEO costs time too.
 - The point to remember: whatever you invest in it, ranking pays back as
-  profit.[^sebt-rise-notes]
+  profit.[^iskills-course-notes]
 
 ## What a ranking balances
 
@@ -57,4 +57,4 @@ A page's ranking rests on several factors working together, not any single one:
   authority.
 - **Moz** reports **DA (Domain Authority)** — its equivalent metric.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

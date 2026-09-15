@@ -4,15 +4,15 @@ title: Building backlinks from top authority sites
 description: A strategy for earning backlinks from the internet's highest-authority platforms — YouTube, Instagram, Reddit, GitHub, and similar — by participating genuinely rather than spamming.
 status: stable
 order: 32
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## The idea
@@ -20,7 +20,7 @@ sources:
 Backlinks are votes of trust — the more quality votes from strong websites, the
 more powerful your own site becomes. This strategy targets backlinks from the
 top 50,000 websites in the world: even 200 backlinks from sites at that level
-meaningfully changes a site's ranking trajectory.[^sebt-rise-notes]
+meaningfully changes a site's ranking trajectory.[^iskills-course-notes]
 
 ## Why target the biggest platforms
 
@@ -82,4 +82,4 @@ always participating naturally rather than spamming — even a single naked
 link from a top-tier site is a real achievement, because quality and source
 authority matter more than raw link count.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

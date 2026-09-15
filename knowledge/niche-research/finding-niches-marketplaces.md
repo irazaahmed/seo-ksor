@@ -4,15 +4,15 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## The goal
@@ -60,7 +60,7 @@ the best keyword. Example subject studied this way: `capitalexotic.com`
 Brand hijacking means targeting an established brand's name, keywords, or
 audience within a niche to capture its traffic and visibility. It can be
 intentional or unintentional, and shows up in SEO and affiliate marketing in
-several forms:[^sebt-rise-notes]
+several forms:[^iskills-course-notes]
 
 1. **Using brand keywords** — content built around a well-known brand's name
    (e.g. "Nike Shoes Review") to capture its search traffic.
@@ -71,4 +71,4 @@ several forms:[^sebt-rise-notes]
 4. **Paid ads on brand names** — running PPC ads on a competitor's brand name
    to intercept its clicks.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

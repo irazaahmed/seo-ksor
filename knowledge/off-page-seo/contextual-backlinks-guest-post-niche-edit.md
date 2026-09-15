@@ -4,15 +4,15 @@ title: Contextual backlinks — guest posts and niche edits
 description: Prospecting link targets from competitor backlinks, organizing outreach data, hunting editor emails, and running an outreach campaign for guest posts and niche edits.
 status: stable
 order: 34
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Two contextual backlink types
@@ -22,7 +22,7 @@ sources:
 - **Niche edit** — adding your backlink inside an article that is already
   published on another site.
 
-Both improve rankings, traffic, and authority.[^sebt-rise-notes]
+Both improve rankings, traffic, and authority.[^iskills-course-notes]
 
 ## Prospecting: finding target sites
 
@@ -108,4 +108,4 @@ article.
 7. Send 15–20 personalized emails a day.
 8. Follow up and secure the backlinks.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

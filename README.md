@@ -1,16 +1,15 @@
-# SEBT SEO Knowledge Record
+# SEO Knowledge System of Record
 
-A governed **Knowledge System of Record (KSoR)** for the SEO curriculum
-taught at **iSkills** by M. Tanveer Nandla — the SEBT NEXT and SEBT RISE
-batches. It exists so a student can connect this record to Claude or ChatGPT
-over MCP and be guided strictly from what was actually taught in class,
-instead of a generic AI answer.
+A governed **Knowledge System of Record (KSoR)** for SEO — Complete SEO,
+Local SEO, Blogging, and Quick Skills (Etsy), sourced from real course
+material. It exists so anyone can connect this record to Claude or ChatGPT
+over MCP and be guided strictly from what's actually in it, instead of a
+generic AI answer.
 
 ## What this covers
 
-Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy) — the SEBT NEXT
-syllabus, plus material carried over from the SEBT RISE batch. It does not
-cover other iSkills courses, institute administration, or anything not
+Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy) — as the owner
+adds it. It does not cover institute administration, or anything not
 explicitly added to `knowledge/`. Outside its scope, the record says so
 plainly rather than guessing.
 
@@ -32,8 +31,8 @@ plainly rather than guessing.
 Plus `glossary.md` and `why-seo-matters.md` at the root.
 
 Every document is `status: stable`, approved by the record's owner, and
-cites its source (SEBT RISE Batch 14 course notes) via a footnote — see
-`AGENTS.md` for the full governance rules this record follows.
+cites its source via a footnote — see `AGENTS.md` for the full governance
+rules this record follows.
 
 ## Quick start
 
@@ -55,9 +54,9 @@ npm run refresh      # publish the record into a servable generation
 npm run serve        # run the MCP server
 ```
 
-## Adding new class notes
+## Adding new material
 
-New SEBT NEXT sessions get folded in the same way the first batch was: raw
+New sessions get folded in the same way the first batch was: raw
 notes go through the `add-sources` skill (`.agents/skills/add-sources/`),
 which converts them into governed markdown, verifies every number against
 the source, and asks for approval before anything publishes. Then:

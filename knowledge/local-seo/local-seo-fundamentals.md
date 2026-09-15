@@ -4,15 +4,15 @@ title: Local SEO fundamentals
 description: What Local SEO is, how it differs from traditional SEO, its business types and monetization models, common issues, and Google Business Profile basics.
 status: stable
 order: 36
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## What is Local SEO?
@@ -20,7 +20,7 @@ sources:
 Local SEO optimizes a business to appear in local search results on Google
 and other engines — geo-targeted marketing aimed at customers in a specific
 location. Example: providing digital marketing for a dentist in Lahore, or a
-plumber in Multan, is Local SEO.[^sebt-rise-notes]
+plumber in Multan, is Local SEO.[^iskills-course-notes]
 
 **Formula:** Anchor Site + Keyword + Location = Local SEO. Example: "Plastic
 Surgeon in Multan" or "Car Rental in Karachi".
@@ -120,4 +120,4 @@ keyword targeting, strong GBP optimization, and genuinely local backlinks —
 and it suits freelancers who want steady clients in a low-competition,
 high-conversion niche.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

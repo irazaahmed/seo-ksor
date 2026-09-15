@@ -4,15 +4,15 @@ title: Meta title CTR, table of contents, and internal/external linking
 description: Writing a click-worthy meta title, installing a table-of-contents plugin, and the rules for internal and external linking on a post.
 status: stable
 order: 20
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Meta title and description optimization
@@ -20,7 +20,7 @@ sources:
 - **Slug/permalink** — short, keyword-rich, SEO-friendly (e.g.
   `/streamer-vs-inen-review`).
 - **Meta title length** — keep to 50–60 characters; avoid titles that are too
-  short or too long.[^sebt-rise-notes]
+  short or too long.[^iskills-course-notes]
 
 ### Writing a perfect meta title
 
@@ -87,4 +87,4 @@ menu, since it helps search engines understand the site's overall structure.
 - Follow the internal/external linking rules above.
 - Keep the navigation menu optimized around your most important content.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

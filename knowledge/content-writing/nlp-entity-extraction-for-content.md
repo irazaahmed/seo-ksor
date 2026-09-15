@@ -4,15 +4,15 @@ title: NLP entity extraction for content strategy
 description: Using an AI prompt to extract NLP entities from competitor articles, weave them naturally into your own writing, and match or improve on their tone.
 status: stable
 order: 14
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Objective
@@ -20,7 +20,7 @@ sources:
 Extract the important NLP entities from competitor content, weave them
 naturally into your own article, and use an AI prompt to do the heavy
 lifting — building a content strategy that outperforms competitors on
-SEO.[^sebt-rise-notes]
+SEO.[^iskills-course-notes]
 
 ## What an "entity" is
 
@@ -111,4 +111,4 @@ year."
 - Keep a storytelling thread running through the piece to stay human and
   engaging, not just informative.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

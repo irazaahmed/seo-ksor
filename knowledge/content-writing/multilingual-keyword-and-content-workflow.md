@@ -4,22 +4,22 @@ title: Multilingual keyword and content workflow
 description: Handling non-English keywords accurately, grouping them by intent, checking for plagiarism, and linking content correctly.
 status: stable
 order: 15
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## The multilingual keyword problem
 
 Direct machine translation of a keyword can misrepresent user intent or
 produce wording no local user actually searches — a translation can be
-grammatically correct while being SEO-irrelevant.[^sebt-rise-notes]
+grammatically correct while being SEO-irrelevant.[^iskills-course-notes]
 
 Example: a Thai keyword meaning "anti-wrinkle cream", run through Google
 Translate, may come back as "wrinkle reduction cream" in English — technically
@@ -106,4 +106,4 @@ searcher's intent.
 8. Add up to 1–2 external links, optionally.
 9. Review the whole piece for flow and intent consistency.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

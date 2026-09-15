@@ -4,19 +4,19 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 Niche plays roughly a 70% role in whether a site succeeds or fails — get this
-step wrong and no amount of later SEO work fully compensates.[^sebt-rise-notes]
+step wrong and no amount of later SEO work fully compensates.[^iskills-course-notes]
 
 ## Tools required
 
@@ -81,4 +81,4 @@ Use `site:domain.com` in Google, or the site's sitemap, to see how many pages
 a competitor runs — this is how the 100–150 page ideal above gets checked in
 practice.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

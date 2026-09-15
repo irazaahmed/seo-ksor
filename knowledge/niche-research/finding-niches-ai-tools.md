@@ -4,15 +4,15 @@ title: "Finding niches, Method 3: AI tools and NLP categories"
 description: Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 status: stable
 order: 7
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## 1. Use ChatGPT / AI tools
@@ -41,7 +41,7 @@ Or, working from keywords you already have:
 Then keep asking follow-up questions — for low-competition niches, for a
 reference website, or anything else narrowing your criteria — and analyze
 whatever keywords or content the AI generates rather than using it
-directly.[^sebt-rise-notes]
+directly.[^iskills-course-notes]
 
 ### Other combinations to try
 
@@ -76,4 +76,4 @@ your content, which improves visibility.
    farming sims or city-building sims surface low-competition keywords.
    Sub-topics: mobile simulation game reviews, PC simulation game tips.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

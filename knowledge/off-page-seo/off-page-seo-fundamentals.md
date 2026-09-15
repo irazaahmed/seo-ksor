@@ -4,15 +4,15 @@ title: Off-page SEO fundamentals
 description: What off-page SEO and backlinks are, why social signals matter, how to read a competitor's backlink profile, and the foundation links every site should build first.
 status: stable
 order: 30
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## What off-page SEO is
@@ -21,7 +21,7 @@ Activities done outside your own website that improve its Google ranking —
 mainly building backlinks (links from other sites pointing to yours). Good
 design, strong content, and solid on-page SEO are the foundation, but
 off-page SEO is what keeps rankings stable over time. Results are not
-instant.[^sebt-rise-notes]
+instant.[^iskills-course-notes]
 
 ## What a backlink is
 
@@ -134,4 +134,4 @@ personalized email offering value, and suggesting a guest post or link
 exchange. Combining on-page and off-page SEO this way is what produces stable
 long-term rankings.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

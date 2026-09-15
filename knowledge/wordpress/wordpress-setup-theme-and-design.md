@@ -4,22 +4,22 @@ title: WordPress setup — cleanup, theme, plugins, and page design
 description: Post-installation WordPress setup — removing default content, configuring settings, installing the Kadence theme and plugins, and building header, footer, menu, and page layouts.
 status: stable
 order: 17
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Step 1: clean up default content
 
 - Delete dummy posts (Posts).
 - Delete dummy pages (Pages).
-- Delete pre-installed plugins (Plugins).[^sebt-rise-notes]
+- Delete pre-installed plugins (Plugins).[^iskills-course-notes]
 
 ## Step 2: configure settings
 
@@ -132,4 +132,4 @@ Image), and set footer colors per row (Design → Footer Colors).
 - Fold SEO optimization into layout decisions from the start, rather than
   retrofitting it later.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

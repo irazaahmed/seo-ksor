@@ -4,15 +4,15 @@ title: Guest post link building — finding sites and running outreach
 description: Finding guest-post opportunities with search operators and SEO tools, organizing the list, and running a personalized outreach campaign.
 status: stable
 order: 35
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## 1. Finding guest-post opportunities
@@ -20,7 +20,7 @@ sources:
 Use Google search queries like `"write for us"`, `"guest post guidelines"`,
 or `"contribute article"` — these surface sites that accept guest posts.
 Example: searching "write for us technology" surfaces relevant tech
-sites.[^sebt-rise-notes]
+sites.[^iskills-course-notes]
 
 ## 2. Using SEO tools for guest-post sites
 
@@ -86,4 +86,4 @@ Website — ready to upload into an outreach tool.
 - Build long-term relationships with editors for repeat guest posting,
   rather than treating each pitch as one-off.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

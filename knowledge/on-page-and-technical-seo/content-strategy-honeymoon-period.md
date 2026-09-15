@@ -4,15 +4,15 @@ title: "Content strategy: the honeymoon period"
 description: A niche-site launch plan built around the temporary ranking boost new sites get, and how to maximize and extend it.
 status: stable
 order: 27
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Niche site launch plan
@@ -24,7 +24,7 @@ sources:
    approach has 20 articles ready before the site goes live.
 3. **After going live** — publish 1 article every 2 days until 15 days are
    complete, maintain interlinking between articles as they're added, and
-   complete on-page and technical SEO setup alongside publishing.[^sebt-rise-notes]
+   complete on-page and technical SEO setup alongside publishing.[^iskills-course-notes]
 
 ## Tracking and analytics
 
@@ -58,4 +58,4 @@ groups to drive early signals.
 - Combine off-page SEO work with ongoing content updates rather than treating
   them as separate phases.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

@@ -4,22 +4,22 @@ title: APK file hosting, download-site setup, and AdSense approval
 description: How to host APK files, structure a download site users trust, and get it approved for Google AdSense monetization.
 status: stable
 order: 29
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## What an APK download site needs
 
 A platform for downloading Android app files (`.apk`), original and MOD
 versions alike. Core goals: fast downloads, user trust, Google ranking, and
-AdSense approval for revenue.[^sebt-rise-notes]
+AdSense approval for revenue.[^iskills-course-notes]
 
 ## Competitor sites worth studying
 
@@ -142,4 +142,4 @@ info, and screenshots; target low-competition keywords (e.g. "Cinema hd for
 PC v1.5.2"); keep file sizes small for fast downloads; and use a CDN if
 self-hosting, for faster APK delivery.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

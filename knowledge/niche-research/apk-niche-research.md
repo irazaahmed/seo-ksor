@@ -4,15 +4,15 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 6
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## Selection criteria
@@ -25,7 +25,7 @@ sources:
 - Site age: target sites under 1 year old are easier to displace
 
 This framework favours niches with low competition and real ranking
-potential.[^sebt-rise-notes]
+potential.[^iskills-course-notes]
 
 ## Budget to set one up
 
@@ -74,4 +74,4 @@ America), Arabic (Saudi Arabia, Gulf countries), Turkish (Turkey), German
 - **Other ad networks** — local and international networks can supplement
   AdSense revenue.
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

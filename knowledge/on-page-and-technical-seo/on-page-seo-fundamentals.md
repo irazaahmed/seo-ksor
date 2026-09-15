@@ -4,22 +4,22 @@ title: On-page SEO fundamentals
 description: The core components of on-page SEO — meta tags, image optimization, keyword placement, semantic HTML, and applying them practically in WordPress with an SEO plugin.
 status: stable
 order: 18
-generated: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-14T15:04:18Z }
+  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
 sources:
-  - id: sebt-rise-notes
-    title: iSkills SEBT RISE Batch 14 — course notes
-    resource: "iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025"
+  - id: iskills-course-notes
+    title: iSkills — course notes
+    resource: "iSkills SEO course notes, compiled 2025"
 ---
 
 ## What is on-page SEO?
 
 On-page SEO is every optimization made directly on a webpage to improve its
 visibility in search results — the things you control directly on your own
-site or blog page.[^sebt-rise-notes]
+site or blog page.[^iskills-course-notes]
 
 ## Meta tags
 
@@ -93,4 +93,4 @@ rather than `example.com/?p=123`), and use hyphens, not underscores.
 - Semantic tags used
 - Rank Math (or equivalent) plugin configured
 
-[^sebt-rise-notes]: iSkills SEBT RISE Batch 14 SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
