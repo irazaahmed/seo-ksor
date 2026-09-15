@@ -1,7 +1,7 @@
 import { RootProvider } from "fumadocs-ui/provider/next";
 import "./global.css";
 import type { Metadata } from "next";
-import { appTitle } from "@/lib/shared";
+import { appTitle, appDescription } from "@/lib/shared";
 import { basePath, badgeByUrl } from "@/lib/source";
 import { readStageManifest } from "@/lib/stage-manifest";
 import KsorSearchDialog from "@/components/search-dialog";
@@ -13,11 +13,16 @@ import KsorSearchDialog from "@/components/search-dialog";
 // if the project wants a specific face.
 
 export const metadata: Metadata = {
+  // Resolves the OG/Twitter image and canonical links to an absolute URL.
+  // Update this the day the record moves to a custom domain.
+  metadataBase: new URL("https://askseo.vercel.app"),
   title: {
     default: appTitle,
     template: `%s | ${appTitle}`,
   },
-  description: "The Knowledge System of Record for humans and AI agents.",
+  // The record's own words (instance.md's description), not the framework's
+  // generic line — this is what a search result and a link preview show.
+  description: appDescription ?? "The Knowledge System of Record for humans and AI agents.",
   // A build that shows drafts (`KSOR_DRAFTS=show`) is a preview, and a static
   // site's pages are open-web artefacts: it says so to every crawler rather
   // than letting a draft be indexed under the record's name (build spec §3).
