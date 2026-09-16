@@ -16,8 +16,7 @@ export function baseOptions(): BaseLayoutProps {
       ),
     },
     // `secondary` puts it at the navbar's trailing edge, beside the theme
-    // toggle. SignIn renders null when no issuer is configured, so a record
-    // that does not offer sign-in shows nothing rather than an empty slot.
+    // toggle.
     links: [{ type: "custom", secondary: true, children: <SignIn /> }],
   };
 }
