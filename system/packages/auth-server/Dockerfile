@@ -1,22 +1,22 @@
 # The auth service, as an ordinary container — same shape as the root
 # Dockerfile (the MCP door): installs its own package.json, listens on $PORT.
 #
-# Build context is the repo root (see root vercel.json's `services.auth`), so
-# every COPY below is repo-root-relative. Only this package's own files are
-# named — not `COPY . ./` — for the same reason the door's Dockerfile gives:
-# Vercel's builder does not honour .dockerignore, and an unnamed copy has
-# swept in node_modules and other services before (PAYLOAD_TOO_LARGE, found
-# live on this repo).
+# Build context is THIS DIRECTORY, not the repo root — unlike the root
+# Dockerfile (whose context is the repo root because the entrypoint sits
+# there), Vercel's container builder uses the entrypoint Dockerfile's own
+# directory as the build context. So every COPY below is relative to
+# system/packages/auth-server/ itself (confirmed live: a repo-root-relative
+# COPY here failed with "no such file or directory").
 
 FROM node:24-alpine
 
 WORKDIR /app
 
-COPY system/packages/auth-server/package.json ./
+COPY package.json ./
 RUN npm install --omit=dev --no-audit --no-fund
 
-COPY system/packages/auth-server/auth.ts ./
-COPY system/packages/auth-server/server.ts ./
+COPY auth.ts ./
+COPY server.ts ./
 
 ENV PORT=80
 EXPOSE 80
