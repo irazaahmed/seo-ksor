@@ -24,7 +24,7 @@ database:
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
 # the server is actually published: an invented URL is worse than none.
-mcp_url: https://askseo.vercel.app/mcp
+mcp_url: https://askseo.cybrumsolutions.dev/mcp
 version: 0.1.0
 ---
 
