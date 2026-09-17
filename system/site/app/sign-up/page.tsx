@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+import { BrandMark } from "@/components/brand-mark";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -55,6 +56,11 @@ export default function SignUpPage(): React.ReactElement {
 
   return (
     <main className="mx-auto flex min-h-[70vh] max-w-sm flex-col justify-center px-6">
+      <div className="mb-6 flex justify-center">
+        <span className="flex size-12 items-center justify-center rounded-xl bg-fd-primary/10 text-fd-primary">
+          <BrandMark size={26} />
+        </span>
+      </div>
       <Card>
         <CardHeader>
           <CardTitle>{step === "details" ? "Create an account" : "Check your email"}</CardTitle>

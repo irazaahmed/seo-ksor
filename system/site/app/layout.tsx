@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { appTitle, appDescription } from "@/lib/shared";
 import { basePath, badgeByUrl } from "@/lib/source";
 import { readStageManifest } from "@/lib/stage-manifest";
+import { BackToTop } from "@/components/back-to-top";
 import KsorSearchDialog from "@/components/search-dialog";
 
 // No next/font/google: it fetches the face from Google at BUILD time, so a
@@ -64,6 +65,7 @@ export default function Layout({ children }: LayoutProps<"/">) {
         >
           {children}
         </RootProvider>
+        <BackToTop />
       </body>
     </html>
   );

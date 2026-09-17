@@ -49,7 +49,7 @@ export function RecordStack({
     <div className="w-full max-w-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-3 motion-safe:duration-700 motion-safe:[animation-delay:180ms] motion-safe:[animation-fill-mode:backwards]">
       <Link
         href={lead.url}
-        className="group relative z-30 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] p-7 shadow-[0_28px_60px_-32px_rgb(15_23_42/0.55)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none"
+        className="group relative z-30 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] p-5 shadow-[0_28px_60px_-32px_rgb(15_23_42/0.55)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none sm:p-7"
       >
         <div className="flex items-baseline justify-between gap-4">
           {/* The one label that ties this card to the button beside it. */}
@@ -87,7 +87,7 @@ export function RecordStack({
         <Link
           key={entry.url}
           href={entry.url}
-          className="group relative -mt-4 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] px-7 pt-6 pb-4 shadow-[0_18px_40px_-30px_rgb(15_23_42/0.5)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none"
+          className="group relative -mt-4 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] px-5 pt-6 pb-4 shadow-[0_18px_40px_-30px_rgb(15_23_42/0.5)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none sm:px-7"
           style={{
             zIndex: 20 - index * 10,
             transform: `scale(${1 - (index + 1) * 0.028})`,

@@ -1,6 +1,5 @@
 import type { ReactElement } from "react";
 
-import mark from "@/app/icon.png";
 import { FooterMark } from "@/components/footer-mark";
 import { HomeCover } from "@/components/home-cover";
 import { LandingConnect } from "@/components/landing-connect";
@@ -56,7 +55,6 @@ export default function HomePage(): ReactElement {
   return (
     <main className="flex flex-1 flex-col">
       <HomeCover
-        mark={mark}
         name={appName}
         // instance.md's own H1 — a human name, not the machine slug — so a
         // fresh scaffold reads "Knowledge System of Record" until the intake

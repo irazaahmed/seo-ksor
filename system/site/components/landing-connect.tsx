@@ -30,9 +30,9 @@ const STEPS: { icon: typeof MessageCircle; title: string; body: string }[] = [
 export function LandingConnect(): ReactElement {
   return (
     <section className="border-t border-fd-border bg-fd-muted/20">
-      <div className="mx-auto w-full max-w-6xl px-6 py-20">
+      <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
         <p className="ksor-section-label">Built for agents, not just readers</p>
-        <h2 className="mt-3 max-w-2xl font-display text-3xl font-semibold tracking-[-0.015em] text-balance sm:text-4xl">
+        <h2 className="mt-3 max-w-2xl font-display text-2xl font-semibold tracking-[-0.015em] text-balance sm:text-4xl">
           Connect Claude or ChatGPT to this record
         </h2>
         <p className="mt-4 max-w-2xl text-base/relaxed text-fd-muted-foreground">
@@ -41,11 +41,18 @@ export function LandingConnect(): ReactElement {
           data.
         </p>
 
-        <div className="mt-12 grid gap-8 sm:grid-cols-3">
+        <div className="relative mt-10 grid gap-8 sm:mt-14 sm:grid-cols-3">
+          {/* The step sequence, as a rule — only where three columns actually
+              sit in a row. Positioned at the chip's vertical center (the
+              chip is size-10, so 20px). */}
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-x-[16.6%] top-5 hidden h-px bg-fd-border sm:block"
+          />
           {STEPS.map((step, i) => (
-            <div key={step.title}>
+            <div key={step.title} className="relative">
               <div className="flex items-center gap-3">
-                <span className="flex size-9 items-center justify-center rounded-md bg-fd-primary/10 font-mono text-sm font-semibold text-fd-primary">
+                <span className="flex size-10 items-center justify-center rounded-full bg-fd-primary font-mono text-sm font-semibold text-fd-primary-foreground ring-4 ring-fd-muted/20">
                   {i + 1}
                 </span>
                 <h3 className="font-display text-base font-semibold">{step.title}</h3>

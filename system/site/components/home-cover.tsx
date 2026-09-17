@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image, { type StaticImageData } from "next/image";
 import type { ReactElement } from "react";
 
+import { BrandMark } from "@/components/brand-mark";
 import { RecordStack } from "@/components/record-stack";
 import type { RecordEntry } from "@/lib/source";
 
@@ -20,7 +20,6 @@ import type { RecordEntry } from "@/lib/source";
  */
 export function HomeCover({
   foot,
-  mark,
   name,
   title,
   purpose,
@@ -29,7 +28,6 @@ export function HomeCover({
   lead,
   behind,
 }: {
-  mark: StaticImageData;
   name: string;
   title: string;
   purpose: string | null;
@@ -61,23 +59,31 @@ export function HomeCover({
         }}
       />
 
+      {/* A soft wash behind the stack, anchored to its side of the cover —
+          the one accent this page spends outside the stack itself, in the
+          same token pair so it inverts with the theme rather than reading as
+          a stuck-on dark blob in light mode. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-y-0 right-0 hidden w-[55%] opacity-[0.35] lg:block"
+        style={{
+          backgroundImage:
+            "radial-gradient(ellipse at 65% 45%, var(--ksor-cover-hover), transparent 60%)",
+        }}
+      />
+
       {/* Centred in the space ABOVE the signature, not top-aligned with the
           slack dumped underneath: `justify-center` on the section was cancelled
           by the signature's `mt-auto`, which measured as 197px of dead space
           below the content and none above it (found live 2026-08-22). */}
       <div className="relative flex flex-1 items-center">
-        <div className="mx-auto grid w-full max-w-6xl items-center gap-16 px-6 py-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
+        <div className="relative mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-12 sm:gap-14 sm:py-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
           <div>
             <div className="motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-2 motion-safe:duration-500">
-              <div className="flex items-center gap-3">
-                <Image
-                  src={mark}
-                  alt=""
-                  width={30}
-                  height={30}
-                  priority
-                  className="size-[30px] rounded ring-1 ring-[var(--ksor-cover-rule)]"
-                />
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-fd-primary/10 text-fd-primary ring-1 ring-[var(--ksor-cover-rule)]">
+                  <BrandMark size={20} />
+                </span>
                 <p className="font-mono text-xs tracking-[0.18em] text-[var(--ksor-cover-muted)] uppercase">
                   System of record
                   <span aria-hidden className="mx-2 text-[var(--ksor-cover-rule)]">
@@ -87,7 +93,7 @@ export function HomeCover({
                 </p>
               </div>
 
-              <h1 className="mt-8 max-w-4xl font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.02] font-semibold tracking-[-0.022em] text-balance">
+              <h1 className="mt-8 max-w-4xl font-display text-[clamp(2.25rem,7vw,4rem)] leading-[1.05] font-semibold tracking-[-0.022em] text-balance">
                 {title}
               </h1>
 

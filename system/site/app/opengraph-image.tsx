@@ -32,6 +32,9 @@ export default function OpengraphImage(): ImageResponse {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+          {/* The same mark as icon.tsx/apple-icon.tsx (duplicated, not
+              imported — ImageResponse renders through Satori, not a real DOM,
+              so components/brand-mark.tsx's useId() hook can't run here). */}
           <div
             style={{
               display: "flex",
@@ -40,22 +43,28 @@ export default function OpengraphImage(): ImageResponse {
               width: 88,
               height: 88,
               borderRadius: 22,
-              backgroundImage: "linear-gradient(135deg, #60a5fa 0%, #2563eb 50%, #1e3a8a 100%)",
+              backgroundImage: "linear-gradient(135deg, #60a5fa 0%, #1d4ed8 60%, #1e3a8a 100%)",
             }}
           >
-            <svg width="52" height="52" viewBox="0 0 256 256" fill="none">
-              <path
-                d="M54 58 h148 a26 26 0 0 1 26 26 v82 a26 26 0 0 1 -26 26 H124 l-40 36 v-36 H54 a26 26 0 0 1 -26 -26 V84 a26 26 0 0 1 26 -26 Z"
-                fill="#ffffff"
-              />
-              <circle cx="120" cy="116" r="33" stroke="#2f3fc4" strokeWidth="16" />
+            <svg width="52" height="52" viewBox="0 0 48 48" fill="none">
+              <defs>
+                <clipPath id="lens-clip">
+                  <circle cx="20" cy="20" r="12" />
+                </clipPath>
+              </defs>
+              <g clipPath="url(#lens-clip)">
+                <rect x="12.5" y="21" width="4.5" height="9" rx="1.4" fill="#ffffff" />
+                <rect x="18.75" y="15" width="4.5" height="15" rx="1.4" fill="#ffffff" />
+                <rect x="25" y="9" width="4.5" height="21" rx="1.4" fill="#ffffff" />
+              </g>
+              <circle cx="20" cy="20" r="12" stroke="#ffffff" strokeWidth="4" />
               <line
-                x1="143"
-                y1="139"
-                x2="171"
-                y2="167"
-                stroke="#2f3fc4"
-                strokeWidth="18"
+                x1="29"
+                y1="29"
+                x2="39.5"
+                y2="39.5"
+                stroke="#ffffff"
+                strokeWidth="5"
                 strokeLinecap="round"
               />
             </svg>

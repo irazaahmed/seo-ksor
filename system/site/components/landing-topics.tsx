@@ -46,9 +46,9 @@ function iconFor(entry: RecordEntry): ComponentType<{ className?: string }> {
 export function LandingTopics({ entries }: { entries: readonly RecordEntry[] }): ReactElement {
   return (
     <section className="border-t border-fd-border bg-fd-background">
-      <div className="mx-auto w-full max-w-6xl px-6 py-20">
+      <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
         <p className="ksor-section-label">What&rsquo;s inside</p>
-        <h2 className="mt-3 max-w-2xl font-display text-3xl font-semibold tracking-[-0.015em] text-balance sm:text-4xl">
+        <h2 className="mt-3 max-w-2xl font-display text-2xl font-semibold tracking-[-0.015em] text-balance sm:text-4xl">
           Every topic this record is authoritative for
         </h2>
         <p className="mt-4 max-w-2xl text-base/relaxed text-fd-muted-foreground">
@@ -56,15 +56,15 @@ export function LandingTopics({ entries }: { entries: readonly RecordEntry[] }):
           inside it.
         </p>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3">
           {entries.map((entry) => {
             const Icon = iconFor(entry);
             return (
               <Link key={entry.url} href={entry.url} className="group">
-                <Card className="h-full gap-3 border-fd-border p-6 transition-colors hover:border-fd-primary/40 hover:bg-fd-muted/40">
-                  <div className="flex items-center gap-3">
-                    <span className="flex size-9 shrink-0 items-center justify-center rounded-md bg-fd-primary/10 text-fd-primary">
-                      <Icon className="size-[18px]" aria-hidden />
+                <Card className="h-full gap-3 border-fd-border p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-fd-primary/50 hover:bg-fd-muted/40 hover:shadow-md motion-reduce:transform-none">
+                  <div className="flex items-center gap-3.5">
+                    <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-fd-primary/10 text-fd-primary transition-colors group-hover:bg-fd-primary group-hover:text-fd-primary-foreground">
+                      <Icon className="size-[19px]" aria-hidden />
                     </span>
                     <h3 className="font-display text-base font-semibold transition-colors group-hover:text-fd-primary">
                       {entry.title}
