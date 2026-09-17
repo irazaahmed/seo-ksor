@@ -13,6 +13,7 @@ sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2025"
+verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
 ---
 
 ## Robots.txt
