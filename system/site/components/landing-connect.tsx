@@ -1,5 +1,9 @@
+import Link from "next/link";
 import type { ReactElement } from "react";
 import { MessageCircle, Search, Sparkles } from "lucide-react";
+
+import { CopyField } from "@/components/copy-field";
+import { basePath } from "@/lib/source";
 
 /**
  * The "how an agent uses this" explainer.
@@ -7,7 +11,9 @@ import { MessageCircle, Search, Sparkles } from "lucide-react";
  * Site chrome, not record content: it explains the MCP connection generically
  * (Claude, ChatGPT, or any MCP-compatible agent) rather than asserting a live
  * endpoint — `instance.md`'s `mcp_url` stays unset until the door is actually
- * serving (AGENTS.md: "an invented URL is worse than none").
+ * serving (AGENTS.md: "an invented URL is worse than none"). The URL chip and
+ * guide link below only render once the caller actually has one to hand —
+ * see `mcpUrl` below.
  */
 const STEPS: { icon: typeof MessageCircle; title: string; body: string }[] = [
   {
@@ -27,7 +33,12 @@ const STEPS: { icon: typeof MessageCircle; title: string; body: string }[] = [
   },
 ];
 
-export function LandingConnect(): ReactElement {
+export function LandingConnect({
+  mcpUrl,
+}: {
+  /** `null` until the owner has published one — never invented here. */
+  mcpUrl: string | null;
+}): ReactElement {
   return (
     <section className="border-t border-fd-border bg-fd-muted/20">
       <div className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-20">
@@ -61,6 +72,18 @@ export function LandingConnect(): ReactElement {
             </div>
           ))}
         </div>
+
+        {mcpUrl === null ? null : (
+          <div className="mt-12 flex flex-col items-start gap-4 border-t border-fd-border pt-8 sm:mt-14 sm:flex-row sm:items-center sm:justify-between">
+            <CopyField label="MCP Server URL" value={mcpUrl} />
+            <Link
+              href={`${basePath}/docs/connect-claude-and-chatgpt`}
+              className="shrink-0 text-sm font-medium text-fd-primary underline underline-offset-4 transition-colors hover:text-fd-primary/80"
+            >
+              Read the full connect guide &rarr;
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );

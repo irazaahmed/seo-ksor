@@ -5,7 +5,7 @@ import { HomeCover } from "@/components/home-cover";
 import { LandingConnect } from "@/components/landing-connect";
 import { LandingStats } from "@/components/landing-stats";
 import { LandingTopics } from "@/components/landing-topics";
-import { appName, appPurpose, appTitle } from "@/lib/shared";
+import { appName, appPurpose, appTitle, mcpEndpoint } from "@/lib/shared";
 import { entriesUnder, entryFor, getSortedPages } from "@/lib/source";
 
 /**
@@ -72,7 +72,7 @@ export default function HomePage(): ReactElement {
       />
       <LandingStats documents={pages.length} topics={topics} />
       <LandingTopics entries={entries} />
-      <LandingConnect />
+      <LandingConnect mcpUrl={mcpEndpoint()} />
       <footer className="border-t border-fd-border bg-fd-muted/10">
         <p className="mx-auto w-full max-w-6xl px-6 py-8 font-mono text-xs tracking-wider text-fd-muted-foreground uppercase">
           <FooterMark />

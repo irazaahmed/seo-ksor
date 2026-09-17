@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:81424ef0c75b3bdc1635296e3ca22ad9debdd216969e5f7d76264b3d7e7f555c",
+  "build_id": "sha256:368a7e8b64931e81a79b1f4ad692bdd62b6d4f5dbed432594be60b62353a57be",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "364fe0603210055c0e5808b8e419e9caf66757fe",
+  "source_commit": "5a17e0fd9514c0b326185b51e5e7470f04b53d67",
   "dirty": true,
-  "as_of": "2026-09-17T10:28:41.709Z",
+  "as_of": "2026-09-17T11:54:48.571Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -28,6 +28,17 @@
     {
       "path": "apk-websites/apk-file-hosting-and-adsense.md",
       "sha256": "82665dea8e059ab5ed04bfa146fa10959bc630ebe5f731f57ed6ad7583fbaeee",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "connect-claude-and-chatgpt.md",
+      "sha256": "f9aa2194bc49cde75b81938d75e685b91068011ca50ae36f0031d5ade95455c4",
       "status": "stable",
       "audience": [
         "public"
@@ -457,7 +468,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "329a91bf176426b1d86946a7bf41938b8f86ee34e67ba67aaed7b5f80d006458"
+      "sha256": "4c8554e9b987a1c026afefb0c63aee7b58841588c77612c6ada12e02db239648"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -487,8 +498,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "9208eb092e0ac603d0ceefbede4dadb23b926a55414d316a3ec2efe0ba8fcd90",
-      "files": 47
+      "sha256": "d440ca66f1a5ef38e38d75135ed0f66f1a87253dbb658718f55a1fcb492eaba7",
+      "files": 48
     }
   ]
 }
