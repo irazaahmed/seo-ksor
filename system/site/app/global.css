@@ -1049,3 +1049,13 @@ html > body[data-scroll-locked] {
   text-transform: uppercase;
   color: var(--color-fd-primary);
 }
+
+/* Reaches into fumadocs' own navbar-title <a> wrapper (see
+   lib/layout.shared.tsx's `ksor-nav-title` comment): that element has no
+   `min-width: 0`, so it refused to shrink below its title text's full width
+   as a flex item, pushing the mobile search/menu buttons off the right edge
+   of the viewport (found live, 2026-09-17). `:has()` reaches it without
+   fumadocs exposing a class prop on it. */
+a:has(> .ksor-nav-title) {
+  min-width: 0;
+}
