@@ -4,11 +4,11 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -155,5 +155,14 @@ place, by market and by site type:
 - **Tier 2 countries** (India, Southeast Asia): closer to 30,000+.
 - **E-commerce niches**: as low as 200 can still work.
 - **Affiliate niches**: as low as 500 can still work.
+- **Tool niches** (calculators, generators, convertors): 15,000+ in Tier 1
+  countries is enough — the same threshold as an informational/blog
+  niche.[^iskills-course-notes]
+
+## Where this sits in the course
+
+Niche research is Module 1, and it is deliberately the module the most time
+gets spent on — roughly 70% of the course so far. It is followed by a Content
+Coverage module, then Writing, then Website Design.[^iskills-course-notes]
 
 [^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

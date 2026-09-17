@@ -4,16 +4,47 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 6
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2025"
 ---
+
+## APK, MOD APK, Pro APK, and Premium APK
+
+- **APK** — the original app, exactly as its developer released it, with no
+  changes.
+- **MOD APK** — a modified version of the app: a developer's restriction
+  (inside a game, or elsewhere in the app) has been removed or worked around.
+  GB WhatsApp is a well-known example.
+- **Pro APK / Premium APK** — the paid, premium version of an app, offered for
+  free.
+
+None of these three modified forms are available on the Play Store — they
+only turn up in a Google search. Demand for them comes from two directions:
+users looking for a MOD/Pro/Premium version the Play Store will never carry,
+and users on an older phone whose Play Store often refuses to install the
+current version of an app at all, pushing them to search Google
+instead.[^iskills-course-notes]
+
+This is a hosting niche, not a development one: the APK/MOD files themselves
+are not built from scratch. A MOD version is found already made and simply
+downloaded and hosted, the same way the rest of this document's site-building
+guidance assumes (see *APK file hosting, download-site setup, and AdSense
+approval*).
+
+Its seed keyword is simply **"apk"** — one of the easier niches to start
+keyword research from for exactly that reason.[^iskills-course-notes]
+
+## Where APK demand is biggest
+
+The largest markets for APK search demand: India, Indonesia, the Gulf
+countries, and South American countries.[^iskills-course-notes]
 
 ## Selection criteria
 
@@ -26,6 +57,20 @@ sources:
 
 This framework favours niches with low competition and real ranking
 potential.[^iskills-course-notes]
+
+A later pass on this same criteria tightened the numbers further — search
+volume 30,000+, DR under 20 — and added that even finding a single low-DR
+site (brand or dedicated) among the competitors is enough reason to pursue a
+given APK niche.[^iskills-course-notes]
+
+### Reverse-engineering the best site you find
+
+Once a promising APK site turns up, treat it the same way as any other
+macro-site reverse-engineering (see *Finding niches, Method 1*): review its
+top pages, then search those pages' keywords on Google. Ahrefs' **Organic
+Competitors** report (inside Site Explorer) speeds this up directly — point
+it at that site and it lists every other site competing for the same
+traffic, which is a ready-made competitor list for the niche.[^iskills-course-notes]
 
 ## Budget to set one up
 

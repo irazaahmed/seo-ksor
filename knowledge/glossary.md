@@ -4,11 +4,11 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
@@ -100,5 +100,15 @@ among billions:
 - **HTTPS (Hypertext Transfer Protocol Secure)** — the encrypted, secure
   version of HTTP; it protects data moving between a browser and a website
   from interception.
+
+## File format terms
+
+- **APK (Android Package)** — the file format for an application installed on
+  an Android phone. Every app installed on Android is, underneath, an `.apk`
+  file.
+- **IPA** — the equivalent file format for an application installed on
+  iPhone/iOS.
+- **PDF** — a file format used to hold and distribute content (documents,
+  guides, forms) independent of the software that created it.
 
 [^iskills-course-notes]: iSkills SEO course notes, compiled 2025.

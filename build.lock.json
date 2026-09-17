@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:25bcd9248ab7b7333e626a24b636e9eef514e339025ed762d0fe7ddd9b6486b8",
+  "build_id": "sha256:4eca9c935ee7293ff01a2f714d71c6b62793bdf140b1f0548880478a78dbd95d",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "c890fca6aaa00f103ea9325ee0db7161c40e38ae",
-  "dirty": false,
-  "as_of": "2026-09-16T18:49:27.366Z",
+  "dirty": true,
+  "as_of": "2026-09-17T10:25:33.866Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -82,7 +82,7 @@
     },
     {
       "path": "glossary.md",
-      "sha256": "cb732acc50714fffb1ced659f0712a3ff85d4d1f02f81435cf20c9118f3a45ee",
+      "sha256": "20c8d9e91047bd2d642bc439518eddb8f0657a466395cffeb5d730d869b8b744",
       "status": "stable",
       "audience": [
         "public"
@@ -137,7 +137,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "f6350e3d662abdf06c77db45a8e6755654346ed4035436f8769d5545f30f3455",
+      "sha256": "b1ff7d27d77e1425805b16487451910c258f4c50e4095dbab4c752bc861cabfc",
       "status": "stable",
       "audience": [
         "public"
@@ -181,7 +181,7 @@
     },
     {
       "path": "niche-research/finding-niches-ai-tools.md",
-      "sha256": "0e8e7bb9f59ea63500ce7fd7b4c89b63866edd9c829ca4afb260cdc3303b09a6",
+      "sha256": "0f8df6c2b8de131e7e92687ad037393b5c87737b026605809111cbb01712be3b",
       "status": "stable",
       "audience": [
         "public"
@@ -214,7 +214,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "be84fad4ab426bfec0a563d1a3132649053750df9331a6930b780b3aec94d66f",
+      "sha256": "eed357f9fe226fe02b01baf7d99797072a8ee7885a647cdd66bed5133d3d5957",
       "status": "stable",
       "audience": [
         "public"
@@ -487,7 +487,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "a3dc92749223b6724e6587e4fc2122fee4fc17199f95343ce8341618358f06db",
+      "sha256": "26aaf7fac98b489e0ed7feb22bc81a9f8b46672856f50cab723b68692851db4d",
       "files": 47
     }
   ]
