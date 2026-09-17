@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:368a7e8b64931e81a79b1f4ad692bdd62b6d4f5dbed432594be60b62353a57be",
+  "build_id": "sha256:fbb8b19e6f0b0c591ee4aa1e81f85623ddde9e16b6d27e7833eff7c88ed5a9dd",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "5a17e0fd9514c0b326185b51e5e7470f04b53d67",
+  "source_commit": "ca37d9ce4867e3eb7a6e4e81c537ec29639f79a9",
   "dirty": true,
-  "as_of": "2026-09-17T11:54:48.571Z",
+  "as_of": "2026-09-17T12:46:54.531Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -38,7 +38,7 @@
     },
     {
       "path": "connect-claude-and-chatgpt.md",
-      "sha256": "f9aa2194bc49cde75b81938d75e685b91068011ca50ae36f0031d5ade95455c4",
+      "sha256": "52170fc5f8cc0d51b643c2f5fbfb7c1df2d601aea0f70d594b5ab2c574262c82",
       "status": "stable",
       "audience": [
         "public"
@@ -456,7 +456,44 @@
     }
   ],
   "companions": [],
-  "assets": [],
+  "assets": [
+    {
+      "path": "connect-chatgpt-1.png",
+      "sha256": "914abb9bbc0a36eeb547ed47dd8cd797f5dd273e671d417bdd858bafb7e8ad93"
+    },
+    {
+      "path": "connect-chatgpt-2.png",
+      "sha256": "fdfd4f643603f6a26d232be753e6b9c0419c69d238ecd13b7cd9ec53c69c172e"
+    },
+    {
+      "path": "connect-chatgpt-3.png",
+      "sha256": "eb43bcfc6e5499a92d906d04b0a3688b9c7b684be91c52ed448352e2b21bf797"
+    },
+    {
+      "path": "connect-chatgpt-4.png",
+      "sha256": "6be795392d03c1b8b518c617749a93e83e5a54831bec3808f14a2e21d17ac8bc"
+    },
+    {
+      "path": "connect-chatgpt-5.png",
+      "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
+    },
+    {
+      "path": "connect-claude-1.png",
+      "sha256": "d8dcc610b63f3b71727ba1a95d73bd0d8bc9500a6ee2520b1c4d0079f0be33a6"
+    },
+    {
+      "path": "connect-claude-2.png",
+      "sha256": "04563adb17a4f0a3a9888c9cef6898552b1680deacdd501666d947646de19f06"
+    },
+    {
+      "path": "connect-claude-3.png",
+      "sha256": "4d3cd9efc61482acc55d563969ba5c26e3ac63dac4cb3d2b381b1df074846b5d"
+    },
+    {
+      "path": "connect-claude-4.png",
+      "sha256": "b0935555f5ad01fe6fdd81dd096993a6e0c78683f067c43230f1f8929dca7270"
+    }
+  ],
   "indexes": [
     {
       "path": "apk-websites/index.md",
@@ -468,7 +505,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "4c8554e9b987a1c026afefb0c63aee7b58841588c77612c6ada12e02db239648"
+      "sha256": "cbb10196bc99126a25d688d79f98179509f74f29f3e9c70711d149b83d3d5176"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -498,8 +535,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "d440ca66f1a5ef38e38d75135ed0f66f1a87253dbb658718f55a1fcb492eaba7",
-      "files": 48
+      "sha256": "d4c896bbcaef4257d5e1805a38831f650c8df7d9f4d606cf419dd1ba21f3e9b1",
+      "files": 57
     }
   ]
 }
