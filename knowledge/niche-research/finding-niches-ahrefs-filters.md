@@ -4,17 +4,23 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
+
+Where Method 1 starts from an existing site and reverse-engineers its
+keywords, this method skips the site entirely and goes straight at the
+keyword layer — searching directly inside a keyword-research tool for
+queries that already meet a niche's criteria, rather than finding them
+second-hand through someone else's website.[^iskills-course-notes]
 
 ## Steps
 
@@ -57,8 +63,11 @@ country selected:[^iskills-course-notes]
 
 ## Combination ideas
 
-Blend a fixed prefix/suffix with your niche keyword to surface untapped
-combinations:
+A single niche keyword can multiply into dozens of low-competition
+variations just by pairing it with every entity in a category — every bank
+in a city, every company on a list — since each pairing is its own
+low-competition search with its own, smaller audience. Blend a fixed
+prefix/suffix with your niche keyword to surface untapped combinations:
 
 - `{FAB}` — balance-check content covering every bank in a target city
 - `{BANK}` — salary-check content covering every bank in a target city

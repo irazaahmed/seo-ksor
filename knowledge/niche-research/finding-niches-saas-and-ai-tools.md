@@ -1,19 +1,19 @@
 ---
 type: Document
-title: Finding SaaS and AI tool niches
+title: "Finding niches, Method 5: SaaS and AI tool marketplaces"
 description: Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack — Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store.
 status: stable
-order: 7.2
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+order: 8
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
 
 The marketplace-reverse-engineering method (see [Finding niches, Method 1](finding-niches-marketplaces.md))
@@ -43,18 +43,27 @@ replicable products works as a shortcut to manual browsing.
 
 Browse lifetime-deal products. The useful signal here is in the **reviews**:
 a product with a mix of 3–4 star reviews usually means real users exist but
-have an unresolved complaint. That gap — the specific issue reviewers keep
-raising — is the opportunity: build a version that fixes it, and it can be
-sold on the same platform.
+have an unresolved complaint — a 5-star product has no visible gap left to
+build into, and a 1-star product usually means the whole idea is broken, not
+just one feature of it. A 3–4 star spread is the sweet spot: real paying
+demand, with a specific, nameable flaw. That gap — the specific issue
+reviewers keep raising — is the opportunity: build a version that fixes it,
+and it can be sold on the same platform to the same audience already looking
+for it.
 
 ## Chrome Web Store
 
 Browsing extensions surfaces a similar range of small, focused product ideas
-worth validating the same way.
+worth validating the same way — an extension is typically small enough in
+scope that a gap in one is quick to spot and quick to rebuild without it.
 
 ## Shopify app ideas
 
-The Shopify app ecosystem is another source of product niches — ask an AI
+The Shopify app ecosystem is another source of product niches — every store
+owner on the platform is a potential buyer for a tool that solves one
+specific operational problem, which makes it a different kind of marketplace
+from the first three (a real installed user base already paying for
+software, rather than websites being bought and sold outright). Ask an AI
 assistant to help identify demand and gaps for a Shopify app idea before
 building one.
 

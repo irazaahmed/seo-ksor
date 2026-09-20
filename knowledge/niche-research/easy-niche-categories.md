@@ -3,21 +3,24 @@ type: Document
 title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others — informational, downloadable, and government-related — plus finding them with Ahrefs Content Explorer.
 status: stable
-order: 7.4
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+order: 10
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
 
-Some categories of niche are consistently easier to rank than others,
-wherever in the world you're targeting:[^iskills-course-notes]
+Where the five methods above find a specific niche, this document names
+whole CATEGORIES worth defaulting to — types of niche that are consistently
+easier to rank than others, wherever in the world you're targeting, because
+the searcher's intent behind them is narrow and transactional rather than
+broad and informational:[^iskills-course-notes]
 
 - **Informational niches** — e.g. a restaurant menu.
 - **Downloadable niches** — e.g. an APK (see [APK niche research](apk-niche-research.md)).

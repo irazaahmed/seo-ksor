@@ -3,17 +3,17 @@ type: Document
 title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
-order: 8
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+order: 11
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
 
 ## Country-specific niche research
@@ -61,18 +61,21 @@ what makes a niche beatable.
 
 Country-specific niche research comes down to the same two starting points
 every other niche research does (see [Niche research — tools, metrics, and
-selection criteria](overview.md)): find the keyword directly, or find a site and reverse
-engineer it. Country code SEO just adds one filter to each — a
-country.[^iskills-course-notes]
+selection criteria](overview.md)): find the keyword directly (the same
+underlying idea as [Method 2, the Ahrefs/SEMrush filter
+method](finding-niches-ahrefs-filters.md)), or find a site and reverse
+engineer it (the same underlying idea as [Method 1, reverse-engineering
+marketplaces](finding-niches-marketplaces.md)). Country code SEO just adds
+one filter to each of those two approaches — a country.[^iskills-course-notes]
 
-**Method 1 — keyword-first, in Ahrefs Keyword Explorer:**
+**Approach A — keyword-first, in Ahrefs Keyword Explorer:**
 
 1. Open Keyword Explorer and select the target country.
 2. Filter KD up to 20 and DR down to 20 (low).
 3. Add an "include" term relevant to the niche — e.g. `calcult*` (a wildcard
    catching "calculate", "calculator", "calculation") for a tool niche.
 
-**Method 2 — site-first, via ccTLD in Ahrefs Content Explorer:**
+**Approach B — site-first, via ccTLD in Ahrefs Content Explorer:**
 
 1. Set a target first: DR above 10 (so the site is real, not spam), traffic
    under 50,000 (so it's still beatable), language set to the target (e.g.

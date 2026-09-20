@@ -3,17 +3,17 @@ type: Document
 title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
-order: 6
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+order: 9
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
 
 ## APK, MOD APK, Pro APK, and Premium APK

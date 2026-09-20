@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:a659d02d3e251ad19bf27b28c36f8d9a5cb28ed187ebf23ff4b8c306b93d06b8",
+  "build_id": "sha256:f5dc17d693032513a09e0305c9e0b03df4a74c5b03eb7df031dce82944d4fa90",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "95c889200a9c911647659dc16a9440f2fb3a3000",
+  "source_commit": "e47692a75b8fae0d517d793a5728d432ffd955bb",
   "dirty": true,
-  "as_of": "2026-09-20T18:53:23.329Z",
+  "as_of": "2026-09-20T19:03:39.850Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "5a64c34e808c12ac6cd4413bd5c94d0e0730ec5977c0d6504c0a79ca92607339",
+      "sha256": "ac3e6dd20d61325f0f21bd1253050e01b86a365fd553c2a9ffcd4ceac528c06b",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "0289ee27f845ca65eeb7998d6ea91bb5f3ce86a05495447eca25115376120fab",
+      "sha256": "5fe78ae9b291c46ed4ec3a1bf7c70166fbcf45e7095e1f800ad1afe482b5d480",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "26335d9c9f966030c44aca4f1e6b56175249cc9e0eac20eb94050b5e8c41fd67",
+      "sha256": "f063e56dd37aec7b540a8747edbb3f4b51edd7df189d7f46ae24ff87e2c7b554",
       "status": "stable",
       "audience": [
         "public"
@@ -181,7 +181,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "b47ebf5c7cdaa02fe2cbfb2930259e61d7c936192a1dbd3888f8a3f38d62a8c4",
+      "sha256": "de9baf7f0d9d5ca66a6fb32fd3edc6980b3f47f9c12d799b4169eb0759c7ba23",
       "status": "stable",
       "audience": [
         "public"
@@ -192,7 +192,7 @@
     },
     {
       "path": "niche-research/finding-niches-ai-tools.md",
-      "sha256": "c4c5fe45b83910fb480410d048f3a900572087d758db0b018d10f3305114d520",
+      "sha256": "2288e26ae4b9d76fc82620b68e93fe49dc4c2c9c6661dda188dece9894ba2eb8",
       "status": "stable",
       "audience": [
         "public"
@@ -203,7 +203,7 @@
     },
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method.md",
-      "sha256": "9264a47a5c75f55070af5a6af39da0a27f6f9e2e71410390c0c441265cdf9d2f",
+      "sha256": "b7d2a937a17ccce63ccf1815c134c7e50a96a369da8019781270cc95fea878f0",
       "status": "stable",
       "audience": [
         "public"
@@ -214,7 +214,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "b537fc34e68a663c2bbeb8869ca2211a2e2fb49b5f9e463124129a452eb3da28",
+      "sha256": "f4b680b58d43f3311a9dc1d86806b672a67d9aac98f8f58d69c92edea6cb166c",
       "status": "stable",
       "audience": [
         "public"
@@ -225,7 +225,7 @@
     },
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
-      "sha256": "14d45e9dbc007e4344add785623ed34780a88b5d45e65bc8f38be67dc8057617",
+      "sha256": "433cba186fd5ddd6998909194caf64a75a14527dce7059d4de982444cd5b7af1",
       "status": "stable",
       "audience": [
         "public"
@@ -594,7 +594,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "21b12fb56e92ba40084c781254f64e4caa18b3c2f31db288eaa2382e33d0679e"
+      "sha256": "f1add00bb333535be5cba322801d8a527296e249269cc90f03387972f3649102"
     },
     {
       "path": "off-page-seo/index.md",
@@ -620,7 +620,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "99f21879ded89adbeec99cb563f8f89d106135b6513b795829b2fb3f1b85f960",
+      "sha256": "dca530d4c024ecddf2648fb3421b244fc87691e1a6881946b1510f6953885ae1",
       "files": 66
     }
   ]

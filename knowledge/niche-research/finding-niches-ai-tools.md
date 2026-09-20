@@ -3,24 +3,32 @@ type: Document
 title: "Finding niches, Method 3: AI tools and NLP categories"
 description: Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 status: stable
-order: 7
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+order: 6
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
+
+This method skips tools entirely and uses reasoning instead — an AI model to
+brainstorm candidate niches, and Google's own content taxonomy to check where
+the gaps in those categories sit. Both are free, and both are best used to
+generate a shortlist to verify in Ahrefs or SEMrush afterward, not as a final
+answer on their own.[^iskills-course-notes]
 
 ## 1. Use ChatGPT / AI tools
 
 Ask targeted questions to brainstorm ideas and surface lesser-known
 sub-niches. The AI needs to be told who you are and what you're doing before
-it can help — a bare "find me a niche" request does not work.
+it can help — a bare "find me a niche" request does not work: a model with no
+role, no goal, and no constraint just returns generic, saturated suggestions,
+the same ones anyone else asking the same bare question would get.
 
 Example prompt:
 
@@ -62,19 +70,26 @@ selection criteria](overview.md)).[^iskills-course-notes]
 
 ## 2. Use NLP categories
 
-Refer to resources like Google Cloud Natural Language Categories to see how
-content gets categorized — this can inspire subcategories with fewer
-competitors.
+Where the AI-prompting method above generates ideas by reasoning, this one
+generates them by browsing a fixed structure: Google Cloud's own Natural
+Language content taxonomy is the same hierarchy Google's classifier uses to
+file content into topics, so walking it directly shows which subcategories
+exist and, by extension, which of them nobody has built a dedicated site
+around yet.
 
 Steps:
 
 1. Open the Google Cloud Natural Language Categories page.
-2. Review the hierarchical categories.
-3. Match your topic to the closest relevant category.
+2. Review the hierarchical categories — most have several layers of
+   subcategory nested under a broad top-level topic.
+3. Match your topic to the closest relevant category, and read the
+   subcategories sitting beside it.
 4. Use those category keywords in your content and SEO strategy.
 
 This helps search engines (and Google's own NLP) accurately identify and rank
-your content, which improves visibility.
+your content, which improves visibility — content that maps cleanly onto a
+category Google already recognizes has an easier time being correctly
+classified than content that reads as belonging to no clear topic at all.
 
 ## Worked low-competition examples
 

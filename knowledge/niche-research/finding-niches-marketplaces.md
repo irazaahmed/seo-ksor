@@ -4,17 +4,24 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
 ---
+
+Marketplaces that sell whole websites are a shortcut most people overlook:
+every listing on one has already been validated by a buyer's own due
+diligence, its traffic and revenue are disclosed up front, and browsing one
+is effectively browsing a curated shortlist of niches that are already
+proven to make money — rather than guessing at a niche and hoping it turns
+out to be viable.[^iskills-course-notes]
 
 ## The goal
 
