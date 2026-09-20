@@ -1059,3 +1059,87 @@ html > body[data-scroll-locked] {
 a:has(> .ksor-nav-title) {
   min-width: 0;
 }
+
+/* GFM footnote back-references (remark-gfm's own markup —
+   `section.footnotes`, `a[data-footnote-backref]` — not ours to change
+   directly, same as the nav-title fix above; CSS is the only lever).
+   Its default output is a bare "↩" for a source's first citation and
+   "↩<sup>N</sup>" for every reuse after it — and almost every document
+   here cites the same course-notes source six, eight, ten times over, so a
+   page ended up with a row of inconsistent raw arrows and tiny superscripts
+   at the bottom with no label explaining what they even do (found live,
+   2026-09-20: "kahin 1 kahin 2 3 4 reverse ke button"). Restyled as a
+   labelled row of uniform numbered chips — CSS counters replace the
+   glyph/superscript text with a clean 1-2-3-4-5-6 sequence regardless of
+   which case produced it, and each one jumps back to exactly the citation
+   it numbers. */
+.footnotes {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-fd-border);
+}
+.footnotes::before {
+  content: "Sources cited";
+  display: block;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-fd-muted-foreground);
+}
+.footnotes ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footnotes li {
+  counter-reset: ksor-backref;
+}
+.footnotes li p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--color-fd-muted-foreground);
+  font-size: 0.875rem;
+}
+a[data-footnote-backref] {
+  counter-increment: ksor-backref;
+  /* Hides the raw "↩" / "↩<sup>N</sup>" text — a zero font-size on this
+     element cascades to its nested <sup>, so both collapse together. */
+  font-size: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 9999px;
+  background: color-mix(in oklch, var(--color-fd-primary) 12%, transparent);
+  color: var(--color-fd-primary);
+  text-decoration: none;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    transform 0.15s;
+}
+a[data-footnote-backref]::before {
+  content: counter(ksor-backref);
+  font-size: 0.7rem;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-weight: 600;
+}
+a[data-footnote-backref]:hover {
+  background: var(--color-fd-primary);
+  color: var(--color-fd-primary-foreground);
+  transform: translateY(-1px);
+}
+a[data-footnote-backref]:focus-visible {
+  outline: 2px solid var(--color-fd-ring);
+  outline-offset: 2px;
+}
