@@ -4,16 +4,16 @@ title: Guest post link building — finding sites and running outreach
 description: Finding guest-post opportunities with search operators and SEO tools, organizing the list, and running a personalized outreach campaign.
 status: stable
 order: 35
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## 1. Finding guest-post opportunities
@@ -87,4 +87,4 @@ Website — ready to upload into an outreach tool.
 - Build long-term relationships with editors for repeat guest posting,
   rather than treating each pitch as one-off.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

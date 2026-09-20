@@ -4,16 +4,16 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## The goal
@@ -79,4 +79,4 @@ several forms:[^iskills-course-notes]
 4. **Paid ads on brand names** — running PPC ads on a competitor's brand name
    to intercept its clicks.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

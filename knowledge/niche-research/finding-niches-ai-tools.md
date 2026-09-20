@@ -4,16 +4,16 @@ title: "Finding niches, Method 3: AI tools and NLP categories"
 description: Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 status: stable
 order: 7
-generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## 1. Use ChatGPT / AI tools
@@ -57,8 +57,8 @@ tool types are a dependable source of low-competition keyword niches on
 their own, independent of the AI-branded combinations above.[^iskills-course-notes]
 For a tool niche specifically, Tier 1 countries only need 15,000+ monthly
 search volume to be worth pursuing — the same threshold as an
-informational/blog niche (see *Niche research — tools, metrics, and
-selection criteria*).[^iskills-course-notes]
+informational/blog niche (see [Niche research — tools, metrics, and
+selection criteria](overview.md)).[^iskills-course-notes]
 
 ## 2. Use NLP categories
 
@@ -86,4 +86,4 @@ your content, which improves visibility.
    farming sims or city-building sims surface low-competition keywords.
    Sub-topics: mobile simulation game reviews, PC simulation game tips.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

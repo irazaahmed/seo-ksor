@@ -4,19 +4,19 @@ title: Finding SaaS and AI tool niches
 description: Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack — Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store.
 status: stable
 order: 7.2
-generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
-The marketplace-reverse-engineering method (see *Finding niches, Method 1*)
+The marketplace-reverse-engineering method (see [Finding niches, Method 1](finding-niches-marketplaces.md))
 extends to SaaS, AI tools, and apps too — it just needs a different set of
 marketplaces, since Flippa and Empire Flippers skew toward content
 sites.[^iskills-course-notes]
@@ -58,4 +58,4 @@ The Shopify app ecosystem is another source of product niches — ask an AI
 assistant to help identify demand and gaps for a Shopify app idea before
 building one.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

@@ -4,16 +4,16 @@ title: "RankKW: the Etsy SEO tool and listing criteria"
 description: RankKW versus its competitors, the extension workflow, the exact criteria a keyword needs to meet, and a worked assignment.
 status: stable
 order: 53
-generated: { by: human:ahmedraza, at: 2026-09-20T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T11:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## RankKW versus the alternatives
@@ -45,4 +45,4 @@ them against these requirements:[^iskills-course-notes]
    is older than 3 months, with 50+ sales each.
 2. Reverse-engineer the shop **"SerenatesJourney"**.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

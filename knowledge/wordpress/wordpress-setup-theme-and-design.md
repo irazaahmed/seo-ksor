@@ -4,16 +4,16 @@ title: WordPress setup — cleanup, theme, plugins, and page design
 description: Post-installation WordPress setup — removing default content, configuring settings, installing the Kadence theme and plugins, and building header, footer, menu, and page layouts.
 status: stable
 order: 17
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## Step 1: clean up default content
@@ -133,4 +133,4 @@ Image), and set footer colors per row (Design → Footer Colors).
 - Fold SEO optimization into layout decisions from the start, rather than
   retrofitting it later.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

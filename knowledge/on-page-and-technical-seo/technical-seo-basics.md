@@ -4,16 +4,16 @@ title: Technical SEO basics — Core Web Vitals and page speed
 description: What technical SEO covers, Google's three Core Web Vitals, and the plugins and steps used to fix page-speed issues.
 status: stable
 order: 21
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## What is technical SEO?
@@ -75,4 +75,4 @@ the plugin (LiteSpeed Cache or WP Rocket), open its Import option, and import
 the provided file — this applies every setting automatically, with no manual
 configuration needed.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

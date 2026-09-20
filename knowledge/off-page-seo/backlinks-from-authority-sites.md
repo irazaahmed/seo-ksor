@@ -4,16 +4,16 @@ title: Building backlinks from top authority sites
 description: A strategy for earning backlinks from the internet's highest-authority platforms — YouTube, Instagram, Reddit, GitHub, and similar — by participating genuinely rather than spamming.
 status: stable
 order: 32
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## The idea
@@ -83,4 +83,4 @@ always participating naturally rather than spamming — even a single naked
 link from a top-tier site is a real achievement, because quality and source
 authority matter more than raw link count.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

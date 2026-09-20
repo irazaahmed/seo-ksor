@@ -4,16 +4,16 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 6
-generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## APK, MOD APK, Pro APK, and Premium APK
@@ -36,8 +36,8 @@ instead.[^iskills-course-notes]
 This is a hosting niche, not a development one: the APK/MOD files themselves
 are not built from scratch. A MOD version is found already made and simply
 downloaded and hosted, the same way the rest of this document's site-building
-guidance assumes (see *APK file hosting, download-site setup, and AdSense
-approval*).
+guidance assumes (see [APK file hosting, download-site setup, and AdSense
+approval](../apk-websites/apk-file-hosting-and-adsense.md)).
 
 Its seed keyword is simply **"apk"** — one of the easier niches to start
 keyword research from for exactly that reason.[^iskills-course-notes]
@@ -67,7 +67,7 @@ given APK niche.[^iskills-course-notes]
 ### Reverse-engineering the best site you find
 
 Once a promising APK site turns up, treat it the same way as any other
-macro-site reverse-engineering (see *Finding niches, Method 1*): review its
+macro-site reverse-engineering (see [Finding niches, Method 1](finding-niches-marketplaces.md)): review its
 top pages, then search those pages' keywords on Google. Ahrefs' **Organic
 Competitors** report (inside Site Explorer) speeds this up directly — point
 it at that site and it lists every other site competing for the same
@@ -120,4 +120,4 @@ America), Arabic (Saudi Arabia, Gulf countries), Turkish (Turkey), German
 - **Other ad networks** — local and international networks can supplement
   AdSense revenue.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

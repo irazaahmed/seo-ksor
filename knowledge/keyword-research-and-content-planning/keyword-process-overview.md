@@ -4,16 +4,16 @@ title: The keyword-to-content process
 description: The five-step pipeline — grouping, research, planning, gap analysis, mapping — that turns a niche into a content plan, plus content patterns for e-commerce and service sites.
 status: stable
 order: 9
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## The five steps
@@ -91,4 +91,4 @@ region, English, delivered by email.
 - Use Ahrefs, Google Instant, and Google Alerts together.
 - Export competitor data and use ChatGPT to help with clustering.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

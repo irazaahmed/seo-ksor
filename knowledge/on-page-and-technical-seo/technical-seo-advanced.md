@@ -4,16 +4,16 @@ title: Technical SEO — advanced crawl control
 description: Robots.txt, meta robots tags, llms.txt, sitemap.xml, crawl-budget optimization, canonical tags, and .htaccess — the files that control how a crawler treats a site.
 status: stable
 order: 23
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## Robots.txt
@@ -67,4 +67,4 @@ Typical uses: HTTP/HTTPS duplicates, www/non-www duplicates, and pagination.
 A server configuration file used for 301 redirects, forcing HTTPS, blocking
 specific IPs, and custom error pages.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

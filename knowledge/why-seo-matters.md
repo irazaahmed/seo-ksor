@@ -4,16 +4,16 @@ title: Why SEO matters, and what ranks a page
 description: Why SEO is treated as a standalone skill in this course, and the balance of factors — authority, content, backlinks, niche difficulty — that decide a ranking.
 status: stable
 order: 2
-generated: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T12:51:10Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## SEO as a skill, not just a task
@@ -74,4 +74,4 @@ real authority, real structure — rather than replacing it.
   authority.
 - **Moz** reports **DA (Domain Authority)** — its equivalent metric.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

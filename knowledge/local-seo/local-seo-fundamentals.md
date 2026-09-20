@@ -4,16 +4,16 @@ title: Local SEO fundamentals
 description: What Local SEO is, how it differs from traditional SEO, its business types and monetization models, common issues, and Google Business Profile basics.
 status: stable
 order: 36
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## What is Local SEO?
@@ -121,4 +121,4 @@ keyword targeting, strong GBP optimization, and genuinely local backlinks —
 and it suits freelancers who want steady clients in a low-competition,
 high-conversion niche.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

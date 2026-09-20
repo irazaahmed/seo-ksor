@@ -4,16 +4,16 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 8
-generated: { by: human:ahmedraza, at: 2026-09-20T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T10:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T10:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## Country-specific niche research
@@ -60,8 +60,8 @@ what makes a niche beatable.
 ## Two ways to find a country-specific niche
 
 Country-specific niche research comes down to the same two starting points
-every other niche research does (see *Niche research — tools, metrics, and
-selection criteria*): find the keyword directly, or find a site and reverse
+every other niche research does (see [Niche research — tools, metrics, and
+selection criteria](overview.md)): find the keyword directly, or find a site and reverse
 engineer it. Country code SEO just adds one filter to each — a
 country.[^iskills-course-notes]
 
@@ -177,4 +177,4 @@ visits/month: total traffic of about 88K visitors/month translates to
 revenue via `(traffic / 1,000) × RPM`. Higher traffic combined with
 low-competition keywords is what compounds into meaningfully more revenue.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

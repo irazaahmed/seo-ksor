@@ -4,16 +4,16 @@ title: Keeping a new Etsy account from getting suspended
 description: How to prepare an Etsy account before applying for a seller account — connection checks, a browsing-in period, and the "one person, one laptop, one ID" rule.
 status: stable
 order: 51
-generated: { by: human:ahmedraza, at: 2026-09-20T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T11:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 New Etsy accounts get suspended for signals that have nothing to do with the
@@ -41,7 +41,7 @@ application reads as suspicious.[^iskills-course-notes]
   recommended** over shared or unstable Wi-Fi.
 - Browse on Etsy before applying for the seller account (see above).
 - Use a **separate Google profile** dedicated to the Etsy account.
-- Don't use "Continue with Google" to sign up (see *Creating an Etsy shop*).
+- Don't use "Continue with Google" to sign up (see [Creating an Etsy shop](etsy-account-creation.md)).
 
 ## One person, one laptop, one ID card
 
@@ -49,4 +49,4 @@ Etsy expects a single identity behind an account: one person, one device,
 one ID card. Running multiple accounts from the same laptop or identity is
 what gets accounts linked and suspended together.[^iskills-course-notes]
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

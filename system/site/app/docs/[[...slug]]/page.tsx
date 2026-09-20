@@ -6,6 +6,7 @@ import {
   folderSlugs,
   getSortedPages,
   markdownPath,
+  siblingsOf,
   source,
 } from "@/lib/source";
 import { RecordIndex } from "@/components/record-index";
@@ -215,6 +216,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
           {quiz === null ? null : <Quiz quiz={quiz} />}
         </StudyAids>
         {showGovernance ? <Provenance entries={governance.sources} /> : null}
+        <RecordIndex entries={siblingsOf(page.path)} heading="Related chapters" />
       </DocsPage>
     </TocItems>
   );

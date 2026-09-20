@@ -269,6 +269,25 @@ export function entriesUnder(dir: string): RecordEntry[] {
   });
 }
 
+/**
+ * The other documents in the same chapter as `path` — its folder's own
+ * regenerated index, minus the document itself and minus any sub-folder
+ * bullets (a "related chapters" list is siblings, not the whole subtree).
+ * Real structure, not a guess: two documents are "related" here exactly when
+ * the record's own governed reading order already put them in the same
+ * folder, the same signal the sidebar and `llms.txt` already show.
+ */
+export function siblingsOf(path: string): RecordEntry[] {
+  const dir = path.includes("/") ? path.slice(0, path.lastIndexOf("/")) : "";
+  const byUrl = new Map(source.getPages().map((page) => [page.url, page] as const));
+  return listingOf(dir, readStagedIndex(dir) ?? [])
+    .filter((item) => item.kind === "concept" && item.path !== path)
+    .flatMap((item) => {
+      const page = byUrl.get(item.url);
+      return page === undefined ? [] : [entryFor(page)];
+    });
+}
+
 /** The heading of a directory's page: the index's own H1, or its humanised name. */
 export function folderHeading(dir: string): string {
   const entries = readStagedIndex(dir) ?? [];

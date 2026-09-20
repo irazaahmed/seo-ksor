@@ -4,23 +4,23 @@ title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others — informational, downloadable, and government-related — plus finding them with Ahrefs Content Explorer.
 status: stable
 order: 7.4
-generated: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T18:33:56Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 Some categories of niche are consistently easier to rank than others,
 wherever in the world you're targeting:[^iskills-course-notes]
 
 - **Informational niches** — e.g. a restaurant menu.
-- **Downloadable niches** — e.g. an APK (see *APK niche research*).
+- **Downloadable niches** — e.g. an APK (see [APK niche research](apk-niche-research.md)).
 - **Government programs** — e.g. an electric-bike subsidy or a home-loan
   program.
 - **Government certificates**
@@ -73,4 +73,4 @@ out and are worth checking again rather than trusted indefinitely:
 Market conditions like this shift — treat both as a starting point to
 re-verify with fresh data, not a standing fact.[^iskills-course-notes]
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

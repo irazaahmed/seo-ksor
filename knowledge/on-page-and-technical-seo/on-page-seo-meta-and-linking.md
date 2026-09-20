@@ -4,16 +4,16 @@ title: Meta title CTR, table of contents, and internal/external linking
 description: Writing a click-worthy meta title, installing a table-of-contents plugin, and the rules for internal and external linking on a post.
 status: stable
 order: 20
-generated: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-15T11:37:20Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 ## Meta title and description optimization
@@ -88,4 +88,4 @@ menu, since it helps search engines understand the site's overall structure.
 - Follow the internal/external linking rules above.
 - Keep the navigation menu optimized around your most important content.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

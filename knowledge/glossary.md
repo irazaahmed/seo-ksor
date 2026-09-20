@@ -4,16 +4,16 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-17T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2025"
-verified: [{ by: human:ahmedraza, at: 2026-09-17T13:00:00Z }]
+    resource: "iSkills SEO course notes, compiled 2026"
+verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 ---
 
 These are the base terms the rest of this record assumes. Read this first if a
@@ -70,7 +70,7 @@ later document uses a word without defining it.[^iskills-course-notes]
 Claude, Gemini) now also answers search-like questions directly, sometimes
 citing a page as its source. The mechanics below describe a traditional
 search engine; a later document covers what changes when the "search engine"
-is an AI answering directly (see *Why SEO matters, and what ranks a page*).
+is an AI answering directly (see [Why SEO matters, and what ranks a page](why-seo-matters.md)).
 
 A traditional search engine follows three steps to surface relevant pages
 among billions:
@@ -112,4 +112,4 @@ among billions:
 - **PDF** — a file format used to hold and distribute content (documents,
   guides, forms) independent of the software that created it.
 
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2025.
+[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
