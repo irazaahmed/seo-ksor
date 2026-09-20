@@ -37,7 +37,7 @@ const ICONS: Record<string, ComponentType<{ className?: string }>> = {
   "apk-websites": Smartphone,
   "off-page-seo": Link2,
   "local-seo": MapPin,
-  etsy: Store,
+  "quick-skills": Store,
 };
 
 function iconFor(entry: RecordEntry): ComponentType<{ className?: string }> {
