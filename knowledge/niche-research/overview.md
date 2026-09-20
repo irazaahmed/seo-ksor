@@ -4,16 +4,16 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-20T14:00:00Z }]
 ---
 
 Niche research exists to find a real market gap or demand — a low-competition,
@@ -23,6 +23,14 @@ solving one specific problem.[^iskills-course-notes]
 
 Niche plays roughly a 70% role in whether a site succeeds or fails — get this
 step wrong and no amount of later SEO work fully compensates.
+
+## Supply and demand, the plain version
+
+Every "low competition, high search volume" niche criterion in this record is
+one instance of a simpler business idea: **supply** is competition, **demand**
+is search volume, and the niche worth taking is the one where supply is low
+and demand is high — the same rule any business is evaluated on, not
+something specific to SEO.[^iskills-course-notes]
 
 ## The research workflow, in order
 
@@ -107,6 +115,25 @@ metric's authenticity against a second source before deciding on it.
 
 A five-word checklist for a niche worth pursuing: **profitable, low
 competition, sustainable, monetizable, scalable.**
+
+## Niche finalization for beginners
+
+For a first niche specifically, pick something that already connects to your
+own life somewhere — a hobby, an interest, something you'd recognize good
+work in. A niche picked outside your own expertise risks not being able to
+tell whether the content on it is actually good, and working on something
+that bores you is harder to sustain.[^iskills-course-notes]
+
+Two places to source problem-solving niche ideas from directly:
+
+- **Google's product taxonomy** (the base "product type" sheet Google and
+  Facebook maintain for Shopping/Merchant listings) — browsing its categories
+  surfaces problem-solving niches directly.
+- **UGC sites** (Reddit, Quora) — real discussion is a signal of real demand,
+  and browsing them for recurring questions surfaces niches the same way (see
+  [Finding niches, Method 4: backlink mining and UGC intent
+  mismatches](finding-niches-backlink-and-ugc-method.md) for a more targeted,
+  tool-driven version of this).
 
 ## Types of niches, by size
 

@@ -4,16 +4,16 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-20T14:00:00Z }]
 ---
 
 These are the base terms the rest of this record assumes. Read this first if a
@@ -82,6 +82,22 @@ among billions:
    content or errors can keep a page out of the index.
 3. **Ranking** — when a user searches, the engine ranks indexed pages by
    relevance and quality.
+
+### When the intent isn't clear from the query alone
+
+A query like "Visa Application" doesn't say what the searcher actually wants —
+which country, which visa type, apply or check status. Google (and a chatbot
+answering the same query) still has to return something, so it infers the
+missing intent from how everyone ELSE who searched that same query behaved
+afterward — which results they clicked, which path they took next — rather
+than from the three words alone.[^iskills-course-notes]
+
+Google narrows this further per person, from your own history and location:
+
+- Visit the same site repeatedly after searching, and Google reads that as
+  "this is the one you wanted" and keeps showing it.
+- Shown a result you never click, Google stops surfacing it — it reads the
+  lack of a click as a signal that it wasn't wanted.
 
 ## Networking basics behind every website
 

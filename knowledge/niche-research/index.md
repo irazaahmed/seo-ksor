@@ -1,8 +1,10 @@
 # Niche research
 
 * [Niche research — tools, metrics, and selection criteria](overview.md) - The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
+* [Seasonality, timing, and first-mover niches](timing-and-first-mover-niches.md) - Why a stable niche beats a spiking one, how to use Google Trends to find and validate first-mover opportunities, and a tool for fine-tuning a niche by location once it's chosen.
 * [Finding niches, Method 1: reverse-engineering marketplaces](finding-niches-marketplaces.md) - Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 * [Finding niches, Method 2: the Ahrefs/SEMrush filter method](finding-niches-ahrefs-filters.md) - Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
+* [Finding niches, Method 4: backlink mining and UGC intent mismatches](finding-niches-backlink-and-ugc-method.md) - Mining a giant authority site's newest backlinks to find fresh niche sites worth replicating, and using UGC sites like Reddit and Quora to spot intent mismatches worth building for.
 * [APK niche research](apk-niche-research.md) - Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 * [Finding niches, Method 3: AI tools and NLP categories](finding-niches-ai-tools.md) - Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 * [Finding SaaS and AI tool niches](finding-niches-saas-and-ai-tools.md) - Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack — Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store.
