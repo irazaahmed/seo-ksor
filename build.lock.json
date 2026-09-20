@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:42d46fb17dc770ed29f869070f22171526b2afb9a66604d15e2ae40db5b71f6e",
+  "build_id": "sha256:a659d02d3e251ad19bf27b28c36f8d9a5cb28ed187ebf23ff4b8c306b93d06b8",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "b165af0659f49505f6c5bf390db913ddd6a277f2",
+  "source_commit": "95c889200a9c911647659dc16a9440f2fb3a3000",
   "dirty": true,
-  "as_of": "2026-09-20T18:37:33.734Z",
+  "as_of": "2026-09-20T18:53:23.329Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -247,7 +247,7 @@
     },
     {
       "path": "niche-research/timing-and-first-mover-niches.md",
-      "sha256": "368b3a1c799f29c2925d5fb25b8d5ba6a2afa9c8b1295ba9e2544ec86607476d",
+      "sha256": "a16957db3794a4e0aeb19aee7b71d76f78ab4df351670bccb3715d88b6eacdc9",
       "status": "stable",
       "audience": [
         "public"
@@ -620,7 +620,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "0042bf294832b39e8eb31397218b4cd144a2beb87f5caca70af6b4965a1bcf1e",
+      "sha256": "99f21879ded89adbeec99cb563f8f89d106135b6513b795829b2fb3f1b85f960",
       "files": 66
     }
   ]
