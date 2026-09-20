@@ -1,6 +1,8 @@
 import type { ReactElement, ReactNode } from "react";
+import { SidebarCollapseTrigger } from "fumadocs-ui/components/sidebar/base";
 import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import { ThemeSwitch } from "fumadocs-ui/layouts/shared/slots/theme-switch";
+import { PanelLeftClose } from "lucide-react";
 
 import { FooterMark } from "@/components/footer-mark";
 import { baseOptions } from "@/lib/layout.shared";
@@ -63,7 +65,21 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
               <p className="text-xs">
                 <FooterMark />
               </p>
-              <ThemeSwitch />
+              <div className="flex items-center gap-1">
+                {/* fumadocs ships the collapse STATE machinery (the
+                    transition, the floating re-expand affordance once
+                    collapsed) but no visible trigger for it — this project
+                    never wired one in, so the sidebar had no way to close at
+                    all (found live, 2026-09-21). max-md:hidden: collapsing is
+                    a desktop-width concept; mobile already has its own
+                    drawer open/close via SidebarTrigger. */}
+                <SidebarCollapseTrigger
+                  className="hidden size-8 items-center justify-center rounded-md text-fd-muted-foreground transition-colors hover:bg-fd-accent hover:text-fd-accent-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring md:inline-flex"
+                >
+                  <PanelLeftClose className="size-4" aria-hidden />
+                </SidebarCollapseTrigger>
+                <ThemeSwitch />
+              </div>
             </div>
           </div>
         ),

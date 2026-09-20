@@ -1203,3 +1203,27 @@ aside div[data-state] > a[data-active="true"] {
 aside div[data-state] > a[data-active]::before {
   display: none;
 }
+
+/* The right-hand table-of-contents rail (#nd-toc) is fumadocs' own —
+   width, visibility and the grid column that reserves space for it are all
+   driven by the `--fd-toc-width` custom property, read by the grid
+   container's (#nd-docs-layout) inline `grid-template-columns`. fumadocs'
+   own default only turns the rail on at `xl` (1280px); below that, a
+   heading list shows as a tap-to-open dropdown instead (found live,
+   2026-09-21: the dropdown was showing at widths where a permanent
+   right-side list would fit fine). Setting the variable directly on the
+   grid container at `lg` (1024px) instead works through the same
+   mechanism fumadocs uses at `xl` — CSS custom properties inherit
+   downward, so #nd-toc (a descendant, sizing itself off the same
+   variable) picks it up too, without touching fumadocs' own classes. */
+@media (min-width: 64rem) {
+  #nd-docs-layout {
+    --fd-toc-width: 268px;
+  }
+  #nd-toc {
+    display: flex !important;
+  }
+  [data-toc-popover] {
+    display: none !important;
+  }
+}
