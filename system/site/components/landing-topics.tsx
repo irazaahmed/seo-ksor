@@ -10,6 +10,7 @@ import {
   PenLine,
   Search,
   Smartphone,
+  Store,
   Wrench,
 } from "lucide-react";
 
@@ -36,6 +37,7 @@ const ICONS: Record<string, ComponentType<{ className?: string }>> = {
   "apk-websites": Smartphone,
   "off-page-seo": Link2,
   "local-seo": MapPin,
+  etsy: Store,
 };
 
 function iconFor(entry: RecordEntry): ComponentType<{ className?: string }> {

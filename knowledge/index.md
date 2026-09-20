@@ -15,3 +15,4 @@ okf_version: "0.2"
 * [Apk websites](apk-websites/)
 * [Off page seo](off-page-seo/)
 * [Local seo](local-seo/)
+* [Etsy](etsy/)
