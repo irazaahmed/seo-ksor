@@ -4,22 +4,20 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 9
-generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
 
-*The APK/MOD/Pro distinction, the demand behind it, the tightened selection
-criteria, and the Organic Competitors tip below are from Class 08 —
-Niche Research: APK Sites, Info and Tools — taught by Sir Aswad
-Baloch.[^iskills-course-notes]*
+*This whole document is from Class 08 — Niche Research: APK Sites, Info and
+Tools — taught by Sir Aswad Baloch.[^iskills-course-notes]*
 
 ## APK, MOD APK, Pro APK, and Premium APK
 

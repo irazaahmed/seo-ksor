@@ -4,17 +4,21 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
+
+*Taught by Sir Tanveer Nandla, except "A revision pass on the same filters"
+below, from a niche-finding methods revision class taught by Sir Naveed
+Kalro.[^iskills-course-notes]*
 
 Where Method 1 starts from an existing site and reverse-engineers its
 keywords, this method skips the site entirely and goes straight at the
@@ -48,9 +52,10 @@ A later pass on the same method added a second filter set:
 
 ## A revision pass on the same filters
 
-Revisiting this method later added a few more filter details worth
-combining with the ones above, still inside Ahrefs Keyword Explorer with a
-country selected:[^iskills-course-notes]
+Method 2 of a niche-finding methods revision class taught by Sir Naveed
+Kalro added a few more filter details worth combining with the ones above,
+still inside Ahrefs Keyword Explorer with a country
+selected:[^iskills-course-notes]
 
 - **Intent** — filter to informational intent.
 - **Volume** — around 30,000.

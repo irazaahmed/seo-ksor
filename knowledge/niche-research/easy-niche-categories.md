@@ -4,17 +4,22 @@ title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others — informational, downloadable, and government-related — plus finding them with Ahrefs Content Explorer.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
+
+*Taught by Sir Tanveer Nandla, except "A revision pass on this same
+method" and "A currently hot goldmine" below — Method 3 (and the goldmine
+leads it turned up) from a niche-finding methods revision class taught by
+Sir Naveed Kalro.[^iskills-course-notes]*
 
 Where the five methods above find a specific niche, this document names
 whole CATEGORIES worth defaulting to — types of niche that are consistently
@@ -57,16 +62,17 @@ A different Ahrefs tool from Keyword Explorer, useful for surfacing entire
 7. Look for sites with a low DR among the results, and reverse-engineer
    them.
 
-A revision pass on this same method used a slightly different filter combo,
-also worth trying: published in the **last 90 days**, platform set to
-**blog**, language set to whichever you're targeting (e.g. Spanish), and DR
-**up to 20** — then look for the low-DR, good-traffic sites in the
-results.[^iskills-course-notes]
+Method 3 of a niche-finding methods revision class taught by Sir Naveed
+Kalro used a slightly different filter combo, also worth trying: published
+in the **last 90 days**, platform set to **blog**, language set to
+whichever you're targeting (e.g. Spanish), and DR **up to 20** — then look
+for the low-DR, good-traffic sites in the results.[^iskills-course-notes]
 
 ## A currently hot goldmine (worth revisiting, time-sensitive)
 
-As of this course's most recent revision session, two specific leads stood
-out and are worth checking again rather than trusted indefinitely:
+From the same revision class taught by Sir Naveed Kalro: two specific
+leads stood out and are worth checking again rather than trusted
+indefinitely:
 
 - Searching **"portal"** in Content Explorer, filtered to **Spanish**,
   turned up niches with traffic in the millions.

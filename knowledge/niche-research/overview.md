@@ -4,17 +4,21 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
+
+*Taught by Sir Tanveer Nandla, except "Supply and demand, the plain
+version" and "Niche finalization for beginners" below (Class 10, Muhammad
+Ali — see that section).[^iskills-course-notes]*
 
 Niche research exists to find a real market gap or demand — a low-competition,
 profitable opportunity. The end product does not have to be a content site:

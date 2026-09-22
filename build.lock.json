@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:e0aff41cdcd45fbe80cc2ec2da01d160d86a337ec7ef7f26d4a87c7a8201c88f",
+  "build_id": "sha256:359deec89307ece9fc95c945ac047c56a1e8a8391ae18a2428ceeab241e6bb1a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "e6e2cd09d5413b6d565ec2c8fb7cf0d961113451",
+  "source_commit": "feea99857585e0568181662eb369756256538203",
   "dirty": true,
-  "as_of": "2026-09-22T07:10:09.979Z",
+  "as_of": "2026-09-22T07:33:10.971Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "4ea0c24ebc88e51948d6d1bc050618245ec6e2fdde324af4c68d8feeb4e3ac89",
+      "sha256": "64ace5ce1faeb47f6baf4bd695fa9c466c5f501d77142e4beb75df74f72a888b",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "ed57f5206b5923b53f2e84d21fa194affd0487c2e9ba10f0db6e4cda6b04fe0f",
+      "sha256": "019d5dae59db7cd2a733cb1aa112c18fad20342fe00e8f06649025b244f485bb",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "f063e56dd37aec7b540a8747edbb3f4b51edd7df189d7f46ae24ff87e2c7b554",
+      "sha256": "13dfb3f763aa3d6c242e329f6ec1f8262f8c7f893749fc18f1f3ccc96ea482bd",
       "status": "stable",
       "audience": [
         "public"
@@ -181,7 +181,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "de9baf7f0d9d5ca66a6fb32fd3edc6980b3f47f9c12d799b4169eb0759c7ba23",
+      "sha256": "5531a54aebfeb9320bacf3ca926b814e5f5f1c899a4abc3384e9d84f8c558eb4",
       "status": "stable",
       "audience": [
         "public"
@@ -192,7 +192,7 @@
     },
     {
       "path": "niche-research/finding-niches-ai-tools.md",
-      "sha256": "2288e26ae4b9d76fc82620b68e93fe49dc4c2c9c6661dda188dece9894ba2eb8",
+      "sha256": "af93bb4042549625660592d126eb1a3bb7184c44329f0dc6465979746cde0df5",
       "status": "stable",
       "audience": [
         "public"
@@ -214,7 +214,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "f4b680b58d43f3311a9dc1d86806b672a67d9aac98f8f58d69c92edea6cb166c",
+      "sha256": "1494febf9dfd6f5933be7d40a064823e89981c5d2562956ffd22540c17334c15",
       "status": "stable",
       "audience": [
         "public"
@@ -225,7 +225,7 @@
     },
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
-      "sha256": "433cba186fd5ddd6998909194caf64a75a14527dce7059d4de982444cd5b7af1",
+      "sha256": "d423ef67182e5ba837bd62246e1e3b69e158f43d43e43a6e8c31349559c29411",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "f44c67ddfac5bea3abc9fa86b9527473bdd670bc26f2ea84a8f023d1b5a835f2",
+      "sha256": "11046425664d6d5972ca2218c26d3fdbe70c3ebf0eded1c995c9126050111631",
       "status": "stable",
       "audience": [
         "public"
@@ -445,7 +445,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-creation.md",
-      "sha256": "1a3affd9283c157b202211ad480b6307f48c8e7fb2536dd38eafbdd659cc91a5",
+      "sha256": "ad19c40227d56ea33b45317c1c25337015fa0b975a1d9c47167865eec6a02876",
       "status": "stable",
       "audience": [
         "public"
@@ -456,7 +456,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-safety.md",
-      "sha256": "dbdbc157d18ede94c2a06561bf7db0afff713c351fb9df567c66628348f41cd3",
+      "sha256": "75a7217544c746fc0e62b351a003b4ad6acc7a507602dcb3c9bea887e0c96262",
       "status": "stable",
       "audience": [
         "public"
@@ -467,7 +467,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-listing-and-competitor-research.md",
-      "sha256": "e9a889c2ba7dd36b7bb8492a6204c7396cdae360b25a9d3f3670ca12b6ad699e",
+      "sha256": "85d90d77549c45348cff18de07d1c98b3356845a713e080d264e57aa3c77391d",
       "status": "stable",
       "audience": [
         "public"
@@ -478,7 +478,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
-      "sha256": "ebff84c50c794d36f31dd6299d7079ff4a019bea2190690ebc53c8cb174aed0f",
+      "sha256": "69a44558bff99bf7508e0ecf46aa84bf1e46ed171c2d8b31e7fea9aee8e78911",
       "status": "stable",
       "audience": [
         "public"
@@ -489,7 +489,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
-      "sha256": "5a3e604afdb2853de2d83379e061d4204dccf03d468b6defe1afbebe6934cae9",
+      "sha256": "c50c9d7905917cd2147942f52dc15303dfc34c0703dacadc163bb71a86a0509f",
       "status": "stable",
       "audience": [
         "public"
@@ -620,7 +620,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "31627d2d0d83224648abe00b3550687b924e6e8729e810611ffd5b61458f7895",
+      "sha256": "deb7f1790ae025e3b7ceb8fadfa505aaf9b8c1ab2f9d117d967ea3398805be4c",
       "files": 66
     }
   ]

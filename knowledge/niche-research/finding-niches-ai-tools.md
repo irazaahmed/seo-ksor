@@ -4,17 +4,19 @@ title: "Finding niches, Method 3: AI tools and NLP categories"
 description: Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 status: stable
 order: 6
-generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
+
+*Taught by Sir Tanveer Nandla.[^iskills-course-notes]*
 
 This method skips tools entirely and uses reasoning instead — an AI model to
 brainstorm candidate niches, and Google's own content taxonomy to check where

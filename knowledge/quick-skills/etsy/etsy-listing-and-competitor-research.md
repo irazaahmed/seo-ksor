@@ -4,17 +4,19 @@ title: Etsy listings and competitor research
 description: Why most Etsy sellers fail, what a listing needs to get right for mobile buyers, and how to choose a shop worth reverse-engineering.
 status: stable
 order: 50
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
 ---
+
+*Taught by Sir Zafar Ali, like the rest of the Etsy chapter.[^iskills-course-notes]*
 
 ## Digital products, without investment
 
