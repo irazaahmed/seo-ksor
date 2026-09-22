@@ -4,16 +4,12 @@ title: The keyword-to-content process
 description: The five-step pipeline — grouping, research, planning, gap analysis, mapping — that turns a niche into a content plan, plus content patterns for e-commerce and service sites.
 status: stable
 order: 9
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## The five steps
@@ -30,7 +26,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
    have yet, to uncover untapped opportunities.
 5. **Seed keywords** — start broad, then narrow to specific, long-tail
    versions. Example: "Spotify APK" leads to "Download Spotify Premium
-   APK".[^iskills-course-notes]
+   APK".
 
 ## Structuring e-commerce and SaaS sites
 
@@ -90,5 +86,3 @@ region, English, delivered by email.
 - Weight search volume and relevancy over KD.
 - Use Ahrefs, Google Instant, and Google Alerts together.
 - Export competitor data and use ChatGPT to help with clustering.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

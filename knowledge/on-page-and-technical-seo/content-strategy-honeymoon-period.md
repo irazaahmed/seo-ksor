@@ -4,16 +4,12 @@ title: "Content strategy: the honeymoon period"
 description: A niche-site launch plan built around the temporary ranking boost new sites get, and how to maximize and extend it.
 status: stable
 order: 27
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Niche site launch plan
@@ -25,7 +21,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
    approach has 20 articles ready before the site goes live.
 3. **After going live** — publish 1 article every 2 days until 15 days are
    complete, maintain interlinking between articles as they're added, and
-   complete on-page and technical SEO setup alongside publishing.[^iskills-course-notes]
+   complete on-page and technical SEO setup alongside publishing.
 
 ## Tracking and analytics
 
@@ -58,5 +54,3 @@ groups to drive early signals.
 - Track technical errors as they appear.
 - Combine off-page SEO work with ongoing content updates rather than treating
   them as separate phases.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

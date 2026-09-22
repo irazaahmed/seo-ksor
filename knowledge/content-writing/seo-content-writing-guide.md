@@ -4,23 +4,19 @@ title: "SEO content writing: HTML formatting, structure, and copywriting"
 description: A complete guide to writing SEO-optimized blog content — HTML tags, blog post structure, competitor SERP research, content density, and emotional copywriting.
 status: stable
 order: 13
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Objective
 
 Write SEO-optimized blog content that satisfies both Google and the user, by
 mastering structure, HTML formatting, content density, and search
-intent.[^iskills-course-notes]
+intent.
 
 ## The basics
 
@@ -110,5 +106,3 @@ useful, intent-based content, and always ask *why the user came*:
 - Use headings, media, and structure to satisfy Google and the user together.
 - Treat every blog post as a small website of value on its own.
 - The user is king — always write for them first.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

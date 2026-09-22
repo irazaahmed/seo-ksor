@@ -4,22 +4,18 @@ title: Website audit process
 description: Why a site audit is run, the manual-vs-tool-based distinction, and the tools used to crawl a site for technical and on-page issues.
 status: stable
 order: 25
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Purpose of an audit
 
 Identify technical and on-page SEO issues, and check crawlability, speed,
-and indexation status.[^iskills-course-notes]
+and indexation status.
 
 ## Types of audits
 
@@ -41,5 +37,3 @@ Crawls a website the way a search-engine bot would, and checks for:
 - Redirects
 - Duplicate titles and descriptions
 - Missing alt tags
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

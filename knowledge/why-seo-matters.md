@@ -4,16 +4,12 @@ title: Why SEO matters, and what ranks a page
 description: Why SEO is treated as a standalone skill in this course, and the balance of factors — authority, content, backlinks, niche difficulty — that decide a ranking.
 status: stable
 order: 2
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## SEO as a skill, not just a task
@@ -24,7 +20,7 @@ SEO is treated as a skill in its own right, separate from any one business:
 - Freelancing is a job built on it; niche research costs time; site
   development costs domain, time and design; off-page SEO costs time too.
 - The point to remember: whatever you invest in it, ranking pays back as
-  profit.[^iskills-course-notes]
+  profit.
 
 ## What a ranking balances
 
@@ -55,7 +51,7 @@ A page's ranking rests on several factors working together, not any single one:
 
 SEO is often called the mother of digital marketing — most other channels
 (content, social, paid) eventually lean on it. What is new is that "ranking"
-no longer means only a link on a results page:[^iskills-course-notes]
+no longer means only a link on a results page:
 
 - **AEO (Answer Engine Optimization)** — optimizing to be the answer an AI
   assistant gives directly (e.g. a voice assistant or an AI Overview), not
@@ -73,5 +69,3 @@ real authority, real structure — rather than replacing it.
 - **Ahrefs** reports **DR (Domain Rating)** — its metric for a site's backlink
   authority.
 - **Moz** reports **DA (Domain Authority)** — its equivalent metric.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

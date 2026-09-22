@@ -4,16 +4,12 @@ title: Content coverage — the 200-volume benchmark method
 description: How to fully cover a topic's sub-questions, group keywords without stuffing, and decide which of them earn a dedicated article.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## What content coverage means
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 Covering all the plausible questions or sub-topics related to one main
 topic. Example: a "TeraBox Mod APK" niche should also cover TeraBox for PC,
 TeraBox for iOS, latest version, old version, premium features, login
-problems, whether it's safe, and so on.[^iskills-course-notes]
+problems, whether it's safe, and so on.
 
 ## Step-by-step method
 
@@ -109,5 +105,3 @@ articles that are AdSense-safe.
    Login Group, Old Version Group).
 3. **Filter and finalize** — remove repeated/common keywords, keep only the
    unique parts, and plan one article per group.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

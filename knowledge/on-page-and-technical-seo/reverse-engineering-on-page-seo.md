@@ -4,16 +4,12 @@ title: Reverse-engineering on-page SEO from competitors
 description: A workflow for learning what makes competitors rank — starting from your own Search Console data, then analyzing competitor backlinks, anchor text, and on-page factors.
 status: stable
 order: 28
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## The idea
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 Reverse-engineering SEO means analyzing competitors' websites, backlinks,
 and on-page factors to understand what makes them rank — learning directly
 from what already works instead of guessing. The core tools are Google
-Search Console, SEMrush, and Ahrefs.[^iskills-course-notes]
+Search Console, SEMrush, and Ahrefs.
 
 ## 1. Start with your own Google Search Console
 
@@ -83,5 +79,3 @@ own site.
 - Contextual links outperform forum or comment links.
 - Reverse engineering shows what already works, cutting down trial and error
   versus experimenting blind.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

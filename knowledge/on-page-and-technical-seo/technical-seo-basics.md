@@ -4,23 +4,19 @@ title: Technical SEO basics — Core Web Vitals and page speed
 description: What technical SEO covers, Google's three Core Web Vitals, and the plugins and steps used to fix page-speed issues.
 status: stable
 order: 21
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## What is technical SEO?
 
 Technical SEO optimizes a website's infrastructure so search engines can
 crawl and index it efficiently — covering site speed, schema, the sitemap,
-`robots.txt`, and more.[^iskills-course-notes]
+`robots.txt`, and more.
 
 **Scope covered in this course:** Core Web Vitals (page speed), schema
 markup, sitemap optimization, and `.htaccess`/`robots.txt`.
@@ -74,5 +70,3 @@ A ready-made caching-plugin settings file can be imported directly: install
 the plugin (LiteSpeed Cache or WP Rocket), open its Import option, and import
 the provided file — this applies every setting automatically, with no manual
 configuration needed.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

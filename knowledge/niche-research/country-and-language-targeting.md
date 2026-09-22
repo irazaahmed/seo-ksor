@@ -4,25 +4,21 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *This whole document is from Class 09 — International Niche Research /
-Country code SEO — taught by Ammar Ashfaq.[^iskills-course-notes]*
+Country code SEO — taught by Ammar Ashfaq.*
 
 ## Country-specific niche research
 
 Country-targeted SEO matters because ranking in one specific region is
-usually far easier than ranking globally.[^iskills-course-notes]
+usually far easier than ranking globally.
 
 Steps:
 
@@ -41,7 +37,7 @@ Steps:
 A keyword's own search behaviour can make it low-competition without doing
 anything else — this is what "country code SEO" targets specifically. Two
 keywords can look equally generic and still behave completely
-differently:[^iskills-course-notes]
+differently:
 
 - **"Spotify Mod APK"** — searched by people all over the world. Global
   intent, global competition.
@@ -69,7 +65,7 @@ underlying idea as [Method 2, the Ahrefs/SEMrush filter
 method](finding-niches-ahrefs-filters.md)), or find a site and reverse
 engineer it (the same underlying idea as [Method 1, reverse-engineering
 marketplaces](finding-niches-marketplaces.md)). Country code SEO just adds
-one filter to each of those two approaches — a country.[^iskills-course-notes]
+one filter to each of those two approaches — a country.
 
 **Approach A — keyword-first, in Ahrefs Keyword Explorer:**
 
@@ -105,13 +101,13 @@ When you don't already have a macro site to reverse-engineer in a target
 country, ask ChatGPT or Claude to name one — an established, well-known site
 in that country's market. Then run it through Ahrefs Site Explorer the same
 way as any other macro site: check its top pages, pull their top keywords,
-and look for micro niches inside them.[^iskills-course-notes]
+and look for micro niches inside them.
 
 ## Researching for other languages
 
 Only about half of all Google searches happen in English — the other half
 split across every other language — so working English-only leaves half the
-demand untouched.[^iskills-course-notes] Expanding into non-English markets
+demand untouched. Expanding into non-English markets
 surfaces untapped opportunities. Priority languages for SEO expansion:
 Spanish (ES), German (DE), French (FR), Portuguese (PT), Italian (IT) — plus
 the language spoken in Saudi Arabia/UAE, and the languages preferred in
@@ -119,7 +115,7 @@ Egypt and Holland.
 
 Deliberately avoid Russian, Chinese, and Japanese — not because the demand
 isn't there, but because they weren't picked as target languages for this
-course's approach.[^iskills-course-notes]
+course's approach.
 
 > [!NOTE]
 > Tier 1 countries pay the most per visit (see the tier table below), but
@@ -157,12 +153,12 @@ repeated across several countries at once — e.g. building 10 versions of the
 same site for Germany, Italy, Vietnam, Thailand, and other target markets.
 Each copy still needs its own local keyword research and translation done
 properly (see above); it is the niche and the site structure that gets
-reused, not the content verbatim.[^iskills-course-notes]
+reused, not the content verbatim.
 
 ## Tier system: revenue potential by country and language
 
 Monetization depends on traffic source and user location — higher-tier
-countries generate more ad revenue:[^iskills-course-notes]
+countries generate more ad revenue:
 
 - **Tier 1 countries** (USA, UK, Canada, Australia):
   - English-speaking users: $15–20 per 1,000 visits
@@ -182,5 +178,3 @@ For 10 pages targeting AI-related keywords, each getting roughly 1,000
 visits/month: total traffic of about 88K visitors/month translates to
 revenue via `(traffic / 1,000) × RPM`. Higher traffic combined with
 low-competition keywords is what compounds into meaningfully more revenue.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

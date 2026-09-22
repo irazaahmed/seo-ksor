@@ -4,20 +4,16 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 9
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *This whole document is from Class 08 — Niche Research: APK Sites, Info and
-Tools — taught by Sir Aswad Baloch.[^iskills-course-notes]*
+Tools — taught by Sir Aswad Baloch.*
 
 ## APK, MOD APK, Pro APK, and Premium APK
 
@@ -34,7 +30,7 @@ only turn up in a Google search. Demand for them comes from two directions:
 users looking for a MOD/Pro/Premium version the Play Store will never carry,
 and users on an older phone whose Play Store often refuses to install the
 current version of an app at all, pushing them to search Google
-instead.[^iskills-course-notes]
+instead.
 
 This is a hosting niche, not a development one: the APK/MOD files themselves
 are not built from scratch. A MOD version is found already made and simply
@@ -43,12 +39,12 @@ guidance assumes (see [APK file hosting, download-site setup, and AdSense
 approval](../apk-websites/apk-file-hosting-and-adsense.md)).
 
 Its seed keyword is simply **"apk"** — one of the easier niches to start
-keyword research from for exactly that reason.[^iskills-course-notes]
+keyword research from for exactly that reason.
 
 ## Where APK demand is biggest
 
 The largest markets for APK search demand: India, Indonesia, the Gulf
-countries, and South American countries.[^iskills-course-notes]
+countries, and South American countries.
 
 ## Selection criteria
 
@@ -60,12 +56,12 @@ countries, and South American countries.[^iskills-course-notes]
 - Site age: target sites under 1 year old are easier to displace
 
 This framework favours niches with low competition and real ranking
-potential.[^iskills-course-notes]
+potential.
 
 A later pass on this same criteria tightened the numbers further — search
 volume 30,000+, DR under 20 — and added that even finding a single low-DR
 site (brand or dedicated) among the competitors is enough reason to pursue a
-given APK niche.[^iskills-course-notes]
+given APK niche.
 
 ### Reverse-engineering the best site you find
 
@@ -74,7 +70,7 @@ macro-site reverse-engineering (see [Finding niches, Method 1](finding-niches-ma
 top pages, then search those pages' keywords on Google. Ahrefs' **Organic
 Competitors** report (inside Site Explorer) speeds this up directly — point
 it at that site and it lists every other site competing for the same
-traffic, which is a ready-made competitor list for the niche.[^iskills-course-notes]
+traffic, which is a ready-made competitor list for the niche.
 
 ## Budget to set one up
 
@@ -122,5 +118,3 @@ America), Arabic (Saudi Arabia, Gulf countries), Turkish (Turkey), German
   shown on the site.
 - **Other ad networks** — local and international networks can supplement
   AdSense revenue.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

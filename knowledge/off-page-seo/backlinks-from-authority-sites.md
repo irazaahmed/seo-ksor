@@ -4,16 +4,12 @@ title: Building backlinks from top authority sites
 description: A strategy for earning backlinks from the internet's highest-authority platforms — YouTube, Instagram, Reddit, GitHub, and similar — by participating genuinely rather than spamming.
 status: stable
 order: 32
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## The idea
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 Backlinks are votes of trust — the more quality votes from strong websites, the
 more powerful your own site becomes. This strategy targets backlinks from the
 top 50,000 websites in the world: even 200 backlinks from sites at that level
-meaningfully changes a site's ranking trajectory.[^iskills-course-notes]
+meaningfully changes a site's ranking trajectory.
 
 ## Why target the biggest platforms
 
@@ -82,5 +78,3 @@ treated as a meaningful SEO milestone. Use the platforms above consistently,
 always participating naturally rather than spamming — even a single naked
 link from a top-tier site is a real achievement, because quality and source
 authority matter more than raw link count.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

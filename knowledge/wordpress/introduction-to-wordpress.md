@@ -4,23 +4,19 @@ title: Introduction to WordPress
 description: What WordPress is, its core components (domain, hosting, themes, plugins), the site types it supports, and setting up a practice site on Pantheon.io.
 status: stable
 order: 16
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## What is WordPress?
 
 WordPress is a **CMS (Content Management System)** — a tool for building
 websites and managing content (text, images, videos) without writing
-code.[^iskills-course-notes]
+code.
 
 ## Key components
 
@@ -94,5 +90,3 @@ plugin (e.g. a contact form), and create two pages: "Home" and "About Us".
 > [!TIP]
 > Every successful website needs good structure (theme), functional features
 > (plugins), fast speed (hosting), and clear branding (logo, content, menu).
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

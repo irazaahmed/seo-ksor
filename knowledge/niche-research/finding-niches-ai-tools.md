@@ -4,25 +4,21 @@ title: "Finding niches, Method 3: AI tools and NLP categories"
 description: Using ChatGPT prompts and Google's NLP content categories to brainstorm low-competition niche and sub-niche ideas.
 status: stable
 order: 6
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
-*Taught by Sir Tanveer Nandla.[^iskills-course-notes]*
+*Taught by Sir Tanveer Nandla.*
 
 This method skips tools entirely and uses reasoning instead — an AI model to
 brainstorm candidate niches, and Google's own content taxonomy to check where
 the gaps in those categories sit. Both are free, and both are best used to
 generate a shortlist to verify in Ahrefs or SEMrush afterward, not as a final
-answer on their own.[^iskills-course-notes]
+answer on their own.
 
 ## 1. Use ChatGPT / AI tools
 
@@ -52,7 +48,7 @@ Or, working from keywords you already have:
 Then keep asking follow-up questions — for low-competition niches, for a
 reference website, or anything else narrowing your criteria — and analyze
 whatever keywords or content the AI generates rather than using it
-directly.[^iskills-course-notes]
+directly.
 
 ### Other combinations to try
 
@@ -64,11 +60,11 @@ The aim is specific subtopics that big players have not heavily targeted.
 A separate, reliable category of tool niche: ask ChatGPT directly for
 **calculator**, **generator**, and **convertor** tool ideas — these three
 tool types are a dependable source of low-competition keyword niches on
-their own, independent of the AI-branded combinations above.[^iskills-course-notes]
+their own, independent of the AI-branded combinations above.
 For a tool niche specifically, Tier 1 countries only need 15,000+ monthly
 search volume to be worth pursuing — the same threshold as an
 informational/blog niche (see [Niche research — tools, metrics, and
-selection criteria](overview.md)).[^iskills-course-notes]
+selection criteria](overview.md)).
 
 ## 2. Use NLP categories
 
@@ -102,5 +98,3 @@ classified than content that reads as belonging to no clear topic at all.
 2. **Simulation games** — gaming overall is saturated, but sub-genres like
    farming sims or city-building sims surface low-competition keywords.
    Sub-topics: mobile simulation game reviews, PC simulation game tips.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

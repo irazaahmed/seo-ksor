@@ -4,28 +4,24 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except the "fuller version" paragraph below,
 from a niche-finding methods revision class taught by Sir Naveed
-Kalro.[^iskills-course-notes]*
+Kalro.*
 
 Marketplaces that sell whole websites are a shortcut most people overlook:
 every listing on one has already been validated by a buyer's own due
 diligence, its traffic and revenue are disclosed up front, and browsing one
 is effectively browsing a curated shortlist of niches that are already
 proven to make money — rather than guessing at a niche and hoping it turns
-out to be viable.[^iskills-course-notes]
+out to be viable.
 
 ## The goal
 
@@ -66,7 +62,7 @@ revision class taught by Sir Naveed Kalro), worth running on any established
 keywords from whichever pages look strongest, then search those keywords on
 Google's own SERP. This is the path from a macro site down to a nano
 niche — one page on a big site can point you straight at a small niche worth
-owning outright.[^iskills-course-notes]
+owning outright.
 
 > [!NOTE]
 > If reverse-engineering a tool like Ahrefs or SEMrush turns up no dedicated
@@ -80,7 +76,7 @@ owning outright.[^iskills-course-notes]
 Brand hijacking means targeting an established brand's name, keywords, or
 audience within a niche to capture its traffic and visibility. It can be
 intentional or unintentional, and shows up in SEO and affiliate marketing in
-several forms:[^iskills-course-notes]
+several forms:
 
 1. **Using brand keywords** — content built around a well-known brand's name
    (e.g. "Nike Shoes Review") to capture its search traffic.
@@ -90,5 +86,3 @@ several forms:[^iskills-course-notes]
    closely resemble a well-known brand, to borrow its credibility.
 4. **Paid ads on brand names** — running PPC ads on a competitor's brand name
    to intercept its clicks.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

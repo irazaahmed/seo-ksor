@@ -4,20 +4,16 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 These are the base terms the rest of this record assumes. Read this first if a
-later document uses a word without defining it.[^iskills-course-notes]
+later document uses a word without defining it.
 
 ## Niche and domain terms
 
@@ -86,14 +82,14 @@ among billions:
 ### When the intent isn't clear from the query alone
 
 *This subsection is from Class 10 — Niche Research with a New Angle —
-taught by Muhammad Ali.[^iskills-course-notes]*
+taught by Muhammad Ali.*
 
 A query like "Visa Application" doesn't say what the searcher actually wants —
 which country, which visa type, apply or check status. Google (and a chatbot
 answering the same query) still has to return something, so it infers the
 missing intent from how everyone ELSE who searched that same query behaved
 afterward — which results they clicked, which path they took next — rather
-than from the three words alone.[^iskills-course-notes]
+than from the three words alone.
 
 Google narrows this further per person, from your own history and location:
 
@@ -130,5 +126,3 @@ Google narrows this further per person, from your own history and location:
   iPhone/iOS.
 - **PDF** — a file format used to hold and distribute content (documents,
   guides, forms) independent of the software that created it.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

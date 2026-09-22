@@ -4,26 +4,22 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "Supply and demand, the plain
 version" and "Niche finalization for beginners" below (Class 10, Muhammad
-Ali — see that section).[^iskills-course-notes]*
+Ali — see that section).*
 
 Niche research exists to find a real market gap or demand — a low-competition,
 profitable opportunity. The end product does not have to be a content site:
 it can just as easily be an app, a browser extension, or a piece of software
-solving one specific problem.[^iskills-course-notes]
+solving one specific problem.
 
 Niche plays roughly a 70% role in whether a site succeeds or fails — get this
 step wrong and no amount of later SEO work fully compensates.
@@ -32,13 +28,13 @@ step wrong and no amount of later SEO work fully compensates.
 
 *This section, and "Niche finalization for beginners" below, are from
 Class 10 — Niche Research with a New Angle — taught by Muhammad
-Ali.[^iskills-course-notes]*
+Ali.*
 
 Every "low competition, high search volume" niche criterion in this record is
 one instance of a simpler business idea: **supply** is competition, **demand**
 is search volume, and the niche worth taking is the one where supply is low
 and demand is high — the same rule any business is evaluated on, not
-something specific to SEO.[^iskills-course-notes]
+something specific to SEO.
 
 ## The research workflow, in order
 
@@ -130,7 +126,7 @@ For a first niche specifically, pick something that already connects to your
 own life somewhere — a hobby, an interest, something you'd recognize good
 work in. A niche picked outside your own expertise risks not being able to
 tell whether the content on it is actually good, and working on something
-that bores you is harder to sustain.[^iskills-course-notes]
+that bores you is harder to sustain.
 
 Two places to source problem-solving niche ideas from directly:
 
@@ -193,7 +189,7 @@ place, by market and by site type:
 - **Affiliate niches**: as low as 500 can still work.
 - **Tool niches** (calculators, generators, convertors): 15,000+ in Tier 1
   countries is enough — the same threshold as an informational/blog
-  niche.[^iskills-course-notes]
+  niche.
 
 ## The two things this all reduces to
 
@@ -201,12 +197,10 @@ Every method in this section is really answering one of two questions about
 a candidate niche: its **difficulty** (DR, competitor age, page count — how
 hard is this to rank) and its **profitability** (country, language, monetization
 model — how much is ranking it actually worth). A niche worth pursuing scores
-well on both, not just one.[^iskills-course-notes]
+well on both, not just one.
 
 ## Where this sits in the course
 
 Niche research is Module 1, and it is deliberately the module the most time
 gets spent on — roughly 70% of the course so far. It is followed by a Content
-Coverage module, then Writing, then Website Design.[^iskills-course-notes]
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
+Coverage module, then Writing, then Website Design.

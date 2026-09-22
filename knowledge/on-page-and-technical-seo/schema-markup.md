@@ -4,16 +4,12 @@ title: Schema markup (structured data)
 description: What schema markup is, why it earns rich results, and how to add JSON-LD schema to WordPress with the ACF plugin.
 status: stable
 order: 22
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## What is schema markup?
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 Schema markup (structured data) is code added to a page that helps Google
 understand its content more precisely. When Google reads it, it can display
 rich results — star ratings, FAQs, event info — directly in search results,
-improving visibility and click-through rate (CTR).[^iskills-course-notes]
+improving visibility and click-through rate (CTR).
 
 ## Why add structured data
 
@@ -97,5 +93,3 @@ tags, and meta settings — follow that lecture for the plugin-specific setup.
 - Generate schema from trusted tools or AI, and always test before shipping.
 - Article, Video, Product, and FAQ schema can each boost ranking and
   visibility.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

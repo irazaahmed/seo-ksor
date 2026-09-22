@@ -4,16 +4,12 @@ title: Meta title CTR, table of contents, and internal/external linking
 description: Writing a click-worthy meta title, installing a table-of-contents plugin, and the rules for internal and external linking on a post.
 status: stable
 order: 20
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Meta title and description optimization
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 - **Slug/permalink** — short, keyword-rich, SEO-friendly (e.g.
   `/streamer-vs-inen-review`).
 - **Meta title length** — keep to 50–60 characters; avoid titles that are too
-  short or too long.[^iskills-course-notes]
+  short or too long.
 
 ### Writing a perfect meta title
 
@@ -87,5 +83,3 @@ menu, since it helps search engines understand the site's overall structure.
 - Install a TOC plugin for structure.
 - Follow the internal/external linking rules above.
 - Keep the navigation menu optimized around your most important content.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

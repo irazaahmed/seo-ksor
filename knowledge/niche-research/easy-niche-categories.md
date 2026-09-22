@@ -4,28 +4,24 @@ title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others — informational, downloadable, and government-related — plus finding them with Ahrefs Content Explorer.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "A revision pass on this same
 method" and "A currently hot goldmine" below — Method 3 (and the goldmine
 leads it turned up) from a niche-finding methods revision class taught by
-Sir Naveed Kalro.[^iskills-course-notes]*
+Sir Naveed Kalro.*
 
 Where the five methods above find a specific niche, this document names
 whole CATEGORIES worth defaulting to — types of niche that are consistently
 easier to rank than others, wherever in the world you're targeting, because
 the searcher's intent behind them is narrow and transactional rather than
-broad and informational:[^iskills-course-notes]
+broad and informational:
 
 - **Informational niches** — e.g. a restaurant menu.
 - **Downloadable niches** — e.g. an APK (see [APK niche research](apk-niche-research.md)).
@@ -66,7 +62,7 @@ Method 3 of a niche-finding methods revision class taught by Sir Naveed
 Kalro used a slightly different filter combo, also worth trying: published
 in the **last 90 days**, platform set to **blog**, language set to
 whichever you're targeting (e.g. Spanish), and DR **up to 20** — then look
-for the low-DR, good-traffic sites in the results.[^iskills-course-notes]
+for the low-DR, good-traffic sites in the results.
 
 ## A currently hot goldmine (worth revisiting, time-sensitive)
 
@@ -80,6 +76,4 @@ indefinitely:
   at that time, an especially good opportunity.
 
 Market conditions like this shift — treat both as a starting point to
-re-verify with fresh data, not a standing fact.[^iskills-course-notes]
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
+re-verify with fresh data, not a standing fact.

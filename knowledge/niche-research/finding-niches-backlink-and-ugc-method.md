@@ -4,20 +4,16 @@ title: "Finding niches, Method 4: backlink mining and UGC intent mismatches"
 description: Mining a giant authority site's newest backlinks to find fresh niche sites worth replicating, and using UGC sites like Reddit and Quora to spot intent mismatches worth building for.
 status: stable
 order: 7
-generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 *This whole document is from Class 10 — Niche Research with a New Angle —
-taught by Muhammad Ali.[^iskills-course-notes]*
+taught by Muhammad Ali.*
 
 ## Smart work, not hard work
 
@@ -26,7 +22,7 @@ build a Facebook page, a LinkedIn page, and brand it properly, the normal
 sequence any legitimate business follows. That ordinary behaviour is the
 shortcut technique A below turns into a discovery method — a brand-new site
 betrays its own age by how recently it linked to Facebook, long before
-anyone would otherwise notice it exists.[^iskills-course-notes]
+anyone would otherwise notice it exists.
 
 ## A. Mining a giant's newest backlinks
 
@@ -53,7 +49,7 @@ one of the first things a new site owner does.
 This is a chore method in the sense that it takes going through a real list
 rather than a single clever filter — but it's exactly the kind of list a
 goldmine niche turns up in, precisely because almost nobody else is patient
-enough to look through it.[^iskills-course-notes]
+enough to look through it.
 
 ## B. UGC sites as an intent-mismatch detector
 
@@ -65,7 +61,7 @@ opportunity, the same intent-mismatch principle covered in *Niche research —
 tools, metrics, and selection criteria*. The logic is simple: Google only
 ranks a forum thread for a query when nothing better already exists to
 answer it, so a forum thread ranking well is itself proof that the gap is
-still open.[^iskills-course-notes]
+still open.
 
 To find these systematically:
 
@@ -83,6 +79,4 @@ To find these systematically:
 page or a Reddit discussion thread ranking for it, instead of a direct
 download page, is an intent mismatch — a searcher who typed that query wanted
 a download, not a marketplace listing or a discussion about one, and the gap
-between what they wanted and what's ranking is the goldmine.[^iskills-course-notes]
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
+between what they wanted and what's ranking is the goldmine.

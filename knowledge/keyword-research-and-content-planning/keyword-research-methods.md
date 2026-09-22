@@ -4,16 +4,12 @@ title: Manual and tool-based keyword research methods
 description: Google Instant, manual keyword tools, and the Ahrefs/SEMrush competitor-export methods for building a keyword list, including topical authority and keyword cannibalization.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Two SEO terms to know first
@@ -24,7 +20,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 - **Keyword cannibalization** — when multiple pages on the same site target
   the same keyword, Google gets confused about which to rank, and both pages
   suffer. Always cluster keywords and write unique content per cluster to
-  avoid this.[^iskills-course-notes]
+  avoid this.
 
 ## Method 1: Google Instant (manual)
 
@@ -90,5 +86,3 @@ before moving to article-writing prep.
 | Ahrefs | Competitor analysis, keyword ideas |
 | SEMrush | Site scraping, keyword clusters |
 | Google Sheets | Organize and format the data |
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

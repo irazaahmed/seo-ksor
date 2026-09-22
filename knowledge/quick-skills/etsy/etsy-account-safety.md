@@ -4,23 +4,19 @@ title: Keeping a new Etsy account from getting suspended
 description: How to prepare an Etsy account before applying for a seller account — connection checks, a browsing-in period, and the "one person, one laptop, one ID" rule.
 status: stable
 order: 51
-generated: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T09:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T09:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
-*Taught by Sir Zafar Ali, like the rest of the Etsy chapter.[^iskills-course-notes]*
+*Taught by Sir Zafar Ali, like the rest of the Etsy chapter.*
 
 New Etsy accounts get suspended for signals that have nothing to do with the
 products being sold — mostly connection and behaviour signals Etsy checks
-before it trusts a new seller.[^iskills-course-notes]
+before it trusts a new seller.
 
 ## Check the connection first
 
@@ -35,7 +31,7 @@ Before creating the account, check it at **whoer.net**:
 
 Spend **3 to 5 days** just browsing Etsy normally before applying for a
 seller account — an account that goes straight from signup to a seller
-application reads as suspicious.[^iskills-course-notes]
+application reads as suspicious.
 
 ## Keep the account itself safe
 
@@ -49,6 +45,4 @@ application reads as suspicious.[^iskills-course-notes]
 
 Etsy expects a single identity behind an account: one person, one device,
 one ID card. Running multiple accounts from the same laptop or identity is
-what gets accounts linked and suspended together.[^iskills-course-notes]
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
+what gets accounts linked and suspended together.

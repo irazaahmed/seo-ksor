@@ -4,16 +4,12 @@ title: Local SEO fundamentals
 description: What Local SEO is, how it differs from traditional SEO, its business types and monetization models, common issues, and Google Business Profile basics.
 status: stable
 order: 36
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## What is Local SEO?
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 Local SEO optimizes a business to appear in local search results on Google
 and other engines — geo-targeted marketing aimed at customers in a specific
 location. Example: providing digital marketing for a dentist in Lahore, or a
-plumber in Multan, is Local SEO.[^iskills-course-notes]
+plumber in Multan, is Local SEO.
 
 **Formula:** Anchor Site + Keyword + Location = Local SEO. Example: "Plastic
 Surgeon in Multan" or "Car Rental in Karachi".
@@ -120,5 +116,3 @@ to learn, high-paying, and in demand globally. Success rests on accurate
 keyword targeting, strong GBP optimization, and genuinely local backlinks —
 and it suits freelancers who want steady clients in a low-competition,
 high-conversion niche.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

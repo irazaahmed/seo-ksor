@@ -4,16 +4,12 @@ title: "WordPress SEO basics: permalinks, categories, images, Rank Math"
 description: URL/permalink structure, category taxonomy, image SEO, and the Rank Math plugin as applied inside WordPress.
 status: stable
 order: 19
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## URL / permalink structure (slug)
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 The permalink is the article's link, e.g.
 `https://yoursite.com/cinema-apk-vs-stremio`. Google reads the URL to
 understand the page — a messy, overlong URL without the main keyword hurts
-SEO.[^iskills-course-notes]
+SEO.
 
 **Best practices:**
 
@@ -81,5 +77,3 @@ sitemap, and schema markup (e.g. FAQ rich results).
 | Category | Helps Google understand structure | One clear category per post |
 | Images | Speed + image SEO | Compress, rename, add alt text |
 | Rank Math plugin | All-in-one SEO tool | Configure it from the dashboard |
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.

@@ -4,16 +4,12 @@ title: Anchor text types and backlink URL distribution
 description: The five anchor-text types, the ratio to use across a backlink campaign, and how to split backlinks between a homepage and inner pages by site type.
 status: stable
 order: 31
-generated: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T12:00:00Z }
-sources:
-  - id: iskills-course-notes
-    title: iSkills — course notes
-    resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ---
 
 ## Anchor text and target URL, restated
@@ -21,7 +17,7 @@ verified: [{ by: human:ahmedraza, at: 2026-09-20T12:00:00Z }]
 **Anchor text** is the clickable text in a hyperlink; the **target URL** is
 the address it points to. Anchor text tells Google what the linked page is
 about. Example: anchor text "ABC Menu" → target URL
-`https://abcmenu.com/`.[^iskills-course-notes]
+`https://abcmenu.com/`.
 
 ## On-page vs off-page, in one line
 
@@ -121,5 +117,3 @@ Source — this both verifies the work and tracks anchor balance over time.
 - Mix branding anchors, generic anchors, related keywords, and naked URLs in
   every campaign.
 - Check a competitor's anchor profile for inspiration before starting yours.
-
-[^iskills-course-notes]: iSkills SEO course notes, compiled 2026.
