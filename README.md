@@ -14,11 +14,11 @@ plainly rather than guessing.
 
 ## What's inside `knowledge/`
 
-36 governed documents, organized by topic:
+46 governed documents, organized by topic:
 
 | Folder | Covers |
 | --- | --- |
-| `niche-research/` | Selection criteria, marketplace/Ahrefs/AI-tool methods, APK niches, country & language targeting |
+| `niche-research/` | Selection criteria, marketplace/Ahrefs/AI-tool/backlink-UGC methods, APK niches, country & language targeting, timing & first-mover niches |
 | `keyword-research-and-content-planning/` | Keyword grouping, research methods, content coverage |
 | `content-writing/` | Article structure, SEO copywriting, NLP entity extraction, multilingual content |
 | `wordpress/` | Setup, theme, and page design |
@@ -26,8 +26,10 @@ plainly rather than guessing.
 | `apk-websites/` | APK hosting and AdSense approval |
 | `off-page-seo/` | Backlinks, anchor text, outreach, guest posting |
 | `local-seo/` | Google Business Profile, local ranking factors |
+| `quick-skills/etsy/` | Etsy account creation and safety, listing/competitor research, keyword research, ranking |
 
-Plus `glossary.md` and `why-seo-matters.md` at the root.
+Plus `glossary.md`, `why-seo-matters.md`, and
+`connect-claude-and-chatgpt.md` at the root.
 
 Every document is `status: stable`, approved by the record's owner, and
 cites its source via a footnote — see `AGENTS.md` for the full governance
@@ -40,12 +42,37 @@ npm install
 npm run dev   # browse the record at http://localhost:3000
 ```
 
-## Connecting an AI agent (Claude, ChatGPT) via MCP
+## Use AskSEO in Claude or ChatGPT — no setup needed
 
-This record can be served as an MCP tool so an agent answers only from what's
-here, declining anything out of scope. Setup needs a Postgres database (free
-tier works) and a Gemini API key (also free for embeddings) — the full,
-step-by-step walkthrough is in `AGENTS.md` under **"Serving to agents"**.
+AskSEO is already live, served over MCP at
+**`https://askseo.cybrumsolutions.dev/mcp`** — public, read-only, no login
+and no API key required. Connecting Claude or ChatGPT to this URL makes it
+answer SEO questions strictly from what this record actually covers, citing
+the source document, and saying plainly when something isn't in here instead
+of guessing.
+
+**Claude** — Settings → Connectors → Add custom connector → paste
+Name `AskSEO` and the MCP Server URL above → Continue → leave authentication
+on **No sign-in** → Add.
+
+**ChatGPT** — Settings → Developer mode (turn it on) → Plugins → **+** → New
+Plugin → Name `AskSEO`, Connection **Server URL**, paste the URL, set
+Authentication to **No Auth** → Create.
+
+Then just ask it something: *"Use AskSEO and explain what a nano niche is."*
+
+Full step-by-step with screenshots for both:
+[`knowledge/connect-claude-and-chatgpt.md`](knowledge/connect-claude-and-chatgpt.md)
+(also readable on the live site at
+`askseo.cybrumsolutions.dev/docs/connect-claude-and-chatgpt`).
+
+## Self-hosting your own instance
+
+Cloning this repo and standing up your own MCP door (your own Postgres, your
+own Gemini API key, your own domain) is a separate thing from using the
+already-deployed one above — do this only if you want to run your own copy.
+The full, step-by-step walkthrough is in `AGENTS.md` under
+**"Serving to agents"**.
 
 ```sh
 npm run provision   # once: apply schema + grant ingest
