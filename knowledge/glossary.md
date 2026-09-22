@@ -4,16 +4,16 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record — niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
-generated: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T14:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
 ---
 
 These are the base terms the rest of this record assumes. Read this first if a
@@ -84,6 +84,9 @@ among billions:
    relevance and quality.
 
 ### When the intent isn't clear from the query alone
+
+*This subsection is from Class 10 — Niche Research with a New Angle —
+taught by Muhammad Ali.[^iskills-course-notes]*
 
 A query like "Visa Application" doesn't say what the searcher actually wants —
 which country, which visa type, apply or check status. Google (and a chatbot

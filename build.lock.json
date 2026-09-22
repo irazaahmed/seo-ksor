@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:f5dc17d693032513a09e0305c9e0b03df4a74c5b03eb7df031dce82944d4fa90",
+  "build_id": "sha256:e0aff41cdcd45fbe80cc2ec2da01d160d86a337ec7ef7f26d4a87c7a8201c88f",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "e47692a75b8fae0d517d793a5728d432ffd955bb",
+  "source_commit": "e6e2cd09d5413b6d565ec2c8fb7cf0d961113451",
   "dirty": true,
-  "as_of": "2026-09-20T19:03:39.850Z",
+  "as_of": "2026-09-22T07:10:09.979Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -93,7 +93,7 @@
     },
     {
       "path": "glossary.md",
-      "sha256": "a885b8371e78c26d59752185f5e9f396b499a2224f98e7bada2541f2fe0b0ee1",
+      "sha256": "1ce40c811d171690c8457b5f40a6df17ea5c08d2284542c78c4bac5332c86fcc",
       "status": "stable",
       "audience": [
         "public"
@@ -148,7 +148,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "ac3e6dd20d61325f0f21bd1253050e01b86a365fd553c2a9ffcd4ceac528c06b",
+      "sha256": "4ea0c24ebc88e51948d6d1bc050618245ec6e2fdde324af4c68d8feeb4e3ac89",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "5fe78ae9b291c46ed4ec3a1bf7c70166fbcf45e7095e1f800ad1afe482b5d480",
+      "sha256": "ed57f5206b5923b53f2e84d21fa194affd0487c2e9ba10f0db6e4cda6b04fe0f",
       "status": "stable",
       "audience": [
         "public"
@@ -203,7 +203,7 @@
     },
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method.md",
-      "sha256": "b7d2a937a17ccce63ccf1815c134c7e50a96a369da8019781270cc95fea878f0",
+      "sha256": "da577c54d37ec900c2d89195a9f2ef812b39dc4ea52004ec591619b4597f34fb",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "38e70f1e894ad98ef23b880549892e36d61bff4f70dd41334c16694e5166c10d",
+      "sha256": "f44c67ddfac5bea3abc9fa86b9527473bdd670bc26f2ea84a8f023d1b5a835f2",
       "status": "stable",
       "audience": [
         "public"
@@ -247,7 +247,7 @@
     },
     {
       "path": "niche-research/timing-and-first-mover-niches.md",
-      "sha256": "a16957db3794a4e0aeb19aee7b71d76f78ab4df351670bccb3715d88b6eacdc9",
+      "sha256": "6dc9dba529fa809458069d825171bfcd2227adf7352ed20b2d89af982a1b68b8",
       "status": "stable",
       "audience": [
         "public"
@@ -620,7 +620,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "dca530d4c024ecddf2648fb3421b244fc87691e1a6881946b1510f6953885ae1",
+      "sha256": "31627d2d0d83224648abe00b3550687b924e6e8729e810611ffd5b61458f7895",
       "files": 66
     }
   ]

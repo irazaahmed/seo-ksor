@@ -4,17 +4,20 @@ title: Seasonality, timing, and first-mover niches
 description: Why a stable niche beats a spiking one, how to use Google Trends to find and validate first-mover opportunities, and a tool for fine-tuning a niche by location once it's chosen.
 status: stable
 order: 3.5
-generated: { by: human:ahmedraza, at: 2026-09-20T15:30:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T15:30:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T15:30:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
 ---
+
+*This whole document is from Class 10 — Niche Research with a New Angle —
+taught by Muhammad Ali.[^iskills-course-notes]*
 
 ## Seasonality: why a spike is a trap, not an opportunity
 

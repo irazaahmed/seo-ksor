@@ -4,16 +4,16 @@ title: Niche research — tools, metrics, and selection criteria
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-20T14:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-20T14:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
 ---
 
 Niche research exists to find a real market gap or demand — a low-competition,
@@ -25,6 +25,10 @@ Niche plays roughly a 70% role in whether a site succeeds or fails — get this
 step wrong and no amount of later SEO work fully compensates.
 
 ## Supply and demand, the plain version
+
+*This section, and "Niche finalization for beginners" below, are from
+Class 10 — Niche Research with a New Angle — taught by Muhammad
+Ali.[^iskills-course-notes]*
 
 Every "low competition, high search volume" niche criterion in this record is
 one instance of a simpler business idea: **supply** is competition, **demand**

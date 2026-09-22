@@ -4,16 +4,16 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-21T10:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-21T11:00:00Z }
 sources:
   - id: iskills-course-notes
     title: iSkills — course notes
     resource: "iSkills SEO course notes, compiled 2026"
-verified: [{ by: human:ahmedraza, at: 2026-09-21T10:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-21T11:00:00Z }]
 ---
 
 ## Country-specific niche research
@@ -34,6 +34,10 @@ Steps:
    high-authority competitors in that country.
 
 ## Country code SEO
+
+*This section through "TLD vs ccTLD" below, plus the expanded language list
+under "Researching for other languages," are from Class 09 — International
+Niche Research / Country code SEO — taught by Ammar Ashfaq.[^iskills-course-notes]*
 
 A keyword's own search behaviour can make it low-competition without doing
 anything else — this is what "country code SEO" targets specifically. Two
