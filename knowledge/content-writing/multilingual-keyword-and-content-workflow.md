@@ -4,13 +4,16 @@ title: Multilingual keyword and content workflow
 description: Handling non-English keywords accurately, grouping them by intent, checking for plagiarism, and linking content correctly.
 status: stable
 order: 15
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from Lecture 25 — Other Language Keyword Grouping —
+taught by Ammar Ashfaq.*
 
 ## The multilingual keyword problem
 

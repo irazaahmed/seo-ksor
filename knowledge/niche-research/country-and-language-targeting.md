@@ -4,12 +4,16 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+sources:
+  - id: tiers-countries-sheet
+    title: Tiers Countries
+    resource: "Tiers Countries.xlsx, iSkills course material"
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
 
 *This whole document is from Class 09 — International Niche Research /
@@ -160,7 +164,7 @@ reused, not the content verbatim.
 Monetization depends on traffic source and user location — higher-tier
 countries generate more ad revenue:
 
-- **Tier 1 countries** (USA, UK, Canada, Australia):
+- **Tier 1 countries**:
   - English-speaking users: $15–20 per 1,000 visits
   - Other-language users: $7–10 per 1,000 visits
 - **Tier 2 countries**:
@@ -171,6 +175,40 @@ countries generate more ad revenue:
   - Other-language users: $1 per 1,000 visits
 
 Focus on Tier 1 countries for maximum ad earnings.
+
+### The full tier list, by country[^tiers-countries-sheet]
+
+| Tier 1 | Tier 2 | Tier 3 |
+| --- | --- | --- |
+| United States | Italy | India |
+| Canada | Spain | Pakistan |
+| United Kingdom | Portugal | Bangladesh |
+| Australia | Greece | Nepal |
+| New Zealand | Poland | Sri Lanka |
+| Ireland | Czech Republic | Indonesia |
+| Germany | Hungary | Philippines |
+| France | Slovakia | Vietnam |
+| Switzerland | Slovenia | Thailand |
+| Sweden | Croatia | Malaysia |
+| Norway | Estonia | Egypt |
+| Denmark | Lithuania | Nigeria |
+| Netherlands | Latvia | Kenya |
+| Austria | South Korea | South Africa |
+| Belgium | Japan | Brazil |
+| Finland | Singapore | Argentina |
+|  | Hong Kong | Chile |
+|  | Israel | Mexico |
+|  | United Arab Emirates (UAE) | Turkey |
+|  | Saudi Arabia | Morocco |
+|  | Qatar |  |
+
+A country not on this list at all — most of Central Asia, most of
+Sub-Saharan Africa outside the ones named above, and several others — is
+simply not tiered by this course's own material; treat it as Tier 3 by
+default (the lowest per-visit rate, not a claim about search volume) until a
+better source says otherwise.
+
+[^tiers-countries-sheet]: Tiers Countries.xlsx, iSkills course material.
 
 ### Practical example
 

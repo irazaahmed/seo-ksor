@@ -4,13 +4,16 @@ title: Article structure — headings, competitor analysis, and keyword prominen
 description: How to structure an SEO article with HTML headings, build it from competitor heading analysis, and place the main keyword for maximum prominence.
 status: stable
 order: 12
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from Lecture 18 — Article Writing & SEO Structure —
+taught by Ammar Ashfaq.*
 
 ## Heading structure
 

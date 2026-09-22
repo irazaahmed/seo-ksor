@@ -4,13 +4,16 @@ title: Content coverage — the 200-volume benchmark method
 description: How to fully cover a topic's sub-questions, group keywords without stuffing, and decide which of them earn a dedicated article.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from the Content Coverage lecture — taught by
+Ammar Ashfaq.*
 
 ## What content coverage means
 

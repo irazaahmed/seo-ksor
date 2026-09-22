@@ -4,13 +4,16 @@ title: Local SEO fundamentals
 description: What Local SEO is, how it differs from traditional SEO, its business types and monetization models, common issues, and Google Business Profile basics.
 status: stable
 order: 36
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from the Local SEO module — taught by Sir Khurram
+Ali.*
 
 ## What is Local SEO?
 

@@ -4,13 +4,16 @@ title: NLP entity extraction for content strategy
 description: Using an AI prompt to extract NLP entities from competitor articles, weave them naturally into your own writing, and match or improve on their tone.
 status: stable
 order: 14
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from the Article Writing — NLP Analysis, Entities
+lecture — taught by Sir Tanveer Nandla.*
 
 ## Objective
 

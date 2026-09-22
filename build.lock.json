@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:f0e01bb46fa5980113d79f04669042978b36db2c0993e8c633f0cde81176f56a",
+  "build_id": "sha256:234ab479bd7a39e8c897e74954e6e79d91c8b15d2a8c8c2795fb4e17d94c5917",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "954b3bdf3a211741dbce82c407a9a533508e4f4a",
+  "source_commit": "68eb7cb56b00389357d965ddd7fb45d164022c00",
   "dirty": true,
-  "as_of": "2026-09-22T07:41:06.712Z",
+  "as_of": "2026-09-22T10:27:50.938Z",
   "drafts": "hidden",
   "instance_sha256": "40d89c1a45093a211d84d586b5ea45fdcbb06d5df793e9b84477b3a28368e15b",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -27,7 +27,7 @@
   "documents": [
     {
       "path": "apk-websites/apk-file-hosting-and-adsense.md",
-      "sha256": "e13d53ff62cdbafb515368ec4f10f6730b0a23e551c2424f82a6eda724b069f2",
+      "sha256": "15385acb10a0520ee7ef6386311501e119798e9ef57b0b85f7ce01180994d23a",
       "status": "stable",
       "audience": [
         "public"
@@ -49,7 +49,7 @@
     },
     {
       "path": "content-writing/article-writing-and-seo-structure.md",
-      "sha256": "a1696679dc4b941321bfbacb64ddf3f7737a65da5d03b041c7d4d4873dc84361",
+      "sha256": "1476af1368cbc01fd16ce57473edd62e0fe96d142c3de08d3e867a060cbb29de",
       "status": "stable",
       "audience": [
         "public"
@@ -60,7 +60,7 @@
     },
     {
       "path": "content-writing/multilingual-keyword-and-content-workflow.md",
-      "sha256": "a1d99724898d692abc1e25d08b0c556b20692dbdb9f0e4a637c65126eb6c6ecd",
+      "sha256": "a06543d596716c5ada6bb865f58515e468a14b100d774010e11143041e498b92",
       "status": "stable",
       "audience": [
         "public"
@@ -71,7 +71,7 @@
     },
     {
       "path": "content-writing/nlp-entity-extraction-for-content.md",
-      "sha256": "1b159dd61f9f64ab3a60e824f409fbb19ff6d35d5923647bacaaab0016a7fa3e",
+      "sha256": "b56bbe3137451b1ca668a51ce7fd611aa08e2d920c378d62a3b7810211f3d3bb",
       "status": "stable",
       "audience": [
         "public"
@@ -82,7 +82,7 @@
     },
     {
       "path": "content-writing/seo-content-writing-guide.md",
-      "sha256": "63dc7cd9635bf6af0cfeb1dc0d5e0dfb693520abc7b6696cab00b49bc92929c2",
+      "sha256": "84bfe6ad566641d83a02ba1f93e4a5dd096d07d2d63b2ab304b282b14c2c03e5",
       "status": "stable",
       "audience": [
         "public"
@@ -104,7 +104,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-planning.md",
-      "sha256": "c5827e076d169837197b2f69fed88805db73f292d20e37c847c6e5c80682154a",
+      "sha256": "234201c84e1402cc80ec1ffac4c7f368b3e3f05d76dede0afd4b5c24f8271d43",
       "status": "stable",
       "audience": [
         "public"
@@ -137,7 +137,7 @@
     },
     {
       "path": "local-seo/local-seo-fundamentals.md",
-      "sha256": "b3ba09cd64643e14be336c8cc73e4bb8360d5dae9edcb26629abdbd60b086128",
+      "sha256": "031b6c56aad94cfa10f5e78fcfe4b55865b8fc57c32d8325562ca2e60592ccd7",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "e0dc809af8e2b1257c6b1604a0361194e14fb67abd1ebce9090d52323c4d8228",
+      "sha256": "ebe41bb30a829cf6a129732c8857c1b6d7b1ee1a0d620be36abaf14aa1b0108a",
       "status": "stable",
       "audience": [
         "public"
@@ -235,6 +235,28 @@
       ]
     },
     {
+      "path": "niche-research/goldmine-niches-reference-list.md",
+      "sha256": "f9d961d50d02422950a7336b03ba85a2d4ebc49411ed42bacc86deec4d83ee2c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/niche-keyword-combination-matrix.md",
+      "sha256": "5bd83d15518b957f6a553dc28a7d4912c604331e6b9579b624b94ce030421433",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "niche-research/overview.md",
       "sha256": "b660ce44895b1d729117da72c388e631e605afe5a7f9f894ce3944475289decb",
       "status": "stable",
@@ -268,8 +290,19 @@
       ]
     },
     {
+      "path": "off-page-seo/backlink-profile-worked-example.md",
+      "sha256": "dfefc381a072285346647c3ab55a932f56cea7e9fa2976665f58435b972542cb",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "off-page-seo/backlinks-from-authority-sites.md",
-      "sha256": "63e2af13bfb92092aa1d20d6240c8068200b464109905756e73835634cb0310f",
+      "sha256": "54370c042b3fc0cf53642c409d8c35febc65018943dd334770ee34e360f48045",
       "status": "stable",
       "audience": [
         "public"
@@ -314,6 +347,17 @@
     {
       "path": "off-page-seo/off-page-seo-fundamentals.md",
       "sha256": "22611f8962c2ac81d466ac36b1bbe5637f4a5399193fa9854f0212f7d349c110",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "off-page-seo/top-authority-sites-by-ahrefs-rank.md",
+      "sha256": "6c4ec629899df9a994f9b1f3d9cf34f43f79f5fe153b0799d3f47c4ec6acd429",
       "status": "stable",
       "audience": [
         "public"
@@ -423,7 +467,7 @@
     },
     {
       "path": "on-page-and-technical-seo/website-audit-process.md",
-      "sha256": "e978b456d9599ecd0c3e6951297c643f76205b326dee2454074a3705f4aee2ea",
+      "sha256": "15ece8510b95f10ca433edb230d13ca495c724115892db33756aabd7477b9745",
       "status": "stable",
       "audience": [
         "public"
@@ -594,11 +638,11 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "f1add00bb333535be5cba322801d8a527296e249269cc90f03387972f3649102"
+      "sha256": "3b05dd762db207747bcb91c0ce7e345c7c3ba8e385280f3e0a9489706f969d9e"
     },
     {
       "path": "off-page-seo/index.md",
-      "sha256": "608d88860f0217cac1259639f27a3bb72df2cafa2b037bc1a0dc1bd8fd45da94"
+      "sha256": "6c116f02ecf0f65d5223a95c77f034ca4c4f1bc7deb215b5b5bb5c93711427ef"
     },
     {
       "path": "on-page-and-technical-seo/index.md",
@@ -620,8 +664,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "b0edf5070e78e00da576b411ac736a837d42178b9fc2ce1e0d91413d6767c2b4",
-      "files": 66
+      "sha256": "f4d71769b2806c6fd359235eeaa6348128e9f58648605d1f2e82bc597292a136",
+      "files": 70
     }
   ]
 }

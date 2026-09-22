@@ -4,13 +4,17 @@ title: APK file hosting, download-site setup, and AdSense approval
 description: How to host APK files, structure a download site users trust, and get it approved for Google AdSense monetization.
 status: stable
 order: 29
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
+
+*This whole document is from Lecture 50 — Complete Guide to APK File
+Hosting, Download Site Setup & Google AdSense Approval — taught by Sir
+Aswad Baloch.*
 
 ## What an APK download site needs
 

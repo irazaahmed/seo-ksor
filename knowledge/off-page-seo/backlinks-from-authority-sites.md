@@ -4,12 +4,12 @@ title: Building backlinks from top authority sites
 description: A strategy for earning backlinks from the internet's highest-authority platforms — YouTube, Instagram, Reddit, GitHub, and similar — by participating genuinely rather than spamming.
 status: stable
 order: 32
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
 ---
 
 ## The idea
@@ -29,7 +29,9 @@ GitHub.
 ## Step 1: identify the target sites
 
 Use SimilarWeb, Ahrefs, SEMrush, or free published lists to find the top
-50,000, favouring sites trending upward with real organic traffic.
+50,000, favouring sites trending upward with real organic traffic. See
+[Top authority sites by Ahrefs rank](top-authority-sites-by-ahrefs-rank.md)
+for the actual top of that ranking.
 
 ## Step 2: build backlinks per platform
 
