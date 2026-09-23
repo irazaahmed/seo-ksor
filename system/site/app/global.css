@@ -1148,10 +1148,44 @@ a[data-footnote-backref]:focus-visible {
    lever as everything else above). Its default is a flat list of identical
    rows: a folder toggle and a leaf document share one style, so a whole
    chapter reads as no more structured than the pages inside it (found live,
-   2026-09-20: "bohot simple"). A folder toggle is the one row that sits
-   inside a `div[data-state]` wrapper — fumadocs' own open/closed state for
-   that branch — so that alone tells a folder apart from a leaf, at any
-   depth, without guessing from indentation. */
+   2026-09-20: "bohot simple"; asked for more polish again 2026-09-23: "or
+   attractive karo"). A folder toggle is the one row that sits inside a
+   `div[data-state]` wrapper — fumadocs' own open/closed state for that
+   branch — so that alone tells a folder apart from a leaf, at any depth,
+   without guessing from indentation. */
+
+/* The sidebar's own HEADER: the record's mark and title, then the search
+   trigger, both rendered into `#nd-sidebar`'s first child before the
+   scrollable tree. Left with no bottom edge, the two read as loose rows
+   sitting on top of the chapter list rather than as the rail's own masthead
+   sitting above it. One rule gives the header a floor and a hair more air,
+   so the tree visibly starts as its own region beneath it. */
+#nd-sidebar > div:first-child {
+  padding-bottom: 1rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-fd-border);
+}
+
+/* The search trigger: fumadocs' own flat bar (`data-search-full`), promoted
+   to a pill with a visible edge and a lift on hover — the one control every
+   reader uses on every page, so it earns more presence than a chapter link. */
+[data-search-full] {
+  border-radius: 9999px;
+  border-color: var(--color-fd-border);
+  box-shadow: 0 1px 2px color-mix(in oklab, var(--color-fd-foreground) 4%, transparent);
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s,
+    background-color 0.15s;
+}
+[data-search-full]:hover {
+  border-color: color-mix(in oklab, var(--color-fd-primary) 35%, var(--color-fd-border));
+  box-shadow: 0 2px 6px color-mix(in oklab, var(--color-fd-foreground) 8%, transparent);
+}
+[data-search-full] kbd {
+  font-family: var(--font-mono, ui-monospace, monospace);
+}
+
 /* Baseline: every sidebar link, folder toggle and leaf document alike. The
    folder-specific block below wins on the rows it touches, since
    `div[data-state] > a[data-active]` outranks `a[data-active]` alone — plain
@@ -1161,6 +1195,7 @@ aside a[data-active] {
   transition:
     background-color 0.15s,
     color 0.15s,
+    border-color 0.15s,
     translate 0.15s;
 }
 aside a[data-active]:hover {
@@ -1168,24 +1203,31 @@ aside a[data-active]:hover {
 }
 aside a[data-active="true"] {
   font-weight: 600;
-  background: color-mix(in oklch, var(--color-fd-primary) 10%, transparent) !important;
+  background: color-mix(in oklch, var(--color-fd-primary) 12%, transparent) !important;
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-fd-primary) 18%, transparent);
 }
 aside a[data-active="true"]::before {
   width: 3px !important;
   border-radius: 9999px;
 }
 
-/* A folder toggle: bumped weight and a small-caps mono treatment so a
-   chapter reads as a section header rather than another link in the list,
-   with breathing room above each one except the very first. */
+/* A folder toggle: a banded chip rather than plain text, so a chapter reads
+   as its own section header at a glance — the same left-edge-accent device
+   this record already uses for a callout and a verbatim block, here spent on
+   "this row groups what follows it" instead of "read this passage exactly".
+   Breathing room above each one but the first keeps chapters visually
+   separate from each other, not just from the pages inside them. */
 aside div[data-state] > a[data-active] {
-  margin-top: 0.75rem;
+  margin-top: 1rem;
+  padding-block: 0.55rem;
   translate: none;
-  border-radius: 0.375rem;
+  border-radius: 0.5rem;
+  border-left: 2.5px solid color-mix(in oklab, var(--color-fd-primary) 32%, transparent);
+  background: color-mix(in oklab, var(--color-fd-primary) 5%, transparent);
   font-family: var(--font-mono, ui-monospace, monospace);
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-fd-foreground);
 }
@@ -1193,15 +1235,40 @@ aside div[data-state]:first-child > a[data-active] {
   margin-top: 0;
 }
 aside div[data-state] > a[data-active]:hover {
-  background: var(--color-fd-accent);
+  border-left-color: color-mix(in oklab, var(--color-fd-primary) 55%, transparent);
+  background: color-mix(in oklab, var(--color-fd-primary) 9%, transparent);
   translate: none;
 }
 aside div[data-state] > a[data-active="true"] {
   color: var(--color-fd-primary);
-  background: transparent !important;
+  border-left-color: var(--color-fd-primary);
+  background: color-mix(in oklab, var(--color-fd-primary) 12%, transparent) !important;
+  box-shadow: none;
 }
 aside div[data-state] > a[data-active]::before {
   display: none;
+}
+
+/* The chevron fumadocs draws on a collapsible chapter (`[data-icon]`, set
+   directly on the svg by `SidebarFolderTrigger`/`SidebarFolderLink`) — its
+   own open/closed rotation is already handled by fumadocs' Tailwind classes,
+   so this only dims it to match the chip's own quiet ink rather than the
+   full-strength colour every other row's icon uses. */
+aside div[data-state] > a[data-active] [data-icon] {
+  color: var(--color-fd-muted-foreground);
+}
+
+/* The vertical guide line fumadocs draws down a nested branch
+   (`layouts/docs/slots/sidebar.js`'s own `SidebarFolderContent`, styled with
+   the literal Tailwind utility class `before:bg-fd-border`) recoloured
+   toward the accent at low strength, so the line that says "these pages
+   belong to that chapter" reads as part of this record's own accent system
+   instead of a plain layout hairline. Matched on the utility class itself
+   via an attribute selector rather than a guessed nesting depth, since
+   Tailwind emits that class verbatim into the `class` attribute regardless
+   of how deep the element sits. */
+aside [class*="before:bg-fd-border"]::before {
+  background: color-mix(in oklab, var(--color-fd-primary) 22%, var(--color-fd-border)) !important;
 }
 
 /* The right-hand table-of-contents rail (#nd-toc) is fumadocs' own —
