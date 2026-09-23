@@ -1,24 +1,24 @@
 ---
 type: Document
 title: Niche keyword-combination matrix
-description: Word banks for a chosen niche — tool/app-type words, content-angle modifiers, and APK suffixes — that combine into a large set of content titles, blog topics, or app-store metadata.
+description: "Word banks for a chosen niche (tool/app-type words, content-angle modifiers, and APK suffixes) that combine into a large set of content titles, blog topics, or app-store metadata."
 status: stable
 order: 10.5
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 sources:
   - id: niche-combination-matrix
     title: Niche Combination Matrix
     resource: "Niche Combination Matrix (SEBTIAN).pdf, a reformatted rebuild of Niche Ideas by iskills.pdf, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 Once a base niche is picked, this matrix is a stock set of building blocks
 for mass-producing content titles, blog topics, or app-store metadata around
-it — mix and match a niche with a word from each bank below.[^niche-combination-matrix]
+it: mix and match a niche with a word from each bank below.[^niche-combination-matrix]
 
 ## The pieces
 
@@ -44,7 +44,7 @@ Notepad, Journal, Diary, Memo, Note Tool.[^niche-combination-matrix]
 
 ### 2. Content-angle modifiers
 
-These decide the framing — a guide vs. a checklist vs. a "what is" explainer
+These decide the framing: a guide vs. a checklist vs. a "what is" explainer
 for the same niche:
 
 Guide, Guides, Checklist, List, Walkthrough, Menu, Result, Admission,
@@ -68,7 +68,7 @@ download, no ads apk, no root apk, rooted apk, cracked, cracked apk, apk
 cracked.[^niche-combination-matrix]
 
 > [!WARNING]
-> This vocabulary targets modded/cracked-app content — a niche that runs
+> This vocabulary targets modded/cracked-app content: a niche that runs
 > into Play Store, AdSense, and copyright policy problems more than most
 > (see [APK niche research](apk-niche-research.md) → DMCA and copyright).
 > Swap for legitimate framing ("official", "free trial", "alternatives to")
@@ -80,7 +80,7 @@ in, into, for, of, the, to, vs.[^niche-combination-matrix]
 
 ### 5. Niche / lifestyle seed words
 
-A starter list of broad topics this matrix was built against — swap in
+A starter list of broad topics this matrix was built against: swap in
 whatever base niche is actually being researched:
 
 Lifestyle, Biography, Net worth, Hobbies, Travel, Adventure, Gardening,
@@ -107,7 +107,7 @@ niches](country-and-language-targeting.md)).
 > Open question: the translated word lists exist in the source spreadsheet,
 > but the PDF extraction available for this record could not reliably
 > recover their accented characters (é, ü, ã, and similar came through as
-> replacement characters) — reproducing them here risked publishing a wrong
+> replacement characters), and reproducing them here risked publishing a wrong
 > translation, which is worse than not publishing one. Pull the translation
 > tables directly from the original spreadsheet when a non-English
 > combination list is actually needed.

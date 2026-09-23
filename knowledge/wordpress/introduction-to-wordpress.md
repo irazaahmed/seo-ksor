@@ -4,34 +4,34 @@ title: Introduction to WordPress
 description: What WordPress is, its core components (domain, hosting, themes, plugins), the site types it supports, and setting up a practice site on Pantheon.io.
 status: stable
 order: 16
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## What is WordPress?
 
-WordPress is a **CMS (Content Management System)** — a tool for building
+WordPress is a **CMS (Content Management System)**: a tool for building
 websites and managing content (text, images, videos) without writing
 code.
 
 ## Key components
 
-- **Domain** — the web address of the site (e.g. `google.com`); like a home
+- **Domain**: the web address of the site (e.g. `google.com`); like a home
   address, but for a website.
-- **Hosting** — the storage space on the internet holding the site's files,
+- **Hosting**: the storage space on the internet holding the site's files,
   images, and content; like a hard drive on the internet.
-- **WordPress platform** — the software running on top of hosting.
-- **Themes** — pre-designed templates that define how the site looks.
-  Recommended: **Kadence Theme** — customizable header/footer/logo/sidebar,
+- **WordPress platform**: the software running on top of hosting.
+- **Themes**: pre-designed templates that define how the site looks.
+  Recommended: **Kadence Theme**, customizable header/footer/logo/sidebar,
   clean and professional.
-- **Plugins** — pre-built functionality solving a specific problem: a contact
+- **Plugins**: pre-built functionality solving a specific problem: a contact
   form plugin, an SEO plugin (Rank Math or Yoast), a security plugin
   (Wordfence).
-- **Kadence Blocks** — design elements (buttons, sections) used in page
+- **Kadence Blocks**: design elements (buttons, sections) used in page
   building, like Lego blocks for assembling parts of a site.
 
 ## Types of WordPress websites
@@ -56,7 +56,7 @@ Pantheon.io provides a free WordPress development environment for practice.
 4. Select **WordPress** as the CMS.
 5. Enter a site name (e.g. `myfirstwpdemo`).
 6. Choose region: USA.
-7. Click **Deploy WordPress** — this can take 5–10 minutes.
+7. Click **Deploy WordPress**: this can take 5 to 10 minutes.
 
 ### Installing WordPress
 

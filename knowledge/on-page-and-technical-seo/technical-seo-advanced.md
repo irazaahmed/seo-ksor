@@ -1,15 +1,15 @@
 ---
 type: Document
-title: Technical SEO — advanced crawl control
-description: Robots.txt, meta robots tags, llms.txt, sitemap.xml, crawl-budget optimization, canonical tags, and .htaccess — the files that control how a crawler treats a site.
+title: "Technical SEO: advanced crawl control"
+description: "Robots.txt, meta robots tags, llms.txt, sitemap.xml, crawl-budget optimization, canonical tags, and .htaccess: the files that control how a crawler treats a site."
 status: stable
 order: 23
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## Robots.txt
@@ -23,9 +23,9 @@ verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 
 ## Robots meta tags and X-Robots-Tag
 
-- **Meta robots tag** — placed in the HTML `<head>` to control indexing per
+- **Meta robots tag**: placed in the HTML `<head>` to control indexing per
   page: `index`/`noindex`, `follow`/`nofollow`.
-- **X-Robots-Tag** — the same control, added via HTTP headers instead, for
+- **X-Robots-Tag**: the same control, added via HTTP headers instead, for
   non-HTML files (PDFs, images).
 - Typical use: blocking indexing of thank-you pages, admin areas, or staging
   sites.

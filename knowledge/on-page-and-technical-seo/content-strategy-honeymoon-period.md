@@ -4,22 +4,22 @@ title: "Content strategy: the honeymoon period"
 description: A niche-site launch plan built around the temporary ranking boost new sites get, and how to maximize and extend it.
 status: stable
 order: 27
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## Niche site launch plan
 
-1. **Preparation phase** — choose the niche, group content topics, prepare
+1. **Preparation phase**: choose the niche, group content topics, prepare
    domain and hosting, install WordPress, set up theme and design.
-2. **Article publishing (pre-launch)** — publish 3 articles before going
+2. **Article publishing (pre-launch)**: publish 3 articles before going
    live at minimum; a fuller launch adds 10 articles total; an aggressive
    approach has 20 articles ready before the site goes live.
-3. **After going live** — publish 1 article every 2 days until 15 days are
+3. **After going live**: publish 1 article every 2 days until 15 days are
    complete, maintain interlinking between articles as they're added, and
    complete on-page and technical SEO setup alongside publishing.
 

@@ -4,25 +4,25 @@ title: Multilingual keyword and content workflow
 description: Handling non-English keywords accurately, grouping them by intent, checking for plagiarism, and linking content correctly.
 status: stable
 order: 15
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
-*This whole document is from Lecture 25 — Other Language Keyword Grouping —
+*This whole document is from Lecture 25, Other Language Keyword Grouping,
 taught by Ammar Ashfaq.*
 
 ## The multilingual keyword problem
 
 Direct machine translation of a keyword can misrepresent user intent or
-produce wording no local user actually searches — a translation can be
+produce wording no local user actually searches: a translation can be
 grammatically correct while being SEO-irrelevant.
 
 Example: a Thai keyword meaning "anti-wrinkle cream", run through Google
-Translate, may come back as "wrinkle reduction cream" in English — technically
+Translate, may come back as "wrinkle reduction cream" in English: technically
 accurate, but not necessarily the exact phrase Thai users actually search.
 
 ## Translation and validation tools
@@ -78,15 +78,15 @@ keywords:
 | Grammarly Extension | Grammar + basic plagiarism | Basic scan only |
 
 After finalizing an article (English or translated), run it through
-Quetext/Copyscape. If it reads as "spun" — heavily altered but not
-original — rephrase it naturally rather than leaving it as-is.
+Quetext/Copyscape. If it reads as "spun" (heavily altered but not
+original), rephrase it naturally rather than leaving it as-is.
 
 ## Internal and external linking
 
-- **Internal linking** — at least 2–4 links per article, to your own closely
+- **Internal linking**: at least 2 to 4 links per article, to your own closely
   related posts. Example: "If you want to learn about serums, check out our
   guide on vitamin C serums."
-- **External linking** — optional, 1–2 links per article, to authority sites
+- **External linking**: optional, 1 to 2 links per article, to authority sites
   only (e.g. WebMD, Healthline), for credibility. Example: "According to
   Healthline, retinol is a proven anti-aging ingredient."
 
@@ -102,6 +102,6 @@ searcher's intent.
 4. Group the translated keywords by intent.
 5. Verify the keywords actually exist naturally in the translated article.
 6. Run a plagiarism check.
-7. Add 2–4 internal links.
-8. Add up to 1–2 external links, optionally.
+7. Add 2 to 4 internal links.
+8. Add up to 1 to 2 external links, optionally.
 9. Review the whole piece for flow and intent consistency.

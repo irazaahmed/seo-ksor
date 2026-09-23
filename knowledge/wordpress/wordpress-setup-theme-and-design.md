@@ -1,15 +1,15 @@
 ---
 type: Document
-title: WordPress setup — cleanup, theme, plugins, and page design
-description: Post-installation WordPress setup — removing default content, configuring settings, installing the Kadence theme and plugins, and building header, footer, menu, and page layouts.
+title: "WordPress setup: cleanup, theme, plugins, and page design"
+description: Post-installation WordPress setup, removing default content, configuring settings, installing the Kadence theme and plugins, and building header, footer, menu, and page layouts.
 status: stable
 order: 17
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## Step 1: clean up default content
@@ -20,30 +20,30 @@ verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 
 ## Step 2: configure settings
 
-- **General settings** — set the site language for your target audience
+- **General settings**: set the site language for your target audience
   (e.g. Arabic, Spanish).
-- **Writing settings** — no change needed.
-- **Reading settings** — check "Discourage search engines from indexing this
+- **Writing settings**: no change needed.
+- **Reading settings**: check "Discourage search engines from indexing this
   site" while the site is still in development.
-- **Permalink settings** — select "Post name", then save.
+- **Permalink settings**: select "Post name", then save.
 
 ## Step 3: theme and plugin installation
 
-**Kadence theme** — Appearance → Themes → Add New → search "Kadence" →
+**Kadence theme**: Appearance → Themes → Add New → search "Kadence" →
 Install → Activate; delete unused themes afterward to save space.
 
-**Kadence Pro plugin** — Plugins → Add New → Upload Plugin → upload the
+**Kadence Pro plugin**: Plugins → Add New → Upload Plugin → upload the
 Kadence Pro file → Install → Activate → enter the license key → activate all
 Pro add-ons.
 
-**Kadence Blocks** and **Kadence Blocks Pro** — install the same way (search
+**Kadence Blocks** and **Kadence Blocks Pro**: install the same way (search
 the plugin directory for Blocks; upload-and-license for Blocks Pro). Keep
 plugins updated when a new version is available.
 
 ## Colors and fonts
 
 - Colors can be skipped for now, or left at the theme default.
-- Fonts: Typography Settings — recommended options are Poppins, Montserrat,
+- Fonts: Typography Settings, recommended options are Poppins, Montserrat,
   Lato, or Roboto.
 
 ## Header setup
@@ -77,7 +77,7 @@ remove the theme credit line ("Powered by Kadence").
 text. **Prefer:** light background with dark text, or dark background with
 light text.
 
-**In WordPress:** Appearance → Customize → Colors & Fonts → Colors — define
+**In WordPress:** Appearance → Customize → Colors & Fonts → Colors, define
 up to three palettes, though only one is active at a time. Dark mode is a
 separate toggle (Appearance → Customize → General → Color Switch) with its
 own assigned palette, and a dark-mode toggle can be added to the header or

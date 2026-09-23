@@ -4,35 +4,35 @@ title: Top authority sites by Ahrefs rank
 description: The first 149 domains from Ahrefs' global authority ranking, for identifying real backlink targets in the top-tier bracket instead of guessing which platforms qualify.
 status: stable
 order: 33
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 sources:
   - id: ahref-thousand-plus-sites
     title: AHREF Thousand Plus sites
     resource: "AHREF Thousand Plus sites.xlsx, Ahrefs domain-rank export, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 [Building backlinks from top authority sites](backlinks-from-authority-sites.md)
 targets the top 50,000 sites in the world by authority. This is the actual
-top of that list — the first 149 domains by Ahrefs Rank, an overall
+top of that list: the first 149 domains by Ahrefs Rank, an overall
 authority score Ahrefs computes for every domain it has
 crawled.[^ahref-thousand-plus-sites]
 
 > [!NOTE]
-> Many entries here are not link-building targets in themselves — a
+> Many entries here are not link-building targets in themselves, a
 > `google.com` subdomain, a government TLD, or a cookie-consent vendor
 > ranks this high because of the volume and diversity of sites linking to
 > it, not because it accepts guest content. Read this as "what real
 > top-tier authority looks like," and pick targets from it the way
 > [Building backlinks from top authority sites](backlinks-from-authority-sites.md)
-> describes — profile pages, genuine community participation, app-store or
-> project listings — rather than treating every row as a link opportunity.
+> describes: profile pages, genuine community participation, app-store or
+> project listings, rather than treating every row as a link opportunity.
 
-## Rank 1–50
+## Rank 1 to 50
 
 | Domain | Ahrefs rank |
 | --- | --- |
@@ -87,7 +87,7 @@ crawled.[^ahref-thousand-plus-sites]
 | paypal.com | 49 |
 | blogger.com | 50 |
 
-## Rank 51–100
+## Rank 51 to 100
 
 | Domain | Ahrefs rank |
 | --- | --- |
@@ -142,7 +142,7 @@ crawled.[^ahref-thousand-plus-sites]
 | m.me | 99 |
 | forbes.com | 100 |
 
-## Rank 101–149
+## Rank 101 to 149
 
 | Domain | Ahrefs rank |
 | --- | --- |
@@ -202,7 +202,7 @@ Of the platforms actually named as backlink targets in [Building backlinks
 from top authority sites](backlinks-from-authority-sites.md), several sit
 inside this top-149 bracket directly: **YouTube** (4), **LinkedIn** (5),
 **Pinterest** (9), **TikTok** (19), **GitHub** (23), **Reddit** (41),
-**Medium** (67), and **Etsy** (114) — confirming that this course's target
+**Medium** (67), and **Etsy** (114), confirming that this course's target
 list is genuinely drawn from the real top of the authority
 ranking.[^ahref-thousand-plus-sites]
 

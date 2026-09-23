@@ -4,12 +4,12 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "A revision pass on the same filters"
@@ -18,7 +18,7 @@ Kalro.*
 
 Where Method 1 starts from an existing site and reverse-engineers its
 keywords, this method skips the site entirely and goes straight at the
-keyword layer — searching directly inside a keyword-research tool for
+keyword layer, searching directly inside a keyword-research tool for
 queries that already meet a niche's criteria, rather than finding them
 second-hand through someone else's website.
 
@@ -27,7 +27,7 @@ second-hand through someone else's website.
 1. Go to ahrefs.com (or SEMrush).
 2. Open **Keyword Explorer** (Ahrefs) or **Keyword Magic Tool** (SEMrush).
 3. Select a blank search in your chosen country.
-4. Apply filters — SEMrush needs more manual effort here than Ahrefs:
+4. Apply filters (SEMrush needs more manual effort here than Ahrefs):
    - Lowest DR: 20, in the top 10 or top 5 results.
    - Word count: 2 words maximum in the keyword.
    - "Include" filter: add words matching your interest.
@@ -43,7 +43,7 @@ A later pass on the same method added a second filter set:
 - APK not required
 - Category: Tool/Info
 - Word count = 2
-- Use an "include" term such as *generate*, *calculate*, or *click* — any word
+- Use an "include" term such as *generate*, *calculate*, or *click*, any word
   a user would search alongside your niche.
 
 ## A revision pass on the same filters
@@ -53,10 +53,10 @@ Kalro added a few more filter details worth combining with the ones above,
 still inside Ahrefs Keyword Explorer with a country
 selected:
 
-- **Intent** — filter to informational intent.
-- **Volume** — around 30,000.
-- **KD** — up to 25.
-- **SERP Features** — open the "All" rule and deselect whichever features
+- **Intent**: filter to informational intent.
+- **Volume**: around 30,000.
+- **KD**: up to 25.
+- **SERP Features**: open the "All" rule and deselect whichever features
   make a keyword less worth targeting for your case, e.g. exclude keywords
   where Google already shows an AI Overview, or where video results
   dominate the page.
@@ -65,15 +65,15 @@ selected:
 ## Combination ideas
 
 A single niche keyword can multiply into dozens of low-competition
-variations just by pairing it with every entity in a category — every bank
-in a city, every company on a list — since each pairing is its own
+variations just by pairing it with every entity in a category (every bank
+in a city, every company on a list), since each pairing is its own
 low-competition search with its own, smaller audience. Blend a fixed
 prefix/suffix with your niche keyword to surface untapped combinations:
 
-- `{FAB}` — balance-check content covering every bank in a target city
-- `{BANK}` — salary-check content covering every bank in a target city
-- `{Company}` — tracker content covering every company in a target city
-- **Manuals** — deep-diving into a niche's manuals can surface "diamond"
+- `{FAB}`: balance-check content covering every bank in a target city
+- `{BANK}`: salary-check content covering every bank in a target city
+- `{Company}`: tracker content covering every company in a target city
+- **Manuals**: deep-diving into a niche's manuals can surface "diamond"
   sub-niches nobody else has covered
 
 ## Seed keyword targets (a worked example)
@@ -85,5 +85,5 @@ prefix/suffix with your niche keyword to surface untapped combinations:
 - Organic traffic: more traffic generally means more revenue
 
 Country matters here: a seed keyword volume of 10,000 in the USA (a Tier 1
-country) is not directly comparable to 100,000 in Pakistan — Tier 1 traffic is
+country) is not directly comparable to 100,000 in Pakistan: Tier 1 traffic is
 worth more per visit.

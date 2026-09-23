@@ -4,19 +4,19 @@ title: Schema markup (structured data)
 description: What schema markup is, why it earns rich results, and how to add JSON-LD schema to WordPress with the ACF plugin.
 status: stable
 order: 22
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## What is schema markup?
 
 Schema markup (structured data) is code added to a page that helps Google
 understand its content more precisely. When Google reads it, it can display
-rich results — star ratings, FAQs, event info — directly in search results,
+rich results (star ratings, FAQs, event info) directly in search results,
 improving visibility and click-through rate (CTR).
 
 ## Why add structured data
@@ -34,20 +34,20 @@ information instead of reading only plain text. Example: an "Article" schema
 can surface the author name, published date, headline, thumbnail image, and
 ratings directly in the result.
 
-**Supported format:** JSON-LD (JavaScript Object Notation for Linked Data) —
+**Supported format:** JSON-LD (JavaScript Object Notation for Linked Data):
 Google's recommended format, and the one to always use.
 
 ## Adding schema in WordPress with ACF
 
-1. **Install ACF (Advanced Custom Fields)** — Plugins → Add New → search "ACF
-   — Advanced Custom Fields" → Install → Activate.
-2. **Create a custom field for schema** — Custom Fields → Add New, name it
+1. **Install ACF (Advanced Custom Fields)**: Plugins → Add New → search "ACF
+   - Advanced Custom Fields" → Install → Activate.
+2. **Create a custom field for schema**: Custom Fields → Add New, name it
    "Schema Markup", add a field of type Text Area named `schema`, set
    location rules to Post Type = Post and Post Type = Page, and publish the
    field group.
-3. **Generate the schema code** — ask an AI tool for JSON-LD (Article, FAQ,
+3. **Generate the schema code**: ask an AI tool for JSON-LD (Article, FAQ,
    Product, etc.) and copy the result.
-4. **Paste it into `functions.php`** — Appearance → Theme File Editor →
+4. **Paste it into `functions.php`**: Appearance → Theme File Editor →
    `functions.php`, and add:
 
 ```php
@@ -66,25 +66,25 @@ This pulls the schema from the ACF field and outputs it in the page's
 `<head>`.
 
 **Optional:** online schema generators can auto-generate schema (Video,
-Article, Product) from a pasted link — paste the resulting code into the ACF
+Article, Product) from a pasted link; paste the resulting code into the ACF
 field on the post/page.
 
 ## Testing schema
 
 Use Google's Rich Results Test (or the Structured Data Testing Tool). A green
-tick means the schema is valid — always test before publishing.
+tick means the schema is valid, always test before publishing.
 
 ## Important notes
 
 - The schema must match the actual visible content on the page.
-- Never use fake or misleading structured data — it risks a manual penalty.
+- Never use fake or misleading structured data: it risks a manual penalty.
 - Visible content (title, author, date) should match what the schema claims.
 - Use an AI tool to help generate or validate clean JSON-LD for your case.
 
 ## Rank Math SEO plugin
 
 A separate lecture covers setting up Rank Math for schema support, canonical
-tags, and meta settings — follow that lecture for the plugin-specific setup.
+tags, and meta settings; follow that lecture for the plugin-specific setup.
 
 ## Summary
 

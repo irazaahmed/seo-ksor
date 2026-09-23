@@ -1,43 +1,43 @@
 ---
 type: Document
 title: "Reading a backlink profile: a worked example"
-description: A real backlink-profile export — referring URL, DR, domain traffic, linked domains, and external links — walked through as a worked example of the reverse-engineering method, taught by Dr Shahid.
+description: "A real backlink-profile export (referring URL, DR, domain traffic, linked domains, and external links), walked through as a worked example of the reverse-engineering method, taught by Dr Shahid."
 status: stable
 order: 34
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 sources:
   - id: backlink-subdomain-sheet
     title: Backlink Sub-domain report
     resource: "Backlink SUB DOMAIN iSkills Dr Shahid.xlsx, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 *This document is from lectures taught by Dr Shahid.*
 
 A real referring-page export for one site's backlink profile, from Ahrefs'
-subdomain-level report — the same kind of report [Competitor backlink
+subdomain-level report, the same kind of report [Competitor backlink
 analysis](off-page-seo-fundamentals.md) describes reading. Each row is one
 page that links to the analyzed site.[^backlink-subdomain-sheet]
 
 ## How to read the columns
 
-- **Referring page URL** — the exact page carrying the backlink, not just the
+- **Referring page URL**: the exact page carrying the backlink, not just the
   domain.
-- **DR (Domain Rating)** — the referring domain's own authority.
-- **Domain Traffic** — that domain's estimated total organic traffic, not
+- **DR (Domain Rating)**: the referring domain's own authority.
+- **Domain Traffic**: that domain's estimated total organic traffic, not
   the traffic of this one page.
-- **Linked Domains** — how many distinct external domains that page links
+- **Linked Domains**: how many distinct external domains that page links
   out to.
-- **External Links** — the total count of outbound links on that page
+- **External Links**: the total count of outbound links on that page
   (higher than Linked Domains when a page links to the same external domain
   more than once).[^backlink-subdomain-sheet]
 
 A page with a high Linked Domains / External Links count is sharing its link
-authority across many other sites at once — a backlink from a page like that
+authority across many other sites at once: a backlink from a page like that
 is diluted compared to one from a page that links out sparingly.
 
 ## The top 50 referring pages by DR
@@ -101,12 +101,12 @@ Almost every high-DR referring page in this profile is a **university blog
 comment section** (`sites.uw.edu`, `blogs.uoregon.edu`, `edspace.american.edu`,
 `sites.gsu.edu`, and similar `.edu` subdomains), a **forum thread**, or an
 **old CGI-based Japanese blog/forum** (`asahi-net.or.jp`, `wakwak.com`,
-`kcn.ne.jp`) — not homepages or editorial articles. This matches
+`kcn.ne.jp`), not homepages or editorial articles. This matches
 [Off-page SEO fundamentals](off-page-seo-fundamentals.md)'s own **Foundation
 backlinks** and **Blog comments / Forum backlinks** categories directly:
 university course-blog platforms in particular tend to run high domain
 authority (from the parent `.edu` domain) while leaving comment sections open
-to anyone, which is exactly the combination — high DR, low moderation — that
+to anyone, which is exactly the combination (high DR, low moderation) that
 makes a page a repeatable backlink target rather than a one-off.[^backlink-subdomain-sheet]
 
 [^backlink-subdomain-sheet]: Backlink SUB DOMAIN iSkills Dr Shahid.xlsx,

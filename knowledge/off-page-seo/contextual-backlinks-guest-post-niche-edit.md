@@ -1,22 +1,22 @@
 ---
 type: Document
-title: Contextual backlinks — guest posts and niche edits
+title: "Contextual backlinks: guest posts and niche edits"
 description: Prospecting link targets from competitor backlinks, organizing outreach data, hunting editor emails, and running an outreach campaign for guest posts and niche edits.
 status: stable
 order: 34
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## Two contextual backlink types
 
-- **Guest post** — publishing a new article on another site with your
+- **Guest post**: publishing a new article on another site with your
   backlink inside it.
-- **Niche edit** — adding your backlink inside an article that is already
+- **Niche edit**: adding your backlink inside an article that is already
   published on another site.
 
 Both improve rankings, traffic, and authority.
@@ -39,7 +39,7 @@ and Notes (editor requirements, costs, follow-up status).
 
 ## Email hunting
 
-Use a tool like Hunter.io — enter the site URL to find editor emails. If
+Use a tool like Hunter.io: enter the site URL to find editor emails. If
 nothing turns up: check the site's Contact Us page, search LinkedIn for
 editors/writers, or use a browser extension for email discovery. Collect at
 least 2 emails per site as backup.
@@ -63,8 +63,8 @@ article.
 
 ## Outreach rules
 
-- Send 15–20 emails per day per account, to avoid spam filters.
-- Always personalize — never send copy-paste spam.
+- Send 15 to 20 emails per day per account, to avoid spam filters.
+- Always personalize; never send copy-paste spam.
 - Follow up if there's no response.
 - Track responses and outcomes in the spreadsheet.
 
@@ -77,7 +77,7 @@ article.
 > I enjoyed reading your article on [URL/Topic]. It's very detailed and
 > helpful.
 >
-> I had a quick idea — what if you add an extra resource that could give your
+> I had a quick idea. What if you add an extra resource that could give your
 > readers more value? I run [Your Website], where we recently published an
 > in-depth guide on [Keyword]. It would fit perfectly into your article and
 > help your audience.
@@ -102,5 +102,5 @@ article.
 4. Find editor emails.
 5. Generate relevant keywords for niche edits.
 6. Run outreach via Mailshake/Instantly.
-7. Send 15–20 personalized emails a day.
+7. Send 15 to 20 personalized emails a day.
 8. Follow up and secure the backlinks.

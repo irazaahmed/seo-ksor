@@ -4,20 +4,20 @@ title: Manual and tool-based keyword research methods
 description: Google Instant, manual keyword tools, and the Ahrefs/SEMrush competitor-export methods for building a keyword list, including topical authority and keyword cannibalization.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## Two SEO terms to know first
 
-- **Topical authority** — Google prefers websites that are subject-matter
+- **Topical authority**: Google prefers websites that are subject-matter
   experts; building content around one coherent niche earns better authority
   than spreading across unrelated topics.
-- **Keyword cannibalization** — when multiple pages on the same site target
+- **Keyword cannibalization**: when multiple pages on the same site target
   the same keyword, Google gets confused about which to rank, and both pages
   suffer. Always cluster keywords and write unique content per cluster to
   avoid this.
@@ -25,16 +25,16 @@ verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
 ## Method 1: Google Instant (manual)
 
 1. Go to Google and start typing your main keyword (e.g. "best phone
-   under") — the autocomplete suggestions are popular real searches.
+   under"): the autocomplete suggestions are popular real searches.
 2. Feed the same seed into a keyword helper tool (e.g. Keyword Shitter,
    Keywordtool.io) for long-tail suggestions.
 3. Copy every suggestion into a spreadsheet.
-4. Group keywords by intent — e.g. "best shoes for men" and "top shoes for
+4. Group keywords by intent, e.g. "best shoes for men" and "top shoes for
    office" share intent and belong in one group; "how to polish shoes"
    belongs in a different group.
 
 **Limitation:** Google Instant does not surface synonyms or alternate
-phrasings, and misses many keyword variants — this is why a second method is
+phrasings, and misses many keyword variants; this is why a second method is
 usually run alongside it.
 
 ## Method 2: Ahrefs / SEMrush
@@ -44,7 +44,7 @@ usually run alongside it.
 3. Use filters like "Also Rank For" or "Having Same Terms".
 4. Export the matching keywords and terms.
 
-Group the results by search intent and topic relevance — e.g. a "Buying
+Group the results by search intent and topic relevance, e.g. a "Buying
 Shoes" cluster ("best shoes 2025", "shoes under 1000") versus a "Shoe
 Maintenance" cluster ("how to polish shoes", "clean sneakers").
 
@@ -62,7 +62,7 @@ Best suited to niches built around Exact Match Domains (EMDs).
 
 > [!NOTE]
 > If the SERP is full of branded sites with no EMDs present, this method
-> won't produce useful results — fall back to the Google Instant method
+> won't produce useful results. Fall back to the Google Instant method
 > instead.
 
 ## Competitor analysis (manual, via Ahrefs Site Explorer)

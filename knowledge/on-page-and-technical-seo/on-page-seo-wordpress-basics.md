@@ -4,19 +4,19 @@ title: "WordPress SEO basics: permalinks, categories, images, Rank Math"
 description: URL/permalink structure, category taxonomy, image SEO, and the Rank Math plugin as applied inside WordPress.
 status: stable
 order: 19
-generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T10:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
 ## URL / permalink structure (slug)
 
 The permalink is the article's link, e.g.
 `https://yoursite.com/cinema-apk-vs-stremio`. Google reads the URL to
-understand the page — a messy, overlong URL without the main keyword hurts
+understand the page: a messy, overlong URL without the main keyword hurts
 SEO.
 
 **Best practices:**
@@ -24,7 +24,7 @@ SEO.
 - Use the main keyword in the slug (e.g. `cinema-apk-vs-stremio`).
 - Avoid dates or version numbers (no `2025`, `v3.4.1`).
 - Lowercase only.
-- Short and readable — never `post?id=123`.
+- Short and readable, never `post?id=123`.
 
 **In WordPress:** Settings → Permalinks → select "Post Name", or use a
 custom structure: `/%category%/%postname%/`.
@@ -47,9 +47,9 @@ Large images slow a site down, and Google penalizes slow pages; images
 without alt text or keyword-rich filenames also miss out on Google Images
 traffic.
 
-- **Compress** — e.g. ImageCompressor.com.
-- **Rename** — e.g. `cinema-hd-interface.jpg`.
-- **Alt text** — always add descriptive text using the target keyword, e.g.
+- **Compress**: e.g. ImageCompressor.com.
+- **Rename**: e.g. `cinema-hd-interface.jpg`.
+- **Alt text**: always add descriptive text using the target keyword, e.g.
   "Cinema hd home screen on Firestick".
 
 ## Rank Math plugin
@@ -61,7 +61,7 @@ beginner-friendly than Yoast SEO for most users.
 setup wizard. It handles titles and meta descriptions, focus keywords, the
 sitemap, and schema markup (e.g. FAQ rich results).
 
-### Worked example — "Cinema hd vs. Stremio"
+### Worked example: "Cinema hd vs. Stremio"
 
 - **Slug:** `/streaming-apps/cinema-apk-vs-stremio`
 - **Category:** Streaming Apps

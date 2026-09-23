@@ -1,27 +1,27 @@
 ---
 type: Document
-title: Article structure — headings, competitor analysis, and keyword prominence
+title: "Article structure: headings, competitor analysis, and keyword prominence"
 description: How to structure an SEO article with HTML headings, build it from competitor heading analysis, and place the main keyword for maximum prominence.
 status: stable
 order: 12
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
-*This whole document is from Lecture 18 — Article Writing & SEO Structure —
+*This whole document is from Lecture 18, Article Writing & SEO Structure,
 taught by Ammar Ashfaq.*
 
 ## Heading structure
 
-- **H1** — main title, used only once per article.
-- **H2** — major sections (e.g. Features, How to Download).
-- **H3** — sub-sections under an H2 (e.g. individual features).
-- **H4** — further breakdown under an H3 (e.g. Classic Bikes, Heavy Bikes).
-- Avoid H5/H6 — not useful for a standard article.
+- **H1**: main title, used only once per article.
+- **H2**: major sections (e.g. Features, How to Download).
+- **H3**: sub-sections under an H2 (e.g. individual features).
+- **H4**: further breakdown under an H3 (e.g. Classic Bikes, Heavy Bikes).
+- Avoid H5/H6, not useful for a standard article.
 
 Other core tags: `<p>` paragraphs, `<table>` tables, `<li>`/`<ol>`/`<ul>` lists,
 `<a href>` links, `<strong>` bold text.
@@ -50,39 +50,39 @@ make indexing straightforward).
 
 1. Google the main keyword.
 2. Open the top 10 ranking articles.
-3. Do not copy headings directly — remove the headings that appear on
+3. Do not copy headings directly: remove the headings that appear on
    *every* competitor (those are commodity, not an edge).
 4. Combine the *unique* headings each site contributes into your own
    structure.
 
 This produces a more complete piece than any single competitor, without
 copying anyone's structure verbatim. A Chrome extension that copies a page's
-heading list speeds this up — install it, open a competitor article, copy its
+heading list speeds this up: install it, open a competitor article, copy its
 headings, then strip anything promotional before reusing the SEO-relevant
 structure.
 
 ## Writing the introduction
 
-**Rule: 2–3 paragraphs**, each containing one *power sentence* (the main
-idea) plus 1–2 *supporting/"toy" sentences* (small supporting detail).
+**Rule: 2 to 3 paragraphs**, each containing one *power sentence* (the main
+idea) plus 1 to 2 *supporting/"toy" sentences* (small supporting detail).
 
 This matters because Google reads content more like a human than a keyword
-matcher — it uses AI systems (e.g. RankBrain) and NLP to understand context,
+matcher: it uses AI systems (e.g. RankBrain) and NLP to understand context,
 not just literal keyword occurrence. An introduction stuffed with keywords
 reads worse to both the user and the ranking system than one that is natural
 and informative.
 
 **Rule: reuse competitor H2s.** If multiple top-ranking sites use the same H2
-(e.g. "About Traffic Rider APK"), use it too — headings are not copyrighted,
+(e.g. "About Traffic Rider APK"), use it too: headings are not copyrighted,
 and a heading that is already proven to rank is not something to avoid on
 principle.
 
 ### Writing under each heading
 
-1. **First paragraph** — write your own general explanation from your own
+1. **First paragraph**: write your own general explanation from your own
    knowledge and known facts (e.g. developer name, release date, core
    features).
-2. **Second paragraph** — search the topic, open 3–4 top competitors, read
+2. **Second paragraph**: search the topic, open 3 to 4 top competitors, read
    (never copy) their content under the matching heading, and summarize the
    key points in your own words.
 
@@ -100,7 +100,7 @@ and use keywords naturally rather than forcing them in.
 
 ## Above-the-fold content
 
-"Above the fold" is the part of a page visible without scrolling — a user's
+"Above the fold" is the part of a page visible without scrolling. A user's
 first impression forms here, and Google weighs this area heavily during
 crawling. Poor engagement in this area raises bounce rate.
 
@@ -113,7 +113,7 @@ featured image; a CTA button ("Download Now", "Try Free"); and a short
 **"First paragraph = article summary + hook + main keyword."** It should
 connect with the reader's actual problem, use the main keyword naturally,
 summarize what the article will resolve, and create curiosity to keep
-reading. Avoid fluff — get to the point.
+reading. Avoid fluff and get to the point.
 
 ## Keyword intent and prominence
 
@@ -130,23 +130,23 @@ which keyword deserves priority.
 | URL slug | Include the main keyword |
 | First paragraph | Use it once, naturally |
 | Headings | At least one H2 or H3 |
-| Body paragraphs | 0.5%–0.8% density |
+| Body paragraphs | 0.5% to 0.8% density |
 | Bold/italic | Highlight it at least once |
 | Image alt tag | At least one image |
 
-**Density guide:** for 1,000 words, use the main keyword 5–8 times
-(0.5–0.8%) — check with a keyword density or word-count tool.
+**Density guide:** for 1,000 words, use the main keyword 5 to 8 times
+(0.5% to 0.8%). Check with a keyword density or word-count tool.
 
 ## Matching or exceeding competitor length
 
-Don't set a word count blindly — check the top 10 ranking URLs for the
+Don't set a word count blindly. Check the top 10 ranking URLs for the
 keyword in Ahrefs, find their minimum and maximum word counts (e.g. 260 to
 3300+ in one worked example), and target the higher end. Longer,
 better-structured content tends to outrank shorter, weaker pages.
 
 ## Competitor heading analysis with AI
 
-1. Google the main keyword and copy the top 10–20 URLs.
+1. Google the main keyword and copy the top 10 to 20 URLs.
 2. Ask an AI assistant: "Extract H1, H2, H3 from these URLs."
 3. If it just repeats existing headings, ask explicitly for unique,
    SEO-optimized versions instead.
@@ -164,8 +164,8 @@ use this new tone...").
 
 ## Related-keyword repetition
 
-Use each related term naturally 1–2 times, spread across the article rather
-than bunched in one paragraph — e.g. for an anti-aging niche: anti-aging,
+Use each related term naturally 1 to 2 times, spread across the article rather
+than bunched in one paragraph, e.g. for an anti-aging niche: anti-aging,
 wrinkle repair, cream for fine lines, firming night cream.
 
 ## Final checklist
@@ -174,7 +174,7 @@ wrinkle repair, cream for fine lines, firming night cream.
 - Intro connects with the reader and uses the keyword?
 - Keyword intent clear?
 - Main keyword prominent in H1, meta, and slug?
-- Keyword density between 0.5%–0.8%?
+- Keyword density between 0.5% and 0.8%?
 - Related keywords included?
 - Article word count matches or exceeds top competitors?
 - Headings analyzed and used?

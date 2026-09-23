@@ -4,20 +4,20 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 sources:
   - id: tiers-countries-sheet
     title: Tiers Countries
     resource: "Tiers Countries.xlsx, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
-*This whole document is from Class 09 — International Niche Research /
-Country code SEO — taught by Ammar Ashfaq.*
+*This whole document is from Class 09, International Niche Research /
+Country code SEO, taught by Ammar Ashfaq.*
 
 ## Country-specific niche research
 
@@ -30,7 +30,7 @@ Steps:
    find search trends in the target country.
 2. Change search engine settings to the target country and language for
    accurate keyword data.
-3. Analyze local competitors — their domain strength and backlinks.
+3. Analyze local competitors: their domain strength and backlinks.
 4. Check the Google SERP for your keywords in the local search engine version
    (e.g. `google.com.mx` for Mexico).
 5. Look for low-competition opportunities: topics with limited
@@ -39,46 +39,46 @@ Steps:
 ## Country code SEO
 
 A keyword's own search behaviour can make it low-competition without doing
-anything else — this is what "country code SEO" targets specifically. Two
+anything else. This is what "country code SEO" targets specifically. Two
 keywords can look equally generic and still behave completely
 differently:
 
-- **"Spotify Mod APK"** — searched by people all over the world. Global
+- **"Spotify Mod APK"**: searched by people all over the world. Global
   intent, global competition.
-- **"MEPCO bill check"** — searched almost entirely by people in one specific
+- **"MEPCO bill check"**: searched almost entirely by people in one specific
   country (Pakistan, for a specific electricity provider). Because the
   audience is narrow, so is the competition.
 
 The rule of thumb: if more than **80% of a keyword's search volume** comes
-from one specific country, treat it as that country's keyword — not a
+from one specific country, treat it as that country's keyword, not a
 global one. The SERP itself confirms this too: the same keyword returns a
 different SERP depending on which country you search it from.
 
 This is a different axis from generic-vs-specific keyword wording. "Buy
 t-shirts online" reads as a generic keyword, but its *intent* is still
-narrow and commercial — generic wording and a specific intent are not the
+narrow and commercial; generic wording and a specific intent are not the
 same thing, and either one (a narrow keyword, or a narrow intent) can be
 what makes a niche beatable.
 
 ## Two ways to find a country-specific niche
 
 Country-specific niche research comes down to the same two starting points
-every other niche research does (see [Niche research — tools, metrics, and
+every other niche research does (see [Niche research: tools, metrics, and
 selection criteria](overview.md)): find the keyword directly (the same
 underlying idea as [Method 2, the Ahrefs/SEMrush filter
 method](finding-niches-ahrefs-filters.md)), or find a site and reverse
 engineer it (the same underlying idea as [Method 1, reverse-engineering
 marketplaces](finding-niches-marketplaces.md)). Country code SEO just adds
-one filter to each of those two approaches — a country.
+one filter to each of those two approaches: a country.
 
-**Approach A — keyword-first, in Ahrefs Keyword Explorer:**
+**Approach A, keyword-first, in Ahrefs Keyword Explorer:**
 
 1. Open Keyword Explorer and select the target country.
 2. Filter KD up to 20 and DR down to 20 (low).
-3. Add an "include" term relevant to the niche — e.g. `calcult*` (a wildcard
+3. Add an "include" term relevant to the niche, e.g. `calcult*` (a wildcard
    catching "calculate", "calculator", "calculation") for a tool niche.
 
-**Approach B — site-first, via ccTLD in Ahrefs Content Explorer:**
+**Approach B, site-first, via ccTLD in Ahrefs Content Explorer:**
 
 1. Set a target first: DR above 10 (so the site is real, not spam), traffic
    under 50,000 (so it's still beatable), language set to the target (e.g.
@@ -88,42 +88,42 @@ one filter to each of those two approaches — a country.
    the country's ccTLD (e.g. `.br` for Brazil).
 4. Copy the resulting list of URLs and paste it into Ahrefs' **Batch
    Analysis** tool for the full metrics on all of them at once.
-5. Explore the results for the goldmine — a site worth reverse-engineering.
+5. Explore the results for the goldmine: a site worth reverse-engineering.
 
 ### TLD vs ccTLD
 
-- **TLD (Top-Level Domain)** — a generic domain ending (`.com`, `.net`,
+- **TLD (Top-Level Domain)**: a generic domain ending (`.com`, `.net`,
   `.org`, `.co`), the right choice when targeting a generic (non-country-
   specific) keyword.
-- **ccTLD (country-code Top-Level Domain)** — a country-specific ending
+- **ccTLD (country-code Top-Level Domain)**: a country-specific ending
   (`.pk`, `.in`, `.sg`, `.br`), the right choice when targeting a
   country-specific keyword.
 
 ## Finding a macro site per country
 
 When you don't already have a macro site to reverse-engineer in a target
-country, ask ChatGPT or Claude to name one — an established, well-known site
+country, ask ChatGPT or Claude to name one: an established, well-known site
 in that country's market. Then run it through Ahrefs Site Explorer the same
 way as any other macro site: check its top pages, pull their top keywords,
 and look for micro niches inside them.
 
 ## Researching for other languages
 
-Only about half of all Google searches happen in English — the other half
-split across every other language — so working English-only leaves half the
+Only about half of all Google searches happen in English; the other half
+split across every other language, so working English-only leaves half the
 demand untouched. Expanding into non-English markets
 surfaces untapped opportunities. Priority languages for SEO expansion:
-Spanish (ES), German (DE), French (FR), Portuguese (PT), Italian (IT) — plus
+Spanish (ES), German (DE), French (FR), Portuguese (PT), Italian (IT), plus
 the language spoken in Saudi Arabia/UAE, and the languages preferred in
 Egypt and Holland.
 
-Deliberately avoid Russian, Chinese, and Japanese — not because the demand
+Deliberately avoid Russian, Chinese, and Japanese, not because the demand
 isn't there, but because they weren't picked as target languages for this
 course's approach.
 
 > [!NOTE]
 > Tier 1 countries pay the most per visit (see the tier table below), but
-> don't ignore Tier 2 and Tier 3 because of that — the thing to optimise
+> don't ignore Tier 2 and Tier 3 because of that: the thing to optimise
 > for here is **language**, not tier. A well-chosen Tier 2/3-country
 > language still adds up at scale.
 
@@ -133,7 +133,7 @@ course's approach.
 
 Process for finding better non-English niches:
 
-1. Detect the correct language variant with Google Translate — a word often
+1. Detect the correct language variant with Google Translate: a word often
    has multiple regional versions, and not every country uses the same one.
 2. Focus on content, not just downloads.
 3. Look for rich, detailed meanings rather than literal translation.
@@ -153,7 +153,7 @@ Worked example (Mexico, in Ahrefs): KD ≤ 10, Volume ≥ 40K, DR ≤ 15.
 ## Scaling one niche across countries
 
 Once a niche is validated in one country, the same niche and structure can be
-repeated across several countries at once — e.g. building 10 versions of the
+repeated across several countries at once, e.g. building 10 versions of the
 same site for Germany, Italy, Vietnam, Thailand, and other target markets.
 Each copy still needs its own local keyword research and translation done
 properly (see above); it is the niche and the site structure that gets
@@ -161,17 +161,17 @@ reused, not the content verbatim.
 
 ## Tier system: revenue potential by country and language
 
-Monetization depends on traffic source and user location — higher-tier
+Monetization depends on traffic source and user location: higher-tier
 countries generate more ad revenue:
 
 - **Tier 1 countries**:
-  - English-speaking users: $15–20 per 1,000 visits
-  - Other-language users: $7–10 per 1,000 visits
+  - English-speaking users: $15-20 per 1,000 visits
+  - Other-language users: $7-10 per 1,000 visits
 - **Tier 2 countries**:
-  - English-speaking users: $6–10 per 1,000 visits
-  - Other-language users: $3–5 per 1,000 visits
+  - English-speaking users: $6-10 per 1,000 visits
+  - Other-language users: $3-5 per 1,000 visits
 - **Tier 3 countries**:
-  - English-speaking users: $2–4 per 1,000 visits
+  - English-speaking users: $2-4 per 1,000 visits
   - Other-language users: $1 per 1,000 visits
 
 Focus on Tier 1 countries for maximum ad earnings.
@@ -202,8 +202,8 @@ Focus on Tier 1 countries for maximum ad earnings.
 |  | Saudi Arabia | Morocco |
 |  | Qatar |  |
 
-A country not on this list at all — most of Central Asia, most of
-Sub-Saharan Africa outside the ones named above, and several others — is
+A country not on this list at all (most of Central Asia, most of
+Sub-Saharan Africa outside the ones named above, and several others) is
 simply not tiered by this course's own material; treat it as Tier 3 by
 default (the lowest per-visit rate, not a claim about search volume) until a
 better source says otherwise.

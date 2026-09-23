@@ -4,34 +4,34 @@ title: Goldmine niches reference list
 description: A curated list of real niche/sub-niche examples with their DR, monthly traffic, and monetization network, grouped by DR band, for calibrating what a beatable niche actually looks like.
 status: stable
 order: 10.7
-generated: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T11:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 sources:
   - id: goldmine-sites-sheet
     title: GoldMine Sites
     resource: "GoldMine Sites - Google Sheets.pdf, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T11:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
 ---
 
-Real examples of niche sites — their DR, monthly organic traffic, and which
-ad/monetization network they run — grouped by DR band, from lowest (easiest
-to replicate) to highest. Use this the way [Niche research — tools,
+Real examples of niche sites (their DR, monthly organic traffic, and which
+ad/monetization network they run), grouped by DR band, from lowest (easiest
+to replicate) to highest. Use this the way [Niche research: tools,
 metrics, and selection criteria](overview.md) recommends: as a calibration
 set for what "low DR, real traffic" actually looks like in
 practice, not as a list of specific sites to copy.[^goldmine-sites-sheet]
 
 > [!NOTE]
 > Open question: the source spreadsheet's own site URLs were not present in
-> the columns this record's extraction could recover reliably — only the
+> the columns this record's extraction could recover reliably; only the
 > niche/sub-niche label, DR, traffic, and monetization network survived
 > unambiguously. Traffic figures that read oddly (e.g. `3,57,000`) are
-> copied exactly as the source recorded them — the Indian/South Asian lakh
+> copied exactly as the source recorded them: the Indian/South Asian lakh
 > comma-grouping style, meaning 357,000 (35.7 lakh), not 3,570.
 
-## DR 0–9 (69 examples)
+## DR 0 to 9 (69 examples)
 
 | Niche | Sub-niche | DR | Monthly traffic | Monetization |
 | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ practice, not as a list of specific sites to copy.[^goldmine-sites-sheet]
 | Name | Name | 9 | 14,800 | Mediavine |
 | Travel | Travel | 9 | 1,400 | Raptive |
 
-## DR 10–19 (51 examples)
+## DR 10 to 19 (51 examples)
 
 | Niche | Sub-niche | DR | Monthly traffic | Monetization |
 | --- | --- | --- | --- | --- |
@@ -164,8 +164,8 @@ practice, not as a list of specific sites to copy.[^goldmine-sites-sheet]
 ## DR 20+ (32 examples)
 
 DR climbs above the course's usual "under 20/30" selection criteria (see
-[Niche research — tools, metrics, and selection criteria](overview.md)) in
-this band — kept here as evidence of what a niche site looks like once it
+[Niche research: tools, metrics, and selection criteria](overview.md)) in
+this band; kept here as evidence of what a niche site looks like once it
 has scaled past the easy-entry range, not as a target to aim a new site at.
 
 | Niche | Sub-niche | DR | Monthly traffic | Monetization |
@@ -206,12 +206,12 @@ has scaled past the easy-entry range, not as a target to aim a new site at.
 ## Reading the pattern
 
 **Recipe, Fashion, Travel, Self Help, and Jokes** repeat across every DR
-band — these are broad content categories with room for many independent
+band: these are broad content categories with room for many independent
 sites, not single niches with one winner. **Mediavine and Raptive** (both
 premium ad networks with traffic-volume entry thresholds) account for most
 of the monetization column, ahead of plain Google Ads/Display Ads and the
 occasional affiliate or e-commerce ("Store") model. A handful of examples
-carry real DR-0 status with six-figure traffic — evidence that a genuinely
+carry real DR-0 status with six-figure traffic: evidence that a genuinely
 new domain can still reach meaningful traffic under this course's
 approach.[^goldmine-sites-sheet]
 
