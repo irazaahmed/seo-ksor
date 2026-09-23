@@ -1216,19 +1216,23 @@ aside a[data-active="true"]::before {
    this record already uses for a callout and a verbatim block, here spent on
    "this row groups what follows it" instead of "read this passage exactly".
    Breathing room above each one but the first keeps chapters visually
-   separate from each other, not just from the pages inside them. */
+   separate from each other, not just from the pages inside them.
+
+   Sentence case in the site's own sans, at a size close to the leaf links
+   beneath it, not the tiny uppercase mono label first tried here: a chapter
+   name is a title a reader chooses between, not a machine-facing key like a
+   frontmatter field, and set that small and that tight it read as a caption
+   rather than something to click (owner, 2026-09-23: "text bohot chota"). */
 aside div[data-state] > a[data-active] {
   margin-top: 1rem;
-  padding-block: 0.55rem;
+  padding-block: 0.6rem;
   translate: none;
   border-radius: 0.5rem;
   border-left: 2.5px solid color-mix(in oklab, var(--color-fd-primary) 32%, transparent);
   background: color-mix(in oklab, var(--color-fd-primary) 5%, transparent);
-  font-family: var(--font-mono, ui-monospace, monospace);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: -0.006em;
   color: var(--color-fd-foreground);
 }
 aside div[data-state]:first-child > a[data-active] {
