@@ -5,6 +5,7 @@ import { ThemeSwitch } from "fumadocs-ui/layouts/shared/slots/theme-switch";
 import { PanelLeftClose } from "lucide-react";
 
 import { FooterMark } from "@/components/footer-mark";
+import { SignIn } from "@/components/sign-in";
 import { baseOptions } from "@/lib/layout.shared";
 import { appName } from "@/lib/shared";
 import { basePath, getSortedPageTree, getSortedPages } from "@/lib/source";
@@ -28,6 +29,9 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
     <DocsLayout
       tree={getSortedPageTree()}
       {...baseOptions()}
+      // The account control lives in the sidebar footer below, not as a link
+      // at the top of the tree (see the footer's first row).
+      links={[]}
       // The switch ships inside a bordered bar of its own in the sidebar
       // footer — a flex column whose children stretch, so one 61px control sat
       // in a 236px box that was 74% empty and read as a broken input field
@@ -46,26 +50,18 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
         // production build, which is why it survived: it only shows in the
         // dev server, where the adopter meets it first.
         footer: (
-          <div key="record-footer" className="mt-3 flex flex-col gap-2">
-            {/* The record's own identity, on every page rather than only the
-                home page: the slug is what citations carry and llms.txt is the
-                door an agent is told to read. The sidebar had three links and
-                then several hundred pixels of nothing beneath them. */}
-            <p className="text-xs text-fd-muted-foreground">
-              <span className="font-mono">{appName}</span> · {documents} document
-              {documents === 1 ? "" : "s"} ·{" "}
-              <a
-                href={`${basePath}/llms.txt`}
-                className="underline underline-offset-4 transition-colors hover:text-fd-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring"
-              >
-                llms.txt
-              </a>
-            </p>
-            <div className="flex items-center justify-between gap-3">
-              <p className="text-xs">
-                <FooterMark />
-              </p>
-              <div className="flex items-center gap-1">
+          <div key="record-footer" className="mt-3 flex flex-col gap-2.5">
+            {/* Account, collapse and theme on ONE row. The account control
+                used to be a navbar link, which the docs layout moves to the
+                TOP of the sidebar tree, where it took a full row (plus gap)
+                above the first document and pushed the chapter list down
+                (owner, 2026-09-23). Down here it shares a row with controls
+                that were already there. */}
+            <div className="flex items-center justify-between gap-2">
+              <div className="-ms-2 min-w-0">
+                <SignIn />
+              </div>
+              <div className="flex shrink-0 items-center gap-1">
                 {/* fumadocs ships the collapse STATE machinery (the
                     transition, the floating re-expand affordance once
                     collapsed) but no visible trigger for it — this project
@@ -81,6 +77,24 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
                 <ThemeSwitch />
               </div>
             </div>
+            {/* The record's own identity, on every page rather than only the
+                home page: the slug is what citations carry and llms.txt is the
+                door an agent is told to read. */}
+            <p className="text-xs text-fd-muted-foreground">
+              <span className="font-mono">{appName}</span> · {documents} document
+              {documents === 1 ? "" : "s"} ·{" "}
+              <a
+                href={`${basePath}/llms.txt`}
+                className="underline underline-offset-4 transition-colors hover:text-fd-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring"
+              >
+                llms.txt
+              </a>
+            </p>
+            {/* Full width, so the attribution wraps once instead of being
+                squeezed into three lines beside the buttons. */}
+            <p className="text-xs leading-relaxed">
+              <FooterMark />
+            </p>
           </div>
         ),
       }}

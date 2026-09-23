@@ -1211,27 +1211,61 @@ aside a[data-active="true"]::before {
   border-radius: 9999px;
 }
 
-/* A folder toggle: a banded chip rather than plain text, so a chapter reads
-   as its own section header at a glance — the same left-edge-accent device
-   this record already uses for a callout and a verbatim block, here spent on
-   "this row groups what follows it" instead of "read this passage exactly".
-   Breathing room above each one but the first keeps chapters visually
-   separate from each other, not just from the pages inside them.
+/* ---- Chapters bar ----
+   The earlier pass gave every chapter a tinted, left-ruled chip with 1rem of
+   air above it. With nine chapters that made nine rows of equal, loud weight:
+   an open chapter, a closed one and the page you are on all looked "active",
+   and about 70px per row meant only four chapters fit above the fold on a
+   laptop (owner, 2026-09-23: "chapters bar ko improve karna hai").
 
-   Sentence case in the site's own sans, at a size close to the leaf links
-   beneath it, not the tiny uppercase mono label first tried here: a chapter
-   name is a title a reader chooses between, not a machine-facing key like a
-   frontmatter field, and set that small and that tight it read as a caption
-   rather than something to click (owner, 2026-09-23: "text bohot chota"). */
+   Now a chapter row is quiet until it matters: a numbered chip, the name,
+   the document count, the chevron. Closed rows carry no fill; the OPEN
+   chapter gets a light tint; the chapter whose own page you are on gets the
+   full accent. The loose top-level documents keep their plain rows, and a
+   "Chapters" label marks where the numbered part begins.
+
+   Tree root: fumadocs renders the top-level rows as direct children of the
+   scroll viewport's inner div, so `ROOT > div[data-state]` is a top-level
+   chapter and a nested folder (Etsy inside Quick skills) is not. */
+aside [data-radix-scroll-area-viewport] > div {
+  counter-reset: ksor-chapter;
+}
+aside [data-radix-scroll-area-viewport] > div > div[data-state] {
+  counter-increment: ksor-chapter;
+}
+
+/* The "Chapters" label, on the first chapter that follows a plain document. */
+aside [data-radix-scroll-area-viewport] > div > a + div[data-state] {
+  position: relative;
+  margin-top: 0.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--color-fd-border);
+}
+aside [data-radix-scroll-area-viewport] > div > a + div[data-state]::before {
+  content: "Chapters";
+  position: absolute;
+  top: 0.6rem;
+  left: 0.5rem;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fd-muted-foreground);
+}
+
+/* Every chapter row (and a nested folder row). */
 aside div[data-state] > a[data-active] {
-  margin-top: 1rem;
-  padding-block: 0.6rem;
+  margin-top: 0.125rem;
+  padding-block: 0.5rem;
+  padding-inline-end: 0.5rem;
+  gap: 0.625rem;
   translate: none;
   border-radius: 0.5rem;
-  border-left: 2.5px solid color-mix(in oklab, var(--color-fd-primary) 32%, transparent);
-  background: color-mix(in oklab, var(--color-fd-primary) 5%, transparent);
+  background: transparent;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
+  line-height: 1.3;
   letter-spacing: -0.006em;
   color: var(--color-fd-foreground);
 }
@@ -1239,38 +1273,91 @@ aside div[data-state]:first-child > a[data-active] {
   margin-top: 0;
 }
 aside div[data-state] > a[data-active]:hover {
-  border-left-color: color-mix(in oklab, var(--color-fd-primary) 55%, transparent);
-  background: color-mix(in oklab, var(--color-fd-primary) 9%, transparent);
+  background: var(--color-fd-accent);
   translate: none;
+}
+aside div[data-state="open"] > a[data-active] {
+  background: color-mix(in oklab, var(--color-fd-primary) 6%, transparent);
 }
 aside div[data-state] > a[data-active="true"] {
   color: var(--color-fd-primary);
-  border-left-color: var(--color-fd-primary);
-  background: color-mix(in oklab, var(--color-fd-primary) 12%, transparent) !important;
-  box-shadow: none;
+  background: color-mix(in oklab, var(--color-fd-primary) 11%, transparent) !important;
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-fd-primary) 20%, transparent);
 }
-aside div[data-state] > a[data-active]::before {
+
+/* The chapter number, drawn in the ::before slot fumadocs otherwise uses for
+   its active-page bar (that bar is not wanted on a chapter row). Every
+   positioning property is reset, since fumadocs sets them with utilities. */
+aside [data-radix-scroll-area-viewport] > div > div[data-state] > a[data-active]::before {
+  content: counter(ksor-chapter, decimal-leading-zero) !important;
+  display: inline-flex !important;
+  position: static !important;
+  inset: auto !important;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem !important;
+  height: 1.5rem !important;
+  border-radius: 0.375rem !important;
+  background: var(--color-fd-muted) !important;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--color-fd-muted-foreground);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+aside [data-radix-scroll-area-viewport] > div > div[data-state="open"] > a[data-active]::before,
+aside [data-radix-scroll-area-viewport] > div > div[data-state] > a[data-active="true"]::before {
+  background: var(--color-fd-primary) !important;
+  color: var(--color-fd-primary-foreground);
+}
+/* A nested folder keeps no number and no bar. */
+aside div[data-state] div[data-state] > a[data-active]::before {
   display: none;
 }
 
-/* The chevron fumadocs draws on a collapsible chapter (`[data-icon]`, set
-   directly on the svg by `SidebarFolderTrigger`/`SidebarFolderLink`) — its
-   own open/closed rotation is already handled by fumadocs' Tailwind classes,
-   so this only dims it to match the chip's own quiet ink rather than the
-   full-strength colour every other row's icon uses. */
+/* Name and document count (components/sidebar-chapter.tsx). */
+aside .ksor-chapter-name {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+aside .ksor-chapter-count {
+  flex: none;
+  min-width: 1.375rem;
+  padding: 0.0625rem 0.375rem;
+  border-radius: 9999px;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--color-fd-muted-foreground);
+  background: var(--color-fd-muted);
+}
+aside div[data-state="open"] > a[data-active] .ksor-chapter-count,
+aside div[data-state] > a[data-active="true"] .ksor-chapter-count {
+  color: var(--color-fd-primary);
+  background: color-mix(in oklab, var(--color-fd-primary) 12%, transparent);
+}
+/* The breadcrumb reads the same tree node; a count there is noise. */
+.ksor-breadcrumb .ksor-chapter-count {
+  display: none;
+}
+
+/* The chevron: no auto margin of its own now that the count sits before it. */
 aside div[data-state] > a[data-active] [data-icon] {
+  margin-inline-start: 0 !important;
   color: var(--color-fd-muted-foreground);
 }
 
-/* The vertical guide line fumadocs draws down a nested branch
-   (`layouts/docs/slots/sidebar.js`'s own `SidebarFolderContent`, styled with
-   the literal Tailwind utility class `before:bg-fd-border`) recoloured
-   toward the accent at low strength, so the line that says "these pages
-   belong to that chapter" reads as part of this record's own accent system
-   instead of a plain layout hairline. Matched on the utility class itself
-   via an attribute selector rather than a guessed nesting depth, since
-   Tailwind emits that class verbatim into the `class` attribute regardless
-   of how deep the element sits. */
+/* The pages inside an open chapter: a little air above and below the list,
+   and the guide line fumadocs draws down it (`before:bg-fd-border`, matched on
+   the utility class itself) tinted toward the accent. */
+aside [class*="before:bg-fd-border"] {
+  margin-block: 0.25rem 0.5rem;
+}
 aside [class*="before:bg-fd-border"]::before {
   background: color-mix(in oklab, var(--color-fd-primary) 22%, var(--color-fd-border)) !important;
 }

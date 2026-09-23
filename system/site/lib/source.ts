@@ -16,6 +16,8 @@ import {
   stagePageOf,
 } from "./stage-manifest";
 import { renderBadge } from "@/components/sidebar-status";
+import { renderChapter } from "@/components/sidebar-chapter";
+import { chapterLabel } from "./chapter-label";
 import { generateIndexes, humanise, type IndexEntry } from "../record/index-file";
 
 // See https://fumadocs.dev/docs/headless/source-api for more info
@@ -123,10 +125,13 @@ function sortTree(
     .map((node): Node => {
       if (node.type === "folder") {
         const url = routeAt(node, depth);
+        const label = typeof node.name === "string" ? chapterLabel(node.name) : null;
         // The folder's own page — the regenerated index rendered as a listing
         // — so the sidebar row LINKS the folder rather than only toggling it.
-        const index: Node & { type: "page" } = { type: "page", name: node.name, url };
-        return { ...node, index, children: sortTree(node.children, order, depth + 1) };
+        const index: Node & { type: "page" } = { type: "page", name: label ?? node.name, url };
+        const children = sortTree(node.children, order, depth + 1);
+        const name = label === null ? node.name : renderChapter(label, countPages(children));
+        return { ...node, name, index, children };
       }
       if (node.type === "page") {
         const badge = stagePageOf(pagePathByUrl().get(node.url) ?? "")?.badge ?? null;
@@ -135,6 +140,16 @@ function sortTree(
       return node;
     })
     .sort((a, b) => rank(a) - rank(b) || routeAt(a, depth).localeCompare(routeAt(b, depth)));
+}
+
+/** Documents under a folder, at any depth: what a chapter row's count shows. */
+function countPages(nodes: readonly Node[]): number {
+  let total = 0;
+  for (const node of nodes) {
+    if (node.type === "page") total += 1;
+    else if (node.type === "folder") total += countPages(node.children);
+  }
+  return total;
 }
 
 function withBadge(name: ReactNode, badge: LifecycleBadge): ReactNode {
@@ -291,9 +306,8 @@ export function siblingsOf(path: string): RecordEntry[] {
 /** The heading of a directory's page: the index's own H1, or its humanised name. */
 export function folderHeading(dir: string): string {
   const entries = readStagedIndex(dir) ?? [];
-  return (
-    entries[0]?.heading || (dir === "" ? appTitle : humanise(dir.slice(dir.lastIndexOf("/") + 1)))
-  );
+  if (dir === "") return entries[0]?.heading || appTitle;
+  return chapterLabel(entries[0]?.heading || humanise(dir.slice(dir.lastIndexOf("/") + 1)));
 }
 
 /** Every directory the stage holds an index for, as `/docs/...` slugs — the folder routes to export. */
