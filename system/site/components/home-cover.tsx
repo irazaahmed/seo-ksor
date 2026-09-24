@@ -77,7 +77,7 @@ export function HomeCover({
           by the signature's `mt-auto`, which measured as 197px of dead space
           below the content and none above it (found live 2026-08-22). */}
       <div className="relative flex flex-1 items-center">
-        <div className="relative mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-12 sm:gap-14 sm:py-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
+        <div className="relative mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-10 px-6 py-12 sm:gap-14 sm:py-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-20">
           <div>
             <div className="motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-2 motion-safe:duration-500">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
@@ -129,10 +129,14 @@ export function HomeCover({
             </div>
           </div>
 
+          {/* `grid-cols-1` / `minmax(0,1fr)` and `min-w-0` because an `auto`
+              track grows to its widest item's min-content, and the stack's
+              one-line (`truncate`) titles made that wider than a phone, so the
+              stack ran off the right edge (owner's screenshot, 2026-09-24). */}
           {/* The record, not a picture of one. It also carries what the meta
               line beside the button used to say — which document opens, and
               how many the record holds — so neither is said twice. */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex min-w-0 justify-center lg:justify-end">
             <RecordStack lead={lead} behind={behind} documents={documents} />
           </div>
         </div>

@@ -46,7 +46,7 @@ export function RecordStack({
   const footed = lead.owner !== null || lead.documents > 0;
 
   return (
-    <div className="w-full max-w-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-3 motion-safe:duration-700 motion-safe:[animation-delay:180ms] motion-safe:[animation-fill-mode:backwards]">
+    <div className="w-full min-w-0 max-w-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-3 motion-safe:duration-700 motion-safe:[animation-delay:180ms] motion-safe:[animation-fill-mode:backwards]">
       <Link
         href={lead.url}
         className="group relative z-30 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] p-5 shadow-[0_28px_60px_-32px_rgb(15_23_42/0.55)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none sm:p-7"
@@ -95,7 +95,7 @@ export function RecordStack({
           }}
         >
           <span className="flex items-baseline justify-between gap-4">
-            <span className="truncate font-display text-base font-medium transition-colors group-hover:text-fd-primary">
+            <span className="min-w-0 truncate font-display text-base font-medium transition-colors group-hover:text-fd-primary">
               {entry.title}
             </span>
             <span className="flex shrink-0 items-baseline gap-2 font-mono text-[10px] tracking-widest text-[var(--ksor-cover-muted)] uppercase tabular-nums">
