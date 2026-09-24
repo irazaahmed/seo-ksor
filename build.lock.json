@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:6c1a8cc1aae68bc6e829d6f83f540667429b1e9fde4365c38c1ac32cba1d4d4d",
+  "build_id": "sha256:857136d09d023284126043732f632097e21f3f8ce780942fa61e832706ebe9ab",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "663a0e049afda9cb605245da308c9b65f215464d",
+  "source_commit": "c28679b8c4f6e8135a1081794f03944a5d8e0b5f",
   "dirty": true,
-  "as_of": "2026-09-24T09:44:02.209Z",
+  "as_of": "2026-09-24T18:32:14.401Z",
   "drafts": "hidden",
   "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -510,6 +510,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
+      "sha256": "acaa3800ed0973813e26b9d734c09ab7888389d6f32ab7ba7a28bcfe6e1c2e84",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-listing-and-competitor-research.md",
       "sha256": "4d12e39384244c2bbce60ddab59d5e1fab49d2f20d07805d5f0d6178e40f680c",
       "status": "stable",
@@ -533,7 +544,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
-      "sha256": "d996cea08576de86df2d0afccb926a183cc5e5122993e9803484c97fe1be89b2",
+      "sha256": "43f7e5a7213a86cf2c643b421869345fd4ecba80581fe510521781faac853bc4",
       "status": "stable",
       "audience": [
         "public"
@@ -650,7 +661,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "422447f4a853e36af572efc16513261952d2bcfc6cbdc4977472395dae16d2e1"
+      "sha256": "f8eba8169f8d9314f29989c48016e8757f7570407a8998f9886d4405bb5c9eed"
     },
     {
       "path": "quick-skills/index.md",
@@ -664,8 +675,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "830b1caf185a6d8047728b4826f8fe5f57575569b1e067f92aa29857ac48dc34",
-      "files": 70
+      "sha256": "21c1d1fb3efec27752cebfd8d7b2550cef0799625d58bc75374dafedbe14001c",
+      "files": 71
     }
   ]
 }
