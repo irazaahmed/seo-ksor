@@ -16,7 +16,7 @@ export function BuiltWith(): ReactElement {
       >
         Ahmed Raza
       </a>
-      {" — Islamic Scholar | Agentic AI Developer"}
+      {", Islamic Scholar | Agentic AI Developer"}
     </>
   );
 }

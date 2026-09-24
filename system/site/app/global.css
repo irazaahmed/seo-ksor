@@ -1279,9 +1279,9 @@ aside .ksor-section {
   align-items: center;
   gap: 0.625rem;
   font-family: var(--font-mono, ui-monospace, monospace);
-  font-size: 0.625rem;
+  font-size: 0.5625rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--color-fd-muted-foreground);
 }
@@ -1294,9 +1294,9 @@ aside .ksor-section::after {
 
 /* ---- Start here: the loose top-level documents ---- */
 aside a[data-active]:has(> .ksor-doc-icon) {
-  gap: 0.625rem;
-  padding-block: 0.375rem;
-  font-size: 0.8125rem;
+  gap: 0.5625rem;
+  padding-block: 0.3125rem;
+  font-size: 0.75rem;
   line-height: 1.35;
   color: color-mix(in oklab, var(--color-fd-foreground) 82%, transparent);
 }
@@ -1308,9 +1308,9 @@ aside .ksor-doc-icon {
   flex: none;
   align-items: center;
   justify-content: center;
-  width: 1.625rem;
-  height: 1.625rem;
-  border-radius: 0.5rem;
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 0.4375rem;
   border: 1px solid var(--color-fd-border);
   background: var(--color-fd-muted);
   color: var(--color-fd-muted-foreground);
@@ -1320,8 +1320,8 @@ aside .ksor-doc-icon {
     border-color 0.15s;
 }
 aside .ksor-doc-icon svg {
-  width: 0.875rem !important;
-  height: 0.875rem !important;
+  width: 0.75rem !important;
+  height: 0.75rem !important;
 }
 aside a[data-active]:has(> .ksor-doc-icon):hover .ksor-doc-icon {
   color: var(--color-fd-primary);
@@ -1343,9 +1343,9 @@ aside a[data-active="true"] > .ksor-doc-icon {
 /* ---- A chapter row ---- */
 aside div[data-state] > a[data-active]:has(.ksor-ch-tile) {
   margin-top: 0.125rem;
-  padding-block: 0.4375rem;
+  padding-block: 0.375rem;
   padding-inline-end: 0.5rem;
-  gap: 0.6875rem;
+  gap: 0.625rem;
   translate: none;
   border: 1px solid transparent;
   border-radius: 0.75rem;
@@ -1368,13 +1368,23 @@ aside div[data-state] > a[data-active]:has(.ksor-ch-tile):hover {
 /* The open chapter: a card in its own colour. */
 aside div[data-state="open"] > a[data-active]:has(.ksor-ch-tile),
 aside div[data-state] > a[data-active="true"]:has(.ksor-ch-tile) {
-  background: linear-gradient(
-    100deg,
-    color-mix(in oklab, var(--ch) 16%, transparent),
-    color-mix(in oklab, var(--ch) 4%, transparent)
-  ) !important;
-  border-color: color-mix(in oklab, var(--ch) 26%, transparent);
-  box-shadow: 0 6px 18px -10px color-mix(in oklab, var(--ch) 60%, transparent);
+  /* A gradient BORDER as well as a fill: the fill on the padding box, a
+     brighter sweep of the same hue on the border box behind it. */
+  background:
+    linear-gradient(
+        100deg,
+        color-mix(in oklab, var(--ch) 15%, var(--color-fd-card)),
+        color-mix(in oklab, var(--ch) 4%, var(--color-fd-card))
+      )
+      padding-box,
+    linear-gradient(
+        120deg,
+        color-mix(in oklab, var(--ch) 65%, transparent),
+        color-mix(in oklab, var(--ch) 12%, transparent)
+      )
+      border-box !important;
+  border-color: transparent;
+  box-shadow: 0 8px 20px -12px color-mix(in oklab, var(--ch) 70%, transparent);
 }
 
 /* The tile: the chapter's icon on a gradient of its own hue. */
@@ -1383,9 +1393,9 @@ aside div[data-state] > a[data-active="true"]:has(.ksor-ch-tile) {
   flex: none;
   align-items: center;
   justify-content: center;
-  width: 1.875rem;
-  height: 1.875rem;
-  border-radius: 0.5625rem;
+  width: 1.625rem;
+  height: 1.625rem;
+  border-radius: 0.5rem;
   color: #fff;
   background: linear-gradient(
     140deg,
@@ -1400,18 +1410,18 @@ aside div[data-state] > a[data-active="true"]:has(.ksor-ch-tile) {
     box-shadow 0.2s;
 }
 .ksor-ch-tile svg {
-  width: 0.9375rem !important;
-  height: 0.9375rem !important;
+  width: 0.8125rem !important;
+  height: 0.8125rem !important;
   stroke-width: 2.25;
 }
 .ksor-ch-tile[data-nested] {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.375rem;
+  height: 1.375rem;
   border-radius: 0.4375rem;
 }
 .ksor-ch-tile[data-nested] svg {
-  width: 0.8125rem !important;
-  height: 0.8125rem !important;
+  width: 0.6875rem !important;
+  height: 0.6875rem !important;
 }
 aside div[data-state] > a[data-active]:hover .ksor-ch-tile {
   transform: scale(1.08) rotate(-5deg);
@@ -1426,14 +1436,14 @@ aside div[data-state] > a[data-active]:hover .ksor-ch-tile {
   gap: 0.0625rem;
 }
 .ksor-ch-name {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.008em;
   text-wrap: balance;
 }
 .ksor-ch-meta {
-  font-size: 0.6875rem;
+  font-size: 0.625rem;
   font-weight: 500;
   line-height: 1.2;
   color: var(--color-fd-muted-foreground);
@@ -1473,9 +1483,9 @@ aside div[data-state="open"] > a[data-active] [data-icon] {
 aside [class*="before:bg-fd-border"] {
   margin-block: 0.375rem 0.625rem;
 }
-/* The rail itself, centred under the tile (row inset 8px + half a 30px tile). */
+/* The rail itself, centred under the tile (row inset 8px + half a 26px tile). */
 aside [class*="before:bg-fd-border"]::before {
-  inset-inline-start: 22px !important;
+  inset-inline-start: 20px !important;
   width: 2px !important;
   border-radius: 9999px;
   background: linear-gradient(
@@ -1487,9 +1497,9 @@ aside [class*="before:bg-fd-border"]::before {
 
 /* A lesson row: fumadocs' leaf link, one level into a chapter. */
 aside div[data-state] > div > a[data-active] {
-  padding-block: 0.375rem;
-  padding-inline-start: 2.5rem !important;
-  font-size: 0.8125rem;
+  padding-block: 0.3125rem;
+  padding-inline-start: 2.25rem !important;
+  font-size: 0.75rem;
   font-weight: 450;
   line-height: 1.4;
   color: var(--color-fd-muted-foreground);
@@ -1504,8 +1514,8 @@ aside div[data-state] > div > a[data-active]:hover {
 aside div[data-state] > div > a[data-active]::after {
   content: "";
   position: absolute;
-  top: 0.6875rem;
-  left: 19px;
+  top: 0.5625rem;
+  left: 17px;
   width: 8px;
   height: 8px;
   border-radius: 9999px;
@@ -1524,7 +1534,11 @@ aside div[data-state] > div > a[data-active]:hover::after {
 aside div[data-state] > div > a[data-active="true"] {
   font-weight: 600;
   color: color-mix(in oklab, var(--ch) 70%, var(--color-fd-foreground));
-  background: color-mix(in oklab, var(--ch) 11%, transparent) !important;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--ch) 16%, transparent),
+    color-mix(in oklab, var(--ch) 3%, transparent)
+  ) !important;
   box-shadow: none;
 }
 aside div[data-state] > div > a[data-active="true"]::before {
@@ -1537,13 +1551,13 @@ aside div[data-state] > div > a[data-active="true"]::after {
 }
 /* A nested chapter's own row and lessons sit one step further in. */
 aside div[data-state] div[data-state] > a[data-active]:has(.ksor-ch-tile) {
-  padding-inline-start: 2.25rem !important;
+  padding-inline-start: 2rem !important;
 }
 aside div[data-state] div[data-state] div[data-state] > div > a[data-active] {
-  padding-inline-start: 3.5rem !important;
+  padding-inline-start: 3.25rem !important;
 }
 aside div[data-state] div[data-state] div[data-state] > div > a[data-active]::after {
-  left: 2.5rem;
+  left: 2.25rem;
 }
 
 /* Two lines at most: a long title never floods the rail. */
@@ -1556,21 +1570,43 @@ aside .ksor-lesson-name {
   line-clamp: 2;
 }
 
-/* The right-hand table-of-contents rail (#nd-toc) is fumadocs' own —
-   width, visibility and the grid column that reserves space for it are all
-   driven by the `--fd-toc-width` custom property, read by the grid
-   container's (#nd-docs-layout) inline `grid-template-columns`. fumadocs'
-   own default only turns the rail on at `xl` (1280px); below that, a
-   heading list shows as a tap-to-open dropdown instead (found live,
-   2026-09-21: the dropdown was showing at widths where a permanent
-   right-side list would fit fine). Setting the variable directly on the
-   grid container at `lg` (1024px) instead works through the same
-   mechanism fumadocs uses at `xl` — CSS custom properties inherit
-   downward, so #nd-toc (a descendant, sizing itself off the same
-   variable) picks it up too, without touching fumadocs' own classes. */
+/* The rail's own surface: a soft glow of the accent at its top, so the
+   sidebar reads as a lit panel rather than a flat grey column. */
+#nd-sidebar,
+#nd-sidebar-mobile {
+  background:
+    radial-gradient(
+      140% 32% at 0% 0%,
+      color-mix(in oklab, var(--color-fd-primary) 9%, transparent),
+      transparent 72%
+    ),
+    var(--color-fd-card);
+}
+/* The open chapter's tile carries a halo in its own colour. */
+aside div[data-state="open"] > a[data-active] .ksor-ch-tile {
+  box-shadow:
+    0 0 0 3px color-mix(in oklab, var(--ch) 22%, transparent),
+    0 4px 10px -2px oklch(0.55 0.2 var(--ch-h, 262) / 0.55),
+    inset 0 1px 0 rgb(255 255 255 / 0.28);
+}
+
+/* The right-hand table-of-contents rail (#nd-toc, components/record-toc.tsx).
+   Its width is the `--fd-toc-width` custom property, read by the grid
+   container's (#nd-docs-layout) inline `grid-template-columns`, so the column
+   is sized HERE and the rail sizes itself off the same variable.
+
+   It is CLOSED by default (owner, 2026-09-24: "thori hide rakho jab chahe to
+   visible kar len"): a 56px strip holding the open button and a minimap of
+   the page's headings, so the article gets the width and the reader still
+   sees where they are. Opened, it is a card with a reading-progress bar. The
+   choice is the reader's and is remembered (`html[data-toc]`, set by the
+   rail). From `lg` (1024px) up; below that the shell's popover stands. */
 @media (min-width: 64rem) {
   #nd-docs-layout {
-    --fd-toc-width: 268px;
+    --fd-toc-width: 56px;
+  }
+  html[data-toc="open"] #nd-docs-layout {
+    --fd-toc-width: 248px;
   }
   #nd-toc {
     display: flex !important;
@@ -1578,4 +1614,256 @@ aside .ksor-lesson-name {
   [data-toc-popover] {
     display: none !important;
   }
+}
+
+/* ---- Closed: the strip ---- */
+.ksor-toc-strip {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+}
+.ksor-toc-open,
+.ksor-toc-close {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.625rem;
+  color: var(--color-fd-muted-foreground);
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s,
+    box-shadow 0.15s,
+    transform 0.15s;
+}
+.ksor-toc-open {
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--color-fd-border);
+  background: var(--color-fd-card);
+  box-shadow: 0 1px 2px color-mix(in oklab, var(--color-fd-foreground) 6%, transparent);
+}
+.ksor-toc-open:hover {
+  color: var(--color-fd-primary);
+  border-color: color-mix(in oklab, var(--color-fd-primary) 40%, var(--color-fd-border));
+  box-shadow: 0 4px 12px -4px color-mix(in oklab, var(--color-fd-primary) 45%, transparent);
+  transform: translateY(-1px);
+}
+.ksor-toc-open svg,
+.ksor-toc-close svg {
+  width: 1rem;
+  height: 1rem;
+}
+.ksor-toc-open:focus-visible,
+.ksor-toc-close:focus-visible,
+.ksor-toc-marks a:focus-visible,
+.ksor-toc-list a:focus-visible {
+  outline: 2px solid var(--color-fd-ring);
+  outline-offset: 2px;
+}
+/* The minimap: one mark per heading, shorter for a deeper one. */
+.ksor-toc-marks {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3125rem;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.ksor-toc-marks a {
+  display: block;
+  width: 1.125rem;
+  height: 0.25rem;
+  border-radius: 9999px;
+  background: var(--color-fd-border);
+  transition:
+    background-color 0.15s,
+    width 0.2s;
+}
+.ksor-toc-marks a[data-depth="1"] {
+  width: 0.75rem;
+}
+.ksor-toc-marks a[data-depth="2"],
+.ksor-toc-marks a[data-depth="3"] {
+  width: 0.5rem;
+}
+.ksor-toc-marks a:hover {
+  background: color-mix(in oklab, var(--color-fd-primary) 55%, var(--color-fd-border));
+}
+.ksor-toc-marks a[data-state="here"] {
+  width: 1.5rem;
+  background: var(--color-fd-primary);
+}
+
+/* ---- Open: the card ---- */
+.ksor-toc-panel {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  margin-inline-end: 1rem;
+  border: 1px solid var(--color-fd-border);
+  border-radius: 0.875rem;
+  background:
+    radial-gradient(
+      120% 50% at 100% 0%,
+      color-mix(in oklab, var(--color-fd-primary) 7%, transparent),
+      transparent 70%
+    ),
+    var(--color-fd-card);
+  box-shadow: 0 8px 24px -16px color-mix(in oklab, var(--color-fd-foreground) 30%, transparent);
+  animation: ksor-toc-in 0.2s ease-out;
+}
+@keyframes ksor-toc-in {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ksor-toc-panel {
+    animation: none;
+  }
+}
+.ksor-toc-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 0.5rem 0.5rem 0.75rem;
+}
+.ksor-toc-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.4375rem;
+  color: var(--color-fd-primary-foreground);
+  background: linear-gradient(
+    140deg,
+    color-mix(in oklab, var(--color-fd-primary) 75%, white),
+    var(--color-fd-primary)
+  );
+}
+.ksor-toc-icon svg {
+  width: 0.8125rem;
+  height: 0.8125rem;
+}
+.ksor-toc-title {
+  flex: 1;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fd-muted-foreground);
+}
+.ksor-toc-close {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.ksor-toc-close:hover {
+  color: var(--color-fd-foreground);
+  background: var(--color-fd-accent);
+}
+/* Reading progress, under the header. */
+.ksor-toc-progress {
+  height: 2px;
+  margin: 0 0.75rem 0.375rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: var(--color-fd-border);
+}
+.ksor-toc-progress span {
+  display: block;
+  height: 100%;
+  transform-origin: left;
+  background: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-fd-primary) 55%, white),
+    var(--color-fd-primary)
+  );
+  transition: transform 0.15s linear;
+}
+.ksor-toc-list {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+  gap: 1px;
+  overflow-y: auto;
+  padding: 0.125rem 0.5rem 0.625rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-fd-border) transparent;
+}
+.ksor-toc-list a {
+  position: relative;
+  padding-block: 0.3125rem;
+  padding-inline-end: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--color-fd-muted-foreground);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+.ksor-toc-list a[data-depth="0"] {
+  font-weight: 500;
+}
+.ksor-toc-list a::before {
+  content: "";
+  position: absolute;
+  top: 0.6875rem;
+  left: 0.4375rem;
+  width: 4px;
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--color-fd-border);
+  transition:
+    background-color 0.15s,
+    box-shadow 0.15s;
+}
+.ksor-toc-list a:hover {
+  color: var(--color-fd-foreground);
+  background: var(--color-fd-accent);
+}
+.ksor-toc-list a[data-state="within"] {
+  color: var(--color-fd-foreground);
+}
+.ksor-toc-list a[data-state="within"]::before {
+  background: color-mix(in oklab, var(--color-fd-primary) 50%, var(--color-fd-border));
+}
+.ksor-toc-list a[data-state="here"] {
+  font-weight: 600;
+  color: var(--color-fd-primary);
+  background: color-mix(in oklab, var(--color-fd-primary) 10%, transparent);
+}
+.ksor-toc-list a[data-state="here"]::before {
+  background: var(--color-fd-primary);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-fd-primary) 22%, transparent);
+}
+
+/* ---- The front door's topic cards: the sidebar's chapter tiles, bigger ---- */
+.ksor-topic-tile {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+}
+.ksor-topic-tile svg {
+  width: 1.125rem !important;
+  height: 1.125rem !important;
+}
+.ksor-topic:hover .ksor-topic-tile {
+  transform: scale(1.06) rotate(-4deg);
+}
+.ksor-topic:hover .ksor-topic-card {
+  border-color: color-mix(in oklab, var(--ch) 45%, var(--color-fd-border));
+  background: color-mix(in oklab, var(--ch) 5%, var(--color-fd-card));
+}
+.ksor-topic:hover .ksor-topic-title,
+.ksor-topic-count {
+  color: var(--ch);
 }

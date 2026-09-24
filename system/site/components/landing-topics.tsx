@@ -1,20 +1,8 @@
 import Link from "next/link";
-import type { ComponentType, ReactElement } from "react";
-import {
-  BookOpen,
-  Compass,
-  FileText,
-  Layers,
-  Link2,
-  MapPin,
-  PenLine,
-  Search,
-  Smartphone,
-  Store,
-  Wrench,
-} from "lucide-react";
+import type { ReactElement } from "react";
 
 import { Card } from "@/components/ui/card";
+import { chapterStyle, documentIcon } from "@/lib/chapter-style";
 import type { RecordEntry } from "@/lib/source";
 
 /**
@@ -23,26 +11,18 @@ import type { RecordEntry } from "@/lib/source";
  * Every card is one of the record's own top-level entries — its real title,
  * description and document count (`entriesUnder("")`, the same data the
  * sidebar and the cover's stack read) — never authored copy standing in for
- * the record (scaffolded AGENTS.md, critical rule 1). The icon per folder is
- * the one piece of decoration, keyed on the folder's own slug so it costs
- * nothing to keep in sync when a folder is renamed: it just falls back to a
- * generic mark.
+ * the record (scaffolded AGENTS.md, critical rule 1). The icon and colour per
+ * chapter are the SIDEBAR's (lib/chapter-style.ts), so a chapter looks the
+ * same on the front door as in the rail a reader then navigates by; a loose
+ * document wears its own icon in the accent.
  */
-const ICONS: Record<string, ComponentType<{ className?: string }>> = {
-  "niche-research": Compass,
-  "keyword-research-and-content-planning": Search,
-  "content-writing": PenLine,
-  wordpress: Layers,
-  "on-page-and-technical-seo": Wrench,
-  "apk-websites": Smartphone,
-  "off-page-seo": Link2,
-  "local-seo": MapPin,
-  "quick-skills": Store,
-};
-
-function iconFor(entry: RecordEntry): ComponentType<{ className?: string }> {
+function styleFor(entry: RecordEntry): { Icon: ReturnType<typeof documentIcon>; tone: string } {
   const slug = entry.url.split("/").filter(Boolean).pop() ?? "";
-  return ICONS[slug] ?? (entry.documents > 0 ? BookOpen : FileText);
+  if (entry.documents > 0) {
+    const { icon, tone } = chapterStyle(slug);
+    return { Icon: icon, tone };
+  }
+  return { Icon: documentIcon(slug), tone: "blue" };
 }
 
 export function LandingTopics({ entries }: { entries: readonly RecordEntry[] }): ReactElement {
@@ -60,15 +40,15 @@ export function LandingTopics({ entries }: { entries: readonly RecordEntry[] }):
 
         <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3">
           {entries.map((entry) => {
-            const Icon = iconFor(entry);
+            const { Icon, tone } = styleFor(entry);
             return (
-              <Link key={entry.url} href={entry.url} className="group">
-                <Card className="h-full gap-3 border-fd-border p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-fd-primary/50 hover:bg-fd-muted/40 hover:shadow-md motion-reduce:transform-none">
+              <Link key={entry.url} href={entry.url} className={`group ksor-topic ksor-tone-${tone}`}>
+                <Card className="ksor-topic-card h-full gap-3 border-fd-border p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md motion-reduce:transform-none sm:p-6">
                   <div className="flex items-center gap-3.5">
-                    <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-fd-primary/10 text-fd-primary transition-colors group-hover:bg-fd-primary group-hover:text-fd-primary-foreground">
-                      <Icon className="size-[19px]" aria-hidden />
+                    <span className={`ksor-ch-tile ksor-topic-tile ksor-tone-${tone}`} aria-hidden>
+                      <Icon />
                     </span>
-                    <h3 className="font-display text-base font-semibold transition-colors group-hover:text-fd-primary">
+                    <h3 className="ksor-topic-title font-display text-base font-semibold transition-colors">
                       {entry.title}
                     </h3>
                   </div>
@@ -76,8 +56,8 @@ export function LandingTopics({ entries }: { entries: readonly RecordEntry[] }):
                     <p className="text-sm/relaxed text-fd-muted-foreground">{entry.description}</p>
                   )}
                   {entry.documents === 0 ? null : (
-                    <p className="mt-auto pt-2 font-mono text-[11px] tracking-widest text-fd-muted-foreground uppercase tabular-nums">
-                      {entry.documents} {entry.documents === 1 ? "document" : "documents"}
+                    <p className="ksor-topic-count mt-auto pt-2 font-mono text-[11px] tracking-widest uppercase tabular-nums">
+                      {entry.documents} {entry.documents === 1 ? "lesson" : "lessons"}
                     </p>
                   )}
                 </Card>

@@ -323,7 +323,8 @@ export function entriesUnder(dir: string): RecordEntry[] {
       return [
         {
           url: item.url,
-          title: item.title,
+          // The same display name the sidebar shows (lib/chapter-label.ts).
+          title: chapterLabel(item.title),
           description: null,
           badge: null,
           owner: null,

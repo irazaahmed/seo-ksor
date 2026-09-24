@@ -1,6 +1,7 @@
 "use client";
 
 import type { TOCItemType } from "fumadocs-core/toc";
+import { ListTree, PanelRightClose } from "lucide-react";
 import { createContext, use, useEffect, useState, type ReactElement, type ReactNode } from "react";
 
 /**
@@ -50,6 +51,8 @@ export function TocItems({
 export function RecordToc(): ReactElement | null {
   const items = use(TocItemsContext);
   const [activeId, setActiveId] = useState<string | null>(null);
+  const [progress, setProgress] = useState(0);
+  const [open, setOpen] = useOpenRail();
 
   useEffect(() => {
     if (items.length === 0) return;
@@ -73,6 +76,8 @@ export function RecordToc(): ReactElement | null {
       // paragraphs, which belong to the first section — highlighting nothing
       // there reads as broken rather than as honest.
       setActiveId(current ?? ids[0] ?? null);
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      setProgress(scrollable > 0 ? Math.min(1, Math.max(0, window.scrollY / scrollable)) : 1);
     };
     const onScroll = (): void => {
       if (frame === 0) frame = requestAnimationFrame(measure);
@@ -113,48 +118,124 @@ export function RecordToc(): ReactElement | null {
   }
 
   return (
-    // The container is the shell's own, copied verbatim: it carries the grid
-    // area, the rail width and the `max-xl:hidden` that hands small screens to
-    // the popover. Replacing a slot means supplying what the slot supplied —
-    // a first version rendered only the list and the rail escaped its column,
-    // laying 1156px wide across the page (found live, 2026-08-22).
+    // The container is the shell's own grid area and height: it carries the
+    // grid area and the sticky height, and `max-lg:hidden` hands small screens
+    // to the shell's popover. Replacing a slot means supplying what the slot
+    // supplied — a first version rendered only the list and the rail escaped
+    // its column, laying 1156px wide across the page (found live, 2026-08-22).
+    // Its WIDTH is global.css's, keyed on `html[data-toc]`, so opening the
+    // rail widens the grid column rather than overlaying the article.
     <div
       id="nd-toc"
-      className="sticky top-(--fd-docs-row-1) flex h-[calc(var(--fd-docs-height)-var(--fd-docs-row-1))] w-(--fd-toc-width) flex-col [grid-area:toc] pt-12 pe-4 pb-2 max-xl:hidden xl:layout:[--fd-toc-width:268px]"
+      data-open={open}
+      className="sticky top-(--fd-docs-row-1) flex h-[calc(var(--fd-docs-height)-var(--fd-docs-row-1))] w-(--fd-toc-width) flex-col [grid-area:toc] pt-12 pb-2 max-lg:hidden"
     >
-      <p className="mb-3 ps-4 font-mono text-[0.6875rem] tracking-[0.16em] text-fd-muted-foreground uppercase">
-        On this page
-      </p>
-      <nav aria-label="On this page" className="flex flex-col overflow-y-auto text-sm">
-        {items.map((item) => {
-          const id = item.url.slice(1);
-          const here = id === activeId;
-          const within = ancestors.has(item.url);
-          return (
-            <a
-              key={item.url}
-              href={item.url}
-              // The bar IS the border, so it cannot drift from the row it
-              // marks — the shell drew it as a separately positioned track.
-              // Three states, not two: AT this heading, INSIDE its section, or
-              // neither. The section keeps the reader's place without competing
-              // with the line they are actually on — full ink and a dimmed bar
-              // against the accent and a solid one.
-              className={`border-s-2 py-1.5 pe-2 transition-colors ${
-                here
-                  ? "border-fd-primary text-fd-primary"
-                  : within
-                    ? "border-fd-primary/40 text-fd-foreground"
-                    : "border-fd-border text-fd-muted-foreground hover:text-fd-foreground"
-              }`}
-              style={{ paddingInlineStart: `${(item.depth - top) * 0.75 + 1}rem` }}
-              aria-current={here ? "location" : undefined}
+      {open ? (
+        <div className="ksor-toc-panel">
+          <div className="ksor-toc-head">
+            <span className="ksor-toc-icon" aria-hidden>
+              <ListTree />
+            </span>
+            <span className="ksor-toc-title">On this page</span>
+            <button
+              type="button"
+              className="ksor-toc-close"
+              onClick={() => setOpen(false)}
+              aria-label="Hide the list of sections"
+              title="Hide"
             >
-              {item.title}
-            </a>
-          );
-        })}
-      </nav>
+              <PanelRightClose aria-hidden />
+            </button>
+          </div>
+          <div className="ksor-toc-progress" aria-hidden>
+            <span style={{ transform: `scaleX(${progress})` }} />
+          </div>
+          <nav aria-label="On this page" className="ksor-toc-list">
+            {items.map((item) => {
+              const id = item.url.slice(1);
+              const here = id === activeId;
+              const within = ancestors.has(item.url);
+              return (
+                <a
+                  key={item.url}
+                  href={item.url}
+                  // Three states: AT this heading, INSIDE its section, or
+                  // neither — the section keeps the reader's place without
+                  // competing with the line they are actually on.
+                  data-state={here ? "here" : within ? "within" : undefined}
+                  data-depth={item.depth - top}
+                  style={{ paddingInlineStart: `${(item.depth - top) * 0.75 + 0.875}rem` }}
+                  aria-current={here ? "location" : undefined}
+                >
+                  {item.title}
+                </a>
+              );
+            })}
+          </nav>
+        </div>
+      ) : (
+        // Closed: a slim strip — the open button, then a minimap of the page,
+        // one mark per heading, so the reader still sees where they are and
+        // can jump from it without opening the list.
+        <div className="ksor-toc-strip">
+          <button
+            type="button"
+            className="ksor-toc-open"
+            onClick={() => setOpen(true)}
+            aria-label="Show the list of sections on this page"
+            title="On this page"
+          >
+            <ListTree aria-hidden />
+          </button>
+          <nav aria-label="On this page" className="ksor-toc-marks">
+            {items.map((item) => {
+              const here = item.url.slice(1) === activeId;
+              return (
+                <a
+                  key={item.url}
+                  href={item.url}
+                  data-state={here ? "here" : undefined}
+                  data-depth={item.depth - top}
+                  title={typeof item.title === "string" ? item.title : undefined}
+                  aria-current={here ? "location" : undefined}
+                >
+                  <span className="sr-only">{item.title}</span>
+                </a>
+              );
+            })}
+          </nav>
+        </div>
+      )}
     </div>
   );
+}
+
+/**
+ * Whether the rail is open: CLOSED by default, so the article has the width,
+ * and remembered per reader in their own browser once they choose. Mirrored
+ * onto `<html data-toc>`, which is what global.css sizes the grid column from.
+ */
+function useOpenRail(): [boolean, (open: boolean) => void] {
+  const [open, setOpenState] = useState(false);
+  useEffect(() => {
+    let saved: string | null = null;
+    try {
+      saved = window.localStorage.getItem("ksor-toc");
+    } catch {
+      // Storage can be blocked; the default stands.
+    }
+    setOpenState(saved === "open");
+  }, []);
+  useEffect(() => {
+    document.documentElement.dataset.toc = open ? "open" : "closed";
+  }, [open]);
+  const setOpen = (next: boolean): void => {
+    setOpenState(next);
+    try {
+      window.localStorage.setItem("ksor-toc", next ? "open" : "closed");
+    } catch {
+      // Not remembered; still applied for this page.
+    }
+  };
+  return [open, setOpen];
 }
