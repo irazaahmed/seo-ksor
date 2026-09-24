@@ -16,7 +16,12 @@ import {
   stagePageOf,
 } from "./stage-manifest";
 import { renderBadge } from "@/components/sidebar-status";
-import { renderChapter } from "@/components/sidebar-chapter";
+import {
+  renderChapter,
+  renderDocumentIcon,
+  renderLesson,
+  renderSection,
+} from "@/components/sidebar-chapter";
 import { chapterLabel } from "./chapter-label";
 import { generateIndexes, humanise, type IndexEntry } from "../record/index-file";
 
@@ -121,25 +126,43 @@ function sortTree(
   depth: number,
 ): Node[] {
   const rank = (node: Node): number => order.get(routeAt(node, depth)) ?? Number.POSITIVE_INFINITY;
-  return nodes
-    .map((node): Node => {
-      if (node.type === "folder") {
-        const url = routeAt(node, depth);
-        const label = typeof node.name === "string" ? chapterLabel(node.name) : null;
-        // The folder's own page — the regenerated index rendered as a listing
-        // — so the sidebar row LINKS the folder rather than only toggling it.
-        const index: Node & { type: "page" } = { type: "page", name: label ?? node.name, url };
-        const children = sortTree(node.children, order, depth + 1);
-        const name = label === null ? node.name : renderChapter(label, countPages(children));
-        return { ...node, name, index, children };
-      }
-      if (node.type === "page") {
-        const badge = stagePageOf(pagePathByUrl().get(node.url) ?? "")?.badge ?? null;
-        return badge === null ? node : { ...node, name: withBadge(node.name, badge) };
-      }
-      return node;
-    })
-    .sort((a, b) => rank(a) - rank(b) || routeAt(a, depth).localeCompare(routeAt(b, depth)));
+  // Sorted BEFORE mapping, so a top-level chapter's number is its position in
+  // the reading order.
+  const sorted = [...nodes].sort(
+    (a, b) => rank(a) - rank(b) || routeAt(a, depth).localeCompare(routeAt(b, depth)),
+  );
+  let chapter = 0;
+  return sorted.map((node): Node => {
+    if (node.type === "folder") {
+      const url = routeAt(node, depth);
+      const label = typeof node.name === "string" ? chapterLabel(node.name) : null;
+      // The folder's own page — the regenerated index rendered as a listing
+      // — so the sidebar row LINKS the folder rather than only toggling it.
+      const index: Node & { type: "page" } = { type: "page", name: label ?? node.name, url };
+      const children = sortTree(node.children, order, depth + 1);
+      const number = depth === 0 ? (chapter += 1) : null;
+      const name =
+        label === null
+          ? node.name
+          : renderChapter({
+              slug: lastSegment(url),
+              label,
+              count: countPages(children),
+              number,
+            });
+      return { ...node, name, index, children };
+    }
+    if (node.type === "page") {
+      const badge = stagePageOf(pagePathByUrl().get(node.url) ?? "")?.badge ?? null;
+      const named = badge === null ? node.name : withBadge(node.name, badge);
+      // A top-level document wears an icon; a page inside a chapter is a
+      // lesson on the chapter's timeline, its title clamped to two lines.
+      return depth === 0
+        ? { ...node, name: named, icon: renderDocumentIcon(lastSegment(node.url)) }
+        : { ...node, name: renderLesson(named) };
+    }
+    return node;
+  });
 }
 
 /** Documents under a folder, at any depth: what a chapter row's count shows. */
@@ -171,7 +194,36 @@ function pagePathByUrl(): Map<string, string> {
  */
 export function getSortedPageTree(): Root {
   const tree = source.getPageTree();
-  return { ...tree, children: sortTree(tree.children, positions(), 0) };
+  return { ...tree, children: withSections(sortTree(tree.children, positions(), 0)) };
+}
+
+/**
+ * Two labelled groups at the root: the loose documents ("Start here") and the
+ * chapters. A label is a real separator node, which fumadocs renders as its
+ * own row, rather than text painted onto a neighbouring row with CSS.
+ */
+function withSections(nodes: Node[]): Node[] {
+  // Each label once, before the first node of its kind: a document sorted
+  // between two chapters stays where the reading order put it, unlabelled.
+  const out: Node[] = [];
+  const labelled = new Set<string>();
+  for (const node of nodes) {
+    const kind = node.type === "folder" ? "folder" : node.type === "page" ? "page" : null;
+    if (kind !== null && !labelled.has(kind)) {
+      out.push({
+        type: "separator",
+        name: renderSection(kind === "folder" ? "Chapters" : "Start here"),
+      });
+      labelled.add(kind);
+    }
+    out.push(node);
+  }
+  return out;
+}
+
+function lastSegment(url: string): string {
+  const parts = url.split("/").filter(Boolean);
+  return parts[parts.length - 1] ?? "";
 }
 
 /**
