@@ -4,12 +4,12 @@ title: Creating an Etsy shop
 description: "How to set up an Etsy account correctly for a Quick Skills (Etsy) shop: buyer signup, seller conversion, country/currency, shop naming, and account security."
 status: stable
 order: 54
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-09-24T18:35:00Z }]
 ---
 
 *Every document in the Quick Skills → Etsy chapter is from lectures taught
@@ -54,6 +54,6 @@ Turn on **"Keep your shop extra safe"** and authenticate it with the
 
 Advanced keyword research for the shop starts next: see
 [Etsy SEO and keyword research](etsy-seo-and-keyword-research.md) and
-[RankKW: the Etsy SEO tool and listing criteria](etsy-rankkw-tool-and-listing-criteria.md).
+[RankKW: the Etsy SEO tool and shop criteria](etsy-rankkw-tool-and-listing-criteria.md).
 Getting that right from the start is what avoids problems with the shop
 later.

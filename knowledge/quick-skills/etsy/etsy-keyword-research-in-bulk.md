@@ -4,16 +4,19 @@ title: "Finding Etsy keywords in bulk: three methods and the selection formula"
 description: Three ways to collect related Etsy keywords in bulk (manual autocomplete, an AI prompt, and mining the top 10 listings' titles) and the metric combination a keyword has to pass before you use it.
 status: stable
 order: 52.5
-generated: { by: human:ahmedraza, at: 2026-09-24T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-24T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
 sources:
   - id: etsy-class-08
     title: "Etsy module, Class 08: Keyword Research, Find Keyword in Bulk"
     resource: "iSkills Quick Skills (Etsy) Class 08 notes, Keyword Research: Find Keyword in Bulk, taught by Sir Zafar Ali"
-verified: [{ by: human:ahmedraza, at: 2026-09-24T12:00:00Z }]
+  - id: owner-clarification-2026-09-24
+    title: "Owner's clarification: shop criteria versus keyword criteria"
+    resource: "Clarification from human:ahmedraza (owner), 2026-09-24T18:35:00Z, recorded by Claude: the RankKW class's criteria are for a shop, and Class 08's criteria are for keywords"
+verified: [{ by: human:ahmedraza, at: 2026-09-24T18:35:00Z }]
 ---
 
 *This whole document is from Class 08 of the Etsy module, Keyword Research:
@@ -132,7 +135,7 @@ Here is the Etsy product title:
 [PASTE TITLE HERE]
 ```
 
-## The selection formula
+## The keyword selection formula
 
 A keyword is worth using only when it passes all of these together:[^etsy-class-08]
 
@@ -155,9 +158,14 @@ A keyword is worth using only when it passes all of these together:[^etsy-class-
 The line to remember: **low competition, strong views, healthy engagement,
 stable demand, and KD under 50.**[^etsy-class-08]
 
-The first-10-listings check from an earlier class (at least two listings
-under three months old, and so on) is in [RankKW: the Etsy SEO tool and
-listing criteria](etsy-rankkw-tool-and-listing-criteria.md).
+These criteria are for choosing a **keyword**. The criteria for a **shop**
+(at least two of the top 10 listings under three months old, and so on)
+are from an earlier class, in [RankKW: the Etsy SEO tool and shop
+criteria](etsy-rankkw-tool-and-listing-criteria.md).[^owner-clarification-2026-09-24]
 
 [^etsy-class-08]: iSkills Quick Skills (Etsy) Class 08 notes, Keyword
     Research: Find Keyword in Bulk, taught by Sir Zafar Ali.
+
+[^owner-clarification-2026-09-24]: Clarification from the record's owner,
+    2026-09-24: the RankKW class's criteria are for a shop; Class 08's are
+    for keywords.

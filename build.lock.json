@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:857136d09d023284126043732f632097e21f3f8ce780942fa61e832706ebe9ab",
+  "build_id": "sha256:5ed2b7fd23004692dfe08ca529cb709b7ef54793a281550cb1d2f253ad94c3f2",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "c28679b8c4f6e8135a1081794f03944a5d8e0b5f",
+  "source_commit": "7b49357eeff4f7036c4fbdf3108dbc810faee519",
   "dirty": true,
-  "as_of": "2026-09-24T18:32:14.401Z",
+  "as_of": "2026-09-24T18:40:44.936Z",
   "drafts": "hidden",
   "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -489,7 +489,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-creation.md",
-      "sha256": "7b27bc4a5c213fd22703cafb41f9dff729a926b3d25151aa2719f02aed5301b3",
+      "sha256": "10bd5262ec608a4040902acb3e8dd952e5cdb7f23b7e0f7bd9de3dcf07d1a1a7",
       "status": "stable",
       "audience": [
         "public"
@@ -511,7 +511,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
-      "sha256": "acaa3800ed0973813e26b9d734c09ab7888389d6f32ab7ba7a28bcfe6e1c2e84",
+      "sha256": "25fafaac6f5a0db31ea08044a4cbf2faccec71a8d0903251c79dc0508eed69f2",
       "status": "stable",
       "audience": [
         "public"
@@ -533,7 +533,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
-      "sha256": "13a5f3f9f6898cf756a02da3a822c7fb8ab61c3dbf99495f02c3cec76bec12fb",
+      "sha256": "e5648702ebb57b6a17d67ea8be2ca2c568fc0f41efd5cdf06ed02a40fba7f3b3",
       "status": "stable",
       "audience": [
         "public"
@@ -544,7 +544,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
-      "sha256": "43f7e5a7213a86cf2c643b421869345fd4ecba80581fe510521781faac853bc4",
+      "sha256": "3e00ac6230227635eee7201f5cc0dd9b93b8f895a438b1806bf0fa757eb15cba",
       "status": "stable",
       "audience": [
         "public"
@@ -661,7 +661,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "f8eba8169f8d9314f29989c48016e8757f7570407a8998f9886d4405bb5c9eed"
+      "sha256": "86fdd682246f140f74026ee9b4f3db535f99a4ff1e038bd228269c08b77a7722"
     },
     {
       "path": "quick-skills/index.md",
@@ -675,7 +675,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "21c1d1fb3efec27752cebfd8d7b2550cef0799625d58bc75374dafedbe14001c",
+      "sha256": "63178001ae042e976f7a5eb68c3af737755baf4e7abefd16dbf945f50363dac0",
       "files": 71
     }
   ]
