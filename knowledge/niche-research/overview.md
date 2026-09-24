@@ -4,12 +4,16 @@ title: "Niche research: tools, metrics, and selection criteria"
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-24T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-24T09:00:00Z }
+sources:
+  - id: class-10-helping-material
+    title: "Helping material, Class 10"
+    resource: "Helping material, research links shared by Muhammad Ali after Class 10 (Niche Research with a New Angle)"
+verified: [{ by: human:ahmedraza, at: 2026-09-24T09:00:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "Supply and demand, the plain
@@ -132,7 +136,11 @@ Two places to source problem-solving niche ideas from directly:
 
 - **Google's product taxonomy** (the base "product type" sheet Google and
   Facebook maintain for Shopping/Merchant listings): browsing its categories
-  surfaces problem-solving niches directly.
+  surfaces problem-solving niches directly. Both lists are linked in the
+  class's helping material: [Google's product
+  categories](https://support.google.com/merchants/answer/6324436?hl=en) and
+  [Facebook's product
+  categories](https://developers.facebook.com/docs/marketing-api/catalog/guides/product-categories/).[^class-10-helping-material]
 - **UGC sites** (Reddit, Quora): real discussion is a signal of real demand,
   and browsing them for recurring questions surfaces niches the same way (see
   [Finding niches, Method 4: backlink mining and UGC intent
@@ -204,3 +212,6 @@ well on both, not just one.
 Niche research is Module 1, and it is deliberately the module the most time
 gets spent on: roughly 70% of the course so far. It is followed by a Content
 Coverage module, then Writing, then Website Design.
+
+[^class-10-helping-material]: Helping material, research links shared by
+    Muhammad Ali after Class 10 (Niche Research with a New Angle).

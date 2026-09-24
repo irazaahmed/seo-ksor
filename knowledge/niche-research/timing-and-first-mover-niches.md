@@ -4,12 +4,16 @@ title: Seasonality, timing, and first-mover niches
 description: Why a stable niche beats a spiking one, how to use Google Trends to find and validate first-mover opportunities, and a tool for fine-tuning a niche by location once it's chosen.
 status: stable
 order: 3.5
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-24T09:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-09-24T09:00:00Z }
+sources:
+  - id: class-10-helping-material
+    title: "Helping material, Class 10"
+    resource: "Helping material, research links shared by Muhammad Ali after Class 10 (Niche Research with a New Angle)"
+verified: [{ by: human:ahmedraza, at: 2026-09-24T09:00:00Z }]
 ---
 
 *This whole document is from Class 10, Niche Research with a New Angle,
@@ -33,7 +37,7 @@ different question:
 - **"Trending Now"**: shows roughly the last **7 days**. Good for catching
   something breaking right now, too narrow a window to judge whether it will
   last.
-- **trends.google.com/tv**: surfaces **multilingual** niches specifically,
+- **[trends.google.com/tv](https://trends.google.com/tv)**: surfaces **multilingual** niches specifically,
   worth checking separately from the main trends interface.
 - **The "Explore" tab, filtered to 3 or 6 months**: for anything with a
   longer horizon than "Trending Now" shows: set the time filter there and
@@ -77,3 +81,18 @@ results) is a fine-tuning step, not a discovery one. A tool named
 **"valetin.app"** in the course material does this: search from a specific
 country or region, down to a specific city by entering its latitude and
 longitude, to see the unbiased local SERP.
+
+## Helpful research links
+
+The research links shared after this class, for the trend checks above:[^class-10-helping-material]
+
+- **Google Trends**: [trends.google.com/trends](https://trends.google.com/trends/)
+- **Google Trends TV**: [trends.google.com/tv](https://trends.google.com/tv)
+- **Pinterest Trends**: [trends.pinterest.com](https://trends.pinterest.com/)
+
+The product-category lists shared with them are under "Niche finalization
+for beginners" in [Niche research: tools, metrics, and selection
+criteria](overview.md).
+
+[^class-10-helping-material]: Helping material, research links shared by
+    Muhammad Ali after Class 10 (Niche Research with a New Angle).
