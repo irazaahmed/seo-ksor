@@ -4,23 +4,28 @@ title: "Finding Etsy keywords in bulk: three methods and the selection formula"
 description: Three ways to collect related Etsy keywords in bulk (manual autocomplete, an AI prompt, and mining the top 10 listings' titles) and the metric combination a keyword has to pass before you use it.
 status: stable
 order: 52.5
-generated: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
+generated: { by: human:ahmedraza, at: 2026-09-25T19:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
+  approval: { by: human:ahmedraza, at: 2026-09-25T19:00:00Z }
 sources:
   - id: etsy-class-08
     title: "Etsy module, Class 08: Keyword Research, Find Keyword in Bulk"
     resource: "iSkills Quick Skills (Etsy) Class 08 notes, Keyword Research: Find Keyword in Bulk, taught by Sir Zafar Ali"
+  - id: etsy-class-09
+    title: "Etsy module, Class 09: Revision of Keyword Research in Bulk"
+    resource: "iSkills Quick Skills (Etsy) Class 09 notes, Revision of Keyword Research in Bulk, taught by Sir Zafar Ali"
   - id: owner-clarification-2026-09-24
     title: "Owner's clarification: shop criteria versus keyword criteria"
     resource: "Clarification from human:ahmedraza (owner), 2026-09-24T18:35:00Z, recorded by Claude: the RankKW class's criteria are for a shop, and Class 08's criteria are for keywords"
-verified: [{ by: human:ahmedraza, at: 2026-09-24T18:35:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-09-25T19:00:00Z }]
 ---
 
-*This whole document is from Class 08 of the Etsy module, Keyword Research:
-Find Keyword in Bulk, taught by Sir Zafar Ali.*
+*This document is from Class 08 of the Etsy module, Keyword Research:
+Find Keyword in Bulk, taught by Sir Zafar Ali. The search-word tip in
+Method 3 and the "Assignment 1" section are from Class 09, a revision of
+the same topic by the same teacher.*
 
 ## Why keywords decide an Etsy listing
 
@@ -67,7 +72,9 @@ together.[^etsy-class-08]
 
 This is the unique method the class recommends:
 
-1. Search the **main keyword** on Etsy.
+1. Search the **main keyword** on Etsy. Add words such as **download**,
+   **digital product** or **template** to the search, so that products
+   start showing in the results.[^etsy-class-09]
 2. Open the **top 10 listings** for it.
 3. Copy all ten titles and give them to any AI assistant, with the prompt
    below.[^etsy-class-08]
@@ -163,8 +170,25 @@ These criteria are for choosing a **keyword**. The criteria for a **shop**
 are from an earlier class, in [RankKW: the Etsy SEO tool and shop
 criteria](etsy-rankkw-tool-and-listing-criteria.md).[^owner-clarification-2026-09-24]
 
+## Assignment 1: a keyword research sheet
+
+The first assignment puts these methods into practice:[^etsy-class-09]
+
+1. Download the Excel sheet given in class.
+2. Open it as a spreadsheet (Google Sheets).
+3. Rename it in this pattern: **"Your Name (Etsy Keyword Search)
+   Assignment No 1 SEBT NEXT"**.
+4. Do the keyword research and fill it into the Google Sheet.
+5. Submit the sheet's link through the Google Form.
+
+The assignment covers the keyword research, and work on the shop starts
+alongside it.[^etsy-class-09]
+
 [^etsy-class-08]: iSkills Quick Skills (Etsy) Class 08 notes, Keyword
     Research: Find Keyword in Bulk, taught by Sir Zafar Ali.
+
+[^etsy-class-09]: iSkills Quick Skills (Etsy) Class 09 notes, Revision of
+    Keyword Research in Bulk, taught by Sir Zafar Ali.
 
 [^owner-clarification-2026-09-24]: Clarification from the record's owner,
     2026-09-24: the RankKW class's criteria are for a shop; Class 08's are
