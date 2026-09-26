@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:8e7c9beff653acd6e968b81a1d07ca85b17c222b92d19c909a5f4206d056ba22",
+  "build_id": "sha256:29079857cbbdb830a49e59b16e40cd1013e4d17f8ebd24f2e08f0fb190c51f6a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "e6f5da0508d5ed51e1d2040efb04af0357b4307c",
+  "source_commit": "f2d9d7b61067097d378cd01c90d35b672599150f",
   "dirty": true,
-  "as_of": "2026-09-25T19:05:43.046Z",
+  "as_of": "2026-09-26T18:28:27.523Z",
   "drafts": "hidden",
   "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -204,6 +204,17 @@
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method.md",
       "sha256": "8c6cd8bf19bf138fb0e42f4f0ce04cddafa7dbae29a0b9251cdf5baf16f147c5",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-niches-content-explorer-topic-search.md",
+      "sha256": "20ca13e7a88d31818f47c0a1ff529e8c518a8d01fb091dc3a821f67dfd036d20",
       "status": "stable",
       "audience": [
         "public"
@@ -660,7 +671,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "96a1a5cf489bc6dafd30c2ec9668a5a3939cc3b0d502a9e20b306d99c34e6f33"
+      "sha256": "088343258af1d7e8de0f38f3955e0ab00d1bf441f574afc2a34004c1ec99e829"
     },
     {
       "path": "off-page-seo/index.md",
@@ -686,8 +697,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "c5b9c12226688c16d5ef31ff6acc1315a137749ab4fcdcdd2245163b48c83a7d",
-      "files": 72
+      "sha256": "70bcd7bafdfe4ee5f5178cc00f3e246f22ae14dca2e2edcaa8f14e2e6583a88b",
+      "files": 73
     }
   ]
 }
