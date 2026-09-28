@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:29079857cbbdb830a49e59b16e40cd1013e4d17f8ebd24f2e08f0fb190c51f6a",
+  "build_id": "sha256:778544d19899c27f5e94836b21df634cf9d6337950c5b9cac6db7dc504cb2f1a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "f2d9d7b61067097d378cd01c90d35b672599150f",
+  "source_commit": "657578b8784c7ac5d4a57d1c9fa5befd5f4c8e63",
   "dirty": true,
-  "as_of": "2026-09-26T18:28:27.523Z",
+  "as_of": "2026-09-28T06:55:36.423Z",
   "drafts": "hidden",
   "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -149,6 +149,17 @@
     {
       "path": "niche-research/apk-niche-research.md",
       "sha256": "f1dfcecaf6f272d441da33d7047e55595689e99cb4f13f2c3c6004d0faa25a2e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/automate-niche-research-ahrefs-mcp.md",
+      "sha256": "0424cb93330390f6addde3ac5fb534b9638b17e3385903e8b8121807f2ec43e4",
       "status": "stable",
       "audience": [
         "public"
@@ -671,7 +682,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "088343258af1d7e8de0f38f3955e0ab00d1bf441f574afc2a34004c1ec99e829"
+      "sha256": "1a9922fb7827b0b7795d6eb7ef84c1ccc86ae51af501bb9de354d56de981032f"
     },
     {
       "path": "off-page-seo/index.md",
@@ -697,8 +708,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "70bcd7bafdfe4ee5f5178cc00f3e246f22ae14dca2e2edcaa8f14e2e6583a88b",
-      "files": 73
+      "sha256": "f711a9e6680d59c45ea4c2e3f7bd07541ae9071eea8ac16419e1483ef661eb3f",
+      "files": 74
     }
   ]
 }
