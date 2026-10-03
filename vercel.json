@@ -3,6 +3,7 @@
   "services": {
     "site": {
       "root": ".",
+      "framework": "brunch",
       "installCommand": "npm install",
       "buildCommand": "npm run build",
       "outputDirectory": "system/site/out"
