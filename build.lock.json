@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:778544d19899c27f5e94836b21df634cf9d6337950c5b9cac6db7dc504cb2f1a",
+  "build_id": "sha256:f34d9266901e2e9247e8f744fd2ba0566fd026f8bc39590abe81a714c03b37c4",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "657578b8784c7ac5d4a57d1c9fa5befd5f4c8e63",
+  "source_commit": "c6892703a1eed339319808ebe5847803909561f1",
   "dirty": true,
-  "as_of": "2026-09-28T06:55:36.423Z",
+  "as_of": "2026-10-03T17:00:35.525Z",
   "drafts": "hidden",
   "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -543,8 +543,30 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt.md",
+      "sha256": "1ba09f9dff5a117ab1e4156db2d9706122b06fec7b47272e48987a0d091321b2",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
       "sha256": "cecfe3fe5a6822d4f6e8bd59b3c2e535ca2f8907c5203afe68f9d71f3739d962",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-keyword-types.md",
+      "sha256": "5cb0a21f3aa73c04451bf22339cac5ef866f75e02039656ae500c8b28af11546",
       "status": "stable",
       "audience": [
         "public"
@@ -694,7 +716,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "86fdd682246f140f74026ee9b4f3db535f99a4ff1e038bd228269c08b77a7722"
+      "sha256": "d37f99e3f07b2e9f0c44c1461b3c35a62a3964c11e6f4ff36f1421c9986fb421"
     },
     {
       "path": "quick-skills/index.md",
@@ -708,8 +730,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "f711a9e6680d59c45ea4c2e3f7bd07541ae9071eea8ac16419e1483ef661eb3f",
-      "files": 74
+      "sha256": "51b5b180dc5651460428c36c52e1a71fc05b12bc20edd1a93abea2fdb6ec64d1",
+      "files": 76
     }
   ]
 }
