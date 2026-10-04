@@ -1243,6 +1243,7 @@ aside a[data-active="true"]::before {
 .ksor-tone-orange { --ch-h: 48; }
 .ksor-tone-rose { --ch-h: 18; }
 .ksor-tone-lime { --ch-h: 132; }
+.ksor-tone-teal { --ch-h: 195; }
 aside div[data-state]:has(> a .ksor-tone-violet) { --ch-h: 295; }
 aside div[data-state]:has(> a .ksor-tone-sky) { --ch-h: 222; }
 aside div[data-state]:has(> a .ksor-tone-pink) { --ch-h: 350; }
@@ -1252,6 +1253,7 @@ aside div[data-state]:has(> a .ksor-tone-amber) { --ch-h: 78; }
 aside div[data-state]:has(> a .ksor-tone-orange) { --ch-h: 48; }
 aside div[data-state]:has(> a .ksor-tone-rose) { --ch-h: 18; }
 aside div[data-state]:has(> a .ksor-tone-lime) { --ch-h: 132; }
+aside div[data-state]:has(> a .ksor-tone-teal) { --ch-h: 195; }
 
 /* `--ch` is recomputed on every element that declares it, so each level
    resolves against the hue it inherits. */

@@ -1,5 +1,6 @@
 import {
   BookA,
+  Bot,
   Compass,
   FileText,
   Gauge,
@@ -44,6 +45,7 @@ const CHAPTERS: Record<string, ChapterStyle> = {
   "local-seo": { icon: MapPin, tone: "rose" },
   "quick-skills": { icon: Zap, tone: "lime" },
   etsy: { icon: ShoppingBag, tone: "orange" },
+  "ai-agents": { icon: Bot, tone: "teal" },
 };
 
 const FALLBACK: ChapterStyle = { icon: FileText, tone: "blue" };

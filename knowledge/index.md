@@ -16,3 +16,4 @@ okf_version: "0.2"
 * [Off page seo](off-page-seo/)
 * [Local seo](local-seo/)
 * [Quick skills](quick-skills/)
+* [Ai agents](ai-agents/)

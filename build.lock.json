@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "build_id": "sha256:f34d9266901e2e9247e8f744fd2ba0566fd026f8bc39590abe81a714c03b37c4",
+  "build_id": "sha256:60d5f63c0dfbc64167adf25d0fee4bfaa61f2e8f99ec739e0d99b746ae63c5bf",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "c6892703a1eed339319808ebe5847803909561f1",
+  "source_commit": "d450020075367cf4d3b781fe3452f5f1c14078ee",
   "dirty": true,
-  "as_of": "2026-10-03T17:00:35.525Z",
+  "as_of": "2026-10-04T17:02:29.580Z",
   "drafts": "hidden",
-  "instance_sha256": "1cfc3d15f44e2ece2adfd2ce317224b4b2622b0f711b68c4d7187927fefd46c8",
+  "instance_sha256": "5c2f65ba2791c50ac4bbabf8aa7c29765ef27fa4b9310d77cbae62004553b2cd",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
   "people_sha256": "614e1f6e02b3910a5edd6c973c5f00f33637ef10eef7c3425e5cec12e331b6ff",
   "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -25,6 +25,28 @@
     }
   },
   "documents": [
+    {
+      "path": "ai-agents/introduction-and-setup.md",
+      "sha256": "567509fe388701da91dd2d64dde2f81fc42edec1b26252666ee1aca48cbb0f31",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "ai-agents/llms-tokens-git-and-github.md",
+      "sha256": "7229fd6327a4b44209ebf87ab335c194d4535691fbf87d066cf93e817ae5cdc7",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
     {
       "path": "apk-websites/apk-file-hosting-and-adsense.md",
       "sha256": "30930af5711ec90fec1135e893aaa05aca0c0996172191a917d780411c717cc1",
@@ -683,6 +705,10 @@
   ],
   "indexes": [
     {
+      "path": "ai-agents/index.md",
+      "sha256": "ee7588a35bad82469f84702d0b507278cc3b28b5d0705f74b53096c0cfb5e1b4"
+    },
+    {
       "path": "apk-websites/index.md",
       "sha256": "f48edc563c2082eefb81d81ef4f655010f2b0a5e18a751f94260d9b63ff1232f"
     },
@@ -692,7 +718,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "b75d8c0382d1f12a2d94129d52921d036785d862fcc9822b9690399d7715e325"
+      "sha256": "ee90e0e42fccee4f4122cd183548102a693c3f4d77661f2a085939c92ac5bdd4"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -730,8 +756,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "51b5b180dc5651460428c36c52e1a71fc05b12bc20edd1a93abea2fdb6ec64d1",
-      "files": 76
+      "sha256": "22c5bd7b5cf50d88fc189db573ad0e58474ebd991bd11ca985768e1eb2b37f71",
+      "files": 79
     }
   ]
 }

@@ -2,7 +2,7 @@
 format: 2
 name: askseo
 title: AskSEO
-description: An SEO curriculum record covering Complete SEO, Local SEO, Blogging, and Quick Skills (Etsy), growing as the owner adds more.
+description: An SEO curriculum record covering Complete SEO, Local SEO, Blogging, Quick Skills (Etsy) and AI Agents, growing as the owner adds more.
 toolchain:
   requires: ">=0.0.60"
   scaffolded: "0.0.60"
@@ -29,7 +29,7 @@ version: 0.1.0
 ---
 
 This record is authoritative for its own SEO curriculum: Complete SEO, Local
-SEO, Blogging, Quick Skills (Etsy), and related modules, sourced from real
+SEO, Blogging, Quick Skills (Etsy), AI Agents, and related modules, sourced from real
 course material and expanded as the owner adds more. It does not cover
 institute administration (fees, admissions, attendance, schedules), general
 or outdated SEO tactics not taught in this material, or any content the owner
