@@ -20,16 +20,16 @@ export function LandingStats({
   ];
 
   return (
-    <section className="border-t border-fd-border bg-fd-muted/30">
+    <section className="border-t border-fd-border">
       <div className="mx-auto w-full max-w-6xl px-6 py-10 sm:py-16">
         <div className="grid gap-px overflow-hidden rounded-2xl border border-fd-border bg-fd-border grid-cols-2">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="bg-fd-background px-4 py-7 text-center transition-colors sm:px-8 sm:py-12"
+              className="ksor-stat bg-fd-background px-4 py-7 text-center sm:px-8 sm:py-12"
             >
-              <p className="font-display text-4xl font-semibold tracking-[-0.02em] text-fd-primary sm:text-5xl">
-                {stat.value}
+              <p className="font-display text-4xl font-semibold tracking-[-0.02em] sm:text-5xl">
+                <span className="ksor-stat-value">{stat.value}</span>
               </p>
               <p className="mt-3 font-mono text-xs tracking-[0.14em] text-fd-muted-foreground uppercase">
                 {stat.label}

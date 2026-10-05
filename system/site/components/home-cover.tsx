@@ -46,6 +46,10 @@ export function HomeCover({
   // collapsing browser chrome does not leave a gap at the bottom.
   return (
     <section className="relative flex min-h-[calc(100dvh-3.5rem)] flex-col bg-[var(--ksor-cover)] text-[var(--ksor-cover-foreground)]">
+      {/* An emerald and teal glow under everything: the cover's colour, kept
+          off the text column's centre so the title still reads on plain stock. */}
+      <div aria-hidden className="ksor-aurora pointer-events-none absolute inset-0" />
+
       {/* A ruled ground — the ledger's own lines, not a texture. Masked to
           fade at both ends: at full strength edge to edge the rules read as
           stripes ACROSS the composition rather than as the paper under it. */}
@@ -94,7 +98,7 @@ export function HomeCover({
               </div>
 
               <h1 className="mt-8 max-w-4xl font-display text-[clamp(2.25rem,7vw,4rem)] leading-[1.05] font-semibold tracking-[-0.022em] text-balance">
-                {title}
+                <span className="ksor-gradient-text">{title}</span>
               </h1>
 
               {/* The accent as structure, in the token so it inverts with the
@@ -102,7 +106,7 @@ export function HomeCover({
               was dark in BOTH themes; once the cover started following the
               theme that left a pale blue hairline on a pale ground, all but
               invisible in light (found live 2026-08-22). */}
-              <div className="mt-7 h-0.5 w-16 bg-fd-primary" />
+              <div className="ksor-accent-rule mt-7 h-1 w-20 rounded-full" />
             </div>
 
             {purpose === null ? null : (
@@ -116,7 +120,7 @@ export function HomeCover({
               that says only "open" makes you click to find out. */}
               <Link
                 href={firstUrl}
-                className="group inline-flex items-center gap-2.5 rounded-md bg-fd-primary px-6 py-3.5 text-sm font-medium text-fd-primary-foreground transition-transform hover:-translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none"
+                className="ksor-cta group inline-flex items-center gap-2.5 rounded-lg bg-fd-primary px-6 py-3.5 text-sm font-semibold text-fd-primary-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none"
               >
                 Open the record
                 <span
