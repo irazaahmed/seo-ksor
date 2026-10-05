@@ -20,6 +20,11 @@ toolchain:
 # (turn it on afterwards with `ksor calibrate`, once the record is serving).
 database:
   dsn_env: KSOR_DB_URL
+# The abstention gate: measured with `ksor calibrate`, never guessed. Re-run it
+# as the record grows (`ksor calibrate --check` reports when to).
+retrieval:
+  vector_floor: 0.655   # calibrated 2026-10-05 on generation 23, model gemini-embedding-001/d1536, door: queries-file (English + Roman Urdu probes)
+  floor_digest: 8bfb07d0e6f5
 # Where agents reach this record's MCP surface, and the semver it publishes as.
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
