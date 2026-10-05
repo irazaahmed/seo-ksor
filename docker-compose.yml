@@ -1,0 +1,45 @@
+# Self-hosted (Coolify / any Docker host) deployment of all three surfaces (replaces vercel.json's services).
+# Only `web` is exposed; it routes to `door` and `auth` on the internal network.
+# Every secret arrives from the host environment (Coolify's env panel), never
+# from a file in this repository.
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: deploy/web.Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - door
+      - auth
+    expose:
+      - "80"
+
+  door:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      PORT: "80"
+      KSOR_DB_URL: ${KSOR_DB_URL}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      KSOR_AUTH: ${KSOR_AUTH:-disabled-public}
+      KSOR_SNAPSHOT_KEYS: ${KSOR_SNAPSHOT_KEYS}
+      KSOR_ALLOWED_HOSTS: ${KSOR_ALLOWED_HOSTS}
+
+  auth:
+    build:
+      context: ./system/packages/auth-server
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      PORT: "80"
+      KSOR_DB_URL: ${KSOR_DB_URL}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL}
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      ZOHO_SMTP_USER: ${ZOHO_SMTP_USER}
+      ZOHO_SMTP_PASS: ${ZOHO_SMTP_PASS}
+      ZOHO_SMTP_FROM: ${ZOHO_SMTP_FROM}

@@ -1,0 +1,13 @@
+**/node_modules
+system/site/.next
+system/site/.source
+system/site/out
+system/site/.staged-knowledge
+system/site/.staged-knowledge.json
+system/site/.staged-knowledge.lock
+system/site/public/sims
+.env
+.env.*
+!.env.example
+data
+.vercel
