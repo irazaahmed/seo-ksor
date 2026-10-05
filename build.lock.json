@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:522cace664d9e4943abd65db69341ab093e38793080f14795ecdd8a74748b4f8",
+  "build_id": "sha256:dc41c3b9db04e5669355bd52e96048a9df84f537f0d0311b565937a6d3903548",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "cd479898749780b45b89e8424eb82f665a47fa8a",
+  "source_commit": "4b3d0206b9176a1cd5cf776b98cedc9509ace423",
   "dirty": true,
-  "as_of": "2026-10-05T17:57:40.474Z",
+  "as_of": "2026-10-05T18:07:47.725Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -565,6 +565,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion.md",
+      "sha256": "0862779790c77bd1e97479cee6bf77ad19297b3b559638dfac4f4770a00c4de0",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt.md",
       "sha256": "1ba09f9dff5a117ab1e4156db2d9706122b06fec7b47272e48987a0d091321b2",
       "status": "stable",
@@ -742,7 +753,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "d37f99e3f07b2e9f0c44c1461b3c35a62a3964c11e6f4ff36f1421c9986fb421"
+      "sha256": "2a72ceec9238f35a1411e6a15c3ae0709cd7b1ff5d58136daeac1c9e530fa632"
     },
     {
       "path": "quick-skills/index.md",
@@ -756,8 +767,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "13ee52028a3a54bcb0d68095156ea8f5b44f87376280edb8b3c2b41f674575e2",
-      "files": 79
+      "sha256": "b8f22b706fad82d9093c5baf46cb36ce55ec634eb39fd7bf1615f3602ebd4867",
+      "files": 80
     }
   ]
 }
