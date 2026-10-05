@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:dbfd9ae5c9bd7e6f577c4d6deeb9f0d04607d0918ece50403909551d4314256c",
+  "build_id": "sha256:522cace664d9e4943abd65db69341ab093e38793080f14795ecdd8a74748b4f8",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "04b8180a42875cd46803ade5ea77b37a53cb8da7",
+  "source_commit": "cd479898749780b45b89e8424eb82f665a47fa8a",
   "dirty": true,
-  "as_of": "2026-10-05T17:41:05.164Z",
+  "as_of": "2026-10-05T17:57:40.474Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -60,7 +60,7 @@
     },
     {
       "path": "connect-claude-and-chatgpt.md",
-      "sha256": "e89050d0acd3a19722b98799d525f2c9ea86a45f5db30af733eb8deb175ffc94",
+      "sha256": "a91ea7d3014f99352756b120aec286c8962c54b2c1c3d343ccf1febfa38f2974",
       "status": "stable",
       "audience": [
         "public"
@@ -718,7 +718,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "ee90e0e42fccee4f4122cd183548102a693c3f4d77661f2a085939c92ac5bdd4"
+      "sha256": "d8057e9e77607d1f28b75aade311c91c27b61a0373f3087b376e60dded92b9d0"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -756,7 +756,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "22c5bd7b5cf50d88fc189db573ad0e58474ebd991bd11ca985768e1eb2b37f71",
+      "sha256": "13ee52028a3a54bcb0d68095156ea8f5b44f87376280edb8b3c2b41f674575e2",
       "files": 79
     }
   ]

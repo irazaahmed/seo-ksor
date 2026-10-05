@@ -1,25 +1,25 @@
 ---
 type: Document
-title: Connect Claude or ChatGPT to this record
-description: Step-by-step setup, with screenshots, for adding AskSEO as a custom MCP connector in Claude and in ChatGPT, so either one answers grounded in this record instead of guessing.
+title: Connect Claude, ChatGPT or Muse AI to this record
+description: Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 status: stable
 order: 1.5
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-05T18:30:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-05T18:30:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-05T18:30:00Z }]
 ---
 
-This record is served live over MCP. Connecting Claude or ChatGPT to it means either
+This record is served live over MCP. Connecting Claude, ChatGPT or Muse AI to it means each
 one answers SEO questions strictly from what this record actually covers (niche
 research, keyword research, on-page and technical SEO, off-page, local SEO, APK
 sites, WordPress), citing the source document, or saying plainly when something
 isn't covered yet, instead of guessing from general training data.
 
 No login and no API key are needed to connect: this door is public and read-only.
-Both setups below use the same two values:
+Every setup below uses the same two values:
 
 - **Name:** AskSEO
 - **MCP Server URL:** `https://askseo.cybrumsolutions.dev/mcp`
@@ -95,9 +95,31 @@ default, since it lets ChatGPT add connectors OpenAI hasn't reviewed.
 > This changes over time as OpenAI rolls it out further, so check your own
 > Settings rather than assuming.
 
+## Connect Muse AI
+
+Muse AI connects to the record by itself: give it the MCP Server URL and ask it
+to add a custom MCP connector. Open a chat in Muse AI and send this prompt as it
+is:
+
+```text
+Connect a custom MCP server for me.
+
+Name: AskSEO
+MCP Server URL: https://askseo.cybrumsolutions.dev/mcp
+
+It needs no sign-in and no API key: it is a public, read-only record.
+Once it is connected, list its tools. From then on, answer my SEO questions
+with AskSEO's search tool, name the document each answer comes from, and tell
+me plainly when the record does not cover a question instead of guessing.
+```
+
+When Muse AI confirms the connector and lists its three tools (outline, read
+and search), ask it something the same way: *"Use AskSEO and explain what a
+nano niche is."*
+
 ## What "grounded" means here
 
-Both connectors point at the same read-only record. An agent connected this way
+Every connector points at the same read-only record. An agent connected this way
 never receives write access, and it answers only from documents this record
 actually admits to its machine surface: a draft or a withdrawn document is never
 handed over as an answer.
