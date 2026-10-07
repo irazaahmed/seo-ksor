@@ -1,19 +1,19 @@
 ---
 type: Document
 title: "Etsy niche and keyword research, step by step: a practical walkthrough"
-description: The practical order Sir Zakria Afzal teaches for Etsy research, finding a niche through eRank top sellers, EHunt and Trend Buzz, then spying on its shops to collect tags and sorting them in Niche Desk.
+description: The practical order Sir Zakria Afzal teaches for Etsy research, finding a niche through eRank top sellers, EHunt and Trend Buzz, then spying on its shops to collect tags and sorting them in Niche Deck.
 status: stable
 order: 52.86
-generated: { by: human:ahmedraza, at: 2026-10-07T08:40:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-07T08:40:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 sources:
   - id: zakria-afzal-niche-keyword-practical
     title: "Etsy course on YouTube: Proper Niche and Keyword Research Practical, by Sir Zakria Afzal"
     resource: "Proper Niche and Keyword Research Practical class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-07T08:40:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-07T08:50:00Z }]
 ---
 
 *This whole document is from the Proper Niche and Keyword Research
@@ -57,7 +57,7 @@ is **"PNG"**. Now it has to be **expanded**:[^zakria-afzal-niche-keyword-practic
 3. It also shows which of that shop's listings got the most sales in the
    fewest days. **Note down** those listings' **tags**.
 4. Then simply start working on the same kind of product.
-5. **Export** all the tags, **upload** them to the **Niche Desk** tool and
+5. **Export** all the tags, **upload** them to the **Niche Deck** tool and
    **sort** them. Take out the **high volume, low competition** keywords
    from there.
 6. To check a listing, put its URL into **Compare listing** and add it.

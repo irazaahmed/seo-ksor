@@ -1,19 +1,22 @@
 ---
 type: Document
 title: "Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product"
-description: Why copyright keywords get an Etsy account removed, black, grey and white hat keywords, orders without search volume, telling physical from digital, pricing, the strong product formula, and the Niche Desk tool.
+description: Why copyright keywords get an Etsy account removed, black, grey and white hat keywords, orders without search volume, telling physical from digital, pricing, the strong product formula, and the Niche Deck tool.
 status: stable
 order: 52.85
-generated: { by: human:ahmedraza, at: 2026-10-05T18:05:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-05T18:05:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 sources:
   - id: zakria-afzal-keyword-research-confusion
     title: "Etsy course on YouTube: Keyword Research Clear All Confusion, by Sir Zakria Afzal"
     resource: "Keyword Research Clear All Confusion class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-05T18:05:00Z }]
+  - id: owner-niche-deck-link
+    title: "Owner's correction: the tool's name and link"
+    resource: "Correction from human:ahmedraza (owner), 2026-10-07: the tool is named Niche Deck, at https://nichedeck.com/"
+verified: [{ by: human:ahmedraza, at: 2026-10-07T08:50:00Z }]
 ---
 
 *This whole document is from the Keyword Research Clear All Confusion class
@@ -84,10 +87,11 @@ digital.[^zakria-afzal-keyword-research-confusion]
 the competitor has left in it, fill that gap, and present it in a better
 way.[^zakria-afzal-keyword-research-confusion]
 
-## Niche Desk, for organising keywords
+## Niche Deck, for organising keywords
 
-- **Niche Desk** is a tool by Sir Zakria Afzal that helps you **organise
-  keywords**.
+- **Niche Deck** is a tool by Sir Zakria Afzal that helps you **organise
+  keywords**. It is at
+  [nichedeck.com](https://nichedeck.com/).[^owner-niche-deck-link]
 - In it you can **parse** a sheet and manage keywords your own way.
 - Once you upload a keyword, you **cannot upload it
   again**.[^zakria-afzal-keyword-research-confusion]
@@ -100,3 +104,6 @@ volume**.[^zakria-afzal-keyword-research-confusion]
 [^zakria-afzal-keyword-research-confusion]: Keyword Research Clear All
     Confusion class of Sir Zakria Afzal's Etsy course on YouTube, notes
     taken by the record's owner.
+
+[^owner-niche-deck-link]: Correction from the record's owner, 2026-10-07:
+    the tool is named Niche Deck, at https://nichedeck.com/.

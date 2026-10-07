@@ -4,16 +4,16 @@ title: "The exact roadmap to start using keywords on Etsy"
 description: A beginner's roadmap from Sir Zakria Afzal, getting seed keywords from ChatGPT, checking them in eRank against the criteria, confirming they are not copyright or trademark, and building a whole shop on one good keyword.
 status: stable
 order: 52.87
-generated: { by: human:ahmedraza, at: 2026-10-07T08:40:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-07T08:40:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
 sources:
   - id: zakria-afzal-keyword-roadmap
     title: "Etsy course on YouTube: Exact Roadmap, How to Start Using Keyword, by Sir Zakria Afzal"
     resource: "Exact Roadmap: How to Start Using Keyword class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-07T08:40:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-07T08:50:00Z }]
 ---
 
 *This whole document is from the Exact Roadmap: How to Start Using Keyword
@@ -42,7 +42,7 @@ it.[^zakria-afzal-keyword-roadmap]
   a keyword, and **wall** and **art** inside it are separate keywords.
 - Just keep spying and reverse engineering, and you will find a lot of
   keywords. To sort them, you can use **Niche
-  Desk**.[^zakria-afzal-keyword-roadmap]
+  Deck**.[^zakria-afzal-keyword-roadmap]
 
 [^zakria-afzal-keyword-roadmap]: Exact Roadmap: How to Start Using Keyword
     class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by the
