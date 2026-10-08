@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:ed3c71fb94233cd3fce622dcddc11430df2884e7c2d70daa139fcd8413b8e116",
+  "build_id": "sha256:fbd64528280fcd93b6a6b10c06b6182bfdabea41e01c8ee901cbb7ea7c8a283e",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "ce5e122b6f789a5f8c8e19b70e8c6f2b87f10818",
+  "source_commit": "33697e072be4e1699d14cdb8dd9926123b1a16ae",
   "dirty": true,
-  "as_of": "2026-10-07T08:51:36.447Z",
+  "as_of": "2026-10-08T11:53:33.156Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -281,6 +281,17 @@
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
       "sha256": "1967d7aca35ab8dfd93112a20728e160378125261cd8e99d5a8a96452ef0d985",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-untapped-niches-incognito-and-google-operators.md",
+      "sha256": "a9ef007f55be8b0248825b40e02016d0cfb783389fb6940c24b9cd921d1150ea",
       "status": "stable",
       "audience": [
         "public"
@@ -763,7 +774,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "1a9922fb7827b0b7795d6eb7ef84c1ccc86ae51af501bb9de354d56de981032f"
+      "sha256": "4a0101394c97412f7d02dc3b8736631f5d3bb879f3f79324f7e4922fa62c48ec"
     },
     {
       "path": "off-page-seo/index.md",
@@ -789,8 +800,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "335663ac34ce018aebfc87ba061c9738be3ae0b3e3685df567739b513565fce3",
-      "files": 82
+      "sha256": "c84f95fd726eda38b8cd725508101a758b0b8ca9334706c1a3bb895ef446acf5",
+      "files": 83
     }
   ]
 }
