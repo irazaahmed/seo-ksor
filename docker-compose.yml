@@ -25,8 +25,10 @@ services:
       KSOR_DB_URL: ${KSOR_DB_URL}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
       # Auth is ON: the door is an OAuth resource server that trusts the
-      # auth service below. KSOR_AUTH is deliberately not passed: any value of
-      # it turns auth off.
+      # auth service below. KSOR_AUTH is pinned empty (ksor reads empty as
+      # unset): any other value turns auth off, and the host's env panel may
+      # still hold an old KSOR_AUTH=disabled-public.
+      KSOR_AUTH: ""
       KSOR_SSO_URL: ${KSOR_SSO_URL:-https://askseo.cybrumsolutions.dev/api/auth}
       KSOR_MCP_RESOURCE_URL: ${KSOR_MCP_RESOURCE_URL:-https://askseo.cybrumsolutions.dev/mcp}
       KSOR_JWT_ALLOWED_AUDIENCES: ${KSOR_JWT_ALLOWED_AUDIENCES:-https://askseo.cybrumsolutions.dev/mcp}
