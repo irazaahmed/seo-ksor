@@ -4,12 +4,12 @@ title: Connect Claude, ChatGPT or Muse AI to this record
 description: Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 status: stable
 order: 1.5
-generated: { by: human:ahmedraza, at: 2026-10-05T18:30:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-08T16:30:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-05T18:30:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-05T18:30:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-08T16:30:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-08T16:30:00Z }]
 ---
 
 This record is served live over MCP. Connecting Claude, ChatGPT or Muse AI to it means each
@@ -18,8 +18,11 @@ research, keyword research, on-page and technical SEO, off-page, local SEO, APK
 sites, WordPress), citing the source document, or saying plainly when something
 isn't covered yet, instead of guessing from general training data.
 
-No login and no API key are needed to connect: this door is public and read-only.
-Every setup below uses the same two values:
+Connecting needs a free **AskSEO account**. The first time you connect, your
+assistant opens AskSEO's sign-in page: sign in with **Google**, **GitHub**, or
+your **email and password** (a new email account is confirmed with a 6-digit
+code), then click **Allow**. That is all; no API key is needed. Every setup below
+uses the same two values:
 
 - **Name:** AskSEO
 - **MCP Server URL:** `https://askseo.cybrumsolutions.dev/mcp`
@@ -36,25 +39,22 @@ Every setup below uses the same two values:
 
    ![Claude's Add custom connector dialog, filled in with AskSEO's name and MCP server URL](connect-claude-2.png)
 
-3. On the next screen, Claude detects that this server needs **No sign-in**:
-   leave that selected, leave **Request headers** empty, and leave **Advanced**
-   alone. Click **Add**.
+3. Claude detects that this server uses sign-in. Leave **Request headers**
+   empty and leave **Advanced** alone, then add the connector and click
+   **Connect**.
 
-   > [!NOTE]
-   > Claude shows a warning here: *"Without sign-in, anyone with the server URL
-   > can use this connector."* That's expected: this record is public and
-   > read-only by design, the same way its website is.
+4. AskSEO's sign-in page opens in your browser. Sign in (or create an account),
+   then click **Allow** on the "Connect Claude to AskSEO" screen. You are sent
+   back to Claude, and AskSEO emails you to confirm the connection.
 
-   ![Claude's connector authentication screen, with "No sign-in" selected and a warning about open access](connect-claude-3.png)
-
-4. AskSEO now appears in your connectors list with its tools listed: **Outline
+5. AskSEO now appears in your connectors list with its tools listed: **Outline
    the record**, **Read a document**, **Search the record**, all read-only. Set
    them to **Always allow** (or leave **Needs approval** if you'd rather confirm
    each use).
 
    ![AskSEO connected in Claude, showing its three read-only tools and an "Always allow" permission dropdown](connect-claude-4.png)
 
-5. Ask it something and watch it answer from the record: *"Use AskSEO and
+6. Ask it something and watch it answer from the record: *"Use AskSEO and
    explain what a nano niche is."*
 
 ## Connect ChatGPT
@@ -79,12 +79,13 @@ default, since it lets ChatGPT add connectors OpenAI hasn't reviewed.
 
 4. In the **New Plugin** dialog: Name `AskSEO`, Connection set to **Server URL**
    (not Tunnel), paste the MCP Server URL, and set **Authentication** to
-   **No Auth**. Check *"I understand and want to continue"* (the same generic
+   **OAuth**. Check *"I understand and want to continue"* (the same generic
    custom-MCP-server warning Claude shows), then click **Create**.
 
-   ![ChatGPT's New Plugin dialog, filled in with AskSEO's name, server URL, and No Auth authentication](connect-chatgpt-4.png)
+5. ChatGPT opens AskSEO's sign-in page. Sign in (or create an account), then
+   click **Allow**. You are sent back to ChatGPT.
 
-5. Click **Try in chat** on AskSEO's plugin page, or enable it from the Plugins
+6. Click **Try in chat** on AskSEO's plugin page, or enable it from the Plugins
    list inside any chat, then ask it a question the same way.
 
    ![AskSEO's created plugin page in ChatGPT, with a "Try in chat" button](connect-chatgpt-5.png)
@@ -107,15 +108,24 @@ Connect a custom MCP server for me.
 Name: AskSEO
 MCP Server URL: https://askseo.cybrumsolutions.dev/mcp
 
-It needs no sign-in and no API key: it is a public, read-only record.
-Once it is connected, list its tools. From then on, answer my SEO questions
+It uses OAuth sign-in: give me the sign-in link so I can sign in to my AskSEO
+account and allow the connection. Once it is connected, list its tools. From then on, answer my SEO questions
 with AskSEO's search tool, name the document each answer comes from, and tell
 me plainly when the record does not cover a question instead of guessing.
 ```
 
-When Muse AI confirms the connector and lists its three tools (outline, read
+Sign in on the page it opens and click **Allow**. When Muse AI confirms the
+connector and lists its three tools (outline, read
 and search), ask it something the same way: *"Use AskSEO and explain what a
 nano niche is."*
+
+## Connected before sign-in was required?
+
+AskSEO used to work without an account. If you connected it before, your
+assistant now reports that AskSEO needs you to sign in, or that the connector
+must be reconnected. Open the connector in your assistant's settings, choose
+**Connect** (or remove it and add it again with the same URL), then sign in and
+click **Allow**.
 
 ## What "grounded" means here
 

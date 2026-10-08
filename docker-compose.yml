@@ -24,7 +24,12 @@ services:
       PORT: "80"
       KSOR_DB_URL: ${KSOR_DB_URL}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
-      KSOR_AUTH: ${KSOR_AUTH:-disabled-public}
+      # Auth is ON: the door is an OAuth resource server that trusts the
+      # auth service below. KSOR_AUTH is deliberately not passed: any value of
+      # it turns auth off.
+      KSOR_SSO_URL: ${KSOR_SSO_URL:-https://askseo.cybrumsolutions.dev/api/auth}
+      KSOR_MCP_RESOURCE_URL: ${KSOR_MCP_RESOURCE_URL:-https://askseo.cybrumsolutions.dev/mcp}
+      KSOR_JWT_ALLOWED_AUDIENCES: ${KSOR_JWT_ALLOWED_AUDIENCES:-https://askseo.cybrumsolutions.dev/mcp}
       KSOR_SNAPSHOT_KEYS: ${KSOR_SNAPSHOT_KEYS}
       KSOR_ALLOWED_HOSTS: ${KSOR_ALLOWED_HOSTS}
 
@@ -40,6 +45,9 @@ services:
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
       GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
-      ZOHO_SMTP_USER: ${ZOHO_SMTP_USER}
-      ZOHO_SMTP_PASS: ${ZOHO_SMTP_PASS}
-      ZOHO_SMTP_FROM: ${ZOHO_SMTP_FROM}
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+      RESEND_API_KEY: ${RESEND_API_KEY}
+      RESEND_FROM: ${RESEND_FROM:-AskSEO <askseo@cybrumsolutions.dev>}
+      KSOR_MCP_RESOURCE_URL: ${KSOR_MCP_RESOURCE_URL:-https://askseo.cybrumsolutions.dev/mcp}
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-ytpremiumahmedraza@gmail.com,hafizahmedraza12345@gmail.com}

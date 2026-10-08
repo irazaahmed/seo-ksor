@@ -15,7 +15,7 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install --omit=dev --no-audit --no-fund
 
-COPY auth.ts ./
+COPY auth.ts db.ts email.ts stats.ts ./
 COPY server.ts ./
 
 ENV PORT=80

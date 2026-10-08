@@ -6,30 +6,31 @@ import { BrandMark } from "@/components/brand-mark";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { authClient } from "@/lib/auth/client";
+import { AuthProviders, useCarriedQuery } from "@/components/auth-providers";
+import { authClient, continueAfterAuth } from "@/lib/auth/client";
 
 export default function SignInPage(): React.ReactElement {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const query = useCarriedQuery();
 
   async function onSubmit(event: React.FormEvent): Promise<void> {
     event.preventDefault();
     setBusy(true);
     setError(null);
-    const { error: signInError } = await authClient.signIn.email({ email, password });
+    const { data, error: signInError } = await authClient.signIn.email({ email, password });
     setBusy(false);
     if (signInError) {
       setError(signInError.message ?? "Sign-in failed.");
       return;
     }
-    window.location.assign("/");
+    continueAfterAuth(data);
   }
 
-  async function onGoogle(): Promise<void> {
-    await authClient.signIn.social({ provider: "google", callbackURL: "/" });
-  }
+  // Opened by an assistant's connect flow (its signed request is in the query).
+  const connecting = new URLSearchParams(query).has("client_id");
 
   return (
     <main className="mx-auto flex min-h-[70vh] max-w-sm flex-col justify-center px-6">
@@ -41,7 +42,11 @@ export default function SignInPage(): React.ReactElement {
       <Card>
         <CardHeader>
           <CardTitle>Sign in</CardTitle>
-          <CardDescription>Welcome back to AskSEO.</CardDescription>
+          <CardDescription>
+            {connecting
+              ? "Sign in to connect your AI assistant to AskSEO."
+              : "Welcome back to AskSEO."}
+          </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">
           <form onSubmit={onSubmit} className="flex flex-col gap-3">
@@ -71,12 +76,10 @@ export default function SignInPage(): React.ReactElement {
             or
             <div className="bg-border h-px flex-1" />
           </div>
-          <Button type="button" variant="outline" onClick={() => void onGoogle()}>
-            Continue with Google
-          </Button>
+          <AuthProviders />
           <p className="text-muted-foreground text-center text-sm">
             No account?{" "}
-            <a href="/sign-up" className="text-foreground underline underline-offset-4">
+            <a href={`/sign-up${query}`} className="text-foreground underline underline-offset-4">
               Sign up
             </a>
           </p>

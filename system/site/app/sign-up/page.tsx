@@ -6,7 +6,8 @@ import { BrandMark } from "@/components/brand-mark";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { authClient } from "@/lib/auth/client";
+import { AuthProviders, useCarriedQuery } from "@/components/auth-providers";
+import { authClient, continueAfterAuth } from "@/lib/auth/client";
 
 type Step = "details" | "verify";
 
@@ -18,6 +19,7 @@ export default function SignUpPage(): React.ReactElement {
   const [otp, setOtp] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const query = useCarriedQuery();
 
   async function onCreateAccount(event: React.FormEvent): Promise<void> {
     event.preventDefault();
@@ -36,13 +38,13 @@ export default function SignUpPage(): React.ReactElement {
     event.preventDefault();
     setBusy(true);
     setError(null);
-    const { error: verifyError } = await authClient.emailOtp.verifyEmail({ email, otp });
+    const { data, error: verifyError } = await authClient.emailOtp.verifyEmail({ email, otp });
     setBusy(false);
     if (verifyError) {
       setError(verifyError.message ?? "That code didn't work.");
       return;
     }
-    window.location.assign("/");
+    continueAfterAuth(data);
   }
 
   async function onResend(): Promise<void> {
@@ -50,9 +52,6 @@ export default function SignUpPage(): React.ReactElement {
     await authClient.emailOtp.sendVerificationOtp({ email, type: "email-verification" });
   }
 
-  async function onGoogle(): Promise<void> {
-    await authClient.signIn.social({ provider: "google", callbackURL: "/" });
-  }
 
   return (
     <main className="mx-auto flex min-h-[70vh] max-w-sm flex-col justify-center px-6">
@@ -109,9 +108,7 @@ export default function SignUpPage(): React.ReactElement {
                 or
                 <div className="bg-border h-px flex-1" />
               </div>
-              <Button type="button" variant="outline" onClick={() => void onGoogle()}>
-                Continue with Google
-              </Button>
+              <AuthProviders />
             </>
           ) : (
             <form onSubmit={onVerify} className="flex flex-col gap-3">
@@ -136,7 +133,7 @@ export default function SignUpPage(): React.ReactElement {
           )}
           <p className="text-muted-foreground text-center text-sm">
             Already have an account?{" "}
-            <a href="/sign-in" className="text-foreground underline underline-offset-4">
+            <a href={`/sign-in${query}`} className="text-foreground underline underline-offset-4">
               Sign in
             </a>
           </p>

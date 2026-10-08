@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:82fe64a386f01f5b39e68d5caf1e402a0c3a64da96878ce1c6ed45c8997d0a69",
+  "build_id": "sha256:83521885bb410288e8fca11337b01c1e759e44e4d7126c89290a9a981eb70d34",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "b93d2a070636a3b4d759e677299f9ab9c77f00c8",
+  "source_commit": "90d2d3d642a9af53e6d51ea7d9118bbcb0b1fd9b",
   "dirty": true,
-  "as_of": "2026-10-08T16:01:49.408Z",
+  "as_of": "2026-10-08T16:30:23.566Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -60,7 +60,7 @@
     },
     {
       "path": "connect-claude-and-chatgpt.md",
-      "sha256": "a91ea7d3014f99352756b120aec286c8962c54b2c1c3d343ccf1febfa38f2974",
+      "sha256": "33a7d569f0496de59d728fdc2450c66455572b769c3e4e54ef7d4b97897f3e01",
       "status": "stable",
       "audience": [
         "public"
@@ -734,10 +734,6 @@
       "sha256": "eb43bcfc6e5499a92d906d04b0a3688b9c7b684be91c52ed448352e2b21bf797"
     },
     {
-      "path": "connect-chatgpt-4.png",
-      "sha256": "6be795392d03c1b8b518c617749a93e83e5a54831bec3808f14a2e21d17ac8bc"
-    },
-    {
       "path": "connect-chatgpt-5.png",
       "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
     },
@@ -748,10 +744,6 @@
     {
       "path": "connect-claude-2.png",
       "sha256": "04563adb17a4f0a3a9888c9cef6898552b1680deacdd501666d947646de19f06"
-    },
-    {
-      "path": "connect-claude-3.png",
-      "sha256": "4d3cd9efc61482acc55d563969ba5c26e3ac63dac4cb3d2b381b1df074846b5d"
     },
     {
       "path": "connect-claude-4.png",
@@ -811,8 +803,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "c36aa91e586cfcd659a9ca4f2935a607429610ca6d32995cfc2d8961f223a4e9",
-      "files": 84
+      "sha256": "264eacf97fc3f5defbeded1cbac8bedc99a51819859f2709b3c4d5835eaeef78",
+      "files": 82
     }
   ]
 }

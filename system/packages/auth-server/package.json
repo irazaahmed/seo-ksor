@@ -9,14 +9,13 @@
     "migrate": "node --env-file=../../../.env ../../../node_modules/@better-auth/cli/dist/index.mjs migrate --config auth.ts -y"
   },
   "dependencies": {
+    "@better-auth/oauth-provider": "1.7.5",
     "better-auth": "1.7.5",
-    "nodemailer": "^7.0.9",
     "pg": "^8.16.3"
   },
   "devDependencies": {
     "@better-auth/cli": "1.4.21",
     "@types/node": "^24.9.2",
-    "@types/nodemailer": "^7.0.4",
     "@types/pg": "^8.15.6"
   }
 }

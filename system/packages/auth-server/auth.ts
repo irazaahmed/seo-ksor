@@ -1,78 +1,90 @@
 /**
- * The account backend behind the site's "Sign in" / "Sign up" pages.
+ * The account backend: the site's "Sign in" / "Sign up" pages, AND the OAuth
+ * authorization server the MCP door trusts.
  *
- * Runs as its own container (see Dockerfile + root vercel.json's `auth`
- * service), reachable at `/api/auth/*` via a Vercel rewrite — same-origin with
- * the static site, so the session cookie is an ordinary first-party cookie.
+ * Runs as its own container (docker-compose `auth` service), reachable at
+ * `/api/auth/*` through the nginx gateway, same-origin with the static site,
+ * so the session cookie is an ordinary first-party cookie.
  *
  * Shares the record's own Postgres (`KSOR_DB_URL`): Better Auth creates its
- * own `user`/`session`/`account`/`verification` tables there, which do not
+ * own tables there (`user`, `session`, `oauthClient`, ...), which do not
  * collide with anything ksor itself owns (`corpora`, `content_nodes`, etc.).
+ *
+ * The MCP side: an assistant (Claude, ChatGPT, Muse) registers itself through
+ * dynamic client registration, sends the reader to `/sign-in`, then to
+ * `/oauth/consent`, and receives an RS256 JWT whose `aud` is the door's
+ * resource URL. The door verifies that token against this server's JWKS
+ * (`KSOR_SSO_URL` = the issuer), and refuses everything else.
  */
 
+import { oauthProvider } from "@better-auth/oauth-provider";
 import { betterAuth } from "better-auth";
-import { emailOTP } from "better-auth/plugins";
-import nodemailer from "nodemailer";
-import { Pool } from "pg";
+import { createAuthMiddleware } from "better-auth/api";
+import { emailOTP, jwt } from "better-auth/plugins";
+
+import { pool } from "./db.ts";
+import { connectedEmail, otpEmail, sendEmail } from "./email.ts";
+import { recordConnection } from "./stats.ts";
 
 function required(name: string): string {
   const value = process.env[name];
   if (value === undefined || value === "") {
-    throw new Error(`${name} is required — set it before starting the auth server.`);
+    throw new Error(`${name} is required, set it before starting the auth server.`);
   }
   return value;
 }
 
-const zohoUser = required("ZOHO_SMTP_USER");
-const zohoPass = required("ZOHO_SMTP_PASS");
+const baseURL = required("BETTER_AUTH_URL");
 
-const transport = nodemailer.createTransport({
-  host: "smtp.zoho.com",
-  port: 465,
-  secure: true,
-  auth: { user: zohoUser, pass: zohoPass },
-});
-
-// The address readers see this arrive from. Defaults to the SMTP account
-// itself, but a Zoho org can send as a different address it owns (an alias
-// or another mailbox) without a second set of credentials.
-const fromAddress = process.env["ZOHO_SMTP_FROM"] ?? zohoUser;
-
-async function sendOtpEmail(to: string, subject: string, otp: string): Promise<void> {
-  await transport.sendMail({
-    from: `"AskSEO" <${fromAddress}>`,
-    to,
-    subject,
-    text: `Your AskSEO verification code is ${otp}. It expires in a few minutes.`,
-    html: `<p>Your AskSEO verification code is:</p><p style="font-size:28px;font-weight:700;letter-spacing:4px">${otp}</p><p>It expires in a few minutes. If you didn't request this, you can ignore this email.</p>`,
-  });
-}
+/** The one resource this server issues tokens for: the record's MCP door. */
+export const mcpResource = required("KSOR_MCP_RESOURCE_URL");
 
 export const auth = betterAuth({
-  baseURL: required("BETTER_AUTH_URL"),
+  baseURL,
   basePath: "/api/auth",
   secret: required("BETTER_AUTH_SECRET"),
-  // A long connect timeout, not a large pool: Neon (like the record's own
-  // Postgres) scales its compute to zero on idle, so the first query after a
-  // quiet spell pays a cold-start rather than failing outright.
-  database: new Pool({
-    connectionString: required("KSOR_DB_URL"),
-    connectionTimeoutMillis: 45_000,
-  }),
-  trustedOrigins: [
-    "https://askseo.cybrumsolutions.dev",
-    "https://askseo.vercel.app",
-    "http://localhost:3000",
-  ],
+  database: pool,
+  trustedOrigins: ["https://askseo.cybrumsolutions.dev", "http://localhost:3000"],
+  // The oauth-provider plugin owns token issuance; Better Auth's own `/token`
+  // (the jwt plugin's session-to-JWT exchange) would be a second door.
+  disabledPaths: ["/token"],
   emailAndPassword: {
     enabled: true,
     requireEmailVerification: true,
+  },
+  emailVerification: {
+    // Verifying the emailed code signs the reader in, so a sign-up that began
+    // inside an assistant's connect flow continues straight to consent.
+    autoSignInAfterVerification: true,
   },
   socialProviders: {
     google: {
       clientId: required("GOOGLE_CLIENT_ID"),
       clientSecret: required("GOOGLE_CLIENT_SECRET"),
     },
+    github: {
+      clientId: required("GITHUB_CLIENT_ID"),
+      clientSecret: required("GITHUB_CLIENT_SECRET"),
+    },
+  },
+  hooks: {
+    // The reader accepted an assistant's request: remember the connection
+    // and, the first time this person connects this assistant, email them.
+    after: createAuthMiddleware(async (ctx) => {
+      if (ctx.path !== "/oauth2/consent" || ctx.body?.accept !== true) return;
+      const user = ctx.context.session?.user;
+      if (user === undefined) return;
+      const clientId = await clientIdOfConsent(user.id);
+      if (clientId === null) return;
+      const first = await recordConnection(user.id, clientId);
+      if (!first) return;
+      const client = await clientName(clientId);
+      void ctx.context.runInBackgroundOrAwait(
+        sendEmail(user.email, connectedEmail(user.name, client)).catch((error: unknown) => {
+          ctx.context.logger.error("connect email failed", error);
+        }),
+      );
+    }),
   },
   plugins: [
     emailOTP({
@@ -80,10 +92,43 @@ export const auth = betterAuth({
       expiresIn: 300,
       sendVerificationOnSignUp: true,
       async sendVerificationOTP({ email, otp, type }) {
-        const subject =
-          type === "forget-password" ? "Reset your AskSEO password" : "Verify your AskSEO account";
-        await sendOtpEmail(email, subject, otp);
+        await sendEmail(email, otpEmail(otp, type));
       },
+    }),
+    // The door accepts RS256 only (it never introspects), so the signing key
+    // is RSA, published at /api/auth/jwks and named in the metadata document.
+    jwt({
+      jwks: { keyPairConfig: { alg: "RS256", modulusLength: 2048 } },
+      jwt: { issuer: `${baseURL}/api/auth` },
+    }),
+    oauthProvider({
+      loginPage: "/sign-in",
+      consentPage: "/oauth/consent",
+      // Assistants register themselves: a reader pastes one URL and nothing
+      // else. Registered clients are public (PKCE, no secret).
+      allowDynamicClientRegistration: true,
+      allowUnauthenticatedClientRegistration: true,
+      resources: [mcpResource],
+      clientRegistrationAllowedResources: [mcpResource],
+      clientRegistrationDefaultResources: [mcpResource],
+      scopes: ["openid", "profile", "email", "offline_access"],
     }),
   ],
 });
+
+/** The client whose consent this user most recently granted. */
+async function clientIdOfConsent(userId: string): Promise<string | null> {
+  const { rows } = await pool.query<{ clientId: string }>(
+    `SELECT "clientId" FROM "oauthConsent" WHERE "userId" = $1 ORDER BY "updatedAt" DESC LIMIT 1`,
+    [userId],
+  );
+  return rows[0]?.clientId ?? null;
+}
+
+async function clientName(clientId: string): Promise<string> {
+  const { rows } = await pool.query<{ name: string | null }>(
+    `SELECT "name" FROM "oauthClient" WHERE "clientId" = $1`,
+    [clientId],
+  );
+  return rows[0]?.name ?? "your AI assistant";
+}
