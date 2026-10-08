@@ -4,21 +4,20 @@ title: LLMs, tokens, Git and GitHub
 description: The first concepts of the AI Agents module, what an LLM is, what a context window and a token are, and what Git and GitHub do, as taught in Class 1.
 status: stable
 order: 61
-generated: { by: human:ahmedraza, at: 2026-10-04T16:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-04T16:55:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
 sources:
   - id: ai-agents-class-01
     title: "AI Agents module, Class 1: Introduction"
     resource: "iSkills AI Agents Class 1 notes, introductory class, taught by Sir Tanveer Nandla and Sir Faheem Akhtar"
-verified: [{ by: human:ahmedraza, at: 2026-10-04T16:55:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-08T16:00:00Z }]
 ---
 
 *This whole document is from Class 1 of the AI Agents module, the part
-taught by Sir Faheem Akhtar. It follows [what the module is and what to set
-up](introduction-and-setup.md).*
+taught by Sir Faheem Akhtar.*
 
 ## AI models and LLMs
 

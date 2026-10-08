@@ -21,7 +21,6 @@ import {
   DeprecatedNotice,
   GovernanceMeta,
   LifecycleCaveat,
-  Provenance,
   type Successor,
 } from "@/components/governance";
 import { predecessorsOf, readGovernance, resolveSuccessorUrl } from "@/lib/governance";
@@ -215,7 +214,9 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
           {deck === null ? null : <Flashcards deck={deck} />}
           {quiz === null ? null : <Quiz quiz={quiz} />}
         </StudyAids>
-        {showGovernance ? <Provenance entries={governance.sources} /> : null}
+        {/* Sources are not printed on the page (owner, 2026-10-08). They stay
+          in the record, in each page's markdown twin, in llms-full.txt and in
+          every MCP answer's provenance. */}
         <RecordIndex entries={siblingsOf(page.path)} heading="Related chapters" />
       </DocsPage>
     </TocItems>

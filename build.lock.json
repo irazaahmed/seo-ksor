@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:92caf91dd84806c25197b6a1040d87eeca82c4a0fde176d0620c968ce11525b1",
+  "build_id": "sha256:82fe64a386f01f5b39e68d5caf1e402a0c3a64da96878ce1c6ed45c8997d0a69",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "9a33617dafe87a2e79b2a190f235dd99fd075a7a",
+  "source_commit": "b93d2a070636a3b4d759e677299f9ab9c77f00c8",
   "dirty": true,
-  "as_of": "2026-10-08T15:52:26.601Z",
+  "as_of": "2026-10-08T16:01:49.408Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -27,7 +27,7 @@
   "documents": [
     {
       "path": "ai-agents/introduction-and-setup.md",
-      "sha256": "567509fe388701da91dd2d64dde2f81fc42edec1b26252666ee1aca48cbb0f31",
+      "sha256": "8e53d782515118e3576e34f72538c701e05ea5e2ae8d73b00091c4f66cd14b6d",
       "status": "stable",
       "audience": [
         "public"
@@ -38,7 +38,7 @@
     },
     {
       "path": "ai-agents/llms-tokens-git-and-github.md",
-      "sha256": "7229fd6327a4b44209ebf87ab335c194d4535691fbf87d066cf93e817ae5cdc7",
+      "sha256": "46abeaa2c758638f2b8fee294709c3667051ff688b8ab6f5ac0947042e29a584",
       "status": "stable",
       "audience": [
         "public"
@@ -291,7 +291,7 @@
     },
     {
       "path": "niche-research/finding-untapped-niches-google-com-and-google-trends.md",
-      "sha256": "813cbb77d582551a7677261fff6b86c0340be03af970a51c762f012402b83642",
+      "sha256": "df029142fe0546ace4361c766477a98667fb441f5e517a81178f365e2330587f",
       "status": "stable",
       "audience": [
         "public"
@@ -588,7 +588,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion.md",
-      "sha256": "41b5f977842324a67aa9e98cf5839c08370406ef50b399f1c3f2506c390f4915",
+      "sha256": "98ec894b0855095e60c1fd955acdeb2d6615d9db32c3e09a22c26eb6c732a836",
       "status": "stable",
       "audience": [
         "public"
@@ -621,7 +621,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners.md",
-      "sha256": "195f78af65425faa2fe177a92dd36e3ccae7bed2a867eeeea8a3651af1a57b6a",
+      "sha256": "c22f736a2af473ffe9d93d4de279d2c15075748c063f3e15939f37119224d37d",
       "status": "stable",
       "audience": [
         "public"
@@ -654,7 +654,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical.md",
-      "sha256": "b45ae36f52bc74624589e951928d9bc1ee8b22d6d4fcc08d7bd99f47969a32c7",
+      "sha256": "440aec07e9a0baf9bdf631e44cbfa736a69671ed465703a7364ae9e0d937dbbc",
       "status": "stable",
       "audience": [
         "public"
@@ -811,7 +811,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "d7506edb89b32fa9044c8f01e0ba57d9d27f4b4f27b860c9e6ac2906c2e6127b",
+      "sha256": "c36aa91e586cfcd659a9ca4f2935a607429610ca6d32995cfc2d8961f223a4e9",
       "files": 84
     }
   ]

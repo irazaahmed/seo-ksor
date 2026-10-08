@@ -4,11 +4,11 @@ title: "Etsy keyword research, clearing the confusion: copyright, keyword hats, 
 description: Why copyright keywords get an Etsy account removed, black, grey and white hat keywords, orders without search volume, telling physical from digital, pricing, the strong product formula, and the Niche Deck tool.
 status: stable
 order: 52.85
-generated: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-07T08:50:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
 sources:
   - id: zakria-afzal-keyword-research-confusion
     title: "Etsy course on YouTube: Keyword Research Clear All Confusion, by Sir Zakria Afzal"
@@ -16,13 +16,12 @@ sources:
   - id: owner-niche-deck-link
     title: "Owner's correction: the tool's name and link"
     resource: "Correction from human:ahmedraza (owner), 2026-10-07: the tool is named Niche Deck, at https://nichedeck.com/"
-verified: [{ by: human:ahmedraza, at: 2026-10-07T08:50:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-08T16:00:00Z }]
 ---
 
 *This whole document is from the Keyword Research Clear All Confusion class
 of Sir Zakria Afzal's Etsy course on YouTube, a separate course from the
-iSkills Etsy module. It follows his earlier class, [Etsy keyword and product
-research with eRank and EHunt](etsy-keyword-research-erank-and-ehunt.md).*
+iSkills Etsy module.*
 
 ## Never work on copyright keywords
 

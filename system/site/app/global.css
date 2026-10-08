@@ -1939,3 +1939,11 @@ aside div[data-state="open"] > a[data-active] .ksor-ch-tile {
 .ksor-topic:hover .ksor-topic-card {
   box-shadow: 0 12px 30px -14px color-mix(in oklab, var(--ch) 60%, transparent);
 }
+
+/* Sources are not printed on the page (owner, 2026-10-08): the GFM footnote
+   markers and the footnote list stay in the record, the markdown twin,
+   llms-full.txt and MCP provenance, and are hidden only here. */
+#nd-page section[data-footnotes],
+#nd-page sup:has(> a[data-footnote-ref]) {
+  display: none;
+}
