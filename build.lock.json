@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:fbd64528280fcd93b6a6b10c06b6182bfdabea41e01c8ee901cbb7ea7c8a283e",
+  "build_id": "sha256:92caf91dd84806c25197b6a1040d87eeca82c4a0fde176d0620c968ce11525b1",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "33697e072be4e1699d14cdb8dd9926123b1a16ae",
+  "source_commit": "9a33617dafe87a2e79b2a190f235dd99fd075a7a",
   "dirty": true,
-  "as_of": "2026-10-08T11:53:33.156Z",
+  "as_of": "2026-10-08T15:52:26.601Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -281,6 +281,17 @@
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
       "sha256": "1967d7aca35ab8dfd93112a20728e160378125261cd8e99d5a8a96452ef0d985",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "niche-research/finding-untapped-niches-google-com-and-google-trends.md",
+      "sha256": "813cbb77d582551a7677261fff6b86c0340be03af970a51c762f012402b83642",
       "status": "stable",
       "audience": [
         "public"
@@ -774,7 +785,7 @@
     },
     {
       "path": "niche-research/index.md",
-      "sha256": "4a0101394c97412f7d02dc3b8736631f5d3bb879f3f79324f7e4922fa62c48ec"
+      "sha256": "476cda413b246549d0abe3941edef5d06ba501c601cfc66752c07a8f01867c13"
     },
     {
       "path": "off-page-seo/index.md",
@@ -800,8 +811,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "c84f95fd726eda38b8cd725508101a758b0b8ca9334706c1a3bb895ef446acf5",
-      "files": 83
+      "sha256": "d7506edb89b32fa9044c8f01e0ba57d9d27f4b4f27b860c9e6ac2906c2e6127b",
+      "files": 84
     }
   ]
 }
