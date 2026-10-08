@@ -20,15 +20,16 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: unless-stopped
+    # Auth is ON. Any value of KSOR_AUTH turns it off, and Coolify kept
+    # injecting an old KSOR_AUTH=disabled-public from its env store even after
+    # this file pinned it empty (found live 2026-10-08), so the door drops the
+    # variable itself before ksor reads its environment.
+    command: ["sh", "-c", "unset KSOR_AUTH; exec node_modules/.bin/ksor serve --instance instance.md"]
     environment:
       PORT: "80"
       KSOR_DB_URL: ${KSOR_DB_URL}
       GEMINI_API_KEY: ${GEMINI_API_KEY}
-      # Auth is ON: the door is an OAuth resource server that trusts the
-      # auth service below. KSOR_AUTH is pinned empty (ksor reads empty as
-      # unset): any other value turns auth off, and the host's env panel may
-      # still hold an old KSOR_AUTH=disabled-public.
-      KSOR_AUTH: ""
+      # The door is an OAuth resource server that trusts the auth service below.
       KSOR_SSO_URL: ${KSOR_SSO_URL:-https://askseo.cybrumsolutions.dev/api/auth}
       KSOR_MCP_RESOURCE_URL: ${KSOR_MCP_RESOURCE_URL:-https://askseo.cybrumsolutions.dev/mcp}
       KSOR_JWT_ALLOWED_AUDIENCES: ${KSOR_JWT_ALLOWED_AUDIENCES:-https://askseo.cybrumsolutions.dev/mcp}
