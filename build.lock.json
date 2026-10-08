@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:83521885bb410288e8fca11337b01c1e759e44e4d7126c89290a9a981eb70d34",
+  "build_id": "sha256:64c0a2bc35f134263ccee630cf0b8131bab600996d7bfd9c87bd4e9acdd21305",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "90d2d3d642a9af53e6d51ea7d9118bbcb0b1fd9b",
+  "source_commit": "972c39d387ff5cdea6d61768cca62bba54f4a84c",
   "dirty": true,
-  "as_of": "2026-10-08T16:30:23.566Z",
+  "as_of": "2026-10-08T17:25:52.848Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -60,7 +60,7 @@
     },
     {
       "path": "connect-claude-and-chatgpt.md",
-      "sha256": "33a7d569f0496de59d728fdc2450c66455572b769c3e4e54ef7d4b97897f3e01",
+      "sha256": "f60d0524d35eb3ddf3e29880244af60656158f6ecf5f30dca911c99d8b309d90",
       "status": "stable",
       "audience": [
         "public"
@@ -736,18 +736,6 @@
     {
       "path": "connect-chatgpt-5.png",
       "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
-    },
-    {
-      "path": "connect-claude-1.png",
-      "sha256": "d8dcc610b63f3b71727ba1a95d73bd0d8bc9500a6ee2520b1c4d0079f0be33a6"
-    },
-    {
-      "path": "connect-claude-2.png",
-      "sha256": "04563adb17a4f0a3a9888c9cef6898552b1680deacdd501666d947646de19f06"
-    },
-    {
-      "path": "connect-claude-4.png",
-      "sha256": "b0935555f5ad01fe6fdd81dd096993a6e0c78683f067c43230f1f8929dca7270"
     }
   ],
   "indexes": [
@@ -803,8 +791,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "264eacf97fc3f5defbeded1cbac8bedc99a51819859f2709b3c4d5835eaeef78",
-      "files": 82
+      "sha256": "9a9822f774554444c659eac35de00af4c5a7b4249c306acb31843d678819b4e6",
+      "files": 79
     }
   ]
 }

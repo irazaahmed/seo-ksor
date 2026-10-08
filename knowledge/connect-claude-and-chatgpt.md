@@ -4,12 +4,12 @@ title: Connect Claude, ChatGPT or Muse AI to this record
 description: Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 status: stable
 order: 1.5
-generated: { by: human:ahmedraza, at: 2026-10-08T16:30:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-08T17:20:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-08T16:30:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-08T16:30:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-08T17:20:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-08T17:20:00Z }]
 ---
 
 This record is served live over MCP. Connecting Claude, ChatGPT or Muse AI to it means each
@@ -31,29 +31,20 @@ uses the same two values:
 
 1. Open **Settings**, then **Connectors** (it sits under the **Customize** group in
    the sidebar).
-
-   ![Claude's settings sidebar, with Connectors selected under Customize](connect-claude-1.png)
-
 2. Click **Add custom connector**, then paste the **Name** (`AskSEO`) and the
    **MCP Server URL** above. Click **Continue**.
-
-   ![Claude's Add custom connector dialog, filled in with AskSEO's name and MCP server URL](connect-claude-2.png)
-
-3. Claude detects that this server uses sign-in. Leave **Request headers**
-   empty and leave **Advanced** alone, then add the connector and click
-   **Connect**.
-
-4. AskSEO's sign-in page opens in your browser. Sign in (or create an account),
-   then click **Allow** on the "Connect Claude to AskSEO" screen. You are sent
-   back to Claude, and AskSEO emails you to confirm the connection.
-
-5. AskSEO now appears in your connectors list with its tools listed: **Outline
-   the record**, **Read a document**, **Search the record**, all read-only. Set
+3. Claude detects that this server asks for sign-in. Do **not** choose
+   **No sign-in**. Leave **Request headers** empty, and leave the OAuth
+   **Client ID** and **Client Secret** under **Advanced** empty: Claude
+   registers itself. Click **Add**, then **Connect**.
+4. AskSEO's sign-in page opens in your browser. Sign in with Google, GitHub or
+   your email (or create an account), then click **Allow** on the "Connect
+   Claude to AskSEO" screen. You are sent back to Claude, and AskSEO emails you
+   to confirm the connection.
+5. AskSEO now appears in your connectors list with its three read-only tools:
+   **Outline the record**, **Read a document** and **Search the record**. Set
    them to **Always allow** (or leave **Needs approval** if you'd rather confirm
    each use).
-
-   ![AskSEO connected in Claude, showing its three read-only tools and an "Always allow" permission dropdown](connect-claude-4.png)
-
 6. Ask it something and watch it answer from the record: *"Use AskSEO and
    explain what a nano niche is."*
 
@@ -121,11 +112,21 @@ nano niche is."*
 
 ## Connected before sign-in was required?
 
-AskSEO used to work without an account. If you connected it before, your
-assistant now reports that AskSEO needs you to sign in, or that the connector
-must be reconnected. Open the connector in your assistant's settings, choose
-**Connect** (or remove it and add it again with the same URL), then sign in and
-click **Allow**.
+AskSEO used to work without an account, so a connector added before then was
+saved as needing **no sign-in**. That saved setting does not change by itself:
+reconnecting fails, and Claude shows an error like *"AskSEO is set up as not
+requiring sign-in, but the server asked for sign-in when checked (status
+401)."*
+
+The fix is to add the connector again:
+
+1. In **Settings**, then **Connectors**, open **AskSEO** and **remove** it.
+2. Add it again with the same URL, following [Connect Claude](#connect-claude)
+   above, and this time leave sign-in on.
+3. Sign in and click **Allow**.
+
+ChatGPT and Muse AI work the same way: remove the old AskSEO connector, then
+add it again with sign-in (**OAuth** in ChatGPT).
 
 ## What "grounded" means here
 
