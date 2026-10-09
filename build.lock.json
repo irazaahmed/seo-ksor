@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:64c0a2bc35f134263ccee630cf0b8131bab600996d7bfd9c87bd4e9acdd21305",
+  "build_id": "sha256:2517d709ca5a8e030805bfa78dbcab4587e170924a3b6336cc52ec997405ba51",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "972c39d387ff5cdea6d61768cca62bba54f4a84c",
+  "source_commit": "fa96b3a96fe0572697d61b369af7418e074789e8",
   "dirty": true,
-  "as_of": "2026-10-08T17:25:52.848Z",
+  "as_of": "2026-10-09T18:24:59.539Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -653,6 +653,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment.md",
+      "sha256": "30e184e9d0a3cbe43f6beeb98884a11ca67a33a4b19b926eb15f9a6fa8a7b63a",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical.md",
       "sha256": "440aec07e9a0baf9bdf631e44cbfa736a69671ed465703a7364ae9e0d937dbbc",
       "status": "stable",
@@ -677,6 +688,17 @@
     {
       "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
       "sha256": "3e00ac6230227635eee7201f5cc0dd9b93b8f895a438b1806bf0fa757eb15cba",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering.md",
+      "sha256": "c45f8e7bd5190ebbb661c603379a0694b4309a28b648e8eb5b7ec32ca641a70c",
       "status": "stable",
       "audience": [
         "public"
@@ -777,7 +799,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "2f29edf5b150a14842b78e07c6670e3de2144283e5bd120ce0848b2ddc55d66b"
+      "sha256": "f03e19903f137b489111f76b811503f008172f79b99305c2b90f0a455990ea1b"
     },
     {
       "path": "quick-skills/index.md",
@@ -791,8 +813,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "9a9822f774554444c659eac35de00af4c5a7b4249c306acb31843d678819b4e6",
-      "files": 79
+      "sha256": "fdd551c59f783dc14cd999def35d05b9b3cc3bf53d80c8ca964e7b31a2d47f4d",
+      "files": 81
     }
   ]
 }
