@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:2517d709ca5a8e030805bfa78dbcab4587e170924a3b6336cc52ec997405ba51",
+  "build_id": "sha256:62e726743c4e7e168412752da4a472ef6d3240fefb13ebb153b233e1b1da6dc2",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "fa96b3a96fe0572697d61b369af7418e074789e8",
+  "source_commit": "542023a23dc6d870b24920d852cfaaf611a41407",
   "dirty": true,
-  "as_of": "2026-10-09T18:24:59.539Z",
+  "as_of": "2026-10-11T18:17:03.597Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -127,6 +127,17 @@
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-planning.md",
       "sha256": "a6406ff86a522a49c8b3baa84a4ff5a44999457f57112ff7107763b0b475a59c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md",
+      "sha256": "405ad492fe90c08871098fe060961d85b4a00a53a016cd736b49e2eba2a8634e",
       "status": "stable",
       "audience": [
         "public"
@@ -779,7 +790,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "f0381ef4c46461aae1832a271f3db14192dbb8f4d897dcb4949101be7506e07c"
+      "sha256": "62b18f8f464d6846a85c4840db8e98918504021fc8e1a8c7db847abc898942d3"
     },
     {
       "path": "local-seo/index.md",
@@ -813,8 +824,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "fdd551c59f783dc14cd999def35d05b9b3cc3bf53d80c8ca964e7b31a2d47f4d",
-      "files": 81
+      "sha256": "6d5cc3d4a114081caef0ee8227ec8c5aae9bafa46a26c2237e6b61c5e00d88cd",
+      "files": 82
     }
   ]
 }
