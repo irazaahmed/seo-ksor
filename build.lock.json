@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:62e726743c4e7e168412752da4a472ef6d3240fefb13ebb153b233e1b1da6dc2",
+  "build_id": "sha256:bdd75d0501bda34a237b2a1f0c0b14bfd370657cb2a0ef6f4a951a49ae276c00",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "542023a23dc6d870b24920d852cfaaf611a41407",
+  "source_commit": "af70bb5e181835f450f7d97592f82ebb0088bd22",
   "dirty": true,
-  "as_of": "2026-10-11T18:17:03.597Z",
+  "as_of": "2026-10-12T10:31:25.235Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -160,6 +160,17 @@
     {
       "path": "keyword-research-and-content-planning/keyword-research-methods.md",
       "sha256": "2f59ea4df65b27adaebbbadeaf8e3aaf7d40fd709612d52dd42693688b3c3d40",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.md",
+      "sha256": "f211f981f4c0afc60cb35410f44f3d5d3916f65811aa30e8c787b3bd47db3d68",
       "status": "stable",
       "audience": [
         "public"
@@ -752,7 +763,12 @@
       ]
     }
   ],
-  "companions": [],
+  "companions": [
+    {
+      "path": "keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.summary.md",
+      "sha256": "eb3e1466f739b13998568ae048b7365391ce5deb229d2f09b15a6d52853a4d75"
+    }
+  ],
   "assets": [
     {
       "path": "connect-chatgpt-1.png",
@@ -790,7 +806,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "62b18f8f464d6846a85c4840db8e98918504021fc8e1a8c7db847abc898942d3"
+      "sha256": "593c5771fe1cdaa3cada03409902c557c044c95fddaa2adf765c7ac7d56d84d2"
     },
     {
       "path": "local-seo/index.md",
@@ -824,8 +840,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "6d5cc3d4a114081caef0ee8227ec8c5aae9bafa46a26c2237e6b61c5e00d88cd",
-      "files": 82
+      "sha256": "a7833b95add8a525d4cbd695d0e6b07248eb01547768a13f2bc4d544a0d88b44",
+      "files": 84
     }
   ]
 }
