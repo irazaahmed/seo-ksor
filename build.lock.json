@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:ff4dadfb2bc6d4580e7c85f5e95cc20e9dec0351a1ff5a70380f90c450be4d40",
+  "build_id": "sha256:49f2e7233a8392eff2826872fc045a4c3ad67a529598cc96847d32a036ec6848",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "d603659074a776c051add95e72652624c1bdecf0",
-  "dirty": false,
-  "as_of": "2026-10-12T17:30:59.565Z",
+  "dirty": true,
+  "as_of": "2026-10-12T17:43:23.208Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -171,6 +171,17 @@
     {
       "path": "keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.md",
       "sha256": "f211f981f4c0afc60cb35410f44f3d5d3916f65811aa30e8c787b3bd47db3d68",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "learn-seo.md",
+      "sha256": "1d4d0765e37c6fc593339bbb952651bb430b289ba6031b9e73a82f2274717d1a",
       "status": "stable",
       "audience": [
         "public"
@@ -802,7 +813,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "d8057e9e77607d1f28b75aade311c91c27b61a0373f3087b376e60dded92b9d0"
+      "sha256": "f2052ea8b5e869526f866748cb263caf7ba046a8ac86cb32c154a1ef6d43394e"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -840,8 +851,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "ebbd81ca22d649210e159ec1d435d3ab3429de84275f3dea547abbef9f9ca5fa",
-      "files": 84
+      "sha256": "6457e0b18f1e8450f3910caed1cdf87e610db16246857071d9db66da29807ce5",
+      "files": 85
     }
   ]
 }
