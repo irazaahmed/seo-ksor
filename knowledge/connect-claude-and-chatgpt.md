@@ -4,12 +4,12 @@ title: Connect Claude, ChatGPT or Muse AI to this record
 description: Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 status: stable
 order: 1.5
-generated: { by: human:ahmedraza, at: 2026-10-08T17:20:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-12T10:50:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-08T17:20:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-08T17:20:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-12T10:50:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-12T10:50:00Z }]
 ---
 
 This record is served live over MCP. Connecting Claude, ChatGPT or Muse AI to it means each
@@ -99,16 +99,26 @@ Connect a custom MCP server for me.
 Name: AskSEO
 MCP Server URL: https://askseo.cybrumsolutions.dev/mcp
 
-It uses OAuth sign-in: give me the sign-in link so I can sign in to my AskSEO
-account and allow the connection. Once it is connected, list its tools. From then on, answer my SEO questions
+It uses OAuth sign-in. Register yourself as an OAuth client with this
+redirect URI: https://askseo.cybrumsolutions.dev/oauth/callback
+Then give me the sign-in link. After I sign in and allow the connection, I
+will paste the link I land on back into this chat: take the code from it and
+finish connecting.
+
+Once it is connected, list its tools. From then on, answer my SEO questions
 with AskSEO's search tool, name the document each answer comes from, and tell
 me plainly when the record does not cover a question instead of guessing.
 ```
 
-Sign in on the page it opens and click **Allow**. When Muse AI confirms the
-connector and lists its three tools (outline, read
-and search), ask it something the same way: *"Use AskSEO and explain what a
-nano niche is."*
+1. Open the sign-in link Muse AI gives you, sign in, and click **Allow**.
+2. You land on an AskSEO page that says **"Almost connected"**. Click
+   **Copy link** and paste that link into the same Muse AI chat.
+3. When Muse AI confirms the connector and lists its three tools (outline,
+   read and search), ask it something the same way: *"Use AskSEO and explain
+   what a nano niche is."*
+
+The link works only for a few minutes, so paste it soon after you click
+**Allow**. If it has expired, ask Muse AI for a new sign-in link.
 
 ## Connected before sign-in was required?
 
