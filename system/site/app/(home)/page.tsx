@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import type { ReactElement } from "react";
 
 import { FooterMark } from "@/components/footer-mark";
@@ -5,8 +6,58 @@ import { HomeCover } from "@/components/home-cover";
 import { LandingConnect } from "@/components/landing-connect";
 import { LandingStats } from "@/components/landing-stats";
 import { LandingTopics } from "@/components/landing-topics";
-import { appName, appPurpose, appTitle, mcpEndpoint } from "@/lib/shared";
-import { entriesUnder, entryFor, getSortedPages } from "@/lib/source";
+import { appDescription, appName, appPurpose, appTitle, mcpEndpoint, siteUrl } from "@/lib/shared";
+import { baseOpenGraph, baseTwitter } from "@/lib/seo";
+import { basePath, entriesUnder, entryFor, getSortedPages } from "@/lib/source";
+
+// The search-result face of the front door. Targets the head terms from the
+// 2026-10-12 keyword report ("learn seo", "seo training", "wordpress seo",
+// "local seo course") while naming only what the record actually covers.
+const homeTitle = "Learn SEO: Free SEO Training, WordPress SEO and Local SEO | AskSEO";
+const homeDescription =
+  "Learn SEO free with AskSEO: complete SEO training notes on keyword research, niche research, on-page, technical and off-page SEO, WordPress SEO, Local SEO and Etsy SEO.";
+
+export const metadata: Metadata = {
+  title: { absolute: homeTitle },
+  description: homeDescription,
+  alternates: { canonical: `${basePath}/` },
+  openGraph: {
+    ...baseOpenGraph,
+    type: "website",
+    title: homeTitle,
+    description: homeDescription,
+    url: `${basePath}/`,
+  },
+  twitter: { ...baseTwitter, title: homeTitle, description: homeDescription },
+};
+
+/** WebSite + the course it holds, as JSON-LD; `<` escaped like every inline JSON here. */
+function homeJsonLd(): string {
+  const url = `${siteUrl}${basePath}/`;
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${url}#website`,
+        url,
+        name: appTitle,
+        description: appDescription ?? homeDescription,
+        inLanguage: "en",
+      },
+      {
+        "@type": "Course",
+        "@id": `${url}#course`,
+        name: "Learn SEO: the AskSEO curriculum",
+        description: homeDescription,
+        url,
+        isAccessibleForFree: true,
+        inLanguage: "en",
+        provider: { "@type": "Organization", name: appTitle, url },
+      },
+    ],
+  }).replaceAll("<", "\\u003c");
+}
 
 /**
  * The front door of a system of record.
@@ -54,6 +105,7 @@ export default function HomePage(): ReactElement {
 
   return (
     <main className="flex flex-1 flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: homeJsonLd() }} />
       <HomeCover
         name={appName}
         // instance.md's own H1 — a human name, not the machine slug — so a

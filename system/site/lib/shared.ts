@@ -59,7 +59,9 @@ function scalar(key: string): string | null {
 function readInstanceName(): string {
   const name = scalar("name");
   if (name === null) {
-    throw new Error("instance.md carries no name: — it is the project's identity; run npm run check.");
+    throw new Error(
+      "instance.md carries no name: — it is the project's identity; run npm run check.",
+    );
   }
   return name;
 }
@@ -147,6 +149,18 @@ export function recordDescription(): string {
 export function mcpEndpoint(): string | null {
   return scalar("mcp_url");
 }
+
+/**
+ * The site's public origin, for canonical links, the sitemap and OG images.
+ * The door and the site share one host, so it is the origin of `mcp_url`;
+ * `NEXT_PUBLIC_SITE_URL` overrides it for a host where they differ.
+ */
+export const siteUrl: string = (() => {
+  const override = process.env.NEXT_PUBLIC_SITE_URL;
+  if (override) return override.replace(/\/+$/, "");
+  const mcp = scalar("mcp_url");
+  return mcp ? new URL(mcp).origin : "http://localhost:3000";
+})();
 
 /**
  * The namespace half of the MCP `name`, which the schema requires to look like

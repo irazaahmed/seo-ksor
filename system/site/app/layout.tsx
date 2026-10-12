@@ -1,7 +1,8 @@
 import { RootProvider } from "fumadocs-ui/provider/next";
 import "./global.css";
 import type { Metadata } from "next";
-import { appTitle, appDescription } from "@/lib/shared";
+import { appTitle, appDescription, siteUrl } from "@/lib/shared";
+import { baseOpenGraph, baseTwitter } from "@/lib/seo";
 import { basePath, badgeByUrl } from "@/lib/source";
 import { readStageManifest } from "@/lib/stage-manifest";
 import { BackToTop } from "@/components/back-to-top";
@@ -16,8 +17,11 @@ import KsorSearchDialog from "@/components/search-dialog";
 
 export const metadata: Metadata = {
   // Resolves the OG/Twitter image and canonical links to an absolute URL.
-  // Update this the day the record moves to a custom domain.
-  metadataBase: new URL("https://askseo.vercel.app"),
+  // Derived from instance.md's mcp_url (lib/shared `siteUrl`), so a domain
+  // move is one edit there rather than a stale constant here.
+  metadataBase: new URL(siteUrl),
+  openGraph: { type: "website", ...baseOpenGraph },
+  twitter: baseTwitter,
   title: {
     default: appTitle,
     template: `%s | ${appTitle}`,

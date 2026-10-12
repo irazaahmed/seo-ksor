@@ -24,7 +24,9 @@ import {
   type Successor,
 } from "@/components/governance";
 import { predecessorsOf, readGovernance, resolveSuccessorUrl } from "@/lib/governance";
-import { showGovernance } from "@/lib/shared";
+import { appTitle, showGovernance, siteUrl } from "@/lib/shared";
+import { peopleBook } from "@/lib/people";
+import { baseOpenGraph, baseTwitter } from "@/lib/seo";
 import { stagePageOf } from "@/lib/stage-manifest";
 import { RecordBreadcrumb } from "@/components/record-breadcrumb";
 import { RecordToc, TocItems } from "@/components/record-toc";
@@ -73,6 +75,69 @@ function FolderPage({ dir }: { dir: string }): ReactElement {
       </DocsPage>
     </TocItems>
   );
+}
+
+/**
+ * Article + BreadcrumbList JSON-LD for one document, built only from its own
+ * frontmatter: a key the record left off is left out here too.
+ */
+function articleJsonLd(
+  url: string,
+  title: string,
+  description: string | undefined,
+  governance: ReturnType<typeof readGovernance>,
+): string {
+  const abs = `${siteUrl}${basePath}${url}/`;
+  const author =
+    governance.owner?.startsWith("human:") === true
+      ? {
+          "@type": "Person",
+          name: peopleBook().get(governance.owner) ?? governance.owner,
+        }
+      : { "@type": "Organization", name: appTitle };
+  const published = governance.approval?.at;
+  const parts = url.split("/").filter(Boolean).slice(1);
+  const crumbs = [
+    { name: appTitle, item: `${siteUrl}${basePath}/` },
+    ...parts.slice(0, -1).map((_, i) => {
+      const dir = parts.slice(0, i + 1).join("/");
+      return {
+        name: folderHeading(dir),
+        item: `${siteUrl}${basePath}/docs/${dir}/`,
+      };
+    }),
+    { name: title, item: abs },
+  ];
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: title,
+        ...(description ? { description } : {}),
+        url: abs,
+        mainEntityOfPage: abs,
+        inLanguage: "en",
+        author,
+        publisher: {
+          "@type": "Organization",
+          name: appTitle,
+          url: `${siteUrl}${basePath}/`,
+        },
+        ...(published ? { datePublished: published, dateModified: published } : {}),
+        isAccessibleForFree: true,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: crumbs.map((crumb, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: crumb.name,
+          item: crumb.item,
+        })),
+      },
+    ],
+  }).replaceAll("<", "\\u003c");
 }
 
 export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
@@ -157,6 +222,12 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
         // same place on every document (measured 134px of drift without it).
       >
         <DescribedBy />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: articleJsonLd(page.url, page.data.title, page.data.description, governance),
+          }}
+        />
         {governance.status === "deprecated" ? <DeprecatedNotice successor={successor} /> : null}
         <DocsTitle>{page.data.title}</DocsTitle>
         <DocsDescription>{page.data.description}</DocsDescription>
@@ -253,16 +324,37 @@ export async function generateMetadata(props: PageProps<"/docs/[[...slug]]">): P
   if (!page) {
     const dir = folderOfRoute(routeOf(params.slug));
     if (dir === null) notFound();
-    return { title: folderHeading(dir) };
+    return {
+      title: folderHeading(dir),
+      alternates: { canonical: `${basePath}${routeOf(params.slug)}/` },
+    };
   }
 
   // The markdown twin, advertised rather than left to be guessed — and only
   // where one exists: a page the machine surfaces decline has no twin, and
   // advertising one would be a dead link (build spec §3).
   const twin = stagePageOf(page.path)?.machine === true;
+  // Canonical with the trailing slash the static export serves, so the 301
+  // from the bare path never competes with the page it lands on.
+  const canonical = `${basePath}${page.url}/`;
   return {
     title: page.data.title,
     description: page.data.description,
-    ...(twin ? { alternates: { types: { "text/markdown": markdownPath(page.url) } } } : {}),
+    alternates: {
+      canonical,
+      ...(twin ? { types: { "text/markdown": markdownPath(page.url) } } : {}),
+    },
+    openGraph: {
+      ...baseOpenGraph,
+      type: "article",
+      url: canonical,
+      title: page.data.title,
+      description: page.data.description,
+    },
+    twitter: {
+      ...baseTwitter,
+      title: page.data.title,
+      description: page.data.description,
+    },
   };
 }
