@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:2e4c75b85b23c25e431fbeba5b12ef256ceff3a56d2bc204c32d8f5549c15aef",
+  "build_id": "sha256:07207a9c0f99ba5042dc781aa0f9ff69922f0facd4db51ae1ecb3536a5bd29bd",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "8332ebf5d9fd5eec26355891a5766c5a030ea8b1",
+  "source_commit": "1c0a3be48733f676fd3732107981657449779045",
   "dirty": true,
-  "as_of": "2026-10-13T10:35:06.328Z",
+  "as_of": "2026-10-13T10:55:49.649Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -138,6 +138,17 @@
     {
       "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md",
       "sha256": "405ad492fe90c08871098fe060961d85b4a00a53a016cd736b49e2eba2a8634e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-vs-keyword-coverage.md",
+      "sha256": "dd980c8c90a44d2aa2d65f4ad8a2f69906efd4665181329375df30ab5dd794ca",
       "status": "stable",
       "audience": [
         "public"
@@ -828,7 +839,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "593c5771fe1cdaa3cada03409902c557c044c95fddaa2adf765c7ac7d56d84d2"
+      "sha256": "fd3be4971348077b7ac4c7a747d8b0dfe30c247ff57a5f5c18254a93a300f89c"
     },
     {
       "path": "local-seo/index.md",
@@ -862,8 +873,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "c2b40b9961ada1bc360f5498cd575ff72ebb375df08e72b011ebc233ba64a9e7",
-      "files": 86
+      "sha256": "ab6735602682f4a90e176b83f2e7cdf335532921097d2e02ab6be50299b7c6d7",
+      "files": 87
     }
   ]
 }
