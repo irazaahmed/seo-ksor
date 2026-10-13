@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:49f2e7233a8392eff2826872fc045a4c3ad67a529598cc96847d32a036ec6848",
+  "build_id": "sha256:2e4c75b85b23c25e431fbeba5b12ef256ceff3a56d2bc204c32d8f5549c15aef",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "d603659074a776c051add95e72652624c1bdecf0",
+  "source_commit": "8332ebf5d9fd5eec26355891a5766c5a030ea8b1",
   "dirty": true,
-  "as_of": "2026-10-12T17:43:23.208Z",
+  "as_of": "2026-10-13T10:35:06.328Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -708,6 +708,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips.md",
+      "sha256": "9d59fb12d99e93520d04a6ab0389f367ca8e1b0600f9ef296d10a0b53dced163",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
       "sha256": "e5648702ebb57b6a17d67ea8be2ca2c568fc0f41efd5cdf06ed02a40fba7f3b3",
       "status": "stable",
@@ -837,7 +848,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "f03e19903f137b489111f76b811503f008172f79b99305c2b90f0a455990ea1b"
+      "sha256": "f8428bdff1763773eaa3078fa4e508f2a2596785c96d7059157efe8581c9144b"
     },
     {
       "path": "quick-skills/index.md",
@@ -851,8 +862,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "6457e0b18f1e8450f3910caed1cdf87e610db16246857071d9db66da29807ce5",
-      "files": 85
+      "sha256": "c2b40b9961ada1bc360f5498cd575ff72ebb375df08e72b011ebc233ba64a9e7",
+      "files": 86
     }
   ]
 }
