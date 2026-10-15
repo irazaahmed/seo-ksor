@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:07207a9c0f99ba5042dc781aa0f9ff69922f0facd4db51ae1ecb3536a5bd29bd",
+  "build_id": "sha256:718ff7288ecc80aebca4ff7aab2844bd4569fb2aa2a0f143701e60dc4214070b",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "1c0a3be48733f676fd3732107981657449779045",
+  "source_commit": "850bda0c18b9e79712de3c3fdb53e2b0c6279021",
   "dirty": true,
-  "as_of": "2026-10-13T10:55:49.649Z",
+  "as_of": "2026-10-15T18:46:50.081Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -202,8 +202,96 @@
       ]
     },
     {
+      "path": "local-seo/aeo-geo-voice-search-and-ai-overview-ranking.md",
+      "sha256": "668ac3ae55833a1f6700b396c4cae124e5c6fc87adf47286eab97e8c2d7d85a5",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/ai-enhancement-competitor-and-gsc-optimization.md",
+      "sha256": "3f2e6b84618d7b1b59ff322dc9d43dc5f1f8f2a30e0d032a2c89d1d591b785d0",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/ai-website-creation-workflow.md",
+      "sha256": "5be8a2d0d763d3b02c15f8b28507c61d3fb522e12dfcd08d20324e877a22e9fb",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/local-seo-content-writing.md",
+      "sha256": "65fbc1362976e5152138af985f516d16f340a5d7d747b02214ec28616e108e5e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "local-seo/local-seo-fundamentals.md",
       "sha256": "db9f69158fce6e25731db6648c1a7bef21018a5c4640d98e139b50fb2840c146",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/off-page-basics-and-link-building-precautions.md",
+      "sha256": "3cc39dacbb1fccf19457b2db56500ba8160ceb96da554423cd0c1fa2a222ec7e",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/off-page-citations-and-social-signals.md",
+      "sha256": "c17bb402ca51de2cbf3f59c8b63ee69a8f8ced38aac0fe9e8ad6796308a3e6ff",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/programmatic-rank-and-rent-seo.md",
+      "sha256": "ecec8ac32c44035fa6f374bc39d9e7fe40eb9ec6bd022cbc64d97d1c475d081d",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "local-seo/sales-psychology-client-hunting.md",
+      "sha256": "1706f93b332d32481e5b1d4a978979612c9546fbb378170b67143be77a1a5774",
       "status": "stable",
       "audience": [
         "public"
@@ -843,7 +931,7 @@
     },
     {
       "path": "local-seo/index.md",
-      "sha256": "8bddcf18fbb0f835b1386f91892ddd88485b379e874f935348a15a1b23f00b1b"
+      "sha256": "d8805355bc362857c1121a1a0837d78c95d77d8fcfaeb15e9385345a48b7b83e"
     },
     {
       "path": "niche-research/index.md",
@@ -873,8 +961,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "ab6735602682f4a90e176b83f2e7cdf335532921097d2e02ab6be50299b7c6d7",
-      "files": 87
+      "sha256": "4600986b864a4699b7708c1aa3faa7b82b8b4d2485b034a5482fae96217ee90d",
+      "files": 95
     }
   ]
 }
