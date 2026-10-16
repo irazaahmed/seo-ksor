@@ -2034,10 +2034,15 @@ aside div[data-state="open"] > a[data-active] .ksor-ch-tile {
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
-.ksor-infographic-btn:first-child {
+/* The ID matches the site's prose-link rule (`#nd-page .prose … a`), which
+   would otherwise paint this link's text in the accent, the same colour as
+   its own background, leaving the label invisible. */
+#nd-page .ksor-infographic a.ksor-infographic-btn,
+.ksor-infographic a.ksor-infographic-btn {
   background: var(--color-fd-primary);
   border-color: var(--color-fd-primary);
   color: var(--color-fd-primary-foreground);
+  text-decoration: none;
 }
 .ksor-infographic-btn:hover {
   border-color: var(--color-fd-primary);
