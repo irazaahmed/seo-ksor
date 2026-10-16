@@ -4,16 +4,16 @@ title: "Niche research: tools, metrics, and selection criteria"
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 sources:
   - id: class-10-helping-material
     title: "Helping material, Class 10"
     resource: "Helping material, research links shared by Muhammad Ali after Class 10 (Niche Research with a New Angle)"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:32:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "Supply and demand, the plain
@@ -216,6 +216,10 @@ Coverage module, then Writing, then Website Design.
 [^class-10-helping-material]: Helping material, research links shared by
     Muhammad Ali after Class 10 (Niche Research with a New Angle).
 
-## Class infographic
+## Class infographics
 
-![Infographic: Niche research: tools, metrics, and selection criteria](overview-infographic.webp)
+![Infographic: Niche research, complete (Sessions 1, 2 and Beginner Special)](overview-infographic.webp)
+
+![Infographic: SEO Class 1, niche research](overview-class-1-infographic.webp)
+
+![Infographic: Beginner Special Class, niche research basics and the sweet spot method](overview-beginner-special-infographic.webp)

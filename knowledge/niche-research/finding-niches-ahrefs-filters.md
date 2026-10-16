@@ -4,12 +4,12 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:32:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "A revision pass on the same filters"
@@ -88,6 +88,8 @@ Country matters here: a seed keyword volume of 10,000 in the USA (a Tier 1
 country) is not directly comparable to 100,000 in Pakistan: Tier 1 traffic is
 worth more per visit.
 
-## Class infographic
+## Class infographics
 
-![Infographic: Finding niches, Method 2: the Ahrefs/SEMrush filter method](finding-niches-ahrefs-filters-infographic.webp)
+![Infographic: Class 4, niche research with AI and Ahrefs](finding-niches-ahrefs-filters-infographic.webp)
+
+![Infographic: Niche finding revision class, three methods (Sir Naveed Kalro)](finding-niches-ahrefs-filters-revision-class-infographic.webp)

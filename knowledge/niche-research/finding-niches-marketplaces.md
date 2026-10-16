@@ -4,12 +4,12 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:32:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except the "fuller version" paragraph below,
@@ -87,6 +87,8 @@ several forms:
 4. **Paid ads on brand names**: running PPC ads on a competitor's brand name
    to intercept its clicks.
 
-## Class infographic
+## Class infographics
 
-![Infographic: Finding niches, Method 1: reverse-engineering marketplaces](finding-niches-marketplaces-infographic.webp)
+![Infographic: Class 3, finding your first seed keywords](finding-niches-marketplaces-infographic.webp)
+
+![Infographic: Niche finding revision class, three methods (Sir Naveed Kalro)](finding-niches-marketplaces-revision-class-infographic.webp)

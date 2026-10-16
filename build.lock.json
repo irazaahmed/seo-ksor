@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:5a5a0abd8cd1e8804cf3db9cc652fb9dbecd5e52e4053f83b650812b0b40b552",
+  "build_id": "sha256:f2aa7cab144c9e2623d6c787dc4699e1ea33c0bd889c66818000981bf7ffe870",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "7c20923d88f0fd5ff1910ffb82f0c6f34b5e7e86",
+  "source_commit": "59b5e2a162b7823509eb695fa0d9fc5425772fe2",
   "dirty": true,
-  "as_of": "2026-10-16T10:59:21.688Z",
+  "as_of": "2026-10-16T11:32:33.658Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -335,7 +335,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "d66339c7e0e32f9eb896122f9b61b9deb284a0c0807028834f861c85c4c0a215",
+      "sha256": "a14abfb71765f1790ed655be651226512f6d90cccecbcea3ad707d958b23f45b",
       "status": "stable",
       "audience": [
         "public"
@@ -346,7 +346,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "a9990381c16a907521cba0a21e45a37f5b3d8e1480344e4b8a3f530619185084",
+      "sha256": "c9f6e08b581e5f70aa78b15b23d317f9b6ac49b56a59f7bd4ce4a3bed8972bf0",
       "status": "stable",
       "audience": [
         "public"
@@ -390,7 +390,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "191a9b5e99abd1826ad89dc25249d24c68f66e6dec2ef2ba9852d495542210e5",
+      "sha256": "f4b572227696364c02ff57f63c5d3b594329330feec4c836b2392cbf2d8e03b2",
       "status": "stable",
       "audience": [
         "public"
@@ -467,7 +467,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "247d168db58f80a7bf5855c5afe7b0928f97329f513ca3b3a948ef8b537991f1",
+      "sha256": "71c5ba6247820d00e9ea7c183302e7faaba30c09ff523e7540271094f6440ac3",
       "status": "stable",
       "audience": [
         "public"
@@ -943,8 +943,16 @@
       "sha256": "9252b9b7f5aa7c46ada3f9dde285fef233bf84b40f9f54b904d57f21f76eadb6"
     },
     {
+      "path": "niche-research/easy-niche-categories-revision-class-infographic.webp",
+      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
+    },
+    {
       "path": "niche-research/finding-niches-ahrefs-filters-infographic.webp",
       "sha256": "6d8e84252b23ef95d86a485a96223a60b7e3ace5b250dc23093374c27dff0497"
+    },
+    {
+      "path": "niche-research/finding-niches-ahrefs-filters-revision-class-infographic.webp",
+      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
     },
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method-infographic.webp",
@@ -959,6 +967,10 @@
       "sha256": "797721f8238a30e3fe8dc64c9c7fcd503bd58ea0cec44982d1597d9a63b8934c"
     },
     {
+      "path": "niche-research/finding-niches-marketplaces-revision-class-infographic.webp",
+      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
+    },
+    {
       "path": "niche-research/finding-niches-page-replication-infographic.webp",
       "sha256": "098951fa393dff99c1cd06e943bbfb593a929c6ba2d9f259a846af8b92836e69"
     },
@@ -969,6 +981,14 @@
     {
       "path": "niche-research/finding-untapped-niches-google-com-and-google-trends-infographic.webp",
       "sha256": "09096456c3c2bedbb0a0036d34e7945541acbb77a17e3f92dcace5edc1020764"
+    },
+    {
+      "path": "niche-research/overview-beginner-special-infographic.webp",
+      "sha256": "22c47478b9e8c94e7df96f8c58ebf93330c85c574d59f08021823bb1042fdb4e"
+    },
+    {
+      "path": "niche-research/overview-class-1-infographic.webp",
+      "sha256": "4cd4f582d9eae2961203231779ca695a899a7e7821fd5ab95d04093313234f68"
     },
     {
       "path": "niche-research/overview-infographic.webp",
@@ -1056,8 +1076,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "80d10b0b1f56a6df121972662dab2df2f5e062ddc25362d4b9242fc7107aa90f",
-      "files": 117
+      "sha256": "e479e83b2c549adc98f952ba22596121729ff3ce6deec12d097738a7cd851274",
+      "files": 122
     }
   ]
 }

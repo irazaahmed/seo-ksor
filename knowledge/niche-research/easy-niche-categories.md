@@ -4,12 +4,12 @@ title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others (informational, downloadable, and government-related) plus finding them with Ahrefs Content Explorer.
 status: stable
 order: 10
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:32:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "A revision pass on this same
@@ -78,6 +78,8 @@ indefinitely:
 Market conditions like this shift, so treat both as a starting point to
 re-verify with fresh data, not a standing fact.
 
-## Class infographic
+## Class infographics
 
-![Infographic: Easy-to-rank niche categories](easy-niche-categories-infographic.webp)
+![Infographic: Class 6, finding easy niches](easy-niche-categories-infographic.webp)
+
+![Infographic: Niche finding revision class, three methods (Sir Naveed Kalro)](easy-niche-categories-revision-class-infographic.webp)
