@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:f2aa7cab144c9e2623d6c787dc4699e1ea33c0bd889c66818000981bf7ffe870",
+  "build_id": "sha256:37e6c104c3c8a8d96b777ab81c5dde1740b6d2dec1c1a6a0a5aa1b01afb3b68d",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "59b5e2a162b7823509eb695fa0d9fc5425772fe2",
+  "source_commit": "41bd86dcbfb7b61c810f1895e6dad33a4d0d5f53",
   "dirty": true,
-  "as_of": "2026-10-16T11:32:33.658Z",
+  "as_of": "2026-10-16T11:46:27.144Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -720,7 +720,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion.md",
-      "sha256": "98ec894b0855095e60c1fd955acdeb2d6615d9db32c3e09a22c26eb6c732a836",
+      "sha256": "accb1c1f8ee96b58b125a43d11f1cf6094cc4579b4e5f1938010579d9259320b",
       "status": "stable",
       "audience": [
         "public"
@@ -731,7 +731,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt.md",
-      "sha256": "1ba09f9dff5a117ab1e4156db2d9706122b06fec7b47272e48987a0d091321b2",
+      "sha256": "cd2e4ae3b9d954020c9cd4f3e69d64dc64301e5c5f1fad9f9180f069b69384a1",
       "status": "stable",
       "audience": [
         "public"
@@ -753,7 +753,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners.md",
-      "sha256": "c22f736a2af473ffe9d93d4de279d2c15075748c063f3e15939f37119224d37d",
+      "sha256": "a68c762177adac393405f529d951cb717df3e36eb97ac4e7f71d084a6c4e39c3",
       "status": "stable",
       "audience": [
         "public"
@@ -808,7 +808,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical.md",
-      "sha256": "440aec07e9a0baf9bdf631e44cbfa736a69671ed465703a7364ae9e0d937dbbc",
+      "sha256": "00e5075460313da7a93de094763b44ed5086f1fc36449d1128f7627b0cb378f0",
       "status": "stable",
       "audience": [
         "public"
@@ -819,7 +819,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips.md",
-      "sha256": "9d59fb12d99e93520d04a6ab0389f367ca8e1b0600f9ef296d10a0b53dced163",
+      "sha256": "009e88b553f957162f8bae965cdd6febe0d9f01e3b0a3bedafe439b08f334147",
       "status": "stable",
       "audience": [
         "public"
@@ -852,7 +852,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering.md",
-      "sha256": "c45f8e7bd5190ebbb661c603379a0694b4309a28b648e8eb5b7ec32ca641a70c",
+      "sha256": "ed26b6bfe4dd3144171666a56ef83f7546ffdcd933ff8b303742c0d848c68831",
       "status": "stable",
       "audience": [
         "public"
@@ -999,8 +999,20 @@
       "sha256": "6c231d4e00f9c7230c7a5c08d201f208f45887d8e012cddf7d8a5236f064b1f6"
     },
     {
+      "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion-infographic.webp",
+      "sha256": "a958edc15a2032086e6ec671efc6fccf625b77683e9868b8321ca7be27d279ea"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt-infographic.webp",
+      "sha256": "5df47980a90ea6b31f08271d5c284372fcd6e9914894b522e405e9df8f7283aa"
+    },
+    {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk-infographic.webp",
       "sha256": "1c1b124b827f50a05be5c5167cd794446edf8bf158808a3a45f46f9545afd959"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners-infographic.webp",
+      "sha256": "c88c28887f13a802e0882da5d5126f67582a5c9fccccd7230213e0ffcc81dfa6"
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-types-infographic.webp",
@@ -1019,8 +1031,20 @@
       "sha256": "1c024f3a02bbb06821db6354f97c7e3754b830e9773c8737ca5467dce7e9e3bb"
     },
     {
+      "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical-infographic.webp",
+      "sha256": "93b9c97d85b5b510a1a07ca1b3138ac7abad9b680c18597be46b82c0f36d1d03"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips-infographic.webp",
+      "sha256": "21d2494c0717b16144bb4b3630cef396d9975f12f49f7bf640ad71f1d2c01e87"
+    },
+    {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
       "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp",
+      "sha256": "b6a8e44e4edb93c8fc30e4c14943afae2e58c0dde9e7b02029aa5472e46461ff"
     }
   ],
   "indexes": [
@@ -1076,8 +1100,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "e479e83b2c549adc98f952ba22596121729ff3ce6deec12d097738a7cd851274",
-      "files": 122
+      "sha256": "14d3809e92f203bd74e400cc4ef5056954c77a5e26e73f3e776e64c4a1c48ef6",
+      "files": 128
     }
   ]
 }

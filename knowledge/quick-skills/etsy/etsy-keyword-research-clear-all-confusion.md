@@ -4,11 +4,11 @@ title: "Etsy keyword research, clearing the confusion: copyright, keyword hats, 
 description: Why copyright keywords get an Etsy account removed, black, grey and white hat keywords, orders without search volume, telling physical from digital, pricing, the strong product formula, and the Niche Deck tool.
 status: stable
 order: 52.85
-generated: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 sources:
   - id: zakria-afzal-keyword-research-confusion
     title: "Etsy course on YouTube: Keyword Research Clear All Confusion, by Sir Zakria Afzal"
@@ -16,7 +16,7 @@ sources:
   - id: owner-niche-deck-link
     title: "Owner's correction: the tool's name and link"
     resource: "Correction from human:ahmedraza (owner), 2026-10-07: the tool is named Niche Deck, at https://nichedeck.com/"
-verified: [{ by: human:ahmedraza, at: 2026-10-08T16:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:46:00Z }]
 ---
 
 *This whole document is from the Keyword Research Clear All Confusion class
@@ -106,3 +106,7 @@ volume**.[^zakria-afzal-keyword-research-confusion]
 
 [^owner-niche-deck-link]: Correction from the record's owner, 2026-10-07:
     the tool is named Niche Deck, at https://nichedeck.com/.
+
+## Class infographic
+
+![Infographic: Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](etsy-keyword-research-clear-all-confusion-infographic.webp)

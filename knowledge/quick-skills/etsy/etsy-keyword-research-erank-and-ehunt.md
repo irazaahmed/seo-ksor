@@ -4,16 +4,16 @@ title: "Etsy keyword and product research with eRank and EHunt"
 description: Sir Zakria Afzal's approach to Etsy research, from seed keyword to autocomplete, spying on top listings and filtering, using eRank for keywords and EHunt for products.
 status: stable
 order: 52.8
-generated: { by: human:ahmedraza, at: 2026-10-03T16:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-03T16:55:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 sources:
   - id: zakria-afzal-etsy-keyword-research
     title: "Etsy course on YouTube: Keyword Research, by Sir Zakria Afzal"
     resource: "Keyword Research class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-03T16:55:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:46:00Z }]
 ---
 
 *This whole document is from the Keyword Research class of Sir Zakria
@@ -112,3 +112,7 @@ Every keyword has these things:
 [^zakria-afzal-etsy-keyword-research]: Keyword Research class of Sir
     Zakria Afzal's Etsy course on YouTube, notes taken by the record's
     owner.
+
+## Class infographic
+
+![Infographic: Etsy keyword and product research with eRank and EHunt](etsy-keyword-research-erank-and-ehunt-infographic.webp)

@@ -4,16 +4,16 @@ title: "Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis a
 description: Sir Zakria Afzal's class on the Etsy ranking funnel from impression to review, what makes a good thumbnail and image plan, diagnosing a weak listing, customer service, the 30-listing checkpoint, and selling digital products from your own website.
 status: stable
 order: 52.89
-generated: { by: human:ahmedraza, at: 2026-10-13T10:31:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-13T10:31:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 sources:
   - id: zakria-afzal-etsy-ranking
     title: "Etsy course on YouTube: Etsy Ranking System and Pro Tips, by Sir Zakria Afzal"
     resource: "Etsy Ranking System and Pro Tips class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-13T10:31:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:46:00Z }]
 ---
 
 *This whole document is from the "Etsy Ranking System and Pro Tips" class of
@@ -150,3 +150,7 @@ The class also covered how to sell digital products from a website:
 4. After **6 months**, flip the website (sell it).[^zakria-afzal-etsy-ranking]
 
 [^zakria-afzal-etsy-ranking]: Sir Zakria Afzal, Etsy course on YouTube, "Etsy Ranking System and Pro Tips" class.
+
+## Class infographic
+
+![Infographic: Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis and pro tips](etsy-ranking-funnel-and-pro-tips-infographic.webp)

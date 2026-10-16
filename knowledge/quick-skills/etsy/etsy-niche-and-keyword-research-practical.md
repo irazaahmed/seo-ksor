@@ -4,16 +4,16 @@ title: "Etsy niche and keyword research, step by step: a practical walkthrough"
 description: The practical order Sir Zakria Afzal teaches for Etsy research, finding a niche through eRank top sellers, EHunt and Trend Buzz, then spying on its shops to collect tags and sorting them in Niche Deck.
 status: stable
 order: 52.86
-generated: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 sources:
   - id: zakria-afzal-niche-keyword-practical
     title: "Etsy course on YouTube: Proper Niche and Keyword Research Practical, by Sir Zakria Afzal"
     resource: "Proper Niche and Keyword Research Practical class of Sir Zakria Afzal's Etsy course on YouTube, notes taken by human:ahmedraza"
-verified: [{ by: human:ahmedraza, at: 2026-10-08T16:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T11:46:00Z }]
 ---
 
 *This whole document is from the Proper Niche and Keyword Research
@@ -81,3 +81,7 @@ These shop names were noted down during the class:
 [^zakria-afzal-niche-keyword-practical]: Proper Niche and Keyword Research
     Practical class of Sir Zakria Afzal's Etsy course on YouTube, notes
     taken by the record's owner.
+
+## Class infographic
+
+![Infographic: Etsy niche and keyword research, step by step: a practical walkthrough](etsy-niche-and-keyword-research-practical-infographic.webp)
