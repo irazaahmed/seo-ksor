@@ -2,6 +2,7 @@ import defaultMdxComponents from "fumadocs-ui/mdx";
 
 import { WrappableCodeBlock } from "@/components/code-block";
 import { Embed } from "@/components/embed";
+import { Infographic } from "@/components/infographic";
 import { CodeBlockTabsTrigger } from "fumadocs-ui/components/codeblock";
 import { Tab, Tabs } from "fumadocs-ui/components/tabs";
 import type { MDXComponents } from "mdx/types";
@@ -26,9 +27,27 @@ function BrandedTabsTrigger({
   return <CodeBlockTabsTrigger data-tab-value={value} value={value} {...props} />;
 }
 
+/**
+ * An image whose alt text starts with `Infographic` is a class infographic and
+ * renders as a card a reader can zoom and share (components/infographic.tsx).
+ * Decided HERE, on the server: a client module's exports are references, so
+ * the test cannot be imported from it.
+ */
+function RecordImg(props: React.ComponentProps<"img">) {
+  const DefaultImg = defaultMdxComponents.img;
+  // fumadocs-mdx hands a local image over as a static import, which the
+  // plain `img` prop type cannot name; both components accept it.
+  return /^infographic\b/i.test(props.alt ?? "") ? (
+    <Infographic {...(props as unknown as React.ComponentProps<typeof Infographic>)} />
+  ) : (
+    <DefaultImg {...(props as unknown as React.ComponentProps<typeof DefaultImg>)} />
+  );
+}
+
 export function getMDXComponents(components?: MDXComponents) {
   return {
     ...defaultMdxComponents,
+    img: RecordImg,
     // The teaching-aid marker, rendering NOTHING unless a caller supplies a
     // deck. The rehype plugin inserts the marker into every document, and MDX
     // throws on a component it was not given — so the default has to exist

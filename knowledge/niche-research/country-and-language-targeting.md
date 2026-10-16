@@ -4,16 +4,16 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 sources:
   - id: tiers-countries-sheet
     title: Tiers Countries
     resource: "Tiers Countries.xlsx, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
 ---
 
 *This whole document is from Class 09, International Niche Research /
@@ -216,3 +216,7 @@ For 10 pages targeting AI-related keywords, each getting roughly 1,000
 visits/month: total traffic of about 88K visitors/month translates to
 revenue via `(traffic / 1,000) × RPM`. Higher traffic combined with
 low-competition keywords is what compounds into meaningfully more revenue.
+
+## Class infographic
+
+![Infographic: Country and language targeting for niches](country-and-language-targeting-infographic.jpeg)

@@ -4,16 +4,16 @@ title: "Etsy manual research methods, and the shop assignment criteria"
 description: The manual ways to find Etsy keywords taught in Classes 12 and 13 (autocomplete, alphabet, category, Google, competitor titles and tags, word frequency, keyword gap and more), and the criteria a shop must meet before you replicate it for the assignment.
 status: stable
 order: 52.75
-generated: { by: human:ahmedraza, at: 2026-10-09T18:20:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-09T18:20:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 sources:
   - id: etsy-class-12-13
     title: "Etsy module, Classes 12 and 13: EHunt, eRank, Manual Research Methods"
     resource: "iSkills Quick Skills (Etsy) Classes 12 and 13 notes, EHunt, eRank and Manual Research Methods, taught by Sir Zafar Ali"
-verified: [{ by: human:ahmedraza, at: 2026-10-09T18:20:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
 ---
 
 *This whole document is from Classes 12 and 13 of the Etsy module, EHunt,
@@ -65,3 +65,7 @@ listing** can be copied.[^etsy-class-12-13]
 
 [^etsy-class-12-13]: iSkills Quick Skills (Etsy) Classes 12 and 13 notes,
     EHunt, eRank and Manual Research Methods, taught by Sir Zafar Ali.
+
+## Class infographic
+
+![Infographic: Etsy manual research methods, and the shop assignment criteria](etsy-manual-research-methods-and-shop-assignment-infographic.jpeg)

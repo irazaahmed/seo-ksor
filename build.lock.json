@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:718ff7288ecc80aebca4ff7aab2844bd4569fb2aa2a0f143701e60dc4214070b",
+  "build_id": "sha256:67b0b52f728e03b46b9b6444e72b1652b832e6d45fc34d08ef60fc2aba93ad9e",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "850bda0c18b9e79712de3c3fdb53e2b0c6279021",
+  "source_commit": "f848a4624ba2042d7c523a6e8fe64d3ffa2afac5",
   "dirty": true,
-  "as_of": "2026-10-15T18:46:50.081Z",
+  "as_of": "2026-10-16T10:24:12.218Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -27,7 +27,7 @@
   "documents": [
     {
       "path": "ai-agents/introduction-and-setup.md",
-      "sha256": "8e53d782515118e3576e34f72538c701e05ea5e2ae8d73b00091c4f66cd14b6d",
+      "sha256": "b06b2da4210721ac3fa15e32603c4faeb20170ce18c7ad57ebb893b7f264c0ce",
       "status": "stable",
       "audience": [
         "public"
@@ -137,7 +137,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md",
-      "sha256": "405ad492fe90c08871098fe060961d85b4a00a53a016cd736b49e2eba2a8634e",
+      "sha256": "bc0e4b03e3ea4991b2b492e3c27df8a3719dc1028856bb8f1a6e2770344237dd",
       "status": "stable",
       "audience": [
         "public"
@@ -302,7 +302,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "f1dfcecaf6f272d441da33d7047e55595689e99cb4f13f2c3c6004d0faa25a2e",
+      "sha256": "9f84652a506568b38ceb7e0b3fa7f1376878e863a062ff491c1e3264b89e9fe6",
       "status": "stable",
       "audience": [
         "public"
@@ -313,7 +313,7 @@
     },
     {
       "path": "niche-research/automate-niche-research-ahrefs-mcp.md",
-      "sha256": "0424cb93330390f6addde3ac5fb534b9638b17e3385903e8b8121807f2ec43e4",
+      "sha256": "f570e5fce26a3d32482bbc2d9fc4847349f16ea528242510caea8159608200af",
       "status": "stable",
       "audience": [
         "public"
@@ -324,7 +324,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "38546d6ab94e91ea76feaef49bd2ae8485bc5d749783a6491ca9738bc566bcc4",
+      "sha256": "e982f3530570502f556bc9c8dee982c6dc773eddb55a2b4e87fba21fd3d76ce6",
       "status": "stable",
       "audience": [
         "public"
@@ -335,7 +335,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "4911a65e4128c6da1b380dcfe61dd28f30893e407095c4d257469ce5f3770e03",
+      "sha256": "f0bb10aeceb38830ef79adf57e83ac28d1f524120dd76256cae85995dd455900",
       "status": "stable",
       "audience": [
         "public"
@@ -346,7 +346,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "10072493db54bf2c659238fa58ce0aa9319f1359ce540a1786a77915977b5c47",
+      "sha256": "d686eac35e5f82cec885861cdea477b3951ad2b2df0b90c3db599d030781a009",
       "status": "stable",
       "audience": [
         "public"
@@ -368,7 +368,7 @@
     },
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method.md",
-      "sha256": "8c6cd8bf19bf138fb0e42f4f0ce04cddafa7dbae29a0b9251cdf5baf16f147c5",
+      "sha256": "5e3537b47796c9526945b918b8c8175aa081af1208048568216918cdfda61b34",
       "status": "stable",
       "audience": [
         "public"
@@ -379,7 +379,7 @@
     },
     {
       "path": "niche-research/finding-niches-content-explorer-topic-search.md",
-      "sha256": "20ca13e7a88d31818f47c0a1ff529e8c518a8d01fb091dc3a821f67dfd036d20",
+      "sha256": "45a32f30e9b211e7486be109d8c234738661e04ca46c11f021a2da4106bd8540",
       "status": "stable",
       "audience": [
         "public"
@@ -390,7 +390,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "b11f138052a093d60e489b9760ce456573f73523773539d1741bf340e9a73257",
+      "sha256": "4ce2366b739475ae39f01115b647f05c169077b164c1a40e7a4c5362cddc9d5b",
       "status": "stable",
       "audience": [
         "public"
@@ -401,7 +401,7 @@
     },
     {
       "path": "niche-research/finding-niches-page-replication.md",
-      "sha256": "fd5329bc6b22cc660b382262bc930284a8cc4504923cd9d410329e2d447b449f",
+      "sha256": "37baccf4dac158ae02865dfe4124f41084f6ec2cc2f6fadbf4b322022f4fdedb",
       "status": "stable",
       "audience": [
         "public"
@@ -412,7 +412,7 @@
     },
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
-      "sha256": "1967d7aca35ab8dfd93112a20728e160378125261cd8e99d5a8a96452ef0d985",
+      "sha256": "1cc4b14f83c0a7b61535f9f57667e060944ebe84d10c1c82a0380f70b80ca8eb",
       "status": "stable",
       "audience": [
         "public"
@@ -423,7 +423,7 @@
     },
     {
       "path": "niche-research/finding-untapped-niches-google-com-and-google-trends.md",
-      "sha256": "df029142fe0546ace4361c766477a98667fb441f5e517a81178f365e2330587f",
+      "sha256": "6e73890ab8f2a2c27439fc2658e8c8acbff576cefd1a127bcb9d7bfb74897dac",
       "status": "stable",
       "audience": [
         "public"
@@ -467,7 +467,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "0339ca456fdef7094ebaabd93d306732756c3b152dec30b00762a1622a5c4775",
+      "sha256": "14e63895dfe1e2b7f2923058aa9e7d772453d117916d3f40fcfa2ec5c95a3dbd",
       "status": "stable",
       "audience": [
         "public"
@@ -698,7 +698,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-creation.md",
-      "sha256": "10bd5262ec608a4040902acb3e8dd952e5cdb7f23b7e0f7bd9de3dcf07d1a1a7",
+      "sha256": "cbd59a9a2b02580ee882d9e18146dd191594e39d025a64e3773783cbf06d8aa5",
       "status": "stable",
       "audience": [
         "public"
@@ -742,7 +742,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
-      "sha256": "cecfe3fe5a6822d4f6e8bd59b3c2e535ca2f8907c5203afe68f9d71f3739d962",
+      "sha256": "39378fdccf580095513cae41f702d48dc1a53836c9ce7ad320f2ad6a9558b398",
       "status": "stable",
       "audience": [
         "public"
@@ -764,7 +764,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-types.md",
-      "sha256": "5cb0a21f3aa73c04451bf22339cac5ef866f75e02039656ae500c8b28af11546",
+      "sha256": "10b52f53148922a8b355257c939cd86f6218ccfdc65ab9be5a156c06a10d326e",
       "status": "stable",
       "audience": [
         "public"
@@ -775,7 +775,18 @@
     },
     {
       "path": "quick-skills/etsy/etsy-listing-and-competitor-research.md",
-      "sha256": "4d12e39384244c2bbce60ddab59d5e1fab49d2f20d07805d5f0d6178e40f680c",
+      "sha256": "ef3489a37e59b039c99fb9a3ba3f446f86f2ce5f6e256ddb0c7b8d56dbb1b744",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-listing-and-shop-overview.md",
+      "sha256": "9898ba3492b7396a6145d74b41f21ddb10016a102b0ee45e22111e6ea2c6f988",
       "status": "stable",
       "audience": [
         "public"
@@ -786,7 +797,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment.md",
-      "sha256": "30e184e9d0a3cbe43f6beeb98884a11ca67a33a4b19b926eb15f9a6fa8a7b63a",
+      "sha256": "79d2e1e5552ecf88ef53730a97db8fbc1a35de2e93354ab88a09f62162464bef",
       "status": "stable",
       "audience": [
         "public"
@@ -819,7 +830,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
-      "sha256": "e5648702ebb57b6a17d67ea8be2ca2c568fc0f41efd5cdf06ed02a40fba7f3b3",
+      "sha256": "8127bb00abbd6323d6d9b32aefacd27f5b17e60b303969dccc206995961419f9",
       "status": "stable",
       "audience": [
         "public"
@@ -892,6 +903,10 @@
   ],
   "assets": [
     {
+      "path": "ai-agents/introduction-and-setup-infographic.jpeg",
+      "sha256": "2e1889d4a46b8689b8d0eb2396ca3125823485f798e294227d5c5fd00d0388ad"
+    },
+    {
       "path": "connect-chatgpt-1.png",
       "sha256": "914abb9bbc0a36eeb547ed47dd8cd797f5dd273e671d417bdd858bafb7e8ad93"
     },
@@ -906,6 +921,86 @@
     {
       "path": "connect-chatgpt-5.png",
       "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo-infographic.jpeg",
+      "sha256": "828b5d933df285d69f091c497d542d6a311a7ab4339c33070139501e2798775d"
+    },
+    {
+      "path": "niche-research/apk-niche-research-infographic.jpeg",
+      "sha256": "cb6e666f6ac509fe82e5164c83348ba77cebd4c10768021e1eecf6883ff01491"
+    },
+    {
+      "path": "niche-research/automate-niche-research-ahrefs-mcp-infographic.jpeg",
+      "sha256": "7c71e572608aff38bef8da6691ff41bbbd61eab337e6471f690c26109b65435e"
+    },
+    {
+      "path": "niche-research/country-and-language-targeting-infographic.jpeg",
+      "sha256": "f520ee08ee6aef2ceaf224845daa7f35416b811e1ff75d84287fa7df28304d5f"
+    },
+    {
+      "path": "niche-research/easy-niche-categories-infographic.jpeg",
+      "sha256": "b3ef2e12f766d9a7b726ab9ea009d5b681e54e34ea24569f23df4b2abaedef28"
+    },
+    {
+      "path": "niche-research/finding-niches-ahrefs-filters-infographic.jpeg",
+      "sha256": "3c3fceb521ae3b7211e6b6a3928f20c06d5a6db57e4296674658ec490adaf1bf"
+    },
+    {
+      "path": "niche-research/finding-niches-backlink-and-ugc-method-infographic.jpeg",
+      "sha256": "4075ab0484d5163fb8ab44fb4c5cce24bba42018c3f915cbd763ec1865fb6d8d"
+    },
+    {
+      "path": "niche-research/finding-niches-content-explorer-topic-search-infographic.jpeg",
+      "sha256": "eb2a2349948d523c06a543019fd00637cb96738a14d645f12941cafe23ce5e47"
+    },
+    {
+      "path": "niche-research/finding-niches-marketplaces-infographic.jpeg",
+      "sha256": "b74be5729f85cb5a774a85fe4ac73c5fc00a13236de787ef53602bdb7456471f"
+    },
+    {
+      "path": "niche-research/finding-niches-page-replication-infographic.jpeg",
+      "sha256": "80ce79d6ba7ea6521ca5188c46009f390e43c1d35867a954d9ece8a7648c9ef9"
+    },
+    {
+      "path": "niche-research/finding-niches-saas-and-ai-tools-infographic.jpeg",
+      "sha256": "83b21a9db7efa071e72cbe0cbdb55f6aa1e9d5414caf69282494e4cedf7c4e58"
+    },
+    {
+      "path": "niche-research/finding-untapped-niches-google-com-and-google-trends-infographic.jpeg",
+      "sha256": "74c8b46431bc842fcbad7fe5a58261307304747015e8d1e75887364ce344be83"
+    },
+    {
+      "path": "niche-research/overview-infographic.jpeg",
+      "sha256": "b9f934573cf2bb55c983e17ec16cef76f43671dcbe1cd11b6e313d0e9d82b252"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-account-creation-infographic.jpeg",
+      "sha256": "0ecd46f52d5aeba39ecb62b190c9aa95cb89db71f82d37760e4bde007d86ea5f"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-keyword-research-in-bulk-infographic.jpeg",
+      "sha256": "5b26bc7595c10df14624cd1c28702391bbec778f42c9c8a360dbde372bae1dcc"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-keyword-types-infographic.jpeg",
+      "sha256": "411c46197984dd2900e7fa5682540780a15813e68fbb5064551850d52ab7cc60"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-listing-and-competitor-research-infographic.jpeg",
+      "sha256": "017077fd4257b33ed31ec7ae47f98d87fec298976321cdbf00156dd99c0dbfc7"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-listing-and-shop-overview-infographic.jpeg",
+      "sha256": "7b076430f6f15f2d5bbb90b40fd7fa09e441afb9322c7d44ccc6805ee413b793"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment-infographic.jpeg",
+      "sha256": "61da99ff1a4501479eef2f8f0a9adbb3001f1840302647de22a3f2ded0aeb457"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria-infographic.jpeg",
+      "sha256": "94217c4f1deed31a8916e90a63e0cd97ae4f89939103bcbce71207f670c2b6e7"
     }
   ],
   "indexes": [
@@ -947,7 +1042,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "f8428bdff1763773eaa3078fa4e508f2a2596785c96d7059157efe8581c9144b"
+      "sha256": "a2f117a6fec5ef407e354f98056b5d8bff863170778f99f57a3108fe49124899"
     },
     {
       "path": "quick-skills/index.md",
@@ -961,8 +1056,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "4600986b864a4699b7708c1aa3faa7b82b8b4d2485b034a5482fae96217ee90d",
-      "files": 95
+      "sha256": "6088c300184713f93a635d969266d298fbeedca6cd4f11467abbdf0587248c4e",
+      "files": 117
     }
   ]
 }

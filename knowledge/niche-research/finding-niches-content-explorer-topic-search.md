@@ -4,16 +4,16 @@ title: "Finding niches, Method 7: a topic search in Ahrefs Content Explorer, the
 description: Searching a topic "everywhere" in Ahrefs Content Explorer, filtering to Domain Rating 0 to 20, and reverse engineering the best site's organic keywords and its competitors to find goldmine niches.
 status: stable
 order: 8.7
-generated: { by: human:ahmedraza, at: 2026-09-26T18:25:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-26T18:25:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 sources:
   - id: seo-class-12
     title: "SEO module, Class 12: Niche Research (Next Method)"
     resource: "iSkills SEO Class 12 notes, Niche Research (Next Method), taught by Sir Tanveer Nandla"
-verified: [{ by: human:ahmedraza, at: 2026-09-26T18:25:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, in Class 12 of the SEO module, Niche Research
@@ -46,3 +46,7 @@ to compete with.[^seo-class-12]
 
 [^seo-class-12]: iSkills SEO Class 12 notes, Niche Research (Next Method),
     taught by Sir Tanveer Nandla.
+
+## Class infographic
+
+![Infographic: Finding niches, Method 7: a topic search in Ahrefs Content Explorer, then reverse engineering](finding-niches-content-explorer-topic-search-infographic.jpeg)

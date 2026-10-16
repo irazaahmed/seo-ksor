@@ -4,12 +4,12 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 9
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
 ---
 
 *This whole document is from Class 08, Niche Research: APK Sites, Info and
@@ -118,3 +118,7 @@ America), Arabic (Saudi Arabia, Gulf countries), Turkish (Turkey), German
   shown on the site.
 - **Other ad networks**: local and international networks can supplement
   AdSense revenue.
+
+## Class infographic
+
+![Infographic: APK niche research](apk-niche-research-infographic.jpeg)

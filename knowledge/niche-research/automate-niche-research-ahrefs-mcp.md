@@ -4,16 +4,16 @@ title: "Automating niche research: Ahrefs MCP connected to Claude"
 description: Connecting the Ahrefs MCP server to Claude so that the assistant finds goldmine keywords (DR under 20, AI related) and reverse engineers a site you want to replicate, with a better prompt giving a better answer.
 status: stable
 order: 8.8
-generated: { by: human:ahmedraza, at: 2026-09-28T06:50:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-28T06:50:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
 sources:
   - id: seo-class-13
     title: "SEO module, Class 13: Automate Niche Research"
     resource: "iSkills SEO Class 13 notes, Automate Niche Research, taught by Sir M. Tanveer Nandla"
-verified: [{ by: human:ahmedraza, at: 2026-09-28T06:50:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
 ---
 
 *Taught by Sir M. Tanveer Nandla, in Class 13 of the SEO module, Automate
@@ -50,3 +50,7 @@ Both costs are as given in class.[^seo-class-13]
 
 [^seo-class-13]: iSkills SEO Class 13 notes, Automate Niche Research,
     taught by Sir M. Tanveer Nandla.
+
+## Class infographic
+
+![Infographic: Automating niche research: Ahrefs MCP connected to Claude](automate-niche-research-ahrefs-mcp-infographic.jpeg)

@@ -1947,3 +1947,102 @@ aside div[data-state="open"] > a[data-active] .ksor-ch-tile {
 #nd-page sup:has(> a[data-footnote-ref]) {
   display: none;
 }
+
+/* ── Class infographic ───────────────────────────────────────────────────────
+   components/infographic.tsx. A card at the end of a lesson: a tinted band
+   with a badge, the image on its own surface, then two actions sized for a
+   thumb. Spans throughout (it sits inside a <p>), so each one is made a block
+   here. */
+.ksor-infographic {
+  display: block;
+  margin: 2rem 0 1rem;
+  border: 1px solid color-mix(in oklab, var(--color-fd-primary) 35%, var(--color-fd-border));
+  border-radius: 1rem;
+  overflow: hidden;
+  background: var(--color-fd-card);
+  box-shadow: 0 10px 30px -12px color-mix(in oklab, var(--color-fd-primary) 35%, transparent);
+}
+.ksor-infographic-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(
+    135deg,
+    color-mix(in oklab, var(--color-fd-primary) 18%, transparent),
+    color-mix(in oklab, var(--color-fd-primary) 4%, transparent)
+  );
+  border-bottom: 1px solid var(--color-fd-border);
+}
+.ksor-infographic-badge {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: var(--color-fd-primary);
+  color: var(--color-fd-primary-foreground);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.ksor-infographic-hint {
+  font-size: 0.8rem;
+  color: var(--color-fd-muted-foreground);
+}
+.ksor-infographic-frame {
+  display: block;
+  padding: 0.75rem;
+  background: var(--color-fd-muted);
+}
+.ksor-infographic-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+  cursor: zoom-in;
+}
+.ksor-infographic-caption {
+  display: block;
+  padding: 0.75rem 1rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-fd-foreground);
+}
+.ksor-infographic-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem 1rem;
+}
+.ksor-infographic-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+  padding: 0 0.9rem;
+  border-radius: 0.65rem;
+  border: 1px solid var(--color-fd-border);
+  background: var(--color-fd-background);
+  color: var(--color-fd-foreground);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.ksor-infographic-btn:first-child {
+  background: var(--color-fd-primary);
+  border-color: var(--color-fd-primary);
+  color: var(--color-fd-primary-foreground);
+}
+.ksor-infographic-btn:hover {
+  border-color: var(--color-fd-primary);
+}
+.ksor-infographic-btn:focus-visible {
+  outline: 2px solid var(--color-fd-primary);
+  outline-offset: 2px;
+}
