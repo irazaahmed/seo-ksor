@@ -4,11 +4,11 @@ title: "Finding Etsy keywords in bulk: three methods and the selection formula"
 description: Three ways to collect related Etsy keywords in bulk (manual autocomplete, an AI prompt, and mining the top 10 listings' titles) and the metric combination a keyword has to pass before you use it.
 status: stable
 order: 52.5
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: etsy-class-08
     title: "Etsy module, Class 08: Keyword Research, Find Keyword in Bulk"
@@ -19,7 +19,7 @@ sources:
   - id: owner-clarification-2026-09-24
     title: "Owner's clarification: shop criteria versus keyword criteria"
     resource: "Clarification from human:ahmedraza (owner), 2026-09-24T18:35:00Z, recorded by Claude: the RankKW class's criteria are for a shop, and Class 08's criteria are for keywords"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This document is from Class 08 of the Etsy module, Keyword Research:
@@ -196,4 +196,4 @@ alongside it.[^etsy-class-09]
 
 ## Class infographic
 
-![Infographic: Finding Etsy keywords in bulk: three methods and the selection formula](etsy-keyword-research-in-bulk-infographic.jpeg)
+![Infographic: Finding Etsy keywords in bulk: three methods and the selection formula](etsy-keyword-research-in-bulk-infographic.webp)

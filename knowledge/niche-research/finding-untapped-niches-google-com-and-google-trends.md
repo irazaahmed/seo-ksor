@@ -4,16 +4,16 @@ title: "Finding untapped niches: reverse engineering google.com in Ahrefs, and G
 description: Sir Athar Bajwa's two methods for untapped niches, putting google.com into Ahrefs Site Explorer and filtering its organic keywords by KD, word count and a "download" phrase, then taking seed words into Google Trends' new Explore.
 status: stable
 order: 8.95
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: athar-bajwa-untapped-niches
     title: "SEO module, make-up session: Niche Research, Untapped Niches (Sir Athar Bajwa)"
     resource: "iSkills SEO make-up session notes, Niche Research: Untapped Niches, taught by Sir Athar Bajwa"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from a make-up session of the SEO module, Niche
@@ -83,4 +83,4 @@ as well.[^athar-bajwa-untapped-niches]
 
 ## Class infographic
 
-![Infographic: Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](finding-untapped-niches-google-com-and-google-trends-infographic.jpeg)
+![Infographic: Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](finding-untapped-niches-google-com-and-google-trends-infographic.webp)

@@ -4,16 +4,16 @@ title: "Etsy listing and shop overview: brand identity, listing health and growt
 description: Sir Zafar's Class 14 on Etsy brand identity (banner, logo, shop name), what to do when a listing gets no views, using search terms as your pillars, sharing every listing, and the shop rating and conversion benchmarks.
 status: stable
 order: 52.9
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: etsy-class-14
     title: "Etsy module, Class 14: Complete Listing, Shop Overview"
     resource: "iSkills Quick Skills (Etsy) Class 14 notes, Complete Listing and Shop Overview, taught by Sir Zafar"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from Class 14 of the Etsy module, Complete Listing
@@ -81,4 +81,4 @@ Sir Zafar's benchmarks for a healthy shop:[^etsy-class-14]
 
 ## Class infographic
 
-![Infographic: Etsy listing and shop overview: brand identity, listing health and growth habits](etsy-listing-and-shop-overview-infographic.jpeg)
+![Infographic: Etsy listing and shop overview: brand identity, listing health and growth habits](etsy-listing-and-shop-overview-infographic.webp)

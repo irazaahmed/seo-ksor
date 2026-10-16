@@ -4,12 +4,12 @@ title: "Finding niches, Method 5: SaaS and AI tool marketplaces"
 description: "Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack: Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store."
 status: stable
 order: 8
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla.*
@@ -67,4 +67,4 @@ building one.
 
 ## Class infographic
 
-![Infographic: Finding niches, Method 5: SaaS and AI tool marketplaces](finding-niches-saas-and-ai-tools-infographic.jpeg)
+![Infographic: Finding niches, Method 5: SaaS and AI tool marketplaces](finding-niches-saas-and-ai-tools-infographic.webp)

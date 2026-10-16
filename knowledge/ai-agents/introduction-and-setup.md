@@ -4,16 +4,16 @@ title: "AI Agents, Class 1: what the module is and what to set up"
 description: The introductory class of the AI Agents module, covering who the module is for, why AI now matters alongside SEO, and the tools and accounts to set up before the next class.
 status: stable
 order: 60
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: ai-agents-class-01
     title: "AI Agents module, Class 1: Introduction"
     resource: "iSkills AI Agents Class 1 notes, introductory class, taught by Sir Tanveer Nandla and Sir Faheem Akhtar"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from Class 1 of the AI Agents module, the
@@ -61,4 +61,4 @@ through quite a few stages first.[^ai-agents-class-01]
 
 ## Class infographic
 
-![Infographic: AI Agents, Class 1: what the module is and what to set up](introduction-and-setup-infographic.jpeg)
+![Infographic: AI Agents, Class 1: what the module is and what to set up](introduction-and-setup-infographic.webp)

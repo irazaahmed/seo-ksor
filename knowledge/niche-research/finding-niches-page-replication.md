@@ -4,16 +4,16 @@ title: "Finding niches, Method 6: replicating one strong page from Ahrefs Conten
 description: Using Ahrefs Content Explorer with a language filter and a low DR filter to find high-traffic pages, then building a dedicated website around one page rather than copying the whole site.
 status: stable
 order: 8.5
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: naveed-kalro-content-explorer-session
     title: "Niche research session: Ahrefs Content Explorer page replication"
     resource: "Short niche research session taught by Sir Naveed Kalro before Etsy Class 09 (iSkills, SEBT NEXT)"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Taught by Sir Naveed Kalro, in a short niche research session held before
@@ -47,4 +47,4 @@ The page that shows up here is the one to target:
 
 ## Class infographic
 
-![Infographic: Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](finding-niches-page-replication-infographic.jpeg)
+![Infographic: Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](finding-niches-page-replication-infographic.webp)

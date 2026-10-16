@@ -4,12 +4,12 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Taught by Sir Tanveer Nandla, except "A revision pass on the same filters"
@@ -90,4 +90,4 @@ worth more per visit.
 
 ## Class infographic
 
-![Infographic: Finding niches, Method 2: the Ahrefs/SEMrush filter method](finding-niches-ahrefs-filters-infographic.jpeg)
+![Infographic: Finding niches, Method 2: the Ahrefs/SEMrush filter method](finding-niches-ahrefs-filters-infographic.webp)

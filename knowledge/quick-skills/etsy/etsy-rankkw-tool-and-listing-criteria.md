@@ -4,16 +4,16 @@ title: "RankKW: the Etsy SEO tool and shop criteria"
 description: RankKW versus its competitors, the extension workflow, the criteria a shop needs to meet, and a worked assignment.
 status: stable
 order: 53
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: owner-clarification-2026-09-24
     title: "Owner's clarification: shop criteria versus keyword criteria"
     resource: "Clarification from human:ahmedraza (owner), 2026-09-24T18:35:00Z, recorded by Claude: the RankKW class's criteria are for a shop, and Class 08's criteria are for keywords"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Taught by Sir Zafar Ali, like the rest of the Etsy chapter.*
@@ -58,4 +58,4 @@ them against these requirements:
 
 ## Class infographic
 
-![Infographic: RankKW: the Etsy SEO tool and shop criteria](etsy-rankkw-tool-and-listing-criteria-infographic.jpeg)
+![Infographic: RankKW: the Etsy SEO tool and shop criteria](etsy-rankkw-tool-and-listing-criteria-infographic.webp)

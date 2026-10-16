@@ -4,12 +4,12 @@ title: "Finding niches, Method 4: backlink mining and UGC intent mismatches"
 description: Mining a giant authority site's newest backlinks to find fresh niche sites worth replicating, and using UGC sites like Reddit and Quora to spot intent mismatches worth building for.
 status: stable
 order: 7
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from Class 10, Niche Research with a New Angle,
@@ -83,4 +83,4 @@ between what they wanted and what's ranking is the goldmine.
 
 ## Class infographic
 
-![Infographic: Finding niches, Method 4: backlink mining and UGC intent mismatches](finding-niches-backlink-and-ugc-method-infographic.jpeg)
+![Infographic: Finding niches, Method 4: backlink mining and UGC intent mismatches](finding-niches-backlink-and-ugc-method-infographic.webp)

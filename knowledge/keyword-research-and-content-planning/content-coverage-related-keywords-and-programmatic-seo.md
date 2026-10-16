@@ -4,16 +4,16 @@ title: "Content coverage, Class 16: related keywords, Google Autocomplete and pr
 description: The start of the Content Coverage module, turning one niche keyword into the related keywords a whole website is built on, with Google Autocomplete, an LLM prompt, entity combinations and programmatic SEO templates.
 status: stable
 order: 11.5
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: seo-class-16
     title: "SEO module, Class 16: Content Coverage"
     resource: "iSkills SEO Class 16 notes, Content Coverage, taught by Sir Tanveer Nandla"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from Class 16 of the SEO module, Content Coverage,
@@ -95,4 +95,4 @@ you multiple related keywords and a lot of ideas.[^seo-class-16]
 
 ## Class infographic
 
-![Infographic: Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](content-coverage-related-keywords-and-programmatic-seo-infographic.jpeg)
+![Infographic: Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](content-coverage-related-keywords-and-programmatic-seo-infographic.webp)

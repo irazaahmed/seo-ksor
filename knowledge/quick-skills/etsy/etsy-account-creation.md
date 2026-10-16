@@ -4,12 +4,12 @@ title: Creating an Etsy shop
 description: "How to set up an Etsy account correctly for a Quick Skills (Etsy) shop: buyer signup, seller conversion, country/currency, shop naming, and account security."
 status: stable
 order: 54
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Every document in the Quick Skills → Etsy chapter is from lectures taught
@@ -60,4 +60,4 @@ later.
 
 ## Class infographic
 
-![Infographic: Creating an Etsy shop](etsy-account-creation-infographic.jpeg)
+![Infographic: Creating an Etsy shop](etsy-account-creation-infographic.webp)

@@ -4,16 +4,16 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 sources:
   - id: tiers-countries-sheet
     title: Tiers Countries
     resource: "Tiers Countries.xlsx, iSkills course material"
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *This whole document is from Class 09, International Niche Research /
@@ -219,4 +219,4 @@ low-competition keywords is what compounds into meaningfully more revenue.
 
 ## Class infographic
 
-![Infographic: Country and language targeting for niches](country-and-language-targeting-infographic.jpeg)
+![Infographic: Country and language targeting for niches](country-and-language-targeting-infographic.webp)

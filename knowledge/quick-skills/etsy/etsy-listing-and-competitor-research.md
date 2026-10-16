@@ -4,12 +4,12 @@ title: Etsy listings and competitor research
 description: Why most Etsy sellers fail, what a listing needs to get right for mobile buyers, and how to choose a shop worth reverse-engineering.
 status: stable
 order: 50
-generated: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:22:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:22:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
 ---
 
 *Taught by Sir Zafar Ali, like the rest of the Etsy chapter.*
@@ -46,4 +46,4 @@ a shop still matters.
 
 ## Class infographic
 
-![Infographic: Etsy listings and competitor research](etsy-listing-and-competitor-research-infographic.jpeg)
+![Infographic: Etsy listings and competitor research](etsy-listing-and-competitor-research-infographic.webp)
