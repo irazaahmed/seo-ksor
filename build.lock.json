@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:d6b70a07e53242bb2d93fd8a7873944db216d48d59927ce24f8dd38239850d49",
+  "build_id": "sha256:5a5a0abd8cd1e8804cf3db9cc652fb9dbecd5e52e4053f83b650812b0b40b552",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "565a8d5d62e176363164e1ad39059f6731ea9bed",
+  "source_commit": "7c20923d88f0fd5ff1910ffb82f0c6f34b5e7e86",
   "dirty": true,
-  "as_of": "2026-10-16T10:55:59.483Z",
+  "as_of": "2026-10-16T10:59:21.688Z",
   "drafts": "hidden",
   "instance_sha256": "911fc8383832ecd6b1f02131f4b1e3e6a7436f29a1184c644c662bfeebd7cf84",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -975,56 +975,28 @@
       "sha256": "64bc15a86a1267f01a456dc1904cfd03dd6d28adc4088c9ede28d2e5c5899ba8"
     },
     {
-      "path": "quick-skills/etsy/etsy-account-creation-infographic.jpeg",
-      "sha256": "0ecd46f52d5aeba39ecb62b190c9aa95cb89db71f82d37760e4bde007d86ea5f"
-    },
-    {
       "path": "quick-skills/etsy/etsy-account-creation-infographic.webp",
       "sha256": "6c231d4e00f9c7230c7a5c08d201f208f45887d8e012cddf7d8a5236f064b1f6"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-research-in-bulk-infographic.jpeg",
-      "sha256": "5b26bc7595c10df14624cd1c28702391bbec778f42c9c8a360dbde372bae1dcc"
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk-infographic.webp",
       "sha256": "1c1b124b827f50a05be5c5167cd794446edf8bf158808a3a45f46f9545afd959"
     },
     {
-      "path": "quick-skills/etsy/etsy-keyword-types-infographic.jpeg",
-      "sha256": "411c46197984dd2900e7fa5682540780a15813e68fbb5064551850d52ab7cc60"
-    },
-    {
       "path": "quick-skills/etsy/etsy-keyword-types-infographic.webp",
       "sha256": "45d3ac9ea427e2cac8e26c7acd220ea99e365bee20ae0d648a4d5df0bbe13d71"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-listing-and-competitor-research-infographic.jpeg",
-      "sha256": "017077fd4257b33ed31ec7ae47f98d87fec298976321cdbf00156dd99c0dbfc7"
     },
     {
       "path": "quick-skills/etsy/etsy-listing-and-competitor-research-infographic.webp",
       "sha256": "9c42eb1b4b48c16d0a16e62e6c41cf0b06af0d11b2b775e1081c3197969be04f"
     },
     {
-      "path": "quick-skills/etsy/etsy-listing-and-shop-overview-infographic.jpeg",
-      "sha256": "7b076430f6f15f2d5bbb90b40fd7fa09e441afb9322c7d44ccc6805ee413b793"
-    },
-    {
       "path": "quick-skills/etsy/etsy-listing-and-shop-overview-infographic.webp",
       "sha256": "3bd256fa8e3d4b70cc8d6756f6c1b71ca83b045052910180d14ac052a3bd6f77"
     },
     {
-      "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment-infographic.jpeg",
-      "sha256": "61da99ff1a4501479eef2f8f0a9adbb3001f1840302647de22a3f2ded0aeb457"
-    },
-    {
       "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment-infographic.webp",
       "sha256": "1c024f3a02bbb06821db6354f97c7e3754b830e9773c8737ca5467dce7e9e3bb"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria-infographic.jpeg",
-      "sha256": "94217c4f1deed31a8916e90a63e0cd97ae4f89939103bcbce71207f670c2b6e7"
     },
     {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
