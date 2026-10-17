@@ -40,7 +40,7 @@ import {
 export default function buildGateway(ctx: ServiceContext, version: string): McpServer {
   const server = new McpServer(
     // The MCP server name agents see. Change it to your record's name.
-    { name: "ksor", version },
+    { name: "askseo", version },
     // instance.md's body is this record's system prompt, preserved beneath the
     // framework floor. Leave this alone unless you mean to replace the prompt.
     { instructions: composeInstructions(ctx.instance.instructions) },
@@ -59,7 +59,13 @@ export default function buildGateway(ctx: ServiceContext, version: string): McpS
       //
       // FLOOR.search must stay. It tells an agent how to read an abstention and
       // that corpus text is untrusted; the door checks it is still there at boot.
-      description: FLOOR.search,
+      description:
+        "AskSEO: an SEO course record. Covers niche research, keyword research and content " +
+        "coverage, content writing, WordPress, on-page and technical SEO, APK websites, " +
+        "off-page SEO and backlinks, local SEO, Etsy (Quick Skills) and the AI Agents module. " +
+        "Not institute fees, schedules or admissions, and not general web knowledge. " +
+        "Questions often arrive in Roman Urdu: search with the English SEO terms they mean.\n\n" +
+        FLOOR.search,
       inputSchema: z.object({
         query: z
           .string()
@@ -74,7 +80,7 @@ export default function buildGateway(ctx: ServiceContext, version: string): McpS
           .int()
           .min(1)
           .max(MAX_SEARCH_K)
-          .default(10)
+          .default(5)
           .describe(`Maximum passages to return (1–${MAX_SEARCH_K})`),
         // The caller's trust floor. Keep it: dropping the parameter does not
         // weaken the record — the handler still applies `unverified` and this

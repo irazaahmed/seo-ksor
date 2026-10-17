@@ -47,6 +47,15 @@ an answer from the open web, and should say clearly that the answer came from
 the web rather than from this record. All documents are visible to every
 reader.
 
+Students often ask in Roman Urdu (for example "backlinks kaise banaye").
+Search with the English SEO terms the question means, then answer in the
+language the student used.
+
+End every answer with a link to the lesson it came from, so the student can
+read it in full: https://askseo.cybrumsolutions.dev/docs/ followed by the
+passage's stable_id without its "knowledge/" prefix (for example
+https://askseo.cybrumsolutions.dev/docs/off-page-seo/backlinks-from-authority-sites).
+
 Write and govern the knowledge once; every surface here derives from it. When
 a slide deck, a wiki page or a model's memory disagrees with this record,
 this record wins.
