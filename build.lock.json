@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:9ab5afa103f301237fbd8ddda63688d7ae8b8714690506c5f1821b173c11a7ad",
+  "build_id": "sha256:b5114db2b71ebebdaa1499e07f5f103357ef8c6404103971f6202e52ad399dcc",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "725d8c42dda320000a7aec59ba85a6d5657d1507",
+  "source_commit": "3f3d34f8743b2f4f93cb1f953704d6548557a587",
   "dirty": true,
-  "as_of": "2026-10-17T14:44:25.140Z",
+  "as_of": "2026-10-17T18:48:01.773Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -39,6 +39,17 @@
     {
       "path": "ai-agents/llms-tokens-git-and-github.md",
       "sha256": "99ed13cec2727e7763a24b678899bde1e53476485cf2cf8c6fb64b9291d3e496",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "ai-agents/vibe-coding-in-practice.md",
+      "sha256": "1803c264ec7b9afcc1ecb77fec614fa5de7b90a4125dc53d7bec3e3ed15ced20",
       "status": "stable",
       "audience": [
         "public"
@@ -907,6 +918,10 @@
       "sha256": "8c52fcd428d9202ebcf16b6c36dc28a0617a31b50de402d1b48c4928e810ad17"
     },
     {
+      "path": "ai-agents/vibe-coding-in-practice-infographic.webp",
+      "sha256": "82c39e7af352339b1523737b5dd2f36780d8143438442239a7490c1e2f7e0a1d"
+    },
+    {
       "path": "connect-chatgpt-1.png",
       "sha256": "914abb9bbc0a36eeb547ed47dd8cd797f5dd273e671d417bdd858bafb7e8ad93"
     },
@@ -1050,7 +1065,7 @@
   "indexes": [
     {
       "path": "ai-agents/index.md",
-      "sha256": "ee7588a35bad82469f84702d0b507278cc3b28b5d0705f74b53096c0cfb5e1b4"
+      "sha256": "118b61e19ef5d6350abed8ae24c83edd58eff679a8b98c183f997063b6175821"
     },
     {
       "path": "apk-websites/index.md",
@@ -1100,8 +1115,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "be1fafdf60899c3f2cce81cade6d4ceb40184be47bf1e81116390d2f76e8eabf",
-      "files": 128
+      "sha256": "5af467f23e397888d134362c3513d64014c04b974cb38a99d8bbc2673830c6a8",
+      "files": 130
     }
   ]
 }
