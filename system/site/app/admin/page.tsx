@@ -22,6 +22,15 @@ interface Overview {
   readonly mcp: {
     people: number;
     connections: readonly { name: string; email: string; client: string | null; connected_at: string }[];
+    usage: readonly {
+      name: string;
+      email: string;
+      searches: number;
+      not_covered: number;
+      reads: number;
+      last_used: string;
+    }[];
+    lessons: readonly { slug: string; hits: number }[];
   };
 }
 
@@ -181,6 +190,25 @@ export default function AdminPage(): React.ReactElement {
               new Date(c.connected_at).toLocaleString(),
             ])}
             empty="Nobody has connected an assistant yet."
+          />
+          <Table
+            title="MCP usage per person, 30 days"
+            head={["Name", "Email", "Searches", "Not in the record", "Reads", "Last used"]}
+            rows={state.data.mcp.usage.map((u) => [
+              u.name,
+              u.email,
+              number.format(u.searches),
+              number.format(u.not_covered),
+              number.format(u.reads),
+              new Date(u.last_used).toLocaleString(),
+            ])}
+            empty="No signed-in MCP use yet."
+          />
+          <Table
+            title="Lessons most often found by MCP searches, 30 days"
+            head={["Lesson", "Times in results"]}
+            rows={state.data.mcp.lessons.map((l) => [l.slug, number.format(l.hits)])}
+            empty="No searches yet."
           />
           <div className="grid gap-4 md:grid-cols-2">
             <Table

@@ -95,7 +95,7 @@ export async function handleOverview(
     res.statusCode = 403;
     return void res.end(JSON.stringify({ error: "admins only" }));
   }
-  const [totals, daily, pages, referrers, users, connections] = await Promise.all([
+  const [totals, daily, pages, referrers, users, connections, usage, lessons] = await Promise.all([
     pool.query(`SELECT
         count(*) FILTER (WHERE viewed_at >= now() - interval '1 day')::int  AS views_1d,
         count(DISTINCT visitor) FILTER (WHERE viewed_at >= now() - interval '1 day')::int AS visitors_1d,
@@ -120,6 +120,22 @@ export async function handleOverview(
       JOIN "user" u ON u.id = m.user_id
       LEFT JOIN "oauthClient" c ON c."clientId" = m.client_id
       ORDER BY m.connected_at DESC LIMIT 500`),
+    // The door logs every tool call with the token's subject (a user id) as
+    // its actor, never the question text. Calls from before sign-in was
+    // required are "anonymous" and have no user to join.
+    pool.query(`SELECT u.name, u.email,
+        count(*) FILTER (WHERE l.action IN ('similarity_searched', 'search_abstained'))::int AS searches,
+        count(*) FILTER (WHERE l.action = 'search_abstained')::int AS not_covered,
+        count(*) FILTER (WHERE l.action IN ('content_served', 'outline_served'))::int AS reads,
+        max(l.created_at) AS last_used
+      FROM retrieval_log l JOIN "user" u ON u.id = l.actor
+      WHERE l.created_at >= now() - interval '30 days'
+        AND l.action IN ('similarity_searched', 'search_abstained', 'content_served', 'outline_served')
+      GROUP BY u.id, u.name, u.email ORDER BY searches DESC, reads DESC LIMIT 200`),
+    pool.query(`SELECT slug, count(*)::int AS hits
+      FROM retrieval_log, jsonb_array_elements_text(COALESCE(detail->'slugs', '[]'::jsonb)) AS slug
+      WHERE action = 'similarity_searched' AND created_at >= now() - interval '30 days'
+      GROUP BY slug ORDER BY hits DESC LIMIT 10`),
   ]);
   const people = new Set(connections.rows.map((r: { email: string }) => r.email)).size;
   res.end(
@@ -129,7 +145,7 @@ export async function handleOverview(
       topPages: pages.rows,
       referrers: referrers.rows,
       users: users.rows[0],
-      mcp: { people, connections: connections.rows },
+      mcp: { people, connections: connections.rows, usage: usage.rows, lessons: lessons.rows },
     }),
   );
 }
