@@ -4,6 +4,7 @@ title: "Etsy keyword and product research with eRank and EHunt"
 description: Sir Zakria Afzal's approach to Etsy research, from seed keyword to autocomplete, spying on top listings and filtering, using eRank for keywords and EHunt for products.
 status: stable
 order: 52.8
+added: 2026-10-03T17:03:07Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

@@ -4,6 +4,7 @@ title: "Off-page SEO for local sites, Part 2: citations and social signals"
 description: Sir Khurram Malik's lecture on social profiles for rank and rent sites, foundational links, why nofollow links and brand mentions still count, local business citations, citation types, and three ways to find citations.
 status: stable
 order: 36.4
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

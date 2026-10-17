@@ -4,6 +4,7 @@ title: "AI Agents, Class 1: what the module is and what to set up"
 description: The introductory class of the AI Agents module, covering who the module is for, why AI now matters alongside SEO, and the tools and accounts to set up before the next class.
 status: stable
 order: 60
+added: 2026-10-04T17:06:26Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

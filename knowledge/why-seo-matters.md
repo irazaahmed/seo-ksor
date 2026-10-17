@@ -4,6 +4,7 @@ title: Why SEO matters, and what ranks a page
 description: Why SEO is treated as a standalone skill in this course, and the balance of factors (authority, content, backlinks, niche difficulty) that decide a ranking.
 status: stable
 order: 2
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

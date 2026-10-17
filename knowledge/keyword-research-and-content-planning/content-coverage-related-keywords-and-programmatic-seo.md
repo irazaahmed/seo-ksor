@@ -4,6 +4,7 @@ title: "Content coverage, Class 16: related keywords, Google Autocomplete and pr
 description: The start of the Content Coverage module, turning one niche keyword into the related keywords a whole website is built on, with Google Autocomplete, an LLM prompt, entity combinations and programmatic SEO templates.
 status: stable
 order: 11.5
+added: 2026-10-11T18:20:32Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

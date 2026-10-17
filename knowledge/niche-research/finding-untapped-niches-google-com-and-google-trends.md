@@ -4,6 +4,7 @@ title: "Finding untapped niches: reverse engineering google.com in Ahrefs, and G
 description: Sir Athar Bajwa's two methods for untapped niches, putting google.com into Ahrefs Site Explorer and filtering its organic keywords by KD, word count and a "download" phrase, then taking seed words into Google Trends' new Explore.
 status: stable
 order: 8.95
+added: 2026-10-08T15:54:00Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

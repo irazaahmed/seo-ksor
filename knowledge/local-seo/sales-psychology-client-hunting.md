@@ -4,6 +4,7 @@ title: "Sales psychology for client hunting: sell results, not SEO"
 description: Sir Khurram Malik's client hunting notes, why you sell business outcomes and emotions instead of SEO features, what local businesses actually want, client language, meeting questions, and selling FOMO and hope honestly.
 status: stable
 order: 36.6
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

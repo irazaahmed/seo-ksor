@@ -4,6 +4,7 @@ title: Top authority sites by Ahrefs rank
 description: The first 149 domains from Ahrefs' global authority ranking, for identifying real backlink targets in the top-tier bracket instead of guessing which platforms qualify.
 status: stable
 order: 33
+added: 2026-09-22T10:29:45Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

@@ -4,6 +4,7 @@ title: "Article structure: headings, competitor analysis, and keyword prominence
 description: How to structure an SEO article with HTML headings, build it from competitor heading analysis, and place the main keyword for maximum prominence.
 status: stable
 order: 12
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

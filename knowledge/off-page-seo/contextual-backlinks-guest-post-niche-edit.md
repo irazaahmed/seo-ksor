@@ -4,6 +4,7 @@ title: "Contextual backlinks: guest posts and niche edits"
 description: Prospecting link targets from competitor backlinks, organizing outreach data, hunting editor emails, and running an outreach campaign for guest posts and niche edits.
 status: stable
 order: 34
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

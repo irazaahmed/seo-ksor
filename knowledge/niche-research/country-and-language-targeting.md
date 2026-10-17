@@ -4,6 +4,7 @@ title: Country and language targeting for niches
 description: How to research niches for a specific country or non-English language, and the tier system that determines how much traffic from each is worth.
 status: stable
 order: 11
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

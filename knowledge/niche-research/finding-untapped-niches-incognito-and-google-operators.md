@@ -4,6 +4,7 @@ title: "Finding untapped niches: incognito searches and Google search operators"
 description: Sir Ghazanfar Abbas's tested method for reaching niches no tool will show, searching in incognito for keywords you have never heard of, checking traffic at three levels, and mining government portals with inurl and intitle operators.
 status: stable
 order: 8.9
+added: 2026-10-08T11:54:38Z
 generated: { by: human:ahmedraza, at: 2026-10-08T11:50:00Z }
 ksor:
   audience: [public]

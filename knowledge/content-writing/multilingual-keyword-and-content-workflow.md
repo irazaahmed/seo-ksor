@@ -4,6 +4,7 @@ title: Multilingual keyword and content workflow
 description: Handling non-English keywords accurately, grouping them by intent, checking for plagiarism, and linking content correctly.
 status: stable
 order: 15
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

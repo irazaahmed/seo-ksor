@@ -4,6 +4,7 @@ title: "Etsy SEO: the ranking formula, keyword layering, and writing the title, 
 description: Sir Zakria Afzal's Etsy SEO class, the visibility plus clicks plus sales ranking formula, layering low, mid and high competition keywords, and building the title, 13 tags and description from the top 10 competitors with ChatGPT.
 status: stable
 order: 52.88
+added: 2026-10-09T18:28:09Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

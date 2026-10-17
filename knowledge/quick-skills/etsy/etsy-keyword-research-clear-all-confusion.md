@@ -4,6 +4,7 @@ title: "Etsy keyword research, clearing the confusion: copyright, keyword hats, 
 description: Why copyright keywords get an Etsy account removed, black, grey and white hat keywords, orders without search volume, telling physical from digital, pricing, the strong product formula, and the Niche Deck tool.
 status: stable
 order: 52.85
+added: 2026-10-05T18:09:27Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

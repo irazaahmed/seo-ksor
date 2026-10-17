@@ -4,6 +4,7 @@ title: On-page SEO fundamentals
 description: The core components of on-page SEO, meta tags, image optimization, keyword placement, semantic HTML, and applying them practically in WordPress with an SEO plugin.
 status: stable
 order: 18
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

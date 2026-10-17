@@ -4,6 +4,7 @@ title: Anchor text types and backlink URL distribution
 description: The five anchor-text types, the ratio to use across a backlink campaign, and how to split backlinks between a homepage and inner pages by site type.
 status: stable
 order: 31
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

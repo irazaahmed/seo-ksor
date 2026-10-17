@@ -4,6 +4,7 @@ title: "Finding Etsy keywords in bulk: three methods and the selection formula"
 description: Three ways to collect related Etsy keywords in bulk (manual autocomplete, an AI prompt, and mining the top 10 listings' titles) and the metric combination a keyword has to pass before you use it.
 status: stable
 order: 52.5
+added: 2026-09-24T18:34:25Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

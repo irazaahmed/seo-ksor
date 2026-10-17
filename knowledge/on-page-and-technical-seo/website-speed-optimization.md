@@ -4,6 +4,7 @@ title: Website speed optimization plugins
 description: The caching and performance plugins used to speed up a WordPress site beyond the basic technical SEO setup.
 status: stable
 order: 24
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]

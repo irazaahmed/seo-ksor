@@ -4,6 +4,7 @@ title: "Content coverage: the 200-volume benchmark method"
 description: How to fully cover a topic's sub-questions, group keywords without stuffing, and decide which of them earn a dedicated article.
 status: stable
 order: 11
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

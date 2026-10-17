@@ -4,6 +4,7 @@ title: Seasonality, timing, and first-mover niches
 description: Why a stable niche beats a spiking one, how to use Google Trends to find and validate first-mover opportunities, and a tool for fine-tuning a niche by location once it's chosen.
 status: stable
 order: 3.5
+added: 2026-09-20T18:41:06Z
 generated: { by: human:ahmedraza, at: 2026-09-24T09:00:00Z }
 ksor:
   audience: [public]

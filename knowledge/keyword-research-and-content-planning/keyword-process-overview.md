@@ -4,6 +4,7 @@ title: The keyword-to-content process
 description: The five-step pipeline (grouping, research, planning, gap analysis, mapping) that turns a niche into a content plan, plus content patterns for e-commerce and service sites.
 status: stable
 order: 9
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

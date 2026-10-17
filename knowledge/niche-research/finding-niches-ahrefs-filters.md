@@ -4,6 +4,7 @@ title: "Finding niches, Method 2: the Ahrefs/SEMrush filter method"
 description: Finding a low-competition niche directly inside a keyword-research tool, using volume, DR, and word-count filters.
 status: stable
 order: 5
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]

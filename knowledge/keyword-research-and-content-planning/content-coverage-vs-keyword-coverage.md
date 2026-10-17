@@ -4,6 +4,7 @@ title: "Content coverage vs keyword coverage: ideas vs words"
 description: Sir Tanveer Nandla's lesson on the difference between content coverage (answering every question a reader has) and keyword coverage (using the phrases people actually search), with worked examples, a practice exercise, and how NicheSpark helps find the phrases.
 status: stable
 order: 11.6
+added: 2026-10-13T10:58:49Z
 generated: { by: process:claude-code, at: 2026-10-13T10:54:46Z }
 ksor:
   audience: [public]

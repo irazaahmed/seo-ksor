@@ -4,6 +4,7 @@ title: "Reading a backlink profile: a worked example"
 description: "A real backlink-profile export (referring URL, DR, domain traffic, linked domains, and external links), walked through as a worked example of the reverse-engineering method, taught by Dr Shahid."
 status: stable
 order: 34
+added: 2026-09-22T10:29:45Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

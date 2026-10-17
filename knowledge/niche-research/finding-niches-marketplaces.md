@@ -4,6 +4,7 @@ title: "Finding niches, Method 1: reverse-engineering marketplaces"
 description: Finding a profitable niche by browsing site-selling marketplaces, reverse-engineering a successful site's keywords, and watching for brand hijacking.
 status: stable
 order: 4
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]

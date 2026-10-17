@@ -4,6 +4,7 @@ title: "RankKW: the Etsy SEO tool and shop criteria"
 description: RankKW versus its competitors, the extension workflow, the criteria a shop needs to meet, and a worked assignment.
 status: stable
 order: 53
+added: 2026-09-20T09:37:53Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

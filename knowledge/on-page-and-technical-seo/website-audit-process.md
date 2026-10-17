@@ -4,6 +4,7 @@ title: Website audit process
 description: Why a site audit is run, the manual-vs-tool-based distinction, and the tools used to crawl a site for technical and on-page issues.
 status: stable
 order: 25
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

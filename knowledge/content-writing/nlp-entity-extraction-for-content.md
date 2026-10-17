@@ -4,6 +4,7 @@ title: NLP entity extraction for content strategy
 description: Using an AI prompt to extract NLP entities from competitor articles, weave them naturally into your own writing, and match or improve on their tone.
 status: stable
 order: 14
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

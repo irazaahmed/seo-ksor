@@ -4,6 +4,7 @@ title: Etsy SEO and keyword research
 description: What an Etsy listing is made of, why keyword research is most of Etsy SEO, and why a dedicated tool like RankKW exists for it.
 status: stable
 order: 52
+added: 2026-09-20T09:37:53Z
 generated: { by: human:ahmedraza, at: 2026-09-24T18:35:00Z }
 ksor:
   audience: [public]

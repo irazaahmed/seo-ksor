@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:4133dc780bb1ced22203da3fc63e18e5e900953802c59b7a00a8c8990ff3ca47",
+  "build_id": "sha256:9ab5afa103f301237fbd8ddda63688d7ae8b8714690506c5f1821b173c11a7ad",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "68ea0c768ad15531bb9c4c928a678a36c7807bdb",
+  "source_commit": "725d8c42dda320000a7aec59ba85a6d5657d1507",
   "dirty": true,
-  "as_of": "2026-10-17T14:10:58.102Z",
+  "as_of": "2026-10-17T14:44:25.140Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -27,7 +27,7 @@
   "documents": [
     {
       "path": "ai-agents/introduction-and-setup.md",
-      "sha256": "6699513372d70946ab7279759b6e02f9056cae8eb1013b7d224ab477d7718c81",
+      "sha256": "77a29e9e5daaf5ee412694713901ba26e5e6bf429428e8f23198ac5e67220c20",
       "status": "stable",
       "audience": [
         "public"
@@ -38,7 +38,7 @@
     },
     {
       "path": "ai-agents/llms-tokens-git-and-github.md",
-      "sha256": "46abeaa2c758638f2b8fee294709c3667051ff688b8ab6f5ac0947042e29a584",
+      "sha256": "99ed13cec2727e7763a24b678899bde1e53476485cf2cf8c6fb64b9291d3e496",
       "status": "stable",
       "audience": [
         "public"
@@ -49,7 +49,7 @@
     },
     {
       "path": "apk-websites/apk-file-hosting-and-adsense.md",
-      "sha256": "30930af5711ec90fec1135e893aaa05aca0c0996172191a917d780411c717cc1",
+      "sha256": "56d62c166b611ae32396ab3e3eae1aac12d26c2ce859e19ef6f69f575a888b0b",
       "status": "stable",
       "audience": [
         "public"
@@ -60,7 +60,7 @@
     },
     {
       "path": "connect-claude-and-chatgpt.md",
-      "sha256": "d8e196538ea8af3cd201c3f8f75e94b667ddef0b8bc641adcd116b38e2c05cec",
+      "sha256": "ec41c185c63b379096687fdacb0ee292ab71e51d5dc3e09c8f70ca6ea4e8153f",
       "status": "stable",
       "audience": [
         "public"
@@ -71,7 +71,7 @@
     },
     {
       "path": "content-writing/article-writing-and-seo-structure.md",
-      "sha256": "d4ab30751ad1365f374354341085da5ef4fbcc23762378e0be2597ca427703ed",
+      "sha256": "3023efd3d4c91960cd396fa09db4fe4032e82173954511400d52e3fefd8d1bc6",
       "status": "stable",
       "audience": [
         "public"
@@ -82,7 +82,7 @@
     },
     {
       "path": "content-writing/multilingual-keyword-and-content-workflow.md",
-      "sha256": "e45fef8f37da54f72de13cc2eb1179e6286428d87c625db9c8cdecb11e6c131c",
+      "sha256": "443cc7d021b03d0eb5b1f02332a6884a00b5674cf447b13d18b2e5f2c2b7b446",
       "status": "stable",
       "audience": [
         "public"
@@ -93,7 +93,7 @@
     },
     {
       "path": "content-writing/nlp-entity-extraction-for-content.md",
-      "sha256": "96924d55bb254c0ea60623644fd656bc91e0f18bb07b2b7c52a316497ee3f526",
+      "sha256": "aac07d28567f4248a1567a68e9c4b6d2f1f97879dbed13742ca86e19d7245c67",
       "status": "stable",
       "audience": [
         "public"
@@ -104,7 +104,7 @@
     },
     {
       "path": "content-writing/seo-content-writing-guide.md",
-      "sha256": "50ccfadd7a807581826a16c3935e0e43a4bca0a328d16fbf5a4502481d3b2d96",
+      "sha256": "05a3f9d4e178cf7e51b14bb49e99c84600383e475d05396ebab702d1803e69bd",
       "status": "stable",
       "audience": [
         "public"
@@ -115,7 +115,7 @@
     },
     {
       "path": "glossary.md",
-      "sha256": "d11c7ed9f6eb0be48c4bb9484c9ae4747451b4344e34ba785149e7befe56c620",
+      "sha256": "0a7348d1c50128b599def61100dcb6a2fed73ff8af09d656025f8936564c3581",
       "status": "stable",
       "audience": [
         "public"
@@ -126,7 +126,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-planning.md",
-      "sha256": "a6406ff86a522a49c8b3baa84a4ff5a44999457f57112ff7107763b0b475a59c",
+      "sha256": "2ac90186e6d75e5e1c6bab792af7b1e821bb1867aed85ae57dbde78ccced6406",
       "status": "stable",
       "audience": [
         "public"
@@ -137,7 +137,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md",
-      "sha256": "2bd101dd7ad6301bf7d98712c4abb247ca3c570df9c6bc4531af5b1b9a92f6ea",
+      "sha256": "5bc361aa9c232f599daae42dcab69be8ba93a9ff01f837ad25b1ebdfbf10059c",
       "status": "stable",
       "audience": [
         "public"
@@ -148,7 +148,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-vs-keyword-coverage.md",
-      "sha256": "dd980c8c90a44d2aa2d65f4ad8a2f69906efd4665181329375df30ab5dd794ca",
+      "sha256": "56ca47878ccb5179bcd29648a3a5910a606347fb08e039cd9b66037f7b0b790f",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/keyword-process-overview.md",
-      "sha256": "647c38389e87c2d2f41c616212c4fe3022c9e168abf3ba91556d77658de82b01",
+      "sha256": "08217a11f0c15859a89e590ed645ca5eb9d42370a985da2430df3981716d0e75",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/keyword-research-methods.md",
-      "sha256": "2f59ea4df65b27adaebbbadeaf8e3aaf7d40fd709612d52dd42693688b3c3d40",
+      "sha256": "e100aaf34e8e315ccfe4c1842f14e1560c75f1572a2e17a203edd8f60e24590b",
       "status": "stable",
       "audience": [
         "public"
@@ -181,7 +181,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.md",
-      "sha256": "f211f981f4c0afc60cb35410f44f3d5d3916f65811aa30e8c787b3bd47db3d68",
+      "sha256": "fabe8d33eede47afb998ff50e551b9bc6fb5acc8725341057c7a6c530ffaa71f",
       "status": "stable",
       "audience": [
         "public"
@@ -192,7 +192,7 @@
     },
     {
       "path": "learn-seo.md",
-      "sha256": "1d4d0765e37c6fc593339bbb952651bb430b289ba6031b9e73a82f2274717d1a",
+      "sha256": "b1aa380f96d5b72cf3c930232cc917231d93ecb3546c754b9a82aa5037aef8bf",
       "status": "stable",
       "audience": [
         "public"
@@ -203,7 +203,7 @@
     },
     {
       "path": "local-seo/aeo-geo-voice-search-and-ai-overview-ranking.md",
-      "sha256": "668ac3ae55833a1f6700b396c4cae124e5c6fc87adf47286eab97e8c2d7d85a5",
+      "sha256": "bb4fa3bcfd1d1aae12845c21c734b2439a890dd8d84fd3b1c93b5f83437e2961",
       "status": "stable",
       "audience": [
         "public"
@@ -214,7 +214,7 @@
     },
     {
       "path": "local-seo/ai-enhancement-competitor-and-gsc-optimization.md",
-      "sha256": "3f2e6b84618d7b1b59ff322dc9d43dc5f1f8f2a30e0d032a2c89d1d591b785d0",
+      "sha256": "26bbd6be1b3a62fcddef94e3776542840ef698e16da2d74393bf4baab3fc04fc",
       "status": "stable",
       "audience": [
         "public"
@@ -225,7 +225,7 @@
     },
     {
       "path": "local-seo/ai-website-creation-workflow.md",
-      "sha256": "5be8a2d0d763d3b02c15f8b28507c61d3fb522e12dfcd08d20324e877a22e9fb",
+      "sha256": "d4dcfb401d3436b9d94e0fcfa178ba93aaf2ffefeac16acda8de37b3859cb8c7",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "local-seo/local-seo-content-writing.md",
-      "sha256": "65fbc1362976e5152138af985f516d16f340a5d7d747b02214ec28616e108e5e",
+      "sha256": "e2ee2f0096bf73182f271840cb81f524fcdef779d5b3bf9139fe5a784cc095ee",
       "status": "stable",
       "audience": [
         "public"
@@ -247,7 +247,7 @@
     },
     {
       "path": "local-seo/local-seo-fundamentals.md",
-      "sha256": "db9f69158fce6e25731db6648c1a7bef21018a5c4640d98e139b50fb2840c146",
+      "sha256": "5ec4ea00ed54a13bd3b94d7fb3271f567125630e88ddcf5dd44f4a70eba3f34a",
       "status": "stable",
       "audience": [
         "public"
@@ -258,7 +258,7 @@
     },
     {
       "path": "local-seo/off-page-basics-and-link-building-precautions.md",
-      "sha256": "3cc39dacbb1fccf19457b2db56500ba8160ceb96da554423cd0c1fa2a222ec7e",
+      "sha256": "6f3a1956eab4cfbed9403f8af79db160d745e9b1dbd572378989297ca06a2ec4",
       "status": "stable",
       "audience": [
         "public"
@@ -269,7 +269,7 @@
     },
     {
       "path": "local-seo/off-page-citations-and-social-signals.md",
-      "sha256": "c17bb402ca51de2cbf3f59c8b63ee69a8f8ced38aac0fe9e8ad6796308a3e6ff",
+      "sha256": "1e4f9e0e3b641479fa16be1f2a7038d50217edd12f9d04d5dba256e1d8f4ee39",
       "status": "stable",
       "audience": [
         "public"
@@ -280,7 +280,7 @@
     },
     {
       "path": "local-seo/programmatic-rank-and-rent-seo.md",
-      "sha256": "ecec8ac32c44035fa6f374bc39d9e7fe40eb9ec6bd022cbc64d97d1c475d081d",
+      "sha256": "53bba74ea6819ab8b860765b101c3e8caa6e6ba051ccf496378eef41a1a00a54",
       "status": "stable",
       "audience": [
         "public"
@@ -291,7 +291,7 @@
     },
     {
       "path": "local-seo/sales-psychology-client-hunting.md",
-      "sha256": "1706f93b332d32481e5b1d4a978979612c9546fbb378170b67143be77a1a5774",
+      "sha256": "4f3cba4d7b80f703e4e8adb4950cebdcaece9ac786da9d6ce5cceac410051e0a",
       "status": "stable",
       "audience": [
         "public"
@@ -302,7 +302,7 @@
     },
     {
       "path": "niche-research/apk-niche-research.md",
-      "sha256": "07fe0520ce54026e7e96a2b76a34105efdaf7ad4c41842fed4cee4532cc8daf2",
+      "sha256": "53f756de534695b64ea739425bbd8607584c3b4c09fe5c9de173c9d2307457b9",
       "status": "stable",
       "audience": [
         "public"
@@ -313,7 +313,7 @@
     },
     {
       "path": "niche-research/automate-niche-research-ahrefs-mcp.md",
-      "sha256": "18421706ca6cf7898cb2c5cbe83d461a5246e8f3e05870c272cb89640fe9bc42",
+      "sha256": "805054b0fb975336ac6e160bee1d0b3a9f37ceb269e81c1a0acca119f601d90b",
       "status": "stable",
       "audience": [
         "public"
@@ -324,7 +324,7 @@
     },
     {
       "path": "niche-research/country-and-language-targeting.md",
-      "sha256": "14c4d266d06fbf88b884456078c2c3566a12f4d8f29a356fdac49b22dad75105",
+      "sha256": "9b76597e2690c718b62e92ca15bbe1a9c9b4ef483f8fbd4092221bbda2df8230",
       "status": "stable",
       "audience": [
         "public"
@@ -335,7 +335,7 @@
     },
     {
       "path": "niche-research/easy-niche-categories.md",
-      "sha256": "a14abfb71765f1790ed655be651226512f6d90cccecbcea3ad707d958b23f45b",
+      "sha256": "41b26fa7bbc8cfc285b7eef3fb3ea280533537ffcdb52980f5b11481ceee9d84",
       "status": "stable",
       "audience": [
         "public"
@@ -346,7 +346,7 @@
     },
     {
       "path": "niche-research/finding-niches-ahrefs-filters.md",
-      "sha256": "c9f6e08b581e5f70aa78b15b23d317f9b6ac49b56a59f7bd4ce4a3bed8972bf0",
+      "sha256": "078d34689265a76a1da94d529c68877322a5084ead98e46ea2055cd17489cbbd",
       "status": "stable",
       "audience": [
         "public"
@@ -357,7 +357,7 @@
     },
     {
       "path": "niche-research/finding-niches-ai-tools.md",
-      "sha256": "d85c5081bd0566b49ae7db6bb414a935010fe1111bcf0f0afa0ef4b16094010e",
+      "sha256": "9a0dd32c1abddd75ecf03705839f597459b148290cbadec8eafb72e56d1cbe89",
       "status": "stable",
       "audience": [
         "public"
@@ -368,7 +368,7 @@
     },
     {
       "path": "niche-research/finding-niches-backlink-and-ugc-method.md",
-      "sha256": "461c6cb0ed6c4174b5c4f63b8965e70d9fc942e16cab66b14788df409440a5f8",
+      "sha256": "bffee8ccf29626f259a663dcd1abdf8afa85ac95ea852b9be1ab7c3c9d134d6d",
       "status": "stable",
       "audience": [
         "public"
@@ -379,7 +379,7 @@
     },
     {
       "path": "niche-research/finding-niches-content-explorer-topic-search.md",
-      "sha256": "558988f37e04a49addee230e9f198f41c8a6fc032c96b1a04260d79271a93236",
+      "sha256": "65ae3b244d81a4cf7506e399876d7a0331767d0d8bf9ff5ef6c8218d6883881e",
       "status": "stable",
       "audience": [
         "public"
@@ -390,7 +390,7 @@
     },
     {
       "path": "niche-research/finding-niches-marketplaces.md",
-      "sha256": "f4b572227696364c02ff57f63c5d3b594329330feec4c836b2392cbf2d8e03b2",
+      "sha256": "e223b43b52198bd1d01cf726fb746887e7cc01cc0c42f6240305271660c3721e",
       "status": "stable",
       "audience": [
         "public"
@@ -401,7 +401,7 @@
     },
     {
       "path": "niche-research/finding-niches-page-replication.md",
-      "sha256": "a0521117380173eddced0b875554fd05197b338e5807947eac099bc1c0563224",
+      "sha256": "424836a5165a4aede01e0fb0953a20b0ee373018feb88b55e058ed3f9d6c9b9e",
       "status": "stable",
       "audience": [
         "public"
@@ -412,7 +412,7 @@
     },
     {
       "path": "niche-research/finding-niches-saas-and-ai-tools.md",
-      "sha256": "84cae10dc069fc0dff59ea1fea2548756bbe90d138f5f7de2be3ac077059b158",
+      "sha256": "a9d141bf0a92292da17eeff90b77c3f03b7f1365f76491adcd2e67f6edf67b4d",
       "status": "stable",
       "audience": [
         "public"
@@ -423,7 +423,7 @@
     },
     {
       "path": "niche-research/finding-untapped-niches-google-com-and-google-trends.md",
-      "sha256": "0c28b64669ec874cd6da2997c4429c11ec7d00d4c6b75f9b8283244705e318ab",
+      "sha256": "55e53b4400957902875059515f9346c90873a4272ca5df37079186dff6cf171f",
       "status": "stable",
       "audience": [
         "public"
@@ -434,7 +434,7 @@
     },
     {
       "path": "niche-research/finding-untapped-niches-incognito-and-google-operators.md",
-      "sha256": "a9ef007f55be8b0248825b40e02016d0cfb783389fb6940c24b9cd921d1150ea",
+      "sha256": "ce4744b39dc97399c2fa82404ce1d63de965d93abeb90e4c925f2d4b8868c452",
       "status": "stable",
       "audience": [
         "public"
@@ -445,7 +445,7 @@
     },
     {
       "path": "niche-research/goldmine-niches-reference-list.md",
-      "sha256": "ad6cb6b7d73d6d5bdd1fb8ea40eb98a60c679961f2a264f221f8ad3a3047ddc8",
+      "sha256": "17640aee5bb332e71d6f3b4cabca2b1956ad119805019b3d2b3de6d249a2a301",
       "status": "stable",
       "audience": [
         "public"
@@ -456,7 +456,7 @@
     },
     {
       "path": "niche-research/niche-keyword-combination-matrix.md",
-      "sha256": "e3b81efae903e125e3223f335a388321b37e9623bf55489b7ab0b80834c9c5f9",
+      "sha256": "4bc5f55a92b486971c3e6eb0a3fd3376388b14d12a0d1a29d8c565f0df25078f",
       "status": "stable",
       "audience": [
         "public"
@@ -467,7 +467,7 @@
     },
     {
       "path": "niche-research/overview.md",
-      "sha256": "71c5ba6247820d00e9ea7c183302e7faaba30c09ff523e7540271094f6440ac3",
+      "sha256": "0cf628bf859e51b17f8675161a145f054b45f3889e637fc10dfb82c803868f64",
       "status": "stable",
       "audience": [
         "public"
@@ -478,7 +478,7 @@
     },
     {
       "path": "niche-research/timing-and-first-mover-niches.md",
-      "sha256": "ecca71eb4816c102ca9ecee25f992fa221e80c6d44ee3e730da2fe1520553d92",
+      "sha256": "d001bb97f59f975d8bd76a500679e05ffb4b19de84d09c62c3784e5aa67947e9",
       "status": "stable",
       "audience": [
         "public"
@@ -489,7 +489,7 @@
     },
     {
       "path": "off-page-seo/anchor-text-and-backlink-distribution.md",
-      "sha256": "f1774580d47988edded518336a14368b161373a74f0027bf459493fd1438b20e",
+      "sha256": "3d2dccc651eab310f8cd21a632528877b16ac65b95f539204c6653a5f1061238",
       "status": "stable",
       "audience": [
         "public"
@@ -500,7 +500,7 @@
     },
     {
       "path": "off-page-seo/backlink-profile-worked-example.md",
-      "sha256": "5f92f388af64d2c2101353ae3e855a22c747687e27a2e95f7b1b0f75ae539ffe",
+      "sha256": "947fe37057c7cbe711a186959c9651994559ab2c65c6adf50085f844c9a3aa0e",
       "status": "stable",
       "audience": [
         "public"
@@ -511,7 +511,7 @@
     },
     {
       "path": "off-page-seo/backlinks-from-authority-sites.md",
-      "sha256": "0bc65f863cfbdfe34f09e2e092370e912f4102761e6bf9220f449f0b00dc4711",
+      "sha256": "77e241ba0081b443b2d373445d13ae6c54a964d9f7b97669a9ee4e16fda08fc7",
       "status": "stable",
       "audience": [
         "public"
@@ -522,7 +522,7 @@
     },
     {
       "path": "off-page-seo/community-and-forum-link-building.md",
-      "sha256": "118cae415615e83e67819f80e234b084cc848425b616bdaf32c6c4493a7da4d8",
+      "sha256": "9ae6c593079c645bb422d5950bea607c8b034c48c0a10b5d98c001976a2dffe6",
       "status": "stable",
       "audience": [
         "public"
@@ -533,7 +533,7 @@
     },
     {
       "path": "off-page-seo/contextual-backlinks-guest-post-niche-edit.md",
-      "sha256": "b1d29043ce17ea412baaa1c98006571697351530a85212898fe4f40800bf5708",
+      "sha256": "1c5c45e4f24c8225177fc8bd8bc0a554f34718fc90842989a5726340e74e2ffe",
       "status": "stable",
       "audience": [
         "public"
@@ -544,7 +544,7 @@
     },
     {
       "path": "off-page-seo/guest-post-link-building-strategy.md",
-      "sha256": "7da7122866c0b3652da7d6caea1061c9a6949bc8910ab673ac13fa9e787b4119",
+      "sha256": "138c917b8bd5c952db41bc10abbd9058721077311a5113ecf4d935bf4f67a9ab",
       "status": "stable",
       "audience": [
         "public"
@@ -555,7 +555,7 @@
     },
     {
       "path": "off-page-seo/off-page-seo-fundamentals.md",
-      "sha256": "6b49a17c059faecd8eac65ff9ac8892536aed3eb052daee73aca7450c8de6507",
+      "sha256": "61d1c81ad5a1d1850fd22ce6dd87026634116b001ac82dd89a2c2d7a8b98de5b",
       "status": "stable",
       "audience": [
         "public"
@@ -566,7 +566,7 @@
     },
     {
       "path": "off-page-seo/top-authority-sites-by-ahrefs-rank.md",
-      "sha256": "dca586ba78310d7427810b5e34e44cef91a9aa2b8f2f546025173241ab6ab46b",
+      "sha256": "36ed7c2a117885dc64f6914e45dd2a003810d994aecaf0720516cbb8d16cd6c0",
       "status": "stable",
       "audience": [
         "public"
@@ -577,7 +577,7 @@
     },
     {
       "path": "on-page-and-technical-seo/content-strategy-honeymoon-period.md",
-      "sha256": "ed55cac6cb22e28fd6d8e1c468eefa9b5948232cc88cfb9eb29052fe477e6760",
+      "sha256": "8b7b1cc6a927e20e185cfcb2a2d9502daf2cb1da5d16e4770ef5dd4265f2dd4d",
       "status": "stable",
       "audience": [
         "public"
@@ -588,7 +588,7 @@
     },
     {
       "path": "on-page-and-technical-seo/google-search-console-and-analytics.md",
-      "sha256": "3f2758a8665bc5898fea9d712706fc9782a0524ee6f3ed31f74d569768086316",
+      "sha256": "90172e4d5a18c9f2d33143677392ea881ed972d64047d21e74385299bfe2fba4",
       "status": "stable",
       "audience": [
         "public"
@@ -599,7 +599,7 @@
     },
     {
       "path": "on-page-and-technical-seo/on-page-seo-fundamentals.md",
-      "sha256": "2220b3ddbb43d3e3c70d0e2be79c917cb1ceb1a45ebbb33e465d7a7b8cc55770",
+      "sha256": "e66b53b73ffa8a7a5a147a3ce6db55b2f6f75e24d017b3f354e3402eaa97a17c",
       "status": "stable",
       "audience": [
         "public"
@@ -610,7 +610,7 @@
     },
     {
       "path": "on-page-and-technical-seo/on-page-seo-meta-and-linking.md",
-      "sha256": "b66485c7c09a4bbd2bf6b89e572366cafbda99521ef4d16b77aac1e60054d48f",
+      "sha256": "85838514ad96ab5b3fa2c9496481a6b2920628f2c6d1a940bf83b3bd7a01c7b2",
       "status": "stable",
       "audience": [
         "public"
@@ -621,7 +621,7 @@
     },
     {
       "path": "on-page-and-technical-seo/on-page-seo-wordpress-basics.md",
-      "sha256": "38ad88987c3352893d9aa2143910fdd0e1f6f27828d52d4a2fddf3fd7528f97a",
+      "sha256": "11d54f54edc9491bb3922c184454c98e11bbb1a715c5d8d1b7dd0d605899b46b",
       "status": "stable",
       "audience": [
         "public"
@@ -632,7 +632,7 @@
     },
     {
       "path": "on-page-and-technical-seo/reverse-engineering-on-page-seo.md",
-      "sha256": "7a86de9ad78c9e8ea36a301fe83863c5e85b3eb080a84334dc6fd0c743cb8f52",
+      "sha256": "65225dcb87dc1eed373fd107f31bd1780fa26cc2b76715845a89050f21ff5f91",
       "status": "stable",
       "audience": [
         "public"
@@ -643,7 +643,7 @@
     },
     {
       "path": "on-page-and-technical-seo/schema-markup.md",
-      "sha256": "22d2a7324457e6ad4474a175510edc9a2e86cc05c78ac5448d538b46cb2fbd7d",
+      "sha256": "8a21d51eeaf3e74c69cc7b0a9e22d769b04509e7183f554527683b760267233e",
       "status": "stable",
       "audience": [
         "public"
@@ -654,7 +654,7 @@
     },
     {
       "path": "on-page-and-technical-seo/technical-seo-advanced.md",
-      "sha256": "3a9b539ab8a0591f58d0de5a2ed13d350d3cf03fa350fe0d981d0edf8a396b00",
+      "sha256": "c8d843e8206afeade34512790da804cf9456db9275acaadb979a89e63865d5a7",
       "status": "stable",
       "audience": [
         "public"
@@ -665,7 +665,7 @@
     },
     {
       "path": "on-page-and-technical-seo/technical-seo-basics.md",
-      "sha256": "84a425beb920c93509f5ebb3684eebe977d557f5f1be3e255c2d35ebf97bf075",
+      "sha256": "c801f115bdcc1d1b6757176fabc4dfc513e26335bcf3ee887c639da810095531",
       "status": "stable",
       "audience": [
         "public"
@@ -676,7 +676,7 @@
     },
     {
       "path": "on-page-and-technical-seo/website-audit-process.md",
-      "sha256": "906d197b74355d82fdfe73d40a2a10299805efa44101673f0fa09a0b876fec10",
+      "sha256": "e1922a327a074c4a521a94d6cde1ac5e3979dc4b6721e01ee675c571c9130b7e",
       "status": "stable",
       "audience": [
         "public"
@@ -687,7 +687,7 @@
     },
     {
       "path": "on-page-and-technical-seo/website-speed-optimization.md",
-      "sha256": "696b475fd7794ab5029559b8d45458af5bf4d1c28210a9a4766eb78a6141c4ae",
+      "sha256": "81700f6f40caa8fb10b56bfbdcb02371e1b178af80ba26f419ce2b0435f64201",
       "status": "stable",
       "audience": [
         "public"
@@ -698,7 +698,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-creation.md",
-      "sha256": "51f41cc089467c10ffd4b3a5d5d39e4609d970f0c279f0a230d93bce8cd48417",
+      "sha256": "544dc31156775c91c41f945cfbf085348619ec88fbd8f153a17238027b04e26a",
       "status": "stable",
       "audience": [
         "public"
@@ -709,7 +709,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-account-safety.md",
-      "sha256": "18b3ba474e66e1aa66439d6d76ed912726ee361c0c172c569b2f0913f849f371",
+      "sha256": "4062ffc9163da690c5c9c0f8356c57097188505244944516bdd1dba601477735",
       "status": "stable",
       "audience": [
         "public"
@@ -720,7 +720,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion.md",
-      "sha256": "accb1c1f8ee96b58b125a43d11f1cf6094cc4579b4e5f1938010579d9259320b",
+      "sha256": "ac36faff8428967e83e71ce7915baf067e0178264d6628ce1f43d67435a59501",
       "status": "stable",
       "audience": [
         "public"
@@ -731,7 +731,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt.md",
-      "sha256": "cd2e4ae3b9d954020c9cd4f3e69d64dc64301e5c5f1fad9f9180f069b69384a1",
+      "sha256": "2ef6bef4a9bfd7417b1d97a0d9eea6cb3894451a82f8f453dae8b1da9b0f36f5",
       "status": "stable",
       "audience": [
         "public"
@@ -742,7 +742,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
-      "sha256": "c79c18639a7bd2ae1564631cb8df369f2f17bfb44e5ae7dbae6d62b5157666f0",
+      "sha256": "8119aa50d3e39b52408288f2f599c76830b20945f1f45d1a894c2c113cc20195",
       "status": "stable",
       "audience": [
         "public"
@@ -753,7 +753,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners.md",
-      "sha256": "a68c762177adac393405f529d951cb717df3e36eb97ac4e7f71d084a6c4e39c3",
+      "sha256": "fb018bbd0bfb4dff2aada63b2f6b4953e71c2cde293a78518c90d3a8ef0e5341",
       "status": "stable",
       "audience": [
         "public"
@@ -764,7 +764,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-keyword-types.md",
-      "sha256": "64ef19dbb21347c9cd81b229ad12c77b4f5e083722d67e1ed5140e4972bc3af7",
+      "sha256": "1dd28ea10f3938226231c2503359d645c64f6098cf49595544f1a9f23378d544",
       "status": "stable",
       "audience": [
         "public"
@@ -775,7 +775,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-listing-and-competitor-research.md",
-      "sha256": "cea39009a776e97f864edb7083e50a0ca17340da47810fff5818afb7e77f9304",
+      "sha256": "f97b497ab04e4e4a72f228c6f63cc672cd3cbcd6602c3516dcc8fc98b88eb3fa",
       "status": "stable",
       "audience": [
         "public"
@@ -786,7 +786,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-listing-and-shop-overview.md",
-      "sha256": "2c4710e746fcefbf5e927c66bd3fb0fca9168b5eeeaf2fcce0ecf6fd57b8bab0",
+      "sha256": "80379b13aa798f3b66796f2a1d852dc045873b8709001a8ddb604a9545376bc5",
       "status": "stable",
       "audience": [
         "public"
@@ -797,7 +797,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment.md",
-      "sha256": "bb50fdce7238b081bba17ce945ea318c053c586855d06104662c95bc14319f29",
+      "sha256": "104c7f2f3524a70925a803df99811f15c7c23c5b2fb2ad40c4337ab340c5899d",
       "status": "stable",
       "audience": [
         "public"
@@ -808,7 +808,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical.md",
-      "sha256": "00e5075460313da7a93de094763b44ed5086f1fc36449d1128f7627b0cb378f0",
+      "sha256": "89e9393369ed51a6237f2e3e32e7c31e5d2afa085aa1866b34dccb9b885cf87c",
       "status": "stable",
       "audience": [
         "public"
@@ -819,7 +819,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips.md",
-      "sha256": "009e88b553f957162f8bae965cdd6febe0d9f01e3b0a3bedafe439b08f334147",
+      "sha256": "5fccfea0830103faa5542f155e61dafa305b92122b1ea3029ae4c1fccbc129c1",
       "status": "stable",
       "audience": [
         "public"
@@ -830,7 +830,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
-      "sha256": "af6ec68c719dcf997dfaf586dfcdb7c3933203794f0421ce73749db88ad75c1f",
+      "sha256": "a007e9f1eee78c20da985b184a4079c427b4be03d68b1afdb0bda48182b9fa0f",
       "status": "stable",
       "audience": [
         "public"
@@ -841,7 +841,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
-      "sha256": "3e00ac6230227635eee7201f5cc0dd9b93b8f895a438b1806bf0fa757eb15cba",
+      "sha256": "1d6e005714a37d814587d0b703cce51d9bae6545605f9f1e962a53f17e99b183",
       "status": "stable",
       "audience": [
         "public"
@@ -852,7 +852,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering.md",
-      "sha256": "ed26b6bfe4dd3144171666a56ef83f7546ffdcd933ff8b303742c0d848c68831",
+      "sha256": "ebbbf8f99098c88bab2e1b5356651d57edeaa7c9f2664084bacc0c1d8a100a73",
       "status": "stable",
       "audience": [
         "public"
@@ -863,7 +863,7 @@
     },
     {
       "path": "why-seo-matters.md",
-      "sha256": "09c5579fb296271b72040a3e311df0014461cd19ee9d6e145a860b4a1a47e37b",
+      "sha256": "b8e62cf737d1f1eead58eea1e79b6ff89ec28037814a4bf9afde5e86ae2b13e4",
       "status": "stable",
       "audience": [
         "public"
@@ -874,7 +874,7 @@
     },
     {
       "path": "wordpress/introduction-to-wordpress.md",
-      "sha256": "4067e3a328f70bb833d0d1b21740b7942e0bbe5fcaa0a2bc6085cb7933765133",
+      "sha256": "1f647ff16ed231c146a30fc2f618db3bc746b82927fbdab551437bc77b838f03",
       "status": "stable",
       "audience": [
         "public"
@@ -885,7 +885,7 @@
     },
     {
       "path": "wordpress/wordpress-setup-theme-and-design.md",
-      "sha256": "ce0fd120d5890a74fc817bb7c576753aafb7c2b07091647235e51987a70d9104",
+      "sha256": "a6daaafae2acfa8f6ae6b94ef3e7d05ba5d4186bb6fe7d13ede10b41292d17d5",
       "status": "stable",
       "audience": [
         "public"
@@ -1100,7 +1100,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "14d3809e92f203bd74e400cc4ef5056954c77a5e26e73f3e776e64c4a1c48ef6",
+      "sha256": "be1fafdf60899c3f2cce81cade6d4ceb40184be47bf1e81116390d2f76e8eabf",
       "files": 128
     }
   ]

@@ -4,6 +4,7 @@ title: "SEO content writing: HTML formatting, structure, and copywriting"
 description: "A complete guide to writing SEO-optimized blog content: HTML tags, blog post structure, competitor SERP research, content density, and emotional copywriting."
 status: stable
 order: 13
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

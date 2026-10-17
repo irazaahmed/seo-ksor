@@ -4,6 +4,7 @@ title: Goldmine niches reference list
 description: A curated list of real niche/sub-niche examples with their DR, monthly traffic, and monetization network, grouped by DR band, for calibrating what a beatable niche actually looks like.
 status: stable
 order: 10.7
+added: 2026-09-22T10:29:45Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

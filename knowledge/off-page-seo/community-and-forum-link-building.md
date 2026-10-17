@@ -4,6 +4,7 @@ title: Community and forum link building
 description: "A safer, more organic way to earn backlinks through genuine forum participation: account setup, posting cadence, and indexing checks."
 status: stable
 order: 33
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

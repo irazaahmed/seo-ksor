@@ -4,6 +4,7 @@ title: Niche keyword-combination matrix
 description: "Word banks for a chosen niche (tool/app-type words, content-angle modifiers, and APK suffixes) that combine into a large set of content titles, blog topics, or app-store metadata."
 status: stable
 order: 10.5
+added: 2026-09-22T10:29:45Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

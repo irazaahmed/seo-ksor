@@ -4,6 +4,7 @@ title: "WordPress SEO basics: permalinks, categories, images, Rank Math"
 description: URL/permalink structure, category taxonomy, image SEO, and the Rank Math plugin as applied inside WordPress.
 status: stable
 order: 19
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

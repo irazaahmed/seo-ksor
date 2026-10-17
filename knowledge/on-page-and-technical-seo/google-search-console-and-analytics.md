@@ -4,6 +4,7 @@ title: Google Search Console and Analytics
 description: Setting up Search Console to track indexing and search performance, and using Analytics to understand user behaviour and traffic sources.
 status: stable
 order: 26
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T10:00:00Z }
 ksor:
   audience: [public]

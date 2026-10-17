@@ -4,6 +4,7 @@ title: "Etsy manual research methods, and the shop assignment criteria"
 description: The manual ways to find Etsy keywords taught in Classes 12 and 13 (autocomplete, alphabet, category, Google, competitor titles and tags, word frequency, keyword gap and more), and the criteria a shop must meet before you replicate it for the assignment.
 status: stable
 order: 52.75
+added: 2026-10-09T18:28:09Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

@@ -4,6 +4,7 @@ title: Off-page SEO fundamentals
 description: What off-page SEO and backlinks are, why social signals matter, how to read a competitor's backlink profile, and the foundation links every site should build first.
 status: stable
 order: 30
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

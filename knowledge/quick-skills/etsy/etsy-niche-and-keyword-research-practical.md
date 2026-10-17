@@ -4,6 +4,7 @@ title: "Etsy niche and keyword research, step by step: a practical walkthrough"
 description: The practical order Sir Zakria Afzal teaches for Etsy research, finding a niche through eRank top sellers, EHunt and Trend Buzz, then spying on its shops to collect tags and sorting them in Niche Deck.
 status: stable
 order: 52.86
+added: 2026-10-07T08:44:29Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

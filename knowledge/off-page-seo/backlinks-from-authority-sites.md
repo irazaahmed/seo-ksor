@@ -4,6 +4,7 @@ title: Building backlinks from top authority sites
 description: "A strategy for earning backlinks from the internet's highest-authority platforms (YouTube, Instagram, Reddit, GitHub, and similar) by participating genuinely rather than spamming."
 status: stable
 order: 32
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

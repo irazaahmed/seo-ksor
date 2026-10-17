@@ -4,6 +4,7 @@ title: "NicheSpark: Chrome extension for Google Autocomplete keyword research"
 description: What NicheSpark is, how to install and use it for A to Z, prefix, suffix and template keyword research, how it records and exports results, its privacy model, and its limits.
 status: stable
 order: 10.5
+added: 2026-10-12T10:31:44Z
 generated: { by: claude-code/opus-5.5, at: 2026-10-12T10:20:00Z }
 ksor:
   audience: [public]

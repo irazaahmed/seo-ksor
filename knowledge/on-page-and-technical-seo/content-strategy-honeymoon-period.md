@@ -4,6 +4,7 @@ title: "Content strategy: the honeymoon period"
 description: A niche-site launch plan built around the temporary ranking boost new sites get, and how to maximize and extend it.
 status: stable
 order: 27
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

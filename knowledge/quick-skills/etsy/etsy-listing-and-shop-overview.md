@@ -4,6 +4,7 @@ title: "Etsy listing and shop overview: brand identity, listing health and growt
 description: Sir Zafar's Class 14 on Etsy brand identity (banner, logo, shop name), what to do when a listing gets no views, using search terms as your pillars, sharing every listing, and the shop rating and conversion benchmarks.
 status: stable
 order: 52.9
+added: 2026-10-16T10:28:36Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

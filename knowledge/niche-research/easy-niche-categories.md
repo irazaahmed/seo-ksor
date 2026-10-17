@@ -4,6 +4,7 @@ title: Easy-to-rank niche categories
 description: Niche categories that are consistently easier to rank than others (informational, downloadable, and government-related) plus finding them with Ahrefs Content Explorer.
 status: stable
 order: 10
+added: 2026-09-15T12:59:24Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]

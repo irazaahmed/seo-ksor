@@ -4,6 +4,7 @@ title: "Finding niches, Method 7: a topic search in Ahrefs Content Explorer, the
 description: Searching a topic "everywhere" in Ahrefs Content Explorer, filtering to Domain Rating 0 to 20, and reverse engineering the best site's organic keywords and its competitors to find goldmine niches.
 status: stable
 order: 8.7
+added: 2026-09-26T18:31:22Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

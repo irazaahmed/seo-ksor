@@ -4,6 +4,7 @@ title: "Niche research: tools, metrics, and selection criteria"
 description: The tools, authority metrics, monetization models, and selection criteria used to pick a low-competition, profitable niche.
 status: stable
 order: 3
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
 ksor:
   audience: [public]

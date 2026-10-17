@@ -4,6 +4,7 @@ title: "Off-page SEO basics: the 9 link-building precautions"
 description: Sir Khurram Malik's off-page SEO basics, the 9 precautions for safe link building (spam score bands, bad neighborhoods, link farms, OBL, anchor text shares and more), and link velocity, relevance and indexing.
 status: stable
 order: 36.5
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

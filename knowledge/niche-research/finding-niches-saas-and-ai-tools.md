@@ -4,6 +4,7 @@ title: "Finding niches, Method 5: SaaS and AI tool marketplaces"
 description: "Reverse-engineering profitable SaaS, AI-tool, and app niches from marketplaces built for that stack: Acquire.com, Product Hunt, AppSumo, and the Chrome Web Store."
 status: stable
 order: 8
+added: 2026-09-15T12:59:24Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

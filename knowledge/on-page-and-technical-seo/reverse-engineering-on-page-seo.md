@@ -4,6 +4,7 @@ title: Reverse-engineering on-page SEO from competitors
 description: A workflow for learning what makes competitors rank, starting from your own Search Console data, then analyzing competitor backlinks, anchor text, and on-page factors.
 status: stable
 order: 28
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

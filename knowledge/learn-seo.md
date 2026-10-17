@@ -4,6 +4,7 @@ title: "Learn SEO: the complete SEO training path"
 description: The whole AskSEO curriculum as one ordered training path, from SEO basics and niche research through keyword research, content writing, WordPress, on-page, technical, off-page and Local SEO.
 status: stable
 order: 0.5
+added: 2026-10-12T17:45:10Z
 generated: { by: process:claude-code, at: 2026-10-12T17:37:33Z }
 ksor:
   audience: [public]

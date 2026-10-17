@@ -4,6 +4,7 @@ title: "Content writing for Local SEO: AI words, semantic entities, EEAT and que
 description: Sir Khurram Malik's Local SEO content writing notes, avoiding AI-sounding words, four ways to extract semantic entities, the YouTube method for EEAT, where to find questions for AEO and GEO, and the four-step content creation process.
 status: stable
 order: 36.8
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

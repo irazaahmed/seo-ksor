@@ -4,6 +4,7 @@ title: Connect Claude, ChatGPT or Muse AI to this record
 description: Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 status: stable
 order: 1.5
+added: 2026-09-17T11:56:10Z
 generated: { by: human:ahmedraza, at: 2026-10-12T10:50:00Z }
 ksor:
   audience: [public]

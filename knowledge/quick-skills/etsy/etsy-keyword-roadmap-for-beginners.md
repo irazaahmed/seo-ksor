@@ -4,6 +4,7 @@ title: "The exact roadmap to start using keywords on Etsy"
 description: A beginner's roadmap from Sir Zakria Afzal, getting seed keywords from ChatGPT, checking them in eRank against the criteria, confirming they are not copyright or trademark, and building a whole shop on one good keyword.
 status: stable
 order: 52.87
+added: 2026-10-07T08:44:29Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

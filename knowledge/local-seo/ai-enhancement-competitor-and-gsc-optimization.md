@@ -4,6 +4,7 @@ title: "AI enhancement: competitor reviews, Search Console data and keyword gap 
 description: Sir Khurram Malik's advanced AI usage notes, a four-stage loop of competitor GMB review analysis, Google Search Console analysis, SEMrush keyword gap and keyword mapping, with the exact prompts for ChatGPT and Claude.
 status: stable
 order: 36.7
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

@@ -4,6 +4,7 @@ title: LLMs, tokens, Git and GitHub
 description: The first concepts of the AI Agents module, what an LLM is, what a context window and a token are, and what Git and GitHub do, as taught in Class 1.
 status: stable
 order: 61
+added: 2026-10-04T17:06:26Z
 generated: { by: human:ahmedraza, at: 2026-10-08T16:00:00Z }
 ksor:
   audience: [public]

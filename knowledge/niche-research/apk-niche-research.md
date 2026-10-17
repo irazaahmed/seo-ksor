@@ -4,6 +4,7 @@ title: APK niche research
 description: Selection criteria, budget, monetization, and legal considerations specific to running an APK download site as a niche.
 status: stable
 order: 9
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

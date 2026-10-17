@@ -177,5 +177,65 @@ export default function buildGateway(ctx: ServiceContext, version: string): McpS
   // ksor makes no provenance claim about a tool it did not hand you a handler
   // for, and the boot check only inspects the ones it did.
 
+  // What was added to the record lately, newest first: "is hafte kya parhaya
+  // gaya". Admission is outline's, so a draft, a withdrawn or a restricted
+  // document never appears; the date is each document's own `added:` key (the
+  // day its file first entered the record), read from the active generation.
+  const outline = outlineHandler(ctx);
+  server.registerTool(
+    "whats_new",
+    {
+      title: "What's new in the record",
+      description:
+        "Lessons added to AskSEO recently, newest first, with the date each was added and " +
+        "its page link. Use it when a student asks what was taught or added this week, " +
+        "or what is new. Then search or read the lessons for their content.",
+      inputSchema: z.object({
+        days: z
+          .number()
+          .int()
+          .min(1)
+          .max(90)
+          .default(14)
+          .describe("How many days back to look (default 14)"),
+        limit: z.number().int().min(1).max(50).default(15).describe("Maximum lessons to list"),
+      }),
+      annotations: READ_ONLY,
+    },
+    async ({ days, limit }, extra) => {
+      const listed = (await outline({ depth: 5, limit: MAX_OUTLINE_LIMIT }, extra)) as {
+        structuredContent?: { nodes?: { kind: string; title: string; heading_path: string }[] };
+      };
+      const documents = (listed.structuredContent?.nodes ?? []).filter((n) => n.kind === "document");
+      const titles = new Map(documents.map((d) => [`knowledge/${d.heading_path}`, d.title]));
+      const { rows } = await ctx.pool.query<{ stable_id: string; added: string }>(
+        // The stored frontmatter is the document's own YAML text.
+        `SELECT stable_id, added FROM (
+           SELECT n.stable_id,
+                  (regexp_match(s.frontmatter, '(?:^|\\n)added:\\s*([0-9T:.Z+-]+)'))[1] AS added
+             FROM content_nodes n
+             JOIN corpora c ON c.corpus_id = n.corpus_id AND c.active_generation = n.generation
+             JOIN sources s ON s.node_id = n.node_id AND s.generation = n.generation
+            WHERE n.kind = 'document' AND n.stable_id = ANY($1)
+         ) d
+         WHERE added IS NOT NULL AND added::timestamptz >= now() - make_interval(days => $2)
+         ORDER BY added::timestamptz DESC
+         LIMIT $3`,
+        [[...titles.keys()], days, limit],
+      );
+      const lessons = rows.map((r) => ({
+        title: titles.get(r.stable_id) ?? r.stable_id,
+        added: r.added.slice(0, 10),
+        stable_id: r.stable_id,
+        link: `https://askseo.cybrumsolutions.dev/docs/${r.stable_id.replace(/^knowledge\//, "")}/`,
+      }));
+      const text =
+        lessons.length === 0
+          ? `Nothing was added to AskSEO in the last ${days} days.`
+          : lessons.map((l) => `${l.added}  ${l.title}\n  ${l.link}`).join("\n");
+      return { content: [{ type: "text" as const, text }], structuredContent: { days, lessons } };
+    },
+  );
+
   return server;
 }

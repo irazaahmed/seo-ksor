@@ -4,6 +4,7 @@ title: "WordPress setup: cleanup, theme, plugins, and page design"
 description: Post-installation WordPress setup, removing default content, configuring settings, installing the Kadence theme and plugins, and building header, footer, menu, and page layouts.
 status: stable
 order: 17
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

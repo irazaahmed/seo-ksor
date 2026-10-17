@@ -4,6 +4,7 @@ title: "AI website creation, Lecture 1: the 16-step workflow with Claude Code"
 description: Sir Khurram Malik's stack and 16-step workflow for building a hyper-local rank and rent website with WordPress, Kadence, Rank Math and Claude Code, including the research inputs and the prompts used.
 status: stable
 order: 36.3
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

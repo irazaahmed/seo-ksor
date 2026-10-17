@@ -4,6 +4,7 @@ title: "Etsy keyword research mastery: the types of keywords"
 description: The kinds of Etsy keywords (short, mid and long tail, focus, secondary, modifier, theme, color, delivery type, audience, occasion, platform) and the rules for choosing between evergreen and seasonal keywords.
 status: stable
 order: 52.7
+added: 2026-10-03T17:03:07Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

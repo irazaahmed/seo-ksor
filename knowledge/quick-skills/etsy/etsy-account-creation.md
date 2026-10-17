@@ -4,6 +4,7 @@ title: Creating an Etsy shop
 description: "How to set up an Etsy account correctly for a Quick Skills (Etsy) shop: buyer signup, seller conversion, country/currency, shop naming, and account security."
 status: stable
 order: 54
+added: 2026-09-20T09:11:02Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

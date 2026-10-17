@@ -4,6 +4,7 @@ title: "Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis a
 description: Sir Zakria Afzal's class on the Etsy ranking funnel from impression to review, what makes a good thumbnail and image plan, diagnosing a weak listing, customer service, the 30-listing checkpoint, and selling digital products from your own website.
 status: stable
 order: 52.89
+added: 2026-10-13T10:36:14Z
 generated: { by: human:ahmedraza, at: 2026-10-16T11:46:00Z }
 ksor:
   audience: [public]

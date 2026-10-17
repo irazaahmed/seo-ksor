@@ -4,6 +4,7 @@ title: SEO glossary and web basics
 description: Core SEO and web-infrastructure terms used throughout this record, niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 status: stable
 order: 1
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

@@ -4,6 +4,7 @@ title: Etsy listings and competitor research
 description: Why most Etsy sellers fail, what a listing needs to get right for mobile buyers, and how to choose a shop worth reverse-engineering.
 status: stable
 order: 50
+added: 2026-09-20T09:37:53Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

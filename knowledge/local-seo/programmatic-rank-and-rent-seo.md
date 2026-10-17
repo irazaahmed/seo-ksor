@@ -4,6 +4,7 @@ title: "Programmatic rank and rent SEO: the full workflow"
 description: Sir Khurram Malik's programmatic rank and rent method, the city and payout criteria, why micro and nano niches beat broad ones, and the 20-step workflow from vertical selection to programmatic expansion.
 status: stable
 order: 36.2
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

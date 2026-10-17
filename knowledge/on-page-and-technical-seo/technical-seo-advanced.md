@@ -4,6 +4,7 @@ title: "Technical SEO: advanced crawl control"
 description: "Robots.txt, meta robots tags, llms.txt, sitemap.xml, crawl-budget optimization, canonical tags, and .htaccess: the files that control how a crawler treats a site."
 status: stable
 order: 23
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

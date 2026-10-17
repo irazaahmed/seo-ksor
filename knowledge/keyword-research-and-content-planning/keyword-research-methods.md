@@ -4,6 +4,7 @@ title: Manual and tool-based keyword research methods
 description: Google Instant, manual keyword tools, and the Ahrefs/SEMrush competitor-export methods for building a keyword list, including topical authority and keyword cannibalization.
 status: stable
 order: 10
+added: 2026-09-14T15:05:41Z
 generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
 ksor:
   audience: [public]

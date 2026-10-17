@@ -4,6 +4,7 @@ title: "AEO, GEO, Google voice search and AI Overview ranking: the 13 AI ranking
 description: Sir Khurram Malik's lecture on ranking content in AI platforms and voice assistants, where Google Assistant fetches its answers from, and the 13 AI ranking signals not to miss.
 status: stable
 order: 36.1
+added: 2026-10-15T18:48:19Z
 generated: { by: process:claude-code, at: 2026-10-15T18:44:22Z }
 ksor:
   audience: [public]

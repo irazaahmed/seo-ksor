@@ -4,6 +4,7 @@ title: "Finding niches, Method 6: replicating one strong page from Ahrefs Conten
 description: Using Ahrefs Content Explorer with a language filter and a low DR filter to find high-traffic pages, then building a dedicated website around one page rather than copying the whole site.
 status: stable
 order: 8.5
+added: 2026-09-25T19:07:03Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]

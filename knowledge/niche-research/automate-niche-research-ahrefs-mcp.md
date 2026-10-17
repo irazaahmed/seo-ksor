@@ -4,6 +4,7 @@ title: "Automating niche research: Ahrefs MCP connected to Claude"
 description: Connecting the Ahrefs MCP server to Claude so that the assistant finds goldmine keywords (DR under 20, AI related) and reverse engineers a site you want to replicate, with a better prompt giving a better answer.
 status: stable
 order: 8.8
+added: 2026-09-28T06:56:41Z
 generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
 ksor:
   audience: [public]
