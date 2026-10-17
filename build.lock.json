@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:b5114db2b71ebebdaa1499e07f5f103357ef8c6404103971f6202e52ad399dcc",
+  "build_id": "sha256:c93e69dbf750191cbff11ac7485ec56cce6e1df9717beeac77091f031f25669c",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "3f3d34f8743b2f4f93cb1f953704d6548557a587",
+  "source_commit": "c0d6888eb00819bc5f2d1354a1f19002c8a05caa",
   "dirty": true,
-  "as_of": "2026-10-17T18:48:01.773Z",
+  "as_of": "2026-10-17T18:54:23.523Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -25,6 +25,17 @@
     }
   },
   "documents": [
+    {
+      "path": "ai-agents/ai-agents-vocabulary.md",
+      "sha256": "0cafecbc231c92e35d61d23ad66facb068118f944bd5c1066069df9e3cfcbe18",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
     {
       "path": "ai-agents/introduction-and-setup.md",
       "sha256": "77a29e9e5daaf5ee412694713901ba26e5e6bf429428e8f23198ac5e67220c20",
@@ -914,6 +925,10 @@
   ],
   "assets": [
     {
+      "path": "ai-agents/ai-agents-vocabulary-infographic.webp",
+      "sha256": "e927de510e0713ae48a19431a33ccab0806133a27cba5a010fe080f999eab721"
+    },
+    {
       "path": "ai-agents/introduction-and-setup-infographic.webp",
       "sha256": "8c52fcd428d9202ebcf16b6c36dc28a0617a31b50de402d1b48c4928e810ad17"
     },
@@ -1065,7 +1080,7 @@
   "indexes": [
     {
       "path": "ai-agents/index.md",
-      "sha256": "118b61e19ef5d6350abed8ae24c83edd58eff679a8b98c183f997063b6175821"
+      "sha256": "cfb1166edfb669193c3b7ee85280d08b8732eab02abbce5b890f03865ad4f21c"
     },
     {
       "path": "apk-websites/index.md",
@@ -1115,8 +1130,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "5af467f23e397888d134362c3513d64014c04b974cb38a99d8bbc2673830c6a8",
-      "files": 130
+      "sha256": "d01ba56834ef298c877f2ca674d9f2fea1bca5240246c7cc61e5bd5f5efab799",
+      "files": 132
     }
   ]
 }
