@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:c93e69dbf750191cbff11ac7485ec56cce6e1df9717beeac77091f031f25669c",
+  "build_id": "sha256:d45756b8c53fa18915935ae96c7d6163f7e901729614a92aa7b537e9f9265602",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "c0d6888eb00819bc5f2d1354a1f19002c8a05caa",
+  "source_commit": "03fcead65cd67ff63d89ad00b19f3aebbfdfda40",
   "dirty": true,
-  "as_of": "2026-10-17T18:54:23.523Z",
+  "as_of": "2026-10-18T18:00:46.704Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -149,6 +149,17 @@
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-planning.md",
       "sha256": "2ac90186e6d75e5e1c6bab792af7b1e821bb1867aed85ae57dbde78ccced6406",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping.md",
+      "sha256": "a14868f0dbb9485a54fb0c7f2f84ee6ce55c9ce9616b7fd06c1204a95c868021",
       "status": "stable",
       "audience": [
         "public"
@@ -953,6 +964,10 @@
       "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
     },
     {
+      "path": "keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping-infographic.webp",
+      "sha256": "4bff3ce157ae02974fdf77288128d5b89161b00aefbc50d6a7043a3020fe28da"
+    },
+    {
       "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo-infographic.webp",
       "sha256": "3b8685b21bd59612a0211dad4c7e5e9b4656b66311c82c714c8f847f90bcb96b"
     },
@@ -1096,7 +1111,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "fd3be4971348077b7ac4c7a747d8b0dfe30c247ff57a5f5c18254a93a300f89c"
+      "sha256": "0828c38beb2fd4b043b6ac8bec30d7c99a6b61b7f4f6b1abf7ad1df5039d3be3"
     },
     {
       "path": "local-seo/index.md",
@@ -1130,8 +1145,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "d01ba56834ef298c877f2ca674d9f2fea1bca5240246c7cc61e5bd5f5efab799",
-      "files": 132
+      "sha256": "a8d8d09eff577edebd9885f94bb18f96fc6601062f5941fa441fd86a694cbc4f",
+      "files": 134
     }
   ]
 }
