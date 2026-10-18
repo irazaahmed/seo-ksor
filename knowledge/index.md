@@ -5,6 +5,7 @@ okf_version: "0.2"
 # AskSEO
 
 * [Learn SEO: the complete SEO training path](learn-seo.md) - The whole AskSEO curriculum as one ordered training path, from SEO basics and niche research through keyword research, content writing, WordPress, on-page, technical, off-page and Local SEO.
+* [All class infographics](infographics.md) - Every class infographic in the record on one page, grouped by module and chapter, each linked to the chapter it summarises.
 * [SEO glossary and web basics](glossary.md) - Core SEO and web-infrastructure terms used throughout this record, niche, keyword, SERP, KD, search intent, and how a search engine and the web itself work.
 * [Connect Claude, ChatGPT or Muse AI to this record](connect-claude-and-chatgpt.md) - Step-by-step setup for adding AskSEO as a custom MCP connector in Claude, ChatGPT and Muse AI, so each one answers grounded in this record instead of guessing.
 * [Why SEO matters, and what ranks a page](why-seo-matters.md) - Why SEO is treated as a standalone skill in this course, and the balance of factors (authority, content, backlinks, niche difficulty) that decide a ranking.

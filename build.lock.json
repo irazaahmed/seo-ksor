@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:d45756b8c53fa18915935ae96c7d6163f7e901729614a92aa7b537e9f9265602",
+  "build_id": "sha256:e9c6dd5844ac9c3a4cde0868009ddd8ce057286b9371cd36fb18aefd380c965a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "03fcead65cd67ff63d89ad00b19f3aebbfdfda40",
+  "source_commit": "88e2e8e3204b0de4d533ca622220567a64476830",
   "dirty": true,
-  "as_of": "2026-10-18T18:00:46.704Z",
+  "as_of": "2026-10-18T18:10:53.314Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -138,6 +138,17 @@
     {
       "path": "glossary.md",
       "sha256": "0a7348d1c50128b599def61100dcb6a2fed73ff8af09d656025f8936564c3581",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "infographics.md",
+      "sha256": "f3bfde65a31eee70d33625963136c39961597ecf4d9b77287325057dce16ac1e",
       "status": "stable",
       "audience": [
         "public"
@@ -1107,7 +1118,7 @@
     },
     {
       "path": "index.md",
-      "sha256": "f2052ea8b5e869526f866748cb263caf7ba046a8ac86cb32c154a1ef6d43394e"
+      "sha256": "ef4f41fa554b5d66b4d9ece52669a07dd4badae330a6655a5b991004bbe90b42"
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
@@ -1145,8 +1156,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "a8d8d09eff577edebd9885f94bb18f96fc6601062f5941fa441fd86a694cbc4f",
-      "files": 134
+      "sha256": "c471b8e801491e74966a71e5c00ea90b5c592b554fc05105d2fa63643abde72b",
+      "files": 135
     }
   ]
 }

@@ -8,6 +8,7 @@
     "build": "ksor build --allow-unverifiable-ledger && npm --prefix system/site run build",
     "preview": "node system/site/preview.mjs",
     "check": "node .agents/skills/format-checker/check.mjs",
+    "gallery": "node system/tools/infographic-gallery.mjs",
     "provision": "npm run schema && npm run grant",
     "serve": "ksor serve",
     "refresh": "ksor build && npm run ingest && npm run gc",
