@@ -5,11 +5,11 @@ description: Sir Tanveer Nandla's lesson on the difference between content cover
 status: stable
 order: 11.6
 added: 2026-10-13T10:58:49Z
-generated: { by: process:claude-code, at: 2026-10-13T10:54:46Z }
+generated: { by: process:claude-code, at: 2026-10-18T18:15:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-13T10:54:46Z }
+  approval: { by: human:ahmedraza, at: 2026-10-18T18:15:00Z }
 sources:
   - id: tanveer-coverage
     title: "Content Coverage vs Keyword Coverage"
@@ -20,7 +20,7 @@ sources:
   - id: nichespark-site
     resource: https://nichespark.tech/
     title: NicheSpark website
-verified: [{ by: human:ahmedraza, at: 2026-10-13T10:54:46Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-18T18:15:00Z }]
 ---
 
 *The lesson on this page was taught by Sir Tanveer Nandla in the Content
@@ -183,7 +183,7 @@ keyword research](nichespark-autocomplete-keyword-tool.md).
 ## Related in this record
 
 - [Content coverage: the 200-volume benchmark method](content-coverage-and-planning.md)
-- [Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](content-coverage-related-keywords-and-programmatic-seo.md)
+- [Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](content-coverage-related-keywords-and-programmatic-seo.md)
 
 [^tanveer-coverage]: Sir Tanveer Nandla, iSkills SEO, Content Coverage module, "Content Coverage vs Keyword Coverage".
 [^nichespark-cws]: NicheSpark on the Chrome Web Store.

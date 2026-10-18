@@ -5,11 +5,11 @@ description: The whole AskSEO curriculum as one ordered training path, from SEO 
 status: stable
 order: 0.5
 added: 2026-10-12T17:45:10Z
-generated: { by: process:claude-code, at: 2026-10-12T17:37:33Z }
+generated: { by: process:claude-code, at: 2026-10-18T18:15:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-12T17:43:15Z }
+  approval: { by: human:ahmedraza, at: 2026-10-18T18:15:00Z }
 ---
 
 This page is the map of the record. Every step below links to the class
@@ -57,7 +57,7 @@ Turn the niche into a keyword list, then into a content plan.
 - [Manual and tool-based keyword research methods](keyword-research-and-content-planning/keyword-research-methods.md)
 - [NicheSpark: Chrome extension for Google Autocomplete keyword research](keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.md)
 - [Content coverage: the 200-volume benchmark method](keyword-research-and-content-planning/content-coverage-and-planning.md)
-- [Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md)
+- [Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md)
 
 ## Step 4: SEO content writing
 

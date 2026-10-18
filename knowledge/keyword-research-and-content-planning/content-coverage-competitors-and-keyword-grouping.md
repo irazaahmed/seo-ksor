@@ -5,16 +5,16 @@ description: "Sir Tanveer Nandla's Content Coverage Class 2: avoiding thin conte
 status: stable
 order: 11.7
 added: 2026-10-18T17:59:00Z
-generated: { by: human:ahmedraza, at: 2026-10-18T17:59:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-18T18:15:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-18T17:59:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-18T18:15:00Z }
 sources:
   - id: content-coverage-class-02
     title: "SEO module, Content Coverage Class 2"
     resource: "iSkills SEO Content Coverage Class 2 notes, taught by Sir Tanveer Nandla"
-verified: [{ by: human:ahmedraza, at: 2026-10-18T17:59:00Z }]
+verified: [{ by: human:ahmedraza, at: 2026-10-18T18:15:00Z }]
 ---
 
 *This whole document is from Class 2 of Content Coverage in the SEO module,
@@ -43,7 +43,7 @@ it**.[^content-coverage-class-02]
 4. **Competitors via Ahrefs**
 
 We had already studied the first 3 (see
-[Content coverage, Class 16](content-coverage-related-keywords-and-programmatic-seo.md)).
+[Content coverage, Class 1](content-coverage-related-keywords-and-programmatic-seo.md)).
 Today we look at the fourth.[^content-coverage-class-02]
 
 ## Source 4: competitors via Ahrefs

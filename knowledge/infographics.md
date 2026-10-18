@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-18T18:10:46Z }
+generated: { by: human:ahmedraza, at: 2026-10-18T18:15:38Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-18T18:10:46Z }
+  approval: { by: human:ahmedraza, at: 2026-10-18T18:15:38Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -74,9 +74,9 @@ chapter's title to read the full lesson behind it.*
 
 ## Keyword research and content coverage
 
-### [Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md)
+### [Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md)
 
-![Infographic: Content coverage, Class 16: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo-infographic.webp)
+![Infographic: Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo-infographic.webp)
 
 ### [Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping.md)
 

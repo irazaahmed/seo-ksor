@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:e9c6dd5844ac9c3a4cde0868009ddd8ce057286b9371cd36fb18aefd380c965a",
+  "build_id": "sha256:7f4d7923bdf3f355465c7a01b6c87df7a7cdc5284430bc7902d59a975ba79475",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "88e2e8e3204b0de4d533ca622220567a64476830",
+  "source_commit": "b8c6ecf7a91c5dcd4a18c7c1df6a8767bea36816",
   "dirty": true,
-  "as_of": "2026-10-18T18:10:53.314Z",
+  "as_of": "2026-10-18T18:15:47.439Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "f3bfde65a31eee70d33625963136c39961597ecf4d9b77287325057dce16ac1e",
+      "sha256": "74abc867d8febc58662181ac3a9799e3947001a76c9bbc60e89b0c250c56c61f",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping.md",
-      "sha256": "a14868f0dbb9485a54fb0c7f2f84ee6ce55c9ce9616b7fd06c1204a95c868021",
+      "sha256": "7cab8d8264412f024c888da5dcfab684dc253c80054d1c73474953ace56f33f2",
       "status": "stable",
       "audience": [
         "public"
@@ -181,7 +181,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md",
-      "sha256": "5bc361aa9c232f599daae42dcab69be8ba93a9ff01f837ad25b1ebdfbf10059c",
+      "sha256": "87c0294b4d7dbce455b9097b00d632660fa143833fe308fd6f63182ad67ae738",
       "status": "stable",
       "audience": [
         "public"
@@ -192,7 +192,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-vs-keyword-coverage.md",
-      "sha256": "56ca47878ccb5179bcd29648a3a5910a606347fb08e039cd9b66037f7b0b790f",
+      "sha256": "bfc0919a631a27f9a21b116c5b28bd7d3e08b6cc590cc9ece866aff0151b5361",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "learn-seo.md",
-      "sha256": "b1aa380f96d5b72cf3c930232cc917231d93ecb3546c754b9a82aa5037aef8bf",
+      "sha256": "24e46b1dfdc1ce43acd09e559d79f263e1062bf4266b57283a24528892b5c951",
       "status": "stable",
       "audience": [
         "public"
@@ -1122,7 +1122,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "0828c38beb2fd4b043b6ac8bec30d7c99a6b61b7f4f6b1abf7ad1df5039d3be3"
+      "sha256": "732b91f16df8115fc60b043c18732e0da8475918ad00673a672afc242d4c16b0"
     },
     {
       "path": "local-seo/index.md",
@@ -1156,7 +1156,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "c471b8e801491e74966a71e5c00ea90b5c592b554fc05105d2fa63643abde72b",
+      "sha256": "4cd0196d78084d6022260aa074c12d4a8c3b5ec23c0a15526aed99379689bd75",
       "files": 135
     }
   ]
