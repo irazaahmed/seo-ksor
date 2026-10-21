@@ -25,7 +25,8 @@ const MODULE_NAMES = {
   "ai-agents": "AI Agents",
   "keyword-research-and-content-planning": "Keyword research and content coverage",
   "niche-research": "Niche research",
-  "quick-skills/etsy": "Quick Skills: Etsy",
+  "quick-skills/etsy/etsy-by-sir-zafar-ali": "Quick Skills: Etsy by Sir Zafar Ali",
+  "quick-skills/etsy/etsy-by-sir-zakria-afzal": "Quick Skills: Etsy by Sir Zakria Afzal",
 };
 
 const INFOGRAPHIC = /^!\[Infographic:\s*(.+?)\]\(([^)\s]+)\)\s*$/gm;

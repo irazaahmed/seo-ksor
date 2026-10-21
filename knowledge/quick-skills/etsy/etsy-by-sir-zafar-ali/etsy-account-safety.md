@@ -5,15 +5,15 @@ description: How to prepare an Etsy account before applying for a seller account
 status: stable
 order: 51
 added: 2026-09-20T09:37:53Z
-generated: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-09-22T12:00:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-09-22T12:00:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-21T01:33:00Z }]
 ---
 
-*Taught by Sir Zafar Ali, like the rest of the Etsy chapter.*
+*Taught by Sir Zafar Ali, like the rest of this Etsy section.*
 
 New Etsy accounts get suspended for signals that have nothing to do with the
 products being sold, mostly connection and behaviour signals Etsy checks

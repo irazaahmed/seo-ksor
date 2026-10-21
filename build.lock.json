@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:7f4d7923bdf3f355465c7a01b6c87df7a7cdc5284430bc7902d59a975ba79475",
+  "build_id": "sha256:8921a86592a32bd748b0ff71b6b33954aae6cf1697c97c0a402cef61e1837864",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "b8c6ecf7a91c5dcd4a18c7c1df6a8767bea36816",
+  "source_commit": "ba163f5a4fd412631d89557576a2bca10926450a",
   "dirty": true,
-  "as_of": "2026-10-18T18:15:47.439Z",
+  "as_of": "2026-10-21T01:39:11.860Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "74abc867d8febc58662181ac3a9799e3947001a76c9bbc60e89b0c250c56c61f",
+      "sha256": "3311a2502c2ae758df276c8bb71b81615f3760eb8b748403eaa961a7dd36dc71",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "learn-seo.md",
-      "sha256": "24e46b1dfdc1ce43acd09e559d79f263e1062bf4266b57283a24528892b5c951",
+      "sha256": "a59fd8132949b0fc2f8138a06eb6bc5a9c2281037003bc98df734ce5ba2c5a2e",
       "status": "stable",
       "audience": [
         "public"
@@ -741,8 +741,8 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-account-creation.md",
-      "sha256": "544dc31156775c91c41f945cfbf085348619ec88fbd8f153a17238027b04e26a",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation.md",
+      "sha256": "31e1787241353aa96e962dcda8d8061fd727e9af6a5160acb597e6c1c099f0a8",
       "status": "stable",
       "audience": [
         "public"
@@ -752,8 +752,8 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-account-safety.md",
-      "sha256": "4062ffc9163da690c5c9c0f8356c57097188505244944516bdd1dba601477735",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-safety.md",
+      "sha256": "d15d38ba7d38e4a4bef2994c39f4b5f9b78ac6e847b8e74a18cd6875c207fb51",
       "status": "stable",
       "audience": [
         "public"
@@ -763,29 +763,7 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion.md",
-      "sha256": "ac36faff8428967e83e71ce7915baf067e0178264d6628ce1f43d67435a59501",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt.md",
-      "sha256": "2ef6bef4a9bfd7417b1d97a0d9eea6cb3894451a82f8f453dae8b1da9b0f36f5",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-research-in-bulk.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-research-in-bulk.md",
       "sha256": "8119aa50d3e39b52408288f2f599c76830b20945f1f45d1a894c2c113cc20195",
       "status": "stable",
       "audience": [
@@ -796,18 +774,7 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners.md",
-      "sha256": "fb018bbd0bfb4dff2aada63b2f6b4953e71c2cde293a78518c90d3a8ef0e5341",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-types.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-types.md",
       "sha256": "1dd28ea10f3938226231c2503359d645c64f6098cf49595544f1a9f23378d544",
       "status": "stable",
       "audience": [
@@ -818,8 +785,8 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-listing-and-competitor-research.md",
-      "sha256": "f97b497ab04e4e4a72f228c6f63cc672cd3cbcd6602c3516dcc8fc98b88eb3fa",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research.md",
+      "sha256": "bad759b132436d103071b11dc02038ac2beaaf8bee30c19516926c48f7631299",
       "status": "stable",
       "audience": [
         "public"
@@ -829,7 +796,7 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-listing-and-shop-overview.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview.md",
       "sha256": "80379b13aa798f3b66796f2a1d852dc045873b8709001a8ddb604a9545376bc5",
       "status": "stable",
       "audience": [
@@ -840,7 +807,7 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-manual-research-methods-and-shop-assignment.md",
       "sha256": "104c7f2f3524a70925a803df99811f15c7c23c5b2fb2ad40c4337ab340c5899d",
       "status": "stable",
       "audience": [
@@ -851,29 +818,7 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical.md",
-      "sha256": "89e9393369ed51a6237f2e3e32e7c31e5d2afa085aa1866b34dccb9b885cf87c",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips.md",
-      "sha256": "5fccfea0830103faa5542f155e61dafa305b92122b1ea3029ae4c1fccbc129c1",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria.md",
       "sha256": "a007e9f1eee78c20da985b184a4079c427b4be03d68b1afdb0bda48182b9fa0f",
       "status": "stable",
       "audience": [
@@ -884,8 +829,8 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-seo-and-keyword-research.md",
-      "sha256": "1d6e005714a37d814587d0b703cce51d9bae6545605f9f1e962a53f17e99b183",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-seo-and-keyword-research.md",
+      "sha256": "5d3d5dfeef6316901c5c0cf079f43b54e300e748b1736ee6eecf766bca3d295c",
       "status": "stable",
       "audience": [
         "public"
@@ -895,7 +840,84 @@
       ]
     },
     {
-      "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering.md",
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link.md",
+      "sha256": "563506443131d8a9ba68a78d3513a320b4d95740d81ae5b5ff97fe170ed86bdb",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-clear-all-confusion.md",
+      "sha256": "ac36faff8428967e83e71ce7915baf067e0178264d6628ce1f43d67435a59501",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-erank-and-ehunt.md",
+      "sha256": "2ef6bef4a9bfd7417b1d97a0d9eea6cb3894451a82f8f453dae8b1da9b0f36f5",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-roadmap-for-beginners.md",
+      "sha256": "fb018bbd0bfb4dff2aada63b2f6b4953e71c2cde293a78518c90d3a8ef0e5341",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation.md",
+      "sha256": "886b387a06f5b4f789c9cf6de605b46cc8d033612022bbe69762ca7e6e317b8f",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical.md",
+      "sha256": "89e9393369ed51a6237f2e3e32e7c31e5d2afa085aa1866b34dccb9b885cf87c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-ranking-funnel-and-pro-tips.md",
+      "sha256": "5fccfea0830103faa5542f155e61dafa305b92122b1ea3029ae4c1fccbc129c1",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-seo-ranking-formula-and-keyword-layering.md",
       "sha256": "ebbbf8f99098c88bab2e1b5356651d57edeaa7c9f2664084bacc0c1d8a100a73",
       "status": "stable",
       "audience": [
@@ -1051,55 +1073,63 @@
       "sha256": "64bc15a86a1267f01a456dc1904cfd03dd6d28adc4088c9ede28d2e5c5899ba8"
     },
     {
-      "path": "quick-skills/etsy/etsy-account-creation-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation-infographic.webp",
       "sha256": "6c231d4e00f9c7230c7a5c08d201f208f45887d8e012cddf7d8a5236f064b1f6"
     },
     {
-      "path": "quick-skills/etsy/etsy-keyword-research-clear-all-confusion-infographic.webp",
-      "sha256": "a958edc15a2032086e6ec671efc6fccf625b77683e9868b8321ca7be27d279ea"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-research-erank-and-ehunt-infographic.webp",
-      "sha256": "5df47980a90ea6b31f08271d5c284372fcd6e9914894b522e405e9df8f7283aa"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-research-in-bulk-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-research-in-bulk-infographic.webp",
       "sha256": "1c1b124b827f50a05be5c5167cd794446edf8bf158808a3a45f46f9545afd959"
     },
     {
-      "path": "quick-skills/etsy/etsy-keyword-roadmap-for-beginners-infographic.webp",
-      "sha256": "c88c28887f13a802e0882da5d5126f67582a5c9fccccd7230213e0ffcc81dfa6"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-keyword-types-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-types-infographic.webp",
       "sha256": "45d3ac9ea427e2cac8e26c7acd220ea99e365bee20ae0d648a4d5df0bbe13d71"
     },
     {
-      "path": "quick-skills/etsy/etsy-listing-and-competitor-research-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research-infographic.webp",
       "sha256": "9c42eb1b4b48c16d0a16e62e6c41cf0b06af0d11b2b775e1081c3197969be04f"
     },
     {
-      "path": "quick-skills/etsy/etsy-listing-and-shop-overview-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview-infographic.webp",
       "sha256": "3bd256fa8e3d4b70cc8d6756f6c1b71ca83b045052910180d14ac052a3bd6f77"
     },
     {
-      "path": "quick-skills/etsy/etsy-manual-research-methods-and-shop-assignment-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-manual-research-methods-and-shop-assignment-infographic.webp",
       "sha256": "1c024f3a02bbb06821db6354f97c7e3754b830e9773c8737ca5467dce7e9e3bb"
     },
     {
-      "path": "quick-skills/etsy/etsy-niche-and-keyword-research-practical-infographic.webp",
-      "sha256": "93b9c97d85b5b510a1a07ca1b3138ac7abad9b680c18597be46b82c0f36d1d03"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-ranking-funnel-and-pro-tips-infographic.webp",
-      "sha256": "21d2494c0717b16144bb4b3630cef396d9975f12f49f7bf640ad71f1d2c01e87"
-    },
-    {
-      "path": "quick-skills/etsy/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
       "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
     },
     {
-      "path": "quick-skills/etsy/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp",
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link-infographic.webp",
+      "sha256": "ddad490cc2ea3277def7d235f9a112a198ec1185d6740a9d0093d44bc5132a6f"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-clear-all-confusion-infographic.webp",
+      "sha256": "a958edc15a2032086e6ec671efc6fccf625b77683e9868b8321ca7be27d279ea"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-erank-and-ehunt-infographic.webp",
+      "sha256": "5df47980a90ea6b31f08271d5c284372fcd6e9914894b522e405e9df8f7283aa"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-roadmap-for-beginners-infographic.webp",
+      "sha256": "c88c28887f13a802e0882da5d5126f67582a5c9fccccd7230213e0ffcc81dfa6"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation-infographic.webp",
+      "sha256": "08d9d192c99ea8f6d233a1f7db932d48b89baf87a659444c6f36de07bc7e35c8"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical-infographic.webp",
+      "sha256": "93b9c97d85b5b510a1a07ca1b3138ac7abad9b680c18597be46b82c0f36d1d03"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-ranking-funnel-and-pro-tips-infographic.webp",
+      "sha256": "21d2494c0717b16144bb4b3630cef396d9975f12f49f7bf640ad71f1d2c01e87"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp",
       "sha256": "b6a8e44e4edb93c8fc30e4c14943afae2e58c0dde9e7b02029aa5472e46461ff"
     }
   ],
@@ -1141,8 +1171,16 @@
       "sha256": "b9aa23c8cff12e8d8a8a4f27b6b2ab5a100db6a850954bd4c2106c3729f868ff"
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/index.md",
+      "sha256": "3d18e99aeb04a99a37842f91be0f18d15df54a04364de48c651bb0df5f7b1c6d"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
+      "sha256": "6b52d2bb43dd1ee4087fb9bbed79ebd41b972d445064f80797a9c3308c61ff16"
+    },
+    {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "a2f117a6fec5ef407e354f98056b5d8bff863170778f99f57a3108fe49124899"
+      "sha256": "d593a342818658c973fd395cbc8050c4a88a294e8a3ff251d1cd60ffaefe33e9"
     },
     {
       "path": "quick-skills/index.md",
@@ -1156,8 +1194,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "4cd0196d78084d6022260aa074c12d4a8c3b5ec23c0a15526aed99379689bd75",
-      "files": 135
+      "sha256": "0a482ac9a0ca26d00236f85492da9984c5dac48cbc0c67c96efd8e2023e42f6f",
+      "files": 141
     }
   ]
 }

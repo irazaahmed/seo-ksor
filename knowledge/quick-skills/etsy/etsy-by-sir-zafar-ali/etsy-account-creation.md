@@ -5,15 +5,15 @@ description: "How to set up an Etsy account correctly for a Quick Skills (Etsy) 
 status: stable
 order: 54
 added: 2026-09-20T09:11:02Z
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-21T01:33:00Z }]
 ---
 
-*Every document in the Quick Skills → Etsy chapter is from lectures taught
+*Every document in the Etsy by Sir Zafar Ali section is from lectures taught
 by Sir Zafar Ali.*
 
 ## Start as a buyer account

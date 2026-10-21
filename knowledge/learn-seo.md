@@ -5,11 +5,11 @@ description: The whole AskSEO curriculum as one ordered training path, from SEO 
 status: stable
 order: 0.5
 added: 2026-10-12T17:45:10Z
-generated: { by: process:claude-code, at: 2026-10-18T18:15:00Z }
+generated: { by: process:claude-code, at: 2026-10-21T01:33:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-18T18:15:00Z }
+  approval: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
 ---
 
 This page is the map of the record. Every step below links to the class
@@ -115,9 +115,12 @@ Earn the authority that on-page work alone cannot.
 Specialised modules that build on the steps above.
 
 - **APK websites**: [APK file hosting, download-site setup, and AdSense approval](apk-websites/apk-file-hosting-and-adsense.md)
-- **Etsy (Quick Skills)**: start with [Etsy listings and competitor research](quick-skills/etsy/etsy-listing-and-competitor-research.md)
-  and [Etsy SEO and keyword research](quick-skills/etsy/etsy-seo-and-keyword-research.md),
-  then the rest of the [Etsy section](quick-skills/etsy/index.md).
+- **Etsy (Quick Skills)**: two sections, one per teacher. In
+  [Etsy by Sir Zafar Ali](quick-skills/etsy/etsy-by-sir-zafar-ali/index.md), start with
+  [Etsy listings and competitor research](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research.md)
+  and [Etsy SEO and keyword research](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-seo-and-keyword-research.md).
+  Then [Etsy by Sir Zakria Afzal](quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md), from keyword research
+  to creating your listing.
 - **AI Agents**: [AI Agents, Class 1: what the module is and what to set up](ai-agents/introduction-and-setup.md)
   and [LLMs, tokens, Git and GitHub](ai-agents/llms-tokens-git-and-github.md).
 

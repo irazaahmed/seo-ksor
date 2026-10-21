@@ -4,6 +4,7 @@ import {
   Compass,
   FileText,
   Gauge,
+  GraduationCap,
   KeyRound,
   LayoutTemplate,
   Link2,
@@ -45,6 +46,8 @@ const CHAPTERS: Record<string, ChapterStyle> = {
   "local-seo": { icon: MapPin, tone: "rose" },
   "quick-skills": { icon: Zap, tone: "lime" },
   etsy: { icon: ShoppingBag, tone: "orange" },
+  "etsy-by-sir-zafar-ali": { icon: GraduationCap, tone: "amber" },
+  "etsy-by-sir-zakria-afzal": { icon: GraduationCap, tone: "rose" },
   "ai-agents": { icon: Bot, tone: "teal" },
 };
 

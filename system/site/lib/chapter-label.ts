@@ -9,17 +9,23 @@
  * breadcrumb, folder page heading) goes through this one function.
  */
 
-// Words a plain sentence-case pass gets wrong: acronyms and brand names.
+// Words a plain sentence-case pass gets wrong: acronyms, brand names and
+// the teachers' names a section is titled after ("etsy-by-sir-zafar-ali").
 const TERMS: Record<string, string> = {
+  afzal: "Afzal",
   ai: "AI",
+  ali: "Ali",
   apk: "APK",
   gbp: "GBP",
   nlp: "NLP",
   saas: "SaaS",
   seo: "SEO",
   serp: "SERP",
+  sir: "Sir",
   ugc: "UGC",
   wordpress: "WordPress",
+  zafar: "Zafar",
+  zakria: "Zakria",
 };
 
 // Compound modifiers the slug loses its hyphen for.

@@ -5,15 +5,15 @@ description: Why most Etsy sellers fail, what a listing needs to get right for m
 status: stable
 order: 50
 added: 2026-09-20T09:37:53Z
-generated: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
+generated: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T10:55:00Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-16T10:55:00Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-21T01:33:00Z }]
 ---
 
-*Taught by Sir Zafar Ali, like the rest of the Etsy chapter.*
+*Taught by Sir Zafar Ali, like the rest of this Etsy section.*
 
 ## Digital products, without investment
 
