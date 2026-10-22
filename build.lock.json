@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:8921a86592a32bd748b0ff71b6b33954aae6cf1697c97c0a402cef61e1837864",
+  "build_id": "sha256:84367a1c7e6fe44a8e59e8372ae63bfe9745993adb0f39d63e1ade62fbc3c7b9",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "ba163f5a4fd412631d89557576a2bca10926450a",
+  "source_commit": "5bcd1a8e17925205a802ec662701067b8920b32b",
   "dirty": true,
-  "as_of": "2026-10-21T01:39:11.860Z",
+  "as_of": "2026-10-22T01:47:24.257Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "3311a2502c2ae758df276c8bb71b81615f3760eb8b748403eaa961a7dd36dc71",
+      "sha256": "f92f4bece2dd2579f26be64a3014d9f2259dc908644f9da6af39047096c4ccde",
       "status": "stable",
       "audience": [
         "public"
@@ -928,6 +928,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation.md",
+      "sha256": "8504538ccba0a454fcf9952c8757d3442ac6be34ccc64dd129517282f76f9004",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "why-seo-matters.md",
       "sha256": "b8e62cf737d1f1eead58eea1e79b6ff89ec28037814a4bf9afde5e86ae2b13e4",
       "status": "stable",
@@ -1131,6 +1142,10 @@
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp",
       "sha256": "b6a8e44e4edb93c8fc30e4c14943afae2e58c0dde9e7b02029aa5472e46461ff"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation-infographic.webp",
+      "sha256": "8595b5d0d756e7b40f8f8e3b7a225dd99d263396db86d7d4a9bfdd6a0077c0c2"
     }
   ],
   "indexes": [
@@ -1176,7 +1191,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
-      "sha256": "6b52d2bb43dd1ee4087fb9bbed79ebd41b972d445064f80797a9c3308c61ff16"
+      "sha256": "072b7de423e09a616de010218337192126de76a89bbf3e9ce265559f9650694d"
     },
     {
       "path": "quick-skills/etsy/index.md",
@@ -1194,8 +1209,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "0a482ac9a0ca26d00236f85492da9984c5dac48cbc0c67c96efd8e2023e42f6f",
-      "files": 141
+      "sha256": "5f8a7a9b6a8ff7107616bd5dbd0cccb5093cda7b86ccfce7eee5853f931c418f",
+      "files": 143
     }
   ]
 }

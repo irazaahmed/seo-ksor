@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-21T01:34:21Z }
+generated: { by: human:ahmedraza, at: 2026-10-22T01:46:24Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-21T01:34:21Z }
+  approval: { by: human:ahmedraza, at: 2026-10-22T01:46:24Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -145,6 +145,10 @@ chapter's title to read the full lesson behind it.*
 ### [Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation.md)
 
 ![Infographic: Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation-infographic.webp)
+
+### [Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation.md)
+
+![Infographic: Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation-infographic.webp)
 
 ## AI Agents
 
