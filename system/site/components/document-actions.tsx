@@ -26,7 +26,14 @@ import {
  * an agent find the address without opening anything. Verified in the built
  * HTML before this moved.
  */
-export function DocumentActions({ href }: { readonly href: string }): ReactElement {
+export function DocumentActions({
+  href,
+  compact = false,
+}: {
+  readonly href: string;
+  /** Icon only, for the one-line strip a phone gets; the word stays for a screen reader. */
+  readonly compact?: boolean;
+}): ReactElement {
   const [failed, setFailed] = useState(false);
   const [copied, setCopied] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -71,12 +78,12 @@ export function DocumentActions({ href }: { readonly href: string }): ReactEleme
             record where `visibility:` decides who may read a document is the
             wrong verb entirely. */}
           <Download aria-hidden className="size-3.5" />
-          Export
-          <ChevronDown aria-hidden className="size-3 opacity-60" />
+          {compact ? <span className="sr-only">Export</span> : "Export"}
+          {compact ? null : <ChevronDown aria-hidden className="size-3 opacity-60" />}
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent align="start" className="w-52">
+      <DropdownMenuContent align={compact ? "end" : "start"} className="w-52">
         <DropdownMenuItem asChild>
           <a href={href}>
             <FileText aria-hidden className="size-4" />

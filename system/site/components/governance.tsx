@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { DocumentActions } from "@/components/document-actions";
-import { Clock } from "lucide-react";
+import { Clock, ShieldCheck } from "lucide-react";
 import type { ReactElement } from "react";
 
 import { displayActor } from "@/lib/actor-display";
@@ -238,7 +238,22 @@ export function GovernanceMeta({
    */
   return (
     <div className="mb-7 border-b border-fd-border pb-4">
-      <dl className="flex flex-wrap items-baseline gap-x-8 gap-y-2.5">
+      {/* On a phone the two tiers below took half the first screen: four
+          labelled facts, each on a line of its own (owner, 2026-10-22: "phone
+          par isay ek chhoti line mein kar do"). So a phone gets ONE line —
+          any caveat chip, the trust tier, the owner's name, the reading time
+          and Export — and the full register from `sm` up.
+          The full register is still in the markup on a phone, hidden, so
+          nothing an agent parses is lost. */}
+      <CompactGovernance
+        governance={governance}
+        state={status === "stable" ? null : state}
+        alsoBadge={alsoBadge}
+        tier={trust.tier}
+        markdownUrl={markdownUrl}
+        minutes={minutes}
+      />
+      <dl className="hidden flex-wrap items-baseline gap-x-8 gap-y-2.5 sm:flex">
         {state === null && alsoBadge === null ? null : (
           <Fact label="Status">
             <span className="flex flex-wrap items-baseline gap-1.5">
@@ -287,7 +302,7 @@ export function GovernanceMeta({
 
           Links keep full strength: `Replaces` points at the document this one
           superseded, and that is an action rather than a fact. */}
-      <dl className="mt-2.5 flex flex-wrap items-baseline gap-x-8 gap-y-2.5 empty:mt-0 [&_a]:text-fd-foreground [&_dd]:font-normal [&_dd]:text-fd-muted-foreground">
+      <dl className="mt-2.5 hidden flex-wrap items-baseline gap-x-8 gap-y-2.5 empty:mt-0 sm:flex [&_a]:text-fd-foreground [&_dd]:font-normal [&_dd]:text-fd-muted-foreground">
         {owner === null ? null : <Fact label="Owner">{displayActor(owner, peopleBook())}</Fact>}
         {/* Who let this into the record. `ksor.approval` is what makes a `stable`
           document stable at all (record spec §2.2), so a page that showed the
@@ -343,6 +358,79 @@ export function GovernanceMeta({
         )}
         {staleAfter === null ? null : <Fact label="Review by">{day(staleAfter)}</Fact>}
       </dl>
+    </div>
+  );
+}
+
+/** A name to print for an actor: the phone book's name alone, else the actor as stored. */
+function nameOf(actor: string): string {
+  return peopleBook().get(actor) ?? displayActor(actor, peopleBook());
+}
+
+/**
+ * The governance strip on a phone, as one line. `stable` is silent here, as it
+ * is in every listing; a caveat (draft, deprecated, a date state) still leads.
+ * The approval date is left to the full register: with it the line wrapped to
+ * two at 390px (measured, 2026-10-22).
+ */
+function CompactGovernance({
+  governance,
+  state,
+  alsoBadge,
+  tier,
+  markdownUrl,
+  minutes,
+}: {
+  governance: DocumentGovernance;
+  state: string | null;
+  alsoBadge: LifecycleBadge | null;
+  tier: string;
+  markdownUrl?: string;
+  minutes?: number;
+}): ReactElement {
+  const { owner, approval, effectiveFrom, status } = governance;
+  const who = owner ?? approval?.by ?? null;
+  const dot = (
+    <span aria-hidden className="text-fd-border">
+      ·
+    </span>
+  );
+  return (
+    <div className="flex flex-wrap items-center gap-x-2 gap-y-1.5 text-xs text-fd-muted-foreground sm:hidden">
+      {state === null ? null : (
+        <span className="font-mono text-[0.625rem]">
+          <Chip text={state} tone={statusTone(status)} />
+        </span>
+      )}
+      {alsoBadge === null ? null : (
+        <span className="font-mono text-[0.625rem]">
+          <BadgeChip badge={alsoBadge} effectiveFrom={effectiveFrom} />
+        </span>
+      )}
+      <span className="inline-flex items-center gap-1 font-semibold text-fd-foreground capitalize">
+        <ShieldCheck aria-hidden className="size-3.5 text-fd-primary" />
+        {tier.replace("-", " ")}
+      </span>
+      {who === null ? null : (
+        <>
+          {dot}
+          <span>{nameOf(who)}</span>
+        </>
+      )}
+      {minutes === undefined ? null : (
+        <>
+          {dot}
+          <span className="inline-flex items-center gap-1">
+            <Clock aria-hidden className="size-3" />
+            {minutes} min
+          </span>
+        </>
+      )}
+      {markdownUrl === undefined ? null : (
+        <span className="ms-auto">
+          <DocumentActions href={markdownUrl} compact />
+        </span>
+      )}
     </div>
   );
 }
