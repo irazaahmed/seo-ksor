@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:6a8352846b42fa151097d9eeefe062b5896fadba49ef656f3f0938b99994e0cf",
+  "build_id": "sha256:7cca801255e21d284ba5282534ac59cb9314fa8aeaabff35a6f1c850ad02cb04",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "59497214441ae0e07339ad9dbbea46499c477ba0",
+  "source_commit": "4d7e57fe708e77a2fa430577000affc645176412",
   "dirty": true,
-  "as_of": "2026-10-22T18:41:32.041Z",
+  "as_of": "2026-10-22T18:50:36.477Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -796,6 +796,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales.md",
+      "sha256": "e07c1fdedaa6328fe7d33fc0d17180ea1e29800733a0aa572882a1d43f80e184",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview.md",
       "sha256": "80379b13aa798f3b66796f2a1d852dc045873b8709001a8ddb604a9545376bc5",
       "status": "stable",
@@ -1111,6 +1122,10 @@
       "sha256": "9c42eb1b4b48c16d0a16e62e6c41cf0b06af0d11b2b775e1081c3197969be04f"
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales-infographic.webp",
+      "sha256": "084fd607413eade6958ca2897c5561716e1a3d1abcfd219423feed17a2fab5e3"
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview-infographic.webp",
       "sha256": "3bd256fa8e3d4b70cc8d6756f6c1b71ca83b045052910180d14ac052a3bd6f77"
     },
@@ -1202,7 +1217,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/index.md",
-      "sha256": "f389ee5d4bee39a3c3fb60ff1551a06f62b4322a66eb77e89503e2978328a7b3"
+      "sha256": "bad2db5bf82f1ab68bb4863e19167a6d1ec94a95ad7fb6fd16c70626bfc0345a"
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
@@ -1224,8 +1239,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "b0c757b2bddb162d535a460681e2032ae2aafa2a4182f99c699899696f1a111c",
-      "files": 145
+      "sha256": "2d01d36bdab4089c14ece8338cc5dc2ac89c22d508343ad06d491d98bc42c63b",
+      "files": 147
     }
   ]
 }
