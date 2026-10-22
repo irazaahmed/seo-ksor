@@ -17,7 +17,7 @@ import type { RecordEntry } from "@/lib/source";
  * adopter's corpus. Every KSoR would ship the identical picture, and it would
  * say nothing about the record behind it.
  *
- * So the picture is made of the record. The document `Open the record` opens
+ * So the picture is made of the record. The document `Start learning` opens
  * leads, fully set — its own title, its own words, its own governance — and the
  * record's next entries stand behind it with depth. A record of one document
  * and a record of two hundred therefore get visibly different front doors,
@@ -32,7 +32,7 @@ export function RecordStack({
   behind,
   documents,
 }: {
-  /** The document `Open the record` lands on. */
+  /** The document `Start learning` lands on. */
   lead: RecordEntry;
   /** The entries standing behind it — at most three; the rest are counted. */
   behind: readonly RecordEntry[];
@@ -49,17 +49,17 @@ export function RecordStack({
     <div className="w-full min-w-0 max-w-md motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-3 motion-safe:duration-700 motion-safe:[animation-delay:180ms] motion-safe:[animation-fill-mode:backwards]">
       <Link
         href={lead.url}
-        className="group relative z-30 block rounded-xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] p-5 shadow-[0_28px_60px_-32px_rgb(15_23_42/0.55)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none sm:p-7"
+        className="ksor-stack-lead group relative z-30 block overflow-hidden rounded-2xl border border-[var(--ksor-cover-panel-rule)] bg-[var(--ksor-cover-panel)] p-5 shadow-[0_28px_60px_-32px_rgb(15_23_42/0.55)] transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none sm:p-7"
       >
         <div className="flex items-baseline justify-between gap-4">
           {/* The one label that ties this card to the button beside it. */}
-          <span className="font-mono text-[10px] tracking-[0.2em] text-[var(--ksor-cover-muted)] uppercase">
+          <span className="font-mono text-[10px] font-semibold tracking-[0.2em] text-fd-primary uppercase">
             Opens here
           </span>
           {lead.badge === null ? null : <StatusChip badge={lead.badge} />}
         </div>
 
-        <h2 className="mt-4 font-display text-2xl leading-snug font-semibold tracking-[-0.008em] transition-colors group-hover:text-fd-primary">
+        <h2 className="mt-4 font-display text-2xl leading-snug font-bold tracking-[-0.02em] transition-colors group-hover:text-fd-primary">
           {lead.title}
         </h2>
 

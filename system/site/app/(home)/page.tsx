@@ -4,7 +4,6 @@ import type { ReactElement } from "react";
 import { FooterMark } from "@/components/footer-mark";
 import { HomeCover } from "@/components/home-cover";
 import { LandingConnect } from "@/components/landing-connect";
-import { LandingStats } from "@/components/landing-stats";
 import { LandingTopics } from "@/components/landing-topics";
 import { appDescription, appName, appPurpose, appTitle, mcpEndpoint, siteUrl } from "@/lib/shared";
 import { baseOpenGraph, baseTwitter } from "@/lib/seo";
@@ -99,9 +98,9 @@ export default function HomePage(): ReactElement {
   const entries = entriesUnder("");
   const lead = entries.find((entry) => entry.url === first.url) ?? entryFor(first);
   const behind = entries.filter((entry) => entry.url !== lead.url).slice(0, 3);
-  // Folders hold documents; the two root-level leaves (glossary,
-  // why-seo-matters) do not — so this counts topic AREAS, not every entry.
-  const topics = entries.filter((entry) => entry.documents > 0).length;
+  // Folders hold documents; the root-level leaves (glossary,
+  // why-seo-matters) do not — so these are the chapters, not every entry.
+  const chapters = entries.filter((entry) => entry.documents > 0);
 
   return (
     <main className="flex flex-1 flex-col">
@@ -118,11 +117,11 @@ export default function HomePage(): ReactElement {
         // above somebody else's knowledge (research/site-design.md F7).
         purpose={appPurpose}
         documents={pages.length}
+        chapters={chapters}
         firstUrl={first.url}
         lead={lead}
         behind={behind}
       />
-      <LandingStats documents={pages.length} topics={topics} />
       <LandingTopics entries={entries} />
       <LandingConnect mcpUrl={mcpEndpoint()} />
       <footer className="border-t border-fd-border bg-fd-muted/10">

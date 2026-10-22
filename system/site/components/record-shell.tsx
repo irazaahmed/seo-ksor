@@ -4,15 +4,14 @@ import { DocsLayout } from "fumadocs-ui/layouts/docs";
 import { ThemeSwitch } from "fumadocs-ui/layouts/shared/slots/theme-switch";
 import { PanelLeftClose } from "lucide-react";
 
-import { FooterMark } from "@/components/footer-mark";
+import { audienceNotice } from "@/lib/audience";
 import { SignIn } from "@/components/sign-in";
 import { baseOptions } from "@/lib/layout.shared";
-import { appName } from "@/lib/shared";
-import { basePath, getSortedPageTree, getSortedPages } from "@/lib/source";
+import { getSortedPageTree } from "@/lib/source";
 
 /**
  * The chrome every page of the record wears: the governed tree as a sidebar,
- * search, and the record's own identity at its foot.
+ * search, and the account and theme controls at its foot.
  *
  * The FRONT DOOR wears it too. A system of record whose first page hides the
  * record behind a marketing layout makes a reader click before they can see
@@ -23,8 +22,6 @@ import { basePath, getSortedPageTree, getSortedPages } from "@/lib/source";
  * disagrees with itself between two routes.
  */
 export function RecordShell({ children }: { children: ReactNode }): ReactElement {
-  const documents = getSortedPages().length;
-
   return (
     <DocsLayout
       tree={getSortedPageTree()}
@@ -77,24 +74,14 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
                 <ThemeSwitch />
               </div>
             </div>
-            {/* The record's own identity, on every page rather than only the
-                home page: the slug is what citations carry and llms.txt is the
-                door an agent is told to read. */}
-            <p className="text-xs text-fd-muted-foreground">
-              <span className="font-mono">{appName}</span> · {documents} document
-              {documents === 1 ? "" : "s"} ·{" "}
-              <a
-                href={`${basePath}/llms.txt`}
-                className="underline underline-offset-4 transition-colors hover:text-fd-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring"
-              >
-                llms.txt
-              </a>
-            </p>
-            {/* Full width, so the attribution wraps once instead of being
-                squeezed into three lines beside the buttons. */}
-            <p className="text-xs leading-relaxed">
-              <FooterMark />
-            </p>
+            {/* The record's name, document count, llms.txt link and the
+                attribution used to sit here, two more rows under the controls
+                (owner, 2026-10-22: "agar zaroori nahi to hatao, wo bht space
+                le rahe"). Agents still find llms.txt at its standard address and through every page's
+                `rel="describedby"` link; the attribution
+                stays in the home page's footer. Only a non-public build's
+                audience notice remains, because that one is a warning. */}
+            <AudienceNotice />
           </div>
         ),
       }}
@@ -102,4 +89,10 @@ export function RecordShell({ children }: { children: ReactNode }): ReactElement
       {children}
     </DocsLayout>
   );
+}
+
+/** A non-public build names its audience at the sidebar's foot; the public build shows nothing. */
+function AudienceNotice(): ReactElement | null {
+  const notice = audienceNotice();
+  return notice === null ? null : <p className="text-xs text-fd-muted-foreground">{notice}</p>;
 }
