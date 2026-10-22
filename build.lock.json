@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:84367a1c7e6fe44a8e59e8372ae63bfe9745993adb0f39d63e1ade62fbc3c7b9",
+  "build_id": "sha256:6a8352846b42fa151097d9eeefe062b5896fadba49ef656f3f0938b99994e0cf",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "59497214441ae0e07339ad9dbbea46499c477ba0",
-  "dirty": false,
-  "as_of": "2026-10-22T02:41:11.280Z",
+  "dirty": true,
+  "as_of": "2026-10-22T18:41:32.041Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "f92f4bece2dd2579f26be64a3014d9f2259dc908644f9da6af39047096c4ccde",
+      "sha256": "da89e07933428b21761f808a79273047997f579a2c1f5fa797c6800fcef2b739",
       "status": "stable",
       "audience": [
         "public"
@@ -818,6 +818,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research.md",
+      "sha256": "98b649e05f940844b4ec734ec613e9d660378162082c909bdbfd002bfa8b112c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria.md",
       "sha256": "a007e9f1eee78c20da985b184a4079c427b4be03d68b1afdb0bda48182b9fa0f",
       "status": "stable",
@@ -1108,6 +1119,10 @@
       "sha256": "1c024f3a02bbb06821db6354f97c7e3754b830e9773c8737ca5467dce7e9e3bb"
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research-infographic.webp",
+      "sha256": "7859f8948903a034311e9ba3285ad38b20526a74981f8fdd5b8dd99d6bf33032"
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
       "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
     },
@@ -1187,7 +1202,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/index.md",
-      "sha256": "3d18e99aeb04a99a37842f91be0f18d15df54a04364de48c651bb0df5f7b1c6d"
+      "sha256": "f389ee5d4bee39a3c3fb60ff1551a06f62b4322a66eb77e89503e2978328a7b3"
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
@@ -1209,8 +1224,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "5f8a7a9b6a8ff7107616bd5dbd0cccb5093cda7b86ccfce7eee5853f931c418f",
-      "files": 143
+      "sha256": "b0c757b2bddb162d535a460681e2032ae2aafa2a4182f99c699899696f1a111c",
+      "files": 145
     }
   ]
 }

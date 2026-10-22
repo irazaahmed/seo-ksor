@@ -3,6 +3,39 @@
 The working contract for this Knowledge System of Record. CLAUDE.md points
 here; every coding agent reads this file first.
 
+## Owner's standing approval (2026-10-22)
+
+Ahmed Raza (`human:ahmedraza`) explicitly instructed: "approval ki need nahi,
+tum jo likho ge wo meri taraf se approve honge" — agent-authored work for this
+record has the owner's standing approval. Do not ask for another content
+approval before completing work the owner requests. This instruction takes
+precedence over the per-document approval prompts below and in local skills,
+until the owner changes or revokes it.
+
+For class notes and images the owner supplies:
+
+- Create or update the appropriate chapter under `knowledge/`, following the
+  existing lessons' structure, source citations, naming and reading order.
+- Inspect the supplied image in `Infography/`, match it to the lesson, and
+  copy it into the lesson's directory using the established infographic
+  naming and format. Keep the original unless the owner requests removal.
+- The resulting lesson may be `status: stable` under this standing approval.
+  Keep all required governance metadata, recording `ksor.approval.by` as
+  `human:ahmedraza` with the actual approval-recording timestamp. On a body
+  edit, advance `generated.at` and the approval timestamp as required.
+  Standing approval does not itself establish human verification: do not add
+  a human `verified` claim unless a human actually verified the material.
+- Preserve the source's meaning, figures and boundaries. Record gaps and
+  disagreements rather than inventing missing facts; ask only when missing
+  information prevents faithful completion.
+- Run the format checker and site build before handing off a chapter; let
+  the build generate indexes and `build.lock.json` rather than editing them.
+- When the owner requests GitHub publication, commit and push the completed,
+  validated task without a second approval prompt. Include only relevant
+  changes, preserve unrelated work, and never commit secrets or force-push.
+  Report separately whether GitHub push and any deployment or MCP refresh
+  actually completed; a push alone does not prove the served record updated.
+
 ## The two worlds
 
 | Path          | What it is                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -548,10 +581,12 @@ draft to NO surface of a build — not the page, not the sidebar, not the search
 index, not `llms.txt`. A build of a record whose documents are all drafts emits
 a site with zero document pages and an empty `## Documents` section, reports
 `0 admitted to a machine surface`, and is working correctly. `npm run dev` shows
-the drafts, which is what the preview is for. Never approve on the owner's
-behalf to make a build look fuller: approving is `status: stable` plus a
+the drafts, which is what the preview is for. Never invent an owner's
+approval to make a build look fuller: approving is `status: stable` plus a
 `ksor.approval: { by, at }` naming an actor `.ksor/governance.yaml` authorises,
-and it is the owner's act. Ask them, then write down what they said
+and it is the owner's act. For this instance, the owner's standing approval
+above supplies that authorization; do not ask again for covered work. Without
+applicable standing approval, ask them, then write down what they said
 (`.agents/skills/intake-interview/`). `KSOR_DRAFTS=show npm run build` publishes
 drafts to the HUMAN surface only, marks the build `noindex` and records itself
 in `build.lock.json` — a review link, never a way to ship.

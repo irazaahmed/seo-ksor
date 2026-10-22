@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-22T01:46:24Z }
+generated: { by: human:ahmedraza, at: 2026-10-22T18:40:47Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-22T01:46:24Z }
+  approval: { by: human:ahmedraza, at: 2026-10-22T18:40:47Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -111,6 +111,10 @@ chapter's title to read the full lesson behind it.*
 ### [Creating an Etsy shop](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation.md)
 
 ![Infographic: Creating an Etsy shop](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation-infographic.webp)
+
+### [Etsy product research with ChatGPT: make up session](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research.md)
+
+![Infographic: Etsy product research with ChatGPT, make up session (Shanawar Aslam)](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research-infographic.webp)
 
 ## Quick Skills: Etsy by Sir Zakria Afzal
 
