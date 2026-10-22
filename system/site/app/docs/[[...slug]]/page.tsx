@@ -10,6 +10,7 @@ import {
   source,
 } from "@/lib/source";
 import { RecordIndex } from "@/components/record-index";
+import { LessonEyebrow, SectionHero } from "@/components/chapter-hero";
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from "fumadocs-ui/layouts/docs/page";
 import { TOCPopover, TOCProvider } from "fumadocs-ui/layouts/docs/page/slots/toc";
 import { notFound } from "next/navigation";
@@ -64,13 +65,14 @@ function FolderPage({ dir }: { dir: string }): ReactElement {
     <TocItems items={[]}>
       <DocsPage
         toc={[]}
+        full
         slots={{
           breadcrumb: RecordBreadcrumb,
           toc: { provider: TOCProvider, main: RecordToc, popover: TOCPopover },
         }}
       >
         <DescribedBy />
-        <DocsTitle>{folderHeading(dir)}</DocsTitle>
+        <SectionHero dir={dir} />
         <RecordIndex entries={entriesUnder(dir)} heading="In this section" />
       </DocsPage>
     </TocItems>
@@ -229,6 +231,7 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
           }}
         />
         {governance.status === "deprecated" ? <DeprecatedNotice successor={successor} /> : null}
+        <LessonEyebrow path={page.path} url={page.url} />
         <DocsTitle>{page.data.title}</DocsTitle>
         <DocsDescription>{page.data.description}</DocsDescription>
         {showGovernance ? (
@@ -288,7 +291,11 @@ export default async function Page(props: PageProps<"/docs/[[...slug]]">) {
         {/* Sources are not printed on the page (owner, 2026-10-08). They stay
           in the record, in each page's markdown twin, in llms-full.txt and in
           every MCP answer's provenance. */}
-        <RecordIndex entries={siblingsOf(page.path)} heading="Related chapters" />
+        <RecordIndex
+          entries={siblingsOf(page.path)}
+          heading="More in this chapter"
+          variant="related"
+        />
       </DocsPage>
     </TocItems>
   );

@@ -141,19 +141,50 @@
    a Google face is fetched at BUILD time, which costs the offline build and
    byte-identical rebuilds). Tailwind's own system stack stands. */
 /* ── Three voices ────────────────────────────────────────────────────────────
-   The record speaks in a serif, the site speaks in a sans, and the machine
-   surface speaks in mono. Not decoration: each face marks WHO is talking, so a
-   reader can tell the record's own words (its title, its documents' titles)
-   from the site's furniture around them, and both from an address a machine
-   resolves.
+   The record speaks in a display face, the site speaks in a sans, and the
+   machine surface speaks in mono. Each face marks WHO is talking.
 
-   System stacks only. A web font would be fetched at build time, which costs
-   the offline build and byte-identical rebuilds the scaffold pins — and the
-   browser smoke test asserts zero external requests. Georgia and its siblings
-   are on every machine this site is read on, and a serif that arrives instantly
-   beats a distinctive one that arrives late. */
+   The faces are SELF-HOSTED (app/fonts/, all SIL OFL 1.1, from Fontsource):
+   the woff2 files are bundled by the build like any other asset, so the build
+   still runs offline and a page still makes no external request. Georgia and
+   the system stacks stay as fallbacks (owner, 2026-10-22: "fonts thoray ache
+   karo").
+   - Bricolage Grotesque: titles and headings, the record's own words.
+   - Plus Jakarta Sans: running text and the site's furniture.
+   - JetBrains Mono: labels, counts, addresses. */
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url("./fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url("./fonts/plus-jakarta-sans-latin-wght-normal.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url("./fonts/plus-jakarta-sans-latin-wght-italic.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url("./fonts/jetbrains-mono-latin-wght-normal.woff2") format("woff2-variations");
+}
+
 @theme {
-  --font-display: ui-serif, Georgia, "Times New Roman", Times, serif;
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 @theme inline {
@@ -700,7 +731,7 @@ html > body[data-scroll-locked] {
    hairlines rather than by nothing. The prose default left `tbody tr` with a
    0px bottom border — the cells simply floated. */
 #nd-page .prose thead th {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.6875rem;
   font-weight: 500;
   letter-spacing: 0.14em;
@@ -2050,4 +2081,468 @@ aside div[data-state="open"] > a[data-active] .ksor-ch-tile {
 .ksor-infographic-btn:focus-visible {
   outline: 2px solid var(--color-fd-primary);
   outline-offset: 2px;
+}
+
+/* ── Section pages and lesson cards (owner, 2026-10-22) ─────────────────────
+   "Chapters ka andaz ... bohot ajeeb hai, isko unique or stylish or attractive
+   karo": a section page opened on a bare title over a stack of identical grey
+   slabs. It now opens on a hero carrying the chapter's icon and lists its
+   lessons as numbered cards, two to a row where there is room.
+
+   One colour: the site's own green accent, the theme the site already had
+   (owner, 2026-10-22: "color theme wahi rakho jo last thi"). `--ch` is the
+   accent and `--ch-h` its hue, so the gradients below are shades of it. */
+:is(.ksor-hero, .ksor-cards, .ksor-eyebrow) {
+  --ch-h: 163;
+  --ch: var(--color-fd-primary);
+}
+
+/* The hero. */
+.ksor-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  padding: 2.25rem 2rem 2rem;
+  border-radius: 1.5rem;
+  border: 1px solid color-mix(in oklab, var(--ch) 28%, var(--color-fd-border));
+  background:
+    radial-gradient(120% 140% at 100% 0%, color-mix(in oklab, var(--ch) 22%, transparent), transparent 55%),
+    linear-gradient(160deg, color-mix(in oklab, var(--ch) 9%, var(--color-fd-card)), var(--color-fd-card));
+  box-shadow: 0 24px 60px -32px color-mix(in oklab, var(--ch) 55%, transparent);
+}
+/* A dot grid fading in from the right: texture, not something to read. */
+.ksor-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: radial-gradient(color-mix(in oklab, var(--ch) 35%, transparent) 1px, transparent 1.5px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(100deg, transparent 35%, black 95%);
+  opacity: 0.6;
+}
+.ksor-hero-glow {
+  position: absolute;
+  z-index: -1;
+  right: -4rem;
+  bottom: -6rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 9999px;
+  background: color-mix(in oklab, var(--ch) 30%, transparent);
+  filter: blur(60px);
+}
+.ksor-hero-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  background: linear-gradient(140deg, oklch(0.74 0.16 var(--ch-h, 262)), oklch(0.52 0.21 calc(var(--ch-h, 262) + 28)));
+  box-shadow:
+    0 10px 24px -8px oklch(0.55 0.2 var(--ch-h, 262) / 0.6),
+    inset 0 1px 0 rgb(255 255 255 / 0.3);
+  transform: rotate(-4deg);
+}
+.ksor-hero-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke-width: 2;
+}
+.ksor-hero-eyebrow {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  white-space: pre;
+  color: var(--ch);
+}
+.ksor-hero-title {
+  margin: 0.25rem 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.25rem);
+  font-weight: 750;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  background: linear-gradient(115deg, var(--color-fd-foreground) 45%, var(--ch));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.ksor-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: stretch;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+.ksor-hero-stats > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in oklab, var(--ch) 25%, var(--color-fd-border));
+  background: color-mix(in oklab, var(--color-fd-background) 60%, transparent);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-fd-foreground);
+}
+.ksor-hero-stats svg {
+  width: 0.875rem;
+  height: 0.875rem;
+  color: var(--ch);
+}
+.ksor-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, oklch(0.62 0.19 var(--ch-h, 262)), oklch(0.5 0.21 calc(var(--ch-h, 262) + 28)));
+  box-shadow: 0 8px 20px -8px oklch(0.55 0.2 var(--ch-h, 262) / 0.7);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.ksor-hero-cta svg {
+  width: 1rem;
+  height: 1rem;
+  color: inherit;
+  transition: transform 0.2s;
+}
+.ksor-hero-cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 26px -8px oklch(0.55 0.2 var(--ch-h, 262) / 0.8);
+}
+.ksor-hero-cta:hover svg {
+  transform: translateX(3px);
+}
+@media (max-width: 640px) {
+  .ksor-hero {
+    padding: 1.75rem 1.25rem 1.5rem;
+    border-radius: 1.125rem;
+  }
+  .ksor-hero-cta {
+    margin-left: 0;
+  }
+}
+
+/* The card list. */
+.ksor-cards {
+  margin-top: 2.75rem;
+}
+.ksor-cards[data-variant="related"] {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-fd-border);
+}
+.ksor-cards-head {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 0 0 1.125rem;
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.ksor-cards-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.625rem;
+  height: 1.625rem;
+  padding-inline: 0.4rem;
+  border-radius: 9999px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--ch);
+  background: color-mix(in oklab, var(--ch) 14%, transparent);
+}
+.ksor-cards-head::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, color-mix(in oklab, var(--ch) 40%, transparent), transparent);
+}
+.ksor-cards-grid {
+  display: grid;
+  /* One column that never grows past the page: an auto track sizes to the
+     longest title's max-content and pushed cards off a phone's edge. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 720px) {
+  .ksor-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.ksor-cards-grid > li {
+  display: flex;
+  min-width: 0;
+  margin: 0;
+}
+
+.ksor-card {
+  min-width: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem 1.375rem 1.125rem;
+  border-radius: 1.125rem;
+  border: 1px solid var(--color-fd-border);
+  background: linear-gradient(170deg, color-mix(in oklab, var(--ch) 6%, var(--color-fd-card)), var(--color-fd-card) 60%);
+  transition:
+    transform 0.25s cubic-bezier(0.34, 1.4, 0.64, 1),
+    border-color 0.2s,
+    box-shadow 0.25s;
+}
+/* The chapter's colour as a bar across the top, brightening on hover. */
+.ksor-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background: linear-gradient(90deg, oklch(0.7 0.17 var(--ch-h, 262)), oklch(0.6 0.2 calc(var(--ch-h, 262) + 40)));
+  opacity: 0.55;
+  transition: opacity 0.2s;
+}
+/* The lesson's number again, huge and faint, behind the card's corner. */
+.ksor-card[data-num]::after {
+  content: attr(data-num);
+  position: absolute;
+  z-index: -1;
+  right: 0.75rem;
+  bottom: -1.25rem;
+  font-family: var(--font-display);
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: color-mix(in oklab, var(--ch) 6%, transparent);
+  transition:
+    color 0.25s,
+    transform 0.3s;
+}
+.ksor-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in oklab, var(--ch) 50%, var(--color-fd-border));
+  box-shadow: 0 18px 40px -22px color-mix(in oklab, var(--ch) 75%, transparent);
+}
+.ksor-card:hover::before {
+  opacity: 1;
+}
+.ksor-card:hover::after {
+  color: color-mix(in oklab, var(--ch) 12%, transparent);
+  transform: translateY(-4px);
+}
+.ksor-card:focus-visible {
+  outline: 2px solid var(--ch);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ksor-card,
+  .ksor-card::after {
+    transition: none;
+  }
+  .ksor-card:hover,
+  .ksor-card:hover::after {
+    transform: none;
+  }
+}
+.ksor-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.ksor-card-num,
+.ksor-card-icon {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.75rem;
+  color: #fff;
+  background: linear-gradient(140deg, oklch(0.72 0.16 var(--ch-h, 262)), oklch(0.52 0.21 calc(var(--ch-h, 262) + 28)));
+  box-shadow:
+    0 6px 14px -6px oklch(0.55 0.2 var(--ch-h, 262) / 0.6),
+    inset 0 1px 0 rgb(255 255 255 / 0.28);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.ksor-card-num {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.ksor-card-icon svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  stroke-width: 2.25;
+}
+.ksor-card:hover :is(.ksor-card-num, .ksor-card-icon) {
+  transform: rotate(-6deg) scale(1.06);
+}
+.ksor-card-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ch);
+}
+.ksor-card-title {
+  margin-top: 0.375rem;
+  font-family: var(--font-display);
+  font-size: 1.1875rem;
+  font-weight: 680;
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+  color: var(--color-fd-foreground);
+}
+.ksor-card-desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--color-fd-muted-foreground);
+}
+.ksor-card-foot {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: auto;
+  padding-top: 0.625rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--ch);
+}
+.ksor-card-arrow {
+  width: 0.95rem;
+  height: 0.95rem;
+  transition: transform 0.2s;
+}
+.ksor-card:hover .ksor-card-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* A section page is `full` (no table of contents to make room for), so it
+   holds its own measure: wide enough for two cards a row, no wider. */
+#nd-page:has(> .ksor-hero) {
+  max-width: 68rem;
+  margin-inline: auto;
+  width: 100%;
+}
+
+/* ── A lesson's head ─────────────────────────────────────────────────────────
+   Above the title, the chapter it belongs to in that chapter's colour and
+   where it sits ("Lesson 3 of 9"); the title itself in the display face with
+   an accent rule under it, and each section heading in the body marked with a
+   short bar in the accent (owner, 2026-10-22: "har chapter ki main heading
+   bhi thori attractive"). */
+.ksor-eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 -0.25rem;
+}
+.ksor-eyebrow-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem 0.25rem 0.3rem;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in oklab, var(--ch) 30%, var(--color-fd-border));
+  background: color-mix(in oklab, var(--ch) 10%, transparent);
+  font-size: 0.8125rem;
+  font-weight: 650;
+  color: var(--ch);
+  transition: background-color 0.2s;
+}
+.ksor-eyebrow-chip:hover {
+  background: color-mix(in oklab, var(--ch) 18%, transparent);
+}
+.ksor-eyebrow-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.375rem;
+  height: 1.375rem;
+  border-radius: 9999px;
+  color: #fff;
+  background: linear-gradient(140deg, oklch(0.72 0.16 var(--ch-h, 262)), oklch(0.52 0.21 calc(var(--ch-h, 262) + 28)));
+}
+.ksor-eyebrow-icon svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  stroke-width: 2.25;
+}
+.ksor-eyebrow-pos {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-fd-muted-foreground);
+}
+
+#nd-page > h1 {
+  font-size: clamp(2.125rem, 1.5rem + 2vw, 2.875rem);
+  font-weight: 750;
+  line-height: 1.08;
+  letter-spacing: -0.032em;
+  background: linear-gradient(115deg, var(--color-fd-foreground) 50%, var(--color-fd-primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+#nd-page > h1::after {
+  content: "";
+  display: block;
+  width: 4.5rem;
+  height: 4px;
+  margin-top: 1rem;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--color-fd-primary), color-mix(in oklab, var(--color-fd-primary) 10%, transparent));
+}
+
+#nd-page .prose :is(h1, h2, h3, h4, h5, h6) {
+  font-weight: 700;
+  letter-spacing: -0.022em;
+}
+#nd-page .prose h2 {
+  padding-left: 0.875rem;
+  background: linear-gradient(var(--color-fd-primary), color-mix(in oklab, var(--color-fd-primary) 35%, transparent))
+    no-repeat left 0.18em / 4px 1.05em;
 }

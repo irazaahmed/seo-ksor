@@ -1,35 +1,37 @@
-import { ArrowRight, FileText, Folder } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import type { ReactElement } from "react";
 
+import { chapterStyle } from "@/lib/chapter-style";
 import { badgeLabel, badgeTone } from "@/lib/governance";
 import type { RecordEntry } from "@/lib/source";
 
+/** The last path segment of a route: the slug chapter-style is keyed by. */
+function slugOf(url: string): string {
+  const parts = url.split("/").filter(Boolean);
+  return parts[parts.length - 1] ?? "";
+}
+
 /**
- * What the record holds below this point.
+ * What the record holds below this point, as a course's lesson cards.
  *
  * The site renders the record; this renders its shape. Every value comes from
- * the record — title, description, status, owner and the count below an entry
- * are frontmatter and tree, and the order is the governed `order:` key — so
+ * the record — title, description, status and the count below an entry are
+ * frontmatter and tree, and the order is the governed `order:` key — so
  * nothing is authored in the site (critical rule 1).
  *
- * It exists because a folder's index page listed nothing: `/docs/policies`
- * rendered a title, a sentence and then empty space, while the two policies it
- * contains were reachable only from the sidebar. The home page had the same
- * gap — it said "5 documents" and linked to one (research/site-design.md F2/F5).
+ * The third treatment of this list. Hairline rows had no affordance on touch
+ * screens; stacked full-width boxes (2026-08-22) had one, but a section of
+ * nine lessons read as nine identical grey slabs with a raw actor id in each
+ * (owner, 2026-10-22: "chapters ka andaz ... bohot ajeeb hai, isko unique or
+ * stylish or attractive karo"). So each lesson is now a numbered card, two to
+ * a row where there is room: the number says where it sits in the course, a
+ * sub-section wears its chapter's icon, and the whole card is the link. The
+ * colour stays the site's one accent ("color theme wahi rakho jo last thi").
  *
- * Each entry is a CARD, not a hairline row (owner, 2026-08-22, choosing it from
- * four prototyped treatments). The register the design language called for was
- * honest about hierarchy and silent about being usable: at rest a row carried
- * no affordance at all — only a hover tint and a hover colour — so on a touch
- * screen, where there is no hover, nothing ever said the row was a link. A card
- * is a surface a reader expects to press, and the arrow says where pressing
- * leads before anyone has moved a pointer.
- *
- * What survives from the register is the part that was never about looks: the
- * record's serif for its own words, mono for what the record says ABOUT them —
- * who owns it, how much it holds, whether it carries a caveat — and `stable`
- * staying silent, because a label on every row is a label nobody reads.
+ * The owner is no longer printed on each card: it was the same actor on every
+ * card of the record, so it said nothing, and the document page itself still
+ * shows it. A lifecycle badge stays, because that one is a caveat.
  *
  * Server-rendered plain markup — it survives print, a failed bundle and
  * JavaScript off, like every other governance fact.
@@ -37,82 +39,78 @@ import type { RecordEntry } from "@/lib/source";
 export function RecordIndex({
   entries,
   heading,
+  variant = "section",
 }: {
   entries: readonly RecordEntry[];
   heading: string;
+  variant?: "section" | "related";
 }): ReactElement | null {
   if (entries.length === 0) return null;
 
+  let lesson = 0;
   return (
-    <section className="mt-14">
-      {/* The head of the list stays a register head: this is a label, and a
-          label is machine-facing furniture whatever the rows below it are. */}
-      <h2 className="ksor-section-label mb-3">{heading}</h2>
+    <section className="ksor-cards" data-variant={variant}>
+      <h2 className="ksor-cards-head">
+        <span>{heading}</span>
+        <span className="ksor-cards-count">{entries.length}</span>
+      </h2>
 
-      <ul className="grid gap-3">
+      <ol className="ksor-cards-grid">
         {entries.map((entry) => {
-          // A folder and a leaf are different things to open, and the icon is
-          // read before the count is.
-          const Icon = entry.documents > 0 ? Folder : FileText;
+          const isSection = entry.documents > 0;
+          if (!isSection) lesson += 1;
+          const number = String(lesson).padStart(2, "0");
+          const own = isSection ? chapterStyle(slugOf(entry.url)) : null;
+          const Icon = own?.icon;
           return (
             <li key={entry.url}>
               <Link
                 href={entry.url}
-                className="group flex items-start gap-4 rounded-lg border border-fd-border bg-fd-muted/40 px-5 py-4 transition-all hover:-translate-y-px hover:border-fd-primary/40 hover:bg-fd-muted hover:shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-fd-ring motion-reduce:transition-none motion-reduce:hover:translate-y-0"
+                className="ksor-card group"
+                data-kind={isSection ? "section" : "lesson"}
+                data-num={isSection ? undefined : number}
               >
-                <Icon
-                  aria-hidden
-                  className="mt-1 size-4 shrink-0 text-fd-muted-foreground transition-colors group-hover:text-fd-primary"
-                />
-
-                <span className="min-w-0 flex-1">
-                  <span className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <span className="font-display text-lg leading-snug font-semibold tracking-[-0.008em] transition-colors group-hover:text-fd-primary">
-                      {entry.title}
+                <span className="ksor-card-top">
+                  {Icon === undefined ? (
+                    <span className="ksor-card-num" aria-hidden>
+                      {number}
                     </span>
-                    {entry.badge === null ? null : (
-                      <span
-                        className={`rounded-sm border border-fd-border px-1.5 py-0.5 font-mono text-[10px] tracking-widest text-fd-foreground uppercase ${badgeTone(entry.badge)}`}
-                      >
-                        {badgeLabel(entry.badge)}
-                      </span>
-                    )}
+                  ) : (
+                    <span className="ksor-card-icon" aria-hidden>
+                      <Icon />
+                    </span>
+                  )}
+                  <span className="ksor-card-kicker">
+                    {isSection
+                      ? `Section · ${entry.documents} ${entry.documents === 1 ? "lesson" : "lessons"}`
+                      : variant === "related"
+                        ? "Lesson"
+                        : `Lesson ${number}`}
                   </span>
-
-                  {entry.description === null ? null : (
-                    <span className="mt-1 block text-sm text-pretty text-fd-muted-foreground">
-                      {entry.description}
+                  {entry.badge === null ? null : (
+                    <span
+                      className={`ml-auto rounded-sm border border-fd-border px-1.5 py-0.5 font-mono text-[10px] tracking-widest text-fd-foreground uppercase ${badgeTone(entry.badge)}`}
+                    >
+                      {badgeLabel(entry.badge)}
                     </span>
                   )}
                 </span>
 
-                {/* What the record says about it, in the same column every
-                    time, so two entries can be compared without reading. */}
-                <span className="flex shrink-0 items-center gap-3 self-center">
-                  <span className="hidden items-baseline gap-2 font-mono text-xs tracking-wider text-fd-muted-foreground uppercase tabular-nums sm:flex">
-                    {entry.documents === 0 ? null : (
-                      <span>{`${entry.documents} ${entry.documents === 1 ? "doc" : "docs"}`}</span>
-                    )}
-                    {entry.documents === 0 || entry.owner === null ? null : (
-                      <span aria-hidden className="text-fd-border">
-                        ·
-                      </span>
-                    )}
-                    {entry.owner === null ? null : <span>{entry.owner}</span>}
-                  </span>
+                <span className="ksor-card-title">{entry.title}</span>
 
-                  {/* The affordance the register never had: a mark that says
-                      "this opens something", visible without a pointer. */}
-                  <ArrowRight
-                    aria-hidden
-                    className="size-4 text-fd-muted-foreground transition-all group-hover:translate-x-0.5 group-hover:text-fd-primary motion-reduce:transition-none"
-                  />
+                {entry.description === null ? null : (
+                  <span className="ksor-card-desc">{entry.description}</span>
+                )}
+
+                <span className="ksor-card-foot">
+                  <span>{isSection ? "Open section" : "Read lesson"}</span>
+                  <ArrowUpRight aria-hidden className="ksor-card-arrow" />
                 </span>
               </Link>
             </li>
           );
         })}
-      </ul>
+      </ol>
     </section>
   );
 }
