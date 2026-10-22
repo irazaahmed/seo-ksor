@@ -152,7 +152,10 @@ export function HomeCover({
           {/* `minmax(0,…)` and `min-w-0` because an `auto` track grows to its
               widest item's min-content, and the stack's one-line titles made
               that wider than a phone (owner's screenshot, 2026-09-24). */}
-          <div className="flex min-w-0 justify-center lg:justify-end">
+          {/* Not on a phone: there the stack sat directly above the "Begin
+              with these" cards, which list the same documents, so a reader
+              scrolled past them twice (checked at 390px, 2026-10-22). */}
+          <div className="hidden min-w-0 justify-center lg:flex lg:justify-end">
             <RecordStack lead={lead} behind={behind} documents={documents} />
           </div>
         </div>
