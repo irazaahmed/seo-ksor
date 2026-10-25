@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:7cca801255e21d284ba5282534ac59cb9314fa8aeaabff35a6f1c850ad02cb04",
+  "build_id": "sha256:a70b00c749863a8b4911925aa1cd5e4ae57348c103143233df6df3160831172d",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "4d7e57fe708e77a2fa430577000affc645176412",
+  "source_commit": "7d93ee9e046b693b8c8b09143b8dd0fc3597bd87",
   "dirty": true,
-  "as_of": "2026-10-22T18:50:36.477Z",
+  "as_of": "2026-10-25T14:58:26.983Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -862,6 +862,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners.md",
+      "sha256": "6d900788988ae70b000189318735be0d38e8cb5d6f13e852ba86783340a1802f",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link.md",
       "sha256": "563506443131d8a9ba68a78d3513a320b4d95740d81ae5b5ff97fe170ed86bdb",
       "status": "stable",
@@ -919,6 +930,17 @@
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical.md",
       "sha256": "89e9393369ed51a6237f2e3e32e7c31e5d2afa085aa1866b34dccb9b885cf87c",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast.md",
+      "sha256": "c4d2cfbf32e0450d0f024c751a7bc5da15eef6b1f686a5bd5ed89af702cc9468",
       "status": "stable",
       "audience": [
         "public"
@@ -1142,6 +1164,10 @@
       "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners-infographic.webp",
+      "sha256": "5eb29b399dcfb77662ab217a9d5d24a8f64e9e9ff6e6db5a478af014d5239b6b"
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link-infographic.webp",
       "sha256": "ddad490cc2ea3277def7d235f9a112a198ec1185d6740a9d0093d44bc5132a6f"
     },
@@ -1164,6 +1190,10 @@
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical-infographic.webp",
       "sha256": "93b9c97d85b5b510a1a07ca1b3138ac7abad9b680c18597be46b82c0f36d1d03"
+    },
+    {
+      "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast-infographic.webp",
+      "sha256": "b0eb1cdac229942d5d4d789fe8dc86cd23b1e55793153080091e1362b6254b68"
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-ranking-funnel-and-pro-tips-infographic.webp",
@@ -1221,7 +1251,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
-      "sha256": "072b7de423e09a616de010218337192126de76a89bbf3e9ce265559f9650694d"
+      "sha256": "444f9ce4a91b4312e3e49b0e35a2e1e426b4e19612690de9b9e902d6c62dc87f"
     },
     {
       "path": "quick-skills/etsy/index.md",
@@ -1239,8 +1269,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "2d01d36bdab4089c14ece8338cc5dc2ac89c22d508343ad06d491d98bc42c63b",
-      "files": 147
+      "sha256": "5205c792307984c15432f54b5f879b0094e049150bd650879ace03fdb5b3b9d2",
+      "files": 151
     }
   ]
 }
