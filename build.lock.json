@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:a70b00c749863a8b4911925aa1cd5e4ae57348c103143233df6df3160831172d",
+  "build_id": "sha256:f419dbc271aa0fa73ab22623da8281ce9a771eb846f65d6e36a0a5bfb0ba860b",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "7d93ee9e046b693b8c8b09143b8dd0fc3597bd87",
+  "source_commit": "923ee497c1123258a4de6fb450849419de0fd077",
   "dirty": true,
-  "as_of": "2026-10-25T14:58:26.983Z",
+  "as_of": "2026-10-25T18:51:58.236Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -149,6 +149,17 @@
     {
       "path": "infographics.md",
       "sha256": "da89e07933428b21761f808a79273047997f579a2c1f5fa797c6800fcef2b739",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-and-site-planning-class-3.md",
+      "sha256": "64ef6511882347ca01cdcf59247fbc8d8cfe0e052cd6e0960c815ea78d04dfb8",
       "status": "stable",
       "audience": [
         "public"
@@ -1052,6 +1063,14 @@
       "sha256": "2a6e5d1a7e31bcbcdb6bf075a3db43592cef2cae95ccca41604219c4c236fd16"
     },
     {
+      "path": "keyword-research-and-content-planning/content-and-site-planning-class-3-cheat-sheet-infographic.webp",
+      "sha256": "942af9e239b6507f855564d2c67a43c42020a39e0eb22519b54e3a1d8ef2d556"
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-and-site-planning-class-3-guide-infographic.webp",
+      "sha256": "a7e4ca1a1f1a484fd9433be006f192dada5f1534bd8fe33e55e4bd078be4d0c0"
+    },
+    {
       "path": "keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping-infographic.webp",
       "sha256": "4bff3ce157ae02974fdf77288128d5b89161b00aefbc50d6a7043a3020fe28da"
     },
@@ -1227,7 +1246,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "732b91f16df8115fc60b043c18732e0da8475918ad00673a672afc242d4c16b0"
+      "sha256": "e929ca681d74e7892f39f8e25cde599bc9e12342b0e8422c4f487cc42f93dad4"
     },
     {
       "path": "local-seo/index.md",
@@ -1269,8 +1288,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "5205c792307984c15432f54b5f879b0094e049150bd650879ace03fdb5b3b9d2",
-      "files": 151
+      "sha256": "016bcb901c1757b988601956b46de53740853b8db94cf0e7c64df2c4169d4870",
+      "files": 154
     }
   ]
 }
