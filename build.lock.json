@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:f419dbc271aa0fa73ab22623da8281ce9a771eb846f65d6e36a0a5bfb0ba860b",
+  "build_id": "sha256:1fff0cbad8f9736290433c68634ba531f9cc594039d756ba96caf09d80c0bba2",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "923ee497c1123258a4de6fb450849419de0fd077",
+  "source_commit": "bb5716845afdcae57ab7ad372617046476cfbed1",
   "dirty": true,
-  "as_of": "2026-10-25T18:51:58.236Z",
+  "as_of": "2026-10-27T18:18:39.545Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -994,6 +994,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-listing-image-cropping-safe-zone-orvessira.md",
+      "sha256": "20849d393298262627ec7ae170d0b38527457f58669faea35ac6b31db9a9f7a8",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "why-seo-matters.md",
       "sha256": "b8e62cf737d1f1eead58eea1e79b6ff89ec28037814a4bf9afde5e86ae2b13e4",
       "status": "stable",
@@ -1274,7 +1285,7 @@
     },
     {
       "path": "quick-skills/etsy/index.md",
-      "sha256": "d593a342818658c973fd395cbc8050c4a88a294e8a3ff251d1cd60ffaefe33e9"
+      "sha256": "61def667c108135ede67a7521daba0fef08b38492b395ee5e73f1ab2cb120dc0"
     },
     {
       "path": "quick-skills/index.md",
@@ -1288,8 +1299,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "016bcb901c1757b988601956b46de53740853b8db94cf0e7c64df2c4169d4870",
-      "files": 154
+      "sha256": "38c35da9321345ffb52f5fd06cacde9647025289e0ceda476ba39e77c04a4bde",
+      "files": 155
     }
   ]
 }
