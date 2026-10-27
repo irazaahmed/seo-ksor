@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-22T18:39:29Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 sources:
   - id: etsy-product-research-makeup-notes
     title: "Etsy module, Make up session: Product Research, taught by Shanawar Aslam"

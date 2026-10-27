@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-21T01:33:00Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 ---
 
 This page is the map of the record. Every step below links to the class

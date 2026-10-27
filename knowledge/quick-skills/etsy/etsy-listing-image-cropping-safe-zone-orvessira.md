@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-27T18:17:33Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 sources:
   - id: etsy-image-best-practices
     title: "Etsy Help: Requirements and Best Practices for Images in Your Etsy Shop"

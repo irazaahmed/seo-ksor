@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-25T23:51:22+05:00 }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 sources:
   - id: content-site-planning-class-03
     title: "iSkills SEO module: Content & Site Planning, Class 3, taught by Sir Tanveer Nandla"

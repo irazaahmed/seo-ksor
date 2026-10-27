@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-12T10:30:58Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 sources:
   - id: cws
     resource: https://chromewebstore.google.com/detail/nichespark/mfkjoekmjfphffamabelfngbonnjdgep

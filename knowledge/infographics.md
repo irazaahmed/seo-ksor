@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-22T18:40:47Z }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 ---
 
 *Every class infographic in this record, gathered in one place by module

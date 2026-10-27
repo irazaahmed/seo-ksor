@@ -10,6 +10,7 @@ ksor:
   audience: [public]
   owner: human:ahmedraza
   approval: { by: human:ahmedraza, at: 2026-10-25T19:57:32+05:00 }
+verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
 sources:
   - id: zakria-afzal-canva-course
     title: "Etsy course: Canva Course, by Sir Zakria Afzal"

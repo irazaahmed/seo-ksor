@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:1fff0cbad8f9736290433c68634ba531f9cc594039d756ba96caf09d80c0bba2",
+  "build_id": "sha256:f54be723bee4c88f18b3763d8139237ddc8aca6d35cd66f9f600831c8722975a",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "bb5716845afdcae57ab7ad372617046476cfbed1",
+  "source_commit": "2b530152379c98002320be3647a85f10c639ea6a",
   "dirty": true,
-  "as_of": "2026-10-27T18:18:39.545Z",
+  "as_of": "2026-10-27T18:27:24.085Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "da89e07933428b21761f808a79273047997f579a2c1f5fa797c6800fcef2b739",
+      "sha256": "40bbc199b5442a7d083d7b4b731850f4287f29fad675d45ac369cf4f626f649d",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +159,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-and-site-planning-class-3.md",
-      "sha256": "64ef6511882347ca01cdcf59247fbc8d8cfe0e052cd6e0960c815ea78d04dfb8",
+      "sha256": "df65b35d2ebc26b0f7abe055183524a71ddf60486b549279d61242fc29dcf339",
       "status": "stable",
       "audience": [
         "public"
@@ -236,7 +236,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/nichespark-autocomplete-keyword-tool.md",
-      "sha256": "fabe8d33eede47afb998ff50e551b9bc6fb5acc8725341057c7a6c530ffaa71f",
+      "sha256": "77d0885f4abe974b4bd5c4fe5d945e3dd88a45da74bd495cae6e82400e9a53c4",
       "status": "stable",
       "audience": [
         "public"
@@ -247,7 +247,7 @@
     },
     {
       "path": "learn-seo.md",
-      "sha256": "a59fd8132949b0fc2f8138a06eb6bc5a9c2281037003bc98df734ce5ba2c5a2e",
+      "sha256": "ce1daec7aaf60f487c7c04673284f82596f3207527e0f79dab12f7ed48b216f3",
       "status": "stable",
       "audience": [
         "public"
@@ -808,7 +808,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales.md",
-      "sha256": "e07c1fdedaa6328fe7d33fc0d17180ea1e29800733a0aa572882a1d43f80e184",
+      "sha256": "c5e65183f3ba156dad217bb5ea91cf880b8451f73c76d0df8fafd83ab1202461",
       "status": "stable",
       "audience": [
         "public"
@@ -841,7 +841,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research.md",
-      "sha256": "98b649e05f940844b4ec734ec613e9d660378162082c909bdbfd002bfa8b112c",
+      "sha256": "8cdc8ed456e1e6997c8c643f59780c8671bfe9bcf344de10ecf8030e51632b3f",
       "status": "stable",
       "audience": [
         "public"
@@ -874,7 +874,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners.md",
-      "sha256": "6d900788988ae70b000189318735be0d38e8cb5d6f13e852ba86783340a1802f",
+      "sha256": "630bdc848c0771c2644e95ed99df82e9e8e7a5e1f93eb726f451cceaf01c49b6",
       "status": "stable",
       "audience": [
         "public"
@@ -951,7 +951,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast.md",
-      "sha256": "c4d2cfbf32e0450d0f024c751a7bc5da15eef6b1f686a5bd5ed89af702cc9468",
+      "sha256": "03363a13794a4a9f2d526215f0f1fa5924bd3b006b4a23535f65c2e61656519a",
       "status": "stable",
       "audience": [
         "public"
@@ -995,7 +995,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-listing-image-cropping-safe-zone-orvessira.md",
-      "sha256": "20849d393298262627ec7ae170d0b38527457f58669faea35ac6b31db9a9f7a8",
+      "sha256": "798984428d1970ead41359dae62d7e57848a622aa488aa28f059cc0386741ac5",
       "status": "stable",
       "audience": [
         "public"
@@ -1299,7 +1299,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "38c35da9321345ffb52f5fd06cacde9647025289e0ceda476ba39e77c04a4bde",
+      "sha256": "6c0139ff63e200f8e721b2f1809d41296f1be9d0072630a8a483e5c4d4a76d8a",
       "files": 155
     }
   ]
