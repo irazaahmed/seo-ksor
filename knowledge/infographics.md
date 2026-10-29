@@ -5,12 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-22T18:40:47Z }
+generated: { by: human:ahmedraza, at: 2026-10-29T18:39:48Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-22T18:40:47Z }
-verified: [{ by: human:ahmedraza, at: 2026-10-27T18:26:57Z }]
+  approval: { by: human:ahmedraza, at: 2026-10-29T18:39:48Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -83,6 +82,12 @@ chapter's title to read the full lesson behind it.*
 
 ![Infographic: Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping-infographic.webp)
 
+### [Content and site planning, Class 3: from an approved niche to launch](keyword-research-and-content-planning/content-and-site-planning-class-3.md)
+
+![Infographic: SEO Content and Site Planning Guide, from niche approval through site launch](keyword-research-and-content-planning/content-and-site-planning-class-3-guide-infographic.webp)
+
+![Infographic: SEO Content and Site Planning Cheat Sheet, covering content preparation, hosting and launch](keyword-research-and-content-planning/content-and-site-planning-class-3-cheat-sheet-infographic.webp)
+
 ## Quick Skills: Etsy by Sir Zafar Ali
 
 ### [Etsy listings and competitor research](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research.md)
@@ -104,6 +109,14 @@ chapter's title to read the full lesson behind it.*
 ### [Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview.md)
 
 ![Infographic: Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview-infographic.webp)
+
+### [Etsy listing and sales: improve images, create templates and publish](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales.md)
+
+![Infographic: Etsy listing and sales](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales-infographic.webp)
+
+### [Etsy digital product creation: AI-built planners, Canva templates and listing videos](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing.md)
+
+![Infographic: Etsy digital product creation and listing](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing-infographic.webp)
 
 ### [RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria.md)
 
@@ -154,6 +167,14 @@ chapter's title to read the full lesson behind it.*
 ### [Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation.md)
 
 ![Infographic: Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation-infographic.webp)
+
+### [Etsy pro strategy to grow fast: multiple shops, eHunt, ads and product expansion](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast.md)
+
+![Infographic: Pro Strategy to Grow Fast, covering multiple shops, eHunt, Etsy Ads and business growth](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast-infographic.webp)
+
+### [Canva course: design invitation templates and planners for Etsy](quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners.md)
+
+![Infographic: Canva Course by Sir Zakria Afzal, covering editor tools, invitations, planners, mockups and editable templates](quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners-infographic.webp)
 
 ## AI Agents
 
