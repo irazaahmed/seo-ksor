@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:5dedb6a90cdf4a416730fc8821c547b8dfb2cb043ecc05713b1be9ce689cdcfd",
+  "build_id": "sha256:03f9c26a4e3bd9128eca067fa73e436e916791e99702222acb8b31667f080d0b",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "0e3ca75ba437ebc9948771f5f0faa527af8d4607",
+  "source_commit": "4346c37ea94aba6effdbf78c33fdc93f6dc1dc55",
   "dirty": true,
-  "as_of": "2026-10-29T18:40:09.306Z",
+  "as_of": "2026-10-30T19:02:52.018Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "15c0eefa02bfa21e7dffff1a010f7a2fe72fc64d695c2c497777f6c9fda54a7f",
+      "sha256": "4652ee3c4c7a91f12df3ad67c0223fa0ad5339940f0ad2a76b923d8b61bc9884",
       "status": "stable",
       "audience": [
         "public"
@@ -884,6 +884,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products.md",
+      "sha256": "055c96be32948a951341dfb7818387da51bd3c22809ab0c91f95591062305ad0",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners.md",
       "sha256": "630bdc848c0771c2644e95ed99df82e9e8e7a5e1f93eb726f451cceaf01c49b6",
       "status": "stable",
@@ -1209,6 +1220,10 @@
       "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
     },
     {
+      "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products-infographic.webp",
+      "sha256": "0f4f6d70c8e0d8e72580c5395a105479432426f99c14443dcb9a68328f2c5785"
+    },
+    {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners-infographic.webp",
       "sha256": "5eb29b399dcfb77662ab217a9d5d24a8f64e9e9ff6e6db5a478af014d5239b6b"
     },
@@ -1292,7 +1307,7 @@
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zafar-ali/index.md",
-      "sha256": "6a6a11baca75b952e648b8fd53b33dfdf3c795d8826ef9df2eea2d54678e69b4"
+      "sha256": "ed01d65aa24d7cdf675d7f908a09cc0b8f0e72f54d915ad40d3952e710990be8"
     },
     {
       "path": "quick-skills/etsy/etsy-by-sir-zakria-afzal/index.md",
@@ -1314,8 +1329,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "52e97bc17986cfd593e137713d1a85aa5488a7b48952edd27c79f02c49480a99",
-      "files": 157
+      "sha256": "12e4a2844ff2cd15bd21b3b4fe8adb4f37331cb34e673aef36d072b7762e6d78",
+      "files": 159
     }
   ]
 }

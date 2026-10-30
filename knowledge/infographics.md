@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-29T18:39:48Z }
+generated: { by: human:ahmedraza, at: 2026-10-30T19:02:45Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-29T18:39:48Z }
+  approval: { by: human:ahmedraza, at: 2026-10-30T19:02:45Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -117,6 +117,10 @@ chapter's title to read the full lesson behind it.*
 ### [Etsy digital product creation: AI-built planners, Canva templates and listing videos](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing.md)
 
 ![Infographic: Etsy digital product creation and listing](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing-infographic.webp)
+
+### [Etsy shop and products: one shop, five listing images and coloring books](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products.md)
+
+![Infographic: Etsy shop and products](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products-infographic.webp)
 
 ### [RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria.md)
 
