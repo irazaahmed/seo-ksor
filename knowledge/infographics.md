@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-10-30T19:02:45Z }
+generated: { by: human:ahmedraza, at: 2026-11-01T19:07:39Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-30T19:02:45Z }
+  approval: { by: human:ahmedraza, at: 2026-11-01T19:07:39Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -87,6 +87,10 @@ chapter's title to read the full lesson behind it.*
 ![Infographic: SEO Content and Site Planning Guide, from niche approval through site launch](keyword-research-and-content-planning/content-and-site-planning-class-3-guide-infographic.webp)
 
 ![Infographic: SEO Content and Site Planning Cheat Sheet, covering content preparation, hosting and launch](keyword-research-and-content-planning/content-and-site-planning-class-3-cheat-sheet-infographic.webp)
+
+### [Content coverage and grouping, Class 4: from a keyword list to site structure](keyword-research-and-content-planning/content-coverage-and-grouping-class-4.md)
+
+![Infographic: Content coverage and grouping, Class 4](keyword-research-and-content-planning/content-coverage-and-grouping-class-4-infographic.webp)
 
 ## Quick Skills: Etsy by Sir Zafar Ali
 
