@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:b8a7fb0154b0b67672263543849d4eef654cdd00f6fc3fd0369d4c974ec4b307",
+  "build_id": "sha256:5938876526a82f32650263202f36ee142fbf3fcc8eddd2f978773727b8355ff9",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "34e8fda1650ee593e9c9423edc2515d4bfe3115e",
+  "source_commit": "9e1a460d6bae2072a1d50859fbc24709210769b6",
   "dirty": true,
-  "as_of": "2026-11-01T19:07:51.211Z",
+  "as_of": "2026-11-03T17:39:34.429Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "da85e4aa25561ad181d8ac29090b5c043f213b30a3f7e71dcd79c4882f168337",
+      "sha256": "bea0912ed4f20a69277002f50886301d3be543fbbfa932aa046875e333bc440a",
       "status": "stable",
       "audience": [
         "public"
@@ -170,7 +170,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-grouping-class-4.md",
-      "sha256": "a9e829089401b135734f3aed87af7ef3c8074773414f5f3396754eaac5dbcc49",
+      "sha256": "ef51d7fc58fbb9f6fdfbe839b072c2c80d83fc2d04d098ed572e1ff8fceaaeb5",
       "status": "stable",
       "audience": [
         "public"
@@ -1115,8 +1115,12 @@
       "sha256": "a7e4ca1a1f1a484fd9433be006f192dada5f1534bd8fe33e55e4bd078be4d0c0"
     },
     {
-      "path": "keyword-research-and-content-planning/content-coverage-and-grouping-class-4-infographic.webp",
-      "sha256": "e30ed8ffcc9b77a84325476297bf81ed35a5a7b57cd7a2951cfedb4f3414675c"
+      "path": "keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-1-infographic.webp",
+      "sha256": "488e8b9c930d684908689d1e9f0d4dde739053378c4014df11d8eee22394bdd3"
+    },
+    {
+      "path": "keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-2-infographic.webp",
+      "sha256": "24a328c0f3900701ff3ac4cc40b5709963df76a1ecd9bbd969eab5ce0c26e82e"
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage-and-grouping-class-4-sheet-example.webp",
@@ -1306,7 +1310,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "a3a8554ca699facacb4f5f50255247be32611cfbf9f56e78e05e0059079ff5f6"
+      "sha256": "b09c29816499ca095862857b2fe1618b5bc53f60627847b3c6de3a8c6f1025aa"
     },
     {
       "path": "local-seo/index.md",
@@ -1348,8 +1352,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "b6076599339588702264d15c907b5b3238e058ec6b579bab8ffbf52fa63525f8",
-      "files": 162
+      "sha256": "0d4fe489afed73e515892bcbc4830a1ce54cc7b38ad0a0732e4d5f7436755dde",
+      "files": 163
     }
   ]
 }
