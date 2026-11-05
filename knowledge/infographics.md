@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-11-03T17:39:22Z }
+generated: { by: human:ahmedraza, at: 2026-11-05T18:28:37Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-11-03T17:39:22Z }
+  approval: { by: human:ahmedraza, at: 2026-11-05T18:28:37Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -93,6 +93,12 @@ chapter's title to read the full lesson behind it.*
 ![Infographic: Content coverage and grouping, Class 4, Part 1: topical coverage and keyword research](keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-1-infographic.webp)
 
 ![Infographic: Content coverage and grouping, Class 4, Part 2: grouping and site structure](keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-2-infographic.webp)
+
+### [Keyword coverage and grouping, Class 5: other languages, and starting content writing above the fold](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5.md)
+
+![Infographic: Keyword coverage and grouping, Class 5, Part 1: keywords in other languages](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-1-infographic.webp)
+
+![Infographic: Keyword coverage and grouping, Class 5, Part 2: content writing above the fold](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-2-infographic.webp)
 
 ## Quick Skills: Etsy by Sir Zafar Ali
 

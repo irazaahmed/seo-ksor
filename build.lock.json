@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:5938876526a82f32650263202f36ee142fbf3fcc8eddd2f978773727b8355ff9",
+  "build_id": "sha256:c83528cff4d8c3ac9d1df9423d1cdc93b9c9cac8aa7a9a906f132b878fe8b4d0",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "9e1a460d6bae2072a1d50859fbc24709210769b6",
+  "source_commit": "2e00d390fbd4c29e7662d9a48baf6dae3d2c7fc8",
   "dirty": true,
-  "as_of": "2026-11-03T17:39:34.429Z",
+  "as_of": "2026-11-05T18:28:49.694Z",
   "drafts": "hidden",
   "instance_sha256": "004ff0db07c37bcaf050335218c727330dea025de975292bcc71a7ac0138cd41",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -148,7 +148,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "bea0912ed4f20a69277002f50886301d3be543fbbfa932aa046875e333bc440a",
+      "sha256": "dd313b88e448ba93a2c664b17e35632cb785c5f19e6ae6768f853a0195105f6d",
       "status": "stable",
       "audience": [
         "public"
@@ -215,6 +215,17 @@
     {
       "path": "keyword-research-and-content-planning/content-coverage-vs-keyword-coverage.md",
       "sha256": "bfc0919a631a27f9a21b116c5b28bd7d3e08b6cc590cc9ece866aff0151b5361",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5.md",
+      "sha256": "0f23f1750aa4144ac05372df157bdd7bc81086f2ca8150afa02591cbb2c15c68",
       "status": "stable",
       "audience": [
         "public"
@@ -1135,6 +1146,14 @@
       "sha256": "3b8685b21bd59612a0211dad4c7e5e9b4656b66311c82c714c8f847f90bcb96b"
     },
     {
+      "path": "keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-1-infographic.webp",
+      "sha256": "920313bdc217de22b34cc947add5c12d8cc1f7df5b03478379fbba1dafb5d702"
+    },
+    {
+      "path": "keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-2-infographic.webp",
+      "sha256": "b9f7eccd8ac66d690493a6cda8c55388b7fa3e5a8bb42bb3c57d3f464c696eb0"
+    },
+    {
       "path": "niche-research/apk-niche-research-infographic.webp",
       "sha256": "fa5cdc74c682ec2d862fa921bfd08538f11c90f610dddc170e6bfacaeb9d4cc5"
     },
@@ -1310,7 +1329,7 @@
     },
     {
       "path": "keyword-research-and-content-planning/index.md",
-      "sha256": "b09c29816499ca095862857b2fe1618b5bc53f60627847b3c6de3a8c6f1025aa"
+      "sha256": "e61d8631c182f3070aaaac3963cc8bb27e29f42bddbc661756480de6d5f89f4c"
     },
     {
       "path": "local-seo/index.md",
@@ -1352,8 +1371,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "0d4fe489afed73e515892bcbc4830a1ce54cc7b38ad0a0732e4d5f7436755dde",
-      "files": 163
+      "sha256": "72235ff06503ec35bde3b75b80bd5c99b1ab80e6b9b7317597333c89294b977b",
+      "files": 166
     }
   ]
 }
