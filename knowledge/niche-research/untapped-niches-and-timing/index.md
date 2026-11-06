@@ -1,0 +1,5 @@
+# Untapped niches and timing
+
+* [Seasonality, timing, and first-mover niches](timing-and-first-mover-niches.md) - Why a stable niche beats a spiking one, how to use Google Trends to find and validate first-mover opportunities, and a tool for fine-tuning a niche by location once it's chosen.
+* [Finding untapped niches: incognito searches and Google search operators](finding-untapped-niches-incognito-and-google-operators.md) - Sir Ghazanfar Abbas's tested method for reaching niches no tool will show, searching in incognito for keywords you have never heard of, checking traffic at three levels, and mining government portals with inurl and intitle operators.
+* [Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](finding-untapped-niches-google-com-and-google-trends.md) - Sir Athar Bajwa's two methods for untapped niches, putting google.com into Ahrefs Site Explorer and filtering its organic keywords by KD, word count and a "download" phrase, then taking seed words into Google Trends' new Explore.

@@ -1,0 +1,6 @@
+# Off page growth and clients
+
+* [Off-page SEO for local sites, Part 2: citations and social signals](off-page-citations-and-social-signals.md) - Sir Khurram Malik's lecture on social profiles for rank and rent sites, foundational links, why nofollow links and brand mentions still count, local business citations, citation types, and three ways to find citations.
+* [Off-page SEO basics: the 9 link-building precautions](off-page-basics-and-link-building-precautions.md) - Sir Khurram Malik's off-page SEO basics, the 9 precautions for safe link building (spam score bands, bad neighborhoods, link farms, OBL, anchor text shares and more), and link velocity, relevance and indexing.
+* [Sales psychology for client hunting: sell results, not SEO](sales-psychology-client-hunting.md) - Sir Khurram Malik's client hunting notes, why you sell business outcomes and emotions instead of SEO features, what local businesses actually want, client language, meeting questions, and selling FOMO and hope honestly.
+* [AI enhancement: competitor reviews, Search Console data and keyword gap optimization](ai-enhancement-competitor-and-gsc-optimization.md) - Sir Khurram Malik's advanced AI usage notes, a four-stage loop of competitor GMB review analysis, Google Search Console analysis, SEMrush keyword gap and keyword mapping, with the exact prompts for ChatGPT and Claude.

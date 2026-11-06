@@ -25,8 +25,7 @@ const MODULE_NAMES = {
   "ai-agents": "AI Agents",
   "keyword-research-and-content-planning": "Keyword research and content coverage",
   "niche-research": "Niche research",
-  "quick-skills/etsy/etsy-by-sir-zafar-ali": "Quick Skills: Etsy by Sir Zafar Ali",
-  "quick-skills/etsy/etsy-by-sir-zakria-afzal": "Quick Skills: Etsy by Sir Zakria Afzal",
+  "quick-skills/etsy": "Quick Skills: Etsy",
 };
 
 const INFOGRAPHIC = /^!\[Infographic:\s*(.+?)\]\(([^)\s]+)\)\s*$/gm;
@@ -47,11 +46,24 @@ function walk(dir) {
   });
 }
 
-function moduleName(folder) {
-  if (MODULE_NAMES[folder]) return MODULE_NAMES[folder];
+function folderHeading(folder) {
   const index = path.join(KNOWLEDGE, folder, "index.md");
   const heading = fs.existsSync(index) && fs.readFileSync(index, "utf8").match(/^# (.+)$/m)?.[1];
-  return heading || folder;
+  return heading || path.posix.basename(folder);
+}
+
+// A sub-folder is named after its nearest named ancestor, so two sections
+// that share a heading (keyword research for SEO and for Etsy) stay distinct.
+function moduleName(folder) {
+  const parts = folder.split("/");
+  for (let i = parts.length; i > 0; i--) {
+    const base = parts.slice(0, i).join("/");
+    if (!MODULE_NAMES[base] && i > 1) continue;
+    const names = [MODULE_NAMES[base] ?? folderHeading(base)];
+    for (let j = i + 1; j <= parts.length; j++) names.push(folderHeading(parts.slice(0, j).join("/")));
+    return names.join(": ");
+  }
+  return folder;
 }
 
 const chapters = [];

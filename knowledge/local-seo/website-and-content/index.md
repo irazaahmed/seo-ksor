@@ -1,0 +1,6 @@
+# Website and content
+
+* [AEO, GEO, Google voice search and AI Overview ranking: the 13 AI ranking signals](aeo-geo-voice-search-and-ai-overview-ranking.md) - Sir Khurram Malik's lecture on ranking content in AI platforms and voice assistants, where Google Assistant fetches its answers from, and the 13 AI ranking signals not to miss.
+* [Programmatic rank and rent SEO: the full workflow](programmatic-rank-and-rent-seo.md) - Sir Khurram Malik's programmatic rank and rent method, the city and payout criteria, why micro and nano niches beat broad ones, and the 20-step workflow from vertical selection to programmatic expansion.
+* [AI website creation, Lecture 1: the 16-step workflow with Claude Code](ai-website-creation-workflow.md) - Sir Khurram Malik's stack and 16-step workflow for building a hyper-local rank and rent website with WordPress, Kadence, Rank Math and Claude Code, including the research inputs and the prompts used.
+* [Content writing for Local SEO: AI words, semantic entities, EEAT and questions](local-seo-content-writing.md) - Sir Khurram Malik's Local SEO content writing notes, avoiding AI-sounding words, four ways to extract semantic entities, the YouTube method for EEAT, where to find questions for AEO and GEO, and the four-step content creation process.

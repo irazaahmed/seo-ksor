@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-11-05T18:28:37Z }
+generated: { by: human:ahmedraza, at: 2026-11-06T18:20:49Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-11-05T18:28:37Z }
+  approval: { by: human:ahmedraza, at: 2026-11-06T18:20:49Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -26,171 +26,195 @@ chapter's title to read the full lesson behind it.*
 
 ![Infographic: Beginner Special Class, niche research basics and the sweet spot method](niche-research/overview-beginner-special-infographic.webp)
 
-### [Finding niches, Method 1: reverse-engineering marketplaces](niche-research/finding-niches-marketplaces.md)
+## Niche research: Finding niches
 
-![Infographic: Class 3, finding your first seed keywords](niche-research/finding-niches-marketplaces-infographic.webp)
+### [Finding niches, Method 1: reverse-engineering marketplaces](niche-research/finding-niches/finding-niches-marketplaces.md)
 
-![Infographic: Niche finding revision class, three methods (Sir Naveed Kalro)](niche-research/finding-niches-marketplaces-revision-class-infographic.webp)
+![Infographic: Class 3, finding your first seed keywords](niche-research/finding-niches/finding-niches-marketplaces-infographic.webp)
 
-### [Finding niches, Method 2: the Ahrefs/SEMrush filter method](niche-research/finding-niches-ahrefs-filters.md)
+![Infographic: Niche finding revision class, three methods (Sir Naveed Kalro)](niche-research/finding-niches/finding-niches-marketplaces-revision-class-infographic.webp)
 
-![Infographic: Class 4, niche research with AI and Ahrefs](niche-research/finding-niches-ahrefs-filters-infographic.webp)
+### [Finding niches, Method 2: the Ahrefs/SEMrush filter method](niche-research/finding-niches/finding-niches-ahrefs-filters.md)
 
-### [Finding niches, Method 4: backlink mining and UGC intent mismatches](niche-research/finding-niches-backlink-and-ugc-method.md)
+![Infographic: Class 4, niche research with AI and Ahrefs](niche-research/finding-niches/finding-niches-ahrefs-filters-infographic.webp)
 
-![Infographic: Finding niches, Method 4: backlink mining and UGC intent mismatches](niche-research/finding-niches-backlink-and-ugc-method-infographic.webp)
+### [Finding niches, Method 4: backlink mining and UGC intent mismatches](niche-research/finding-niches/finding-niches-backlink-and-ugc-method.md)
 
-### [Finding niches, Method 5: SaaS and AI tool marketplaces](niche-research/finding-niches-saas-and-ai-tools.md)
+![Infographic: Finding niches, Method 4: backlink mining and UGC intent mismatches](niche-research/finding-niches/finding-niches-backlink-and-ugc-method-infographic.webp)
 
-![Infographic: Finding niches, Method 5: SaaS and AI tool marketplaces](niche-research/finding-niches-saas-and-ai-tools-infographic.webp)
+### [Finding niches, Method 5: SaaS and AI tool marketplaces](niche-research/finding-niches/finding-niches-saas-and-ai-tools.md)
 
-### [Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](niche-research/finding-niches-page-replication.md)
+![Infographic: Finding niches, Method 5: SaaS and AI tool marketplaces](niche-research/finding-niches/finding-niches-saas-and-ai-tools-infographic.webp)
 
-![Infographic: Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](niche-research/finding-niches-page-replication-infographic.webp)
+### [Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](niche-research/finding-niches/finding-niches-page-replication.md)
 
-### [Finding niches, Method 7: a topic search in Ahrefs Content Explorer, then reverse engineering](niche-research/finding-niches-content-explorer-topic-search.md)
+![Infographic: Finding niches, Method 6: replicating one strong page from Ahrefs Content Explorer](niche-research/finding-niches/finding-niches-page-replication-infographic.webp)
 
-![Infographic: Finding niches, Method 7: a topic search in Ahrefs Content Explorer, then reverse engineering](niche-research/finding-niches-content-explorer-topic-search-infographic.webp)
+### [Finding niches, Method 7: a topic search in Ahrefs Content Explorer, then reverse engineering](niche-research/finding-niches/finding-niches-content-explorer-topic-search.md)
 
-### [Automating niche research: Ahrefs MCP connected to Claude](niche-research/automate-niche-research-ahrefs-mcp.md)
+![Infographic: Finding niches, Method 7: a topic search in Ahrefs Content Explorer, then reverse engineering](niche-research/finding-niches/finding-niches-content-explorer-topic-search-infographic.webp)
 
-![Infographic: Automating niche research: Ahrefs MCP connected to Claude](niche-research/automate-niche-research-ahrefs-mcp-infographic.webp)
+### [Automating niche research: Ahrefs MCP connected to Claude](niche-research/finding-niches/automate-niche-research-ahrefs-mcp.md)
 
-### [Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](niche-research/finding-untapped-niches-google-com-and-google-trends.md)
+![Infographic: Automating niche research: Ahrefs MCP connected to Claude](niche-research/finding-niches/automate-niche-research-ahrefs-mcp-infographic.webp)
 
-![Infographic: Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](niche-research/finding-untapped-niches-google-com-and-google-trends-infographic.webp)
+## Niche research: Untapped niches and timing
 
-### [APK niche research](niche-research/apk-niche-research.md)
+### [Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](niche-research/untapped-niches-and-timing/finding-untapped-niches-google-com-and-google-trends.md)
 
-![Infographic: APK niche research](niche-research/apk-niche-research-infographic.webp)
+![Infographic: Finding untapped niches: reverse engineering google.com in Ahrefs, and Google Trends](niche-research/untapped-niches-and-timing/finding-untapped-niches-google-com-and-google-trends-infographic.webp)
 
-### [Easy-to-rank niche categories](niche-research/easy-niche-categories.md)
+## Niche research: Niche types and targeting
 
-![Infographic: Class 6, finding easy niches](niche-research/easy-niche-categories-infographic.webp)
+### [APK niche research](niche-research/niche-types-and-targeting/apk-niche-research.md)
 
-### [Country and language targeting for niches](niche-research/country-and-language-targeting.md)
+![Infographic: APK niche research](niche-research/niche-types-and-targeting/apk-niche-research-infographic.webp)
 
-![Infographic: Country and language targeting for niches](niche-research/country-and-language-targeting-infographic.webp)
+### [Easy-to-rank niche categories](niche-research/niche-types-and-targeting/easy-niche-categories.md)
 
-## Keyword research and content coverage
+![Infographic: Class 6, finding easy niches](niche-research/niche-types-and-targeting/easy-niche-categories-infographic.webp)
 
-### [Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo.md)
+### [Country and language targeting for niches](niche-research/niche-types-and-targeting/country-and-language-targeting.md)
 
-![Infographic: Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage-related-keywords-and-programmatic-seo-infographic.webp)
+![Infographic: Country and language targeting for niches](niche-research/niche-types-and-targeting/country-and-language-targeting-infographic.webp)
 
-### [Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping.md)
+## Keyword research and content coverage: Content coverage
 
-![Infographic: Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage-competitors-and-keyword-grouping-infographic.webp)
+### [Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage/content-coverage-related-keywords-and-programmatic-seo.md)
 
-### [Content and site planning, Class 3: from an approved niche to launch](keyword-research-and-content-planning/content-and-site-planning-class-3.md)
+![Infographic: Content coverage, Class 1: related keywords, Google Autocomplete and programmatic SEO](keyword-research-and-content-planning/content-coverage/content-coverage-related-keywords-and-programmatic-seo-infographic.webp)
 
-![Infographic: SEO Content and Site Planning Guide, from niche approval through site launch](keyword-research-and-content-planning/content-and-site-planning-class-3-guide-infographic.webp)
+### [Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage/content-coverage-competitors-and-keyword-grouping.md)
 
-![Infographic: SEO Content and Site Planning Cheat Sheet, covering content preparation, hosting and launch](keyword-research-and-content-planning/content-and-site-planning-class-3-cheat-sheet-infographic.webp)
+![Infographic: Content coverage, Class 2: competitor keywords via Ahrefs, keyword grouping and Google Alerts](keyword-research-and-content-planning/content-coverage/content-coverage-competitors-and-keyword-grouping-infographic.webp)
 
-### [Content coverage and grouping, Class 4: from a keyword list to site structure](keyword-research-and-content-planning/content-coverage-and-grouping-class-4.md)
+## Keyword research and content coverage: Grouping and site structure
 
-![Infographic: Content coverage and grouping, Class 4, Part 1: topical coverage and keyword research](keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-1-infographic.webp)
+### [Content and site planning, Class 3: from an approved niche to launch](keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3.md)
 
-![Infographic: Content coverage and grouping, Class 4, Part 2: grouping and site structure](keyword-research-and-content-planning/content-coverage-and-grouping-class-4-part-2-infographic.webp)
+![Infographic: SEO Content and Site Planning Guide, from niche approval through site launch](keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-guide-infographic.webp)
 
-### [Keyword coverage and grouping, Class 5: other languages, and starting content writing above the fold](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5.md)
+![Infographic: SEO Content and Site Planning Cheat Sheet, covering content preparation, hosting and launch](keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-cheat-sheet-infographic.webp)
 
-![Infographic: Keyword coverage and grouping, Class 5, Part 1: keywords in other languages](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-1-infographic.webp)
+### [Content coverage and grouping, Class 4: from a keyword list to site structure](keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4.md)
 
-![Infographic: Keyword coverage and grouping, Class 5, Part 2: content writing above the fold](keyword-research-and-content-planning/keyword-coverage-other-languages-and-content-writing-class-5-part-2-infographic.webp)
+![Infographic: Content coverage and grouping, Class 4, Part 1: topical coverage and keyword research](keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-1-infographic.webp)
 
-## Quick Skills: Etsy by Sir Zafar Ali
+![Infographic: Content coverage and grouping, Class 4, Part 2: grouping and site structure](keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-2-infographic.webp)
 
-### [Etsy listings and competitor research](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research.md)
+### [Keyword coverage and grouping, Class 5: keywords in other languages](keyword-research-and-content-planning/grouping-and-site-structure/keyword-coverage-other-languages-class-5.md)
 
-![Infographic: Etsy listings and competitor research](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-competitor-research-infographic.webp)
+![Infographic: Keyword coverage and grouping, Class 5: keywords in other languages](keyword-research-and-content-planning/grouping-and-site-structure/keyword-coverage-other-languages-class-5-infographic.webp)
 
-### [Finding Etsy keywords in bulk: three methods and the selection formula](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-research-in-bulk.md)
+## Content writing: Writing fundamentals
 
-![Infographic: Finding Etsy keywords in bulk: three methods and the selection formula](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-research-in-bulk-infographic.webp)
+### [Starting content writing: the above the fold area and fulfilling search intent](content-writing/writing-fundamentals/content-writing-above-the-fold-class-5.md)
 
-### [Etsy keyword research mastery: the types of keywords](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-types.md)
+![Infographic: Starting content writing, Class 5: the above the fold area and fulfilling search intent](content-writing/writing-fundamentals/content-writing-above-the-fold-class-5-infographic.webp)
 
-![Infographic: Etsy keyword research mastery: the types of keywords](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-keyword-types-infographic.webp)
+## Quick Skills: Etsy: Getting started
 
-### [Etsy manual research methods, and the shop assignment criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-manual-research-methods-and-shop-assignment.md)
+### [Creating an Etsy shop](quick-skills/etsy/getting-started/etsy-account-creation.md)
 
-![Infographic: Etsy manual research methods, and the shop assignment criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-manual-research-methods-and-shop-assignment-infographic.webp)
+![Infographic: Creating an Etsy shop](quick-skills/etsy/getting-started/etsy-account-creation-infographic.webp)
 
-### [Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview.md)
+### [Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/getting-started/payoneer-account-creation.md)
 
-![Infographic: Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-shop-overview-infographic.webp)
+![Infographic: Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/getting-started/payoneer-account-creation-infographic.webp)
 
-### [Etsy listing and sales: improve images, create templates and publish](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales.md)
+### [40 free Etsy listings: the referral link that rewards both sides](quick-skills/etsy/getting-started/etsy-free-listings-referral-link.md)
 
-![Infographic: Etsy listing and sales](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-listing-and-sales-infographic.webp)
+![Infographic: 40 free Etsy listings: the referral link that rewards both sides](quick-skills/etsy/getting-started/etsy-free-listings-referral-link-infographic.webp)
 
-### [Etsy digital product creation: AI-built planners, Canva templates and listing videos](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing.md)
+## Quick Skills: Etsy: Product and niche research
 
-![Infographic: Etsy digital product creation and listing](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-digital-product-creation-and-listing-infographic.webp)
+### [Etsy listings and competitor research](quick-skills/etsy/product-and-niche-research/etsy-listing-and-competitor-research.md)
 
-### [Etsy shop and products: one shop, five listing images and coloring books](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products.md)
+![Infographic: Etsy listings and competitor research](quick-skills/etsy/product-and-niche-research/etsy-listing-and-competitor-research-infographic.webp)
 
-![Infographic: Etsy shop and products](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-shop-and-products-infographic.webp)
+### [Etsy product research with ChatGPT: make up session](quick-skills/etsy/product-and-niche-research/etsy-product-research.md)
 
-### [RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria.md)
+![Infographic: Etsy product research with ChatGPT, make up session (Shanawar Aslam)](quick-skills/etsy/product-and-niche-research/etsy-product-research-infographic.webp)
 
-![Infographic: RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-rankkw-tool-and-listing-criteria-infographic.webp)
+### [Etsy niche and keyword research, step by step: a practical walkthrough](quick-skills/etsy/product-and-niche-research/etsy-niche-and-keyword-research-practical.md)
 
-### [Creating an Etsy shop](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation.md)
+![Infographic: Etsy niche and keyword research, step by step: a practical walkthrough](quick-skills/etsy/product-and-niche-research/etsy-niche-and-keyword-research-practical-infographic.webp)
 
-![Infographic: Creating an Etsy shop](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-account-creation-infographic.webp)
+### [Etsy keyword and product research with eRank and EHunt](quick-skills/etsy/product-and-niche-research/etsy-keyword-research-erank-and-ehunt.md)
 
-### [Etsy product research with ChatGPT: make up session](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research.md)
+![Infographic: Etsy keyword and product research with eRank and EHunt](quick-skills/etsy/product-and-niche-research/etsy-keyword-research-erank-and-ehunt-infographic.webp)
 
-![Infographic: Etsy product research with ChatGPT, make up session (Shanawar Aslam)](quick-skills/etsy/etsy-by-sir-zafar-ali/etsy-product-research-infographic.webp)
+## Quick Skills: Etsy: Keyword research
 
-## Quick Skills: Etsy by Sir Zakria Afzal
+### [The exact roadmap to start using keywords on Etsy](quick-skills/etsy/keyword-research/etsy-keyword-roadmap-for-beginners.md)
 
-### [Etsy keyword and product research with eRank and EHunt](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-erank-and-ehunt.md)
+![Infographic: The exact roadmap to start using keywords on Etsy](quick-skills/etsy/keyword-research/etsy-keyword-roadmap-for-beginners-infographic.webp)
 
-![Infographic: Etsy keyword and product research with eRank and EHunt](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-erank-and-ehunt-infographic.webp)
+### [Finding Etsy keywords in bulk: three methods and the selection formula](quick-skills/etsy/keyword-research/etsy-keyword-research-in-bulk.md)
 
-### [Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-clear-all-confusion.md)
+![Infographic: Finding Etsy keywords in bulk: three methods and the selection formula](quick-skills/etsy/keyword-research/etsy-keyword-research-in-bulk-infographic.webp)
 
-![Infographic: Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-research-clear-all-confusion-infographic.webp)
+### [Etsy keyword research mastery: the types of keywords](quick-skills/etsy/keyword-research/etsy-keyword-types.md)
 
-### [Etsy niche and keyword research, step by step: a practical walkthrough](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical.md)
+![Infographic: Etsy keyword research mastery: the types of keywords](quick-skills/etsy/keyword-research/etsy-keyword-types-infographic.webp)
 
-![Infographic: Etsy niche and keyword research, step by step: a practical walkthrough](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-niche-and-keyword-research-practical-infographic.webp)
+### [Etsy manual research methods, and the shop assignment criteria](quick-skills/etsy/keyword-research/etsy-manual-research-methods-and-shop-assignment.md)
 
-### [The exact roadmap to start using keywords on Etsy](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-roadmap-for-beginners.md)
+![Infographic: Etsy manual research methods, and the shop assignment criteria](quick-skills/etsy/keyword-research/etsy-manual-research-methods-and-shop-assignment-infographic.webp)
 
-![Infographic: The exact roadmap to start using keywords on Etsy](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-keyword-roadmap-for-beginners-infographic.webp)
+### [RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/keyword-research/etsy-rankkw-tool-and-listing-criteria.md)
 
-### [Etsy SEO: the ranking formula, keyword layering, and writing the title, tags and description](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-seo-ranking-formula-and-keyword-layering.md)
+![Infographic: RankKW: the Etsy SEO tool and shop criteria](quick-skills/etsy/keyword-research/etsy-rankkw-tool-and-listing-criteria-infographic.webp)
 
-![Infographic: Etsy SEO: the ranking formula, keyword layering, and writing the title, tags and description](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp)
+### [Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion.md)
 
-### [Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis and pro tips](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-ranking-funnel-and-pro-tips.md)
+![Infographic: Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion-infographic.webp)
 
-![Infographic: Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis and pro tips](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-ranking-funnel-and-pro-tips-infographic.webp)
+## Quick Skills: Etsy: Listings and images
 
-### [40 free Etsy listings: the referral link that rewards both sides](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link.md)
+### [Etsy SEO: the ranking formula, keyword layering, and writing the title, tags and description](quick-skills/etsy/listings-and-images/etsy-seo-ranking-formula-and-keyword-layering.md)
 
-![Infographic: 40 free Etsy listings: the referral link that rewards both sides](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-free-listings-referral-link-infographic.webp)
+![Infographic: Etsy SEO: the ranking formula, keyword layering, and writing the title, tags and description](quick-skills/etsy/listings-and-images/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp)
 
-### [Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation.md)
+### [Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/listings-and-images/etsy-listing-creation.md)
 
-![Infographic: Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-listing-creation-infographic.webp)
+![Infographic: Creating an Etsy listing, from final SEO to publish](quick-skills/etsy/listings-and-images/etsy-listing-creation-infographic.webp)
 
-### [Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation.md)
+### [Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/listings-and-images/etsy-listing-and-shop-overview.md)
 
-![Infographic: Creating a Payoneer account, step by step from sign-up to document verification](quick-skills/etsy/etsy-by-sir-zakria-afzal/payoneer-account-creation-infographic.webp)
+![Infographic: Etsy listing and shop overview: brand identity, listing health and growth habits](quick-skills/etsy/listings-and-images/etsy-listing-and-shop-overview-infographic.webp)
 
-### [Etsy pro strategy to grow fast: multiple shops, eHunt, ads and product expansion](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast.md)
+### [Etsy listing and sales: improve images, create templates and publish](quick-skills/etsy/listings-and-images/etsy-listing-and-sales.md)
 
-![Infographic: Pro Strategy to Grow Fast, covering multiple shops, eHunt, Etsy Ads and business growth](quick-skills/etsy/etsy-by-sir-zakria-afzal/etsy-pro-strategy-to-grow-fast-infographic.webp)
+![Infographic: Etsy listing and sales](quick-skills/etsy/listings-and-images/etsy-listing-and-sales-infographic.webp)
 
-### [Canva course: design invitation templates and planners for Etsy](quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners.md)
+## Quick Skills: Etsy: Products to sell
 
-![Infographic: Canva Course by Sir Zakria Afzal, covering editor tools, invitations, planners, mockups and editable templates](quick-skills/etsy/etsy-by-sir-zakria-afzal/canva-course-invitations-and-planners-infographic.webp)
+### [Etsy digital product creation: AI-built planners, Canva templates and listing videos](quick-skills/etsy/products-to-sell/etsy-digital-product-creation-and-listing.md)
+
+![Infographic: Etsy digital product creation and listing](quick-skills/etsy/products-to-sell/etsy-digital-product-creation-and-listing-infographic.webp)
+
+### [Etsy shop and products: one shop, five listing images and coloring books](quick-skills/etsy/products-to-sell/etsy-shop-and-products.md)
+
+![Infographic: Etsy shop and products](quick-skills/etsy/products-to-sell/etsy-shop-and-products-infographic.webp)
+
+### [Canva course: design invitation templates and planners for Etsy](quick-skills/etsy/products-to-sell/canva-course-invitations-and-planners.md)
+
+![Infographic: Canva Course by Sir Zakria Afzal, covering editor tools, invitations, planners, mockups and editable templates](quick-skills/etsy/products-to-sell/canva-course-invitations-and-planners-infographic.webp)
+
+### [Print on demand on Etsy with Printify: zero investment, nothing to ship](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify.md)
+
+![Infographic: Print on demand on Etsy with Printify](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify-infographic.webp)
+
+## Quick Skills: Etsy: Ranking and growth
+
+### [Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis and pro tips](quick-skills/etsy/ranking-and-growth/etsy-ranking-funnel-and-pro-tips.md)
+
+![Infographic: Etsy ranking system: the ranking funnel, thumbnails, listing diagnosis and pro tips](quick-skills/etsy/ranking-and-growth/etsy-ranking-funnel-and-pro-tips-infographic.webp)
+
+### [Etsy pro strategy to grow fast: multiple shops, eHunt, ads and product expansion](quick-skills/etsy/ranking-and-growth/etsy-pro-strategy-to-grow-fast.md)
+
+![Infographic: Pro Strategy to Grow Fast, covering multiple shops, eHunt, Etsy Ads and business growth](quick-skills/etsy/ranking-and-growth/etsy-pro-strategy-to-grow-fast-infographic.webp)
 
 ## AI Agents
 

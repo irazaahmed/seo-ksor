@@ -5,11 +5,11 @@ description: The tools, authority metrics, monetization models, and selection cr
 status: stable
 order: 3
 added: 2026-09-14T15:05:41Z
-generated: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
+generated: { by: human:ahmedraza, at: 2026-11-06T18:14:10Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-10-16T11:32:00Z }
+  approval: { by: human:ahmedraza, at: 2026-11-06T18:14:10Z }
 sources:
   - id: class-10-helping-material
     title: "Helping material, Class 10"
@@ -145,7 +145,7 @@ Two places to source problem-solving niche ideas from directly:
 - **UGC sites** (Reddit, Quora): real discussion is a signal of real demand,
   and browsing them for recurring questions surfaces niches the same way (see
   [Finding niches, Method 4: backlink mining and UGC intent
-  mismatches](finding-niches-backlink-and-ugc-method.md) for a more targeted,
+  mismatches](finding-niches/finding-niches-backlink-and-ugc-method.md) for a more targeted,
   tool-driven version of this).
 
 ## Types of niches, by size

@@ -16,5 +16,6 @@ RUN npm run build
 
 FROM nginx:1.27-alpine
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
+COPY deploy/moved-docs.conf /etc/nginx/conf.d/00-moved-docs.conf
 COPY --from=build /app/system/site/out /usr/share/nginx/html
 EXPOSE 80

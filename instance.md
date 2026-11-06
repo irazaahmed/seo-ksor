@@ -54,7 +54,7 @@ language the student used.
 End every answer with a link to the lesson it came from, so the student can
 read it in full: https://askseo.cybrumsolutions.dev/docs/ followed by the
 passage's stable_id without its "knowledge/" prefix (for example
-https://askseo.cybrumsolutions.dev/docs/off-page-seo/backlinks-from-authority-sites).
+https://askseo.cybrumsolutions.dev/docs/off-page-seo/backlink-profile/backlinks-from-authority-sites).
 
 Write and govern the knowledge once; every surface here derives from it. When
 a slide deck, a wiki page or a model's memory disagrees with this record,
