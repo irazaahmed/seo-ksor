@@ -1,0 +1,64 @@
+[
+{"out":"knowledge/quick-skills/etsy/getting-started/etsy-account-creation-infographic.webp","kicker":"Etsy · Sir Zafar Ali","title":"Creating an Etsy Shop","subtitle":"Buyer account first, then seller, then lock it down",
+"sections":[
+{"type":"timeline","items":[
+{"label":"Step 1","icon":"mail","title":"Buyer account","text":"Sign up at etsy.com with a direct email, not \"Continue with Google\"."},
+{"label":"Step 2","icon":"store","title":"Sell on Etsy","text":"Country: Pakistan. Currency: USD. Pakistan even if Etsy is not in your country."},
+{"label":"Step 3","icon":"tag","title":"Name the shop","text":"Unique, never your real name: niche, general or brand-specific."},
+{"label":"Step 4","icon":"lock","title":"Secure it","text":"\"Keep your shop extra safe\" with Google Authenticator, not SMS."}]},
+{"type":"compare","columns":[{"title":"Do","icon":"check","tone":"sage","items":["Use a direct email address","Use an authenticator app"]},{"title":"Skip","icon":"x","tone":"terra","items":["Continue with Google at sign-up","The EtsyPlus upsell during setup"]}]},
+{"type":"callout","icon":"search","quote":"Next: advanced keyword research for the shop.","text":"Getting it right from the start avoids problems with the shop later."}]},
+
+{"out":"knowledge/quick-skills/etsy/getting-started/etsy-free-listings-referral-link-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"40 Free Etsy Listings","subtitle":"One referral link that rewards both sides",
+"sections":[
+{"type":"flow","items":[{"icon":"link","title":"Open the page","text":"etsy.com/invites/sell/"},{"icon":"share-2","title":"Share the link","text":"The one that comes up on that page"},{"icon":"user-plus","title":"Someone joins","text":"Through that link"}]},
+{"type":"stats","heading":"Who gets what","items":[{"value":"40","label":"free listings for the person who shares"},{"value":"40","label":"free listings for the person who joins"}]},
+{"type":"callout","icon":"gift","quote":"Both sides get 40 free listings."}]},
+
+{"out":"knowledge/quick-skills/etsy/getting-started/payoneer-account-creation-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Creating a Payoneer Account","subtitle":"One step at a time, so the account is created properly",
+"sections":[
+{"type":"cards","cols":4,"items":[
+{"tag":"Part 1","icon":"user-plus","title":"Open the account","points":["Payoneer website: Open an account","Business or personal email, paste the code","No tax authority? Click No, pick country","WhatsApp number and code","Make a password"]},
+{"tag":"Part 2","icon":"briefcase","title":"Business info","points":["Graphic and Digital Design","Marketplace, then Etsy","0 to 20 transactions, up to $500","Your business URL","North America"]},
+{"tag":"Part 3","icon":"scan-face","title":"About you","points":["Personal details","ID verified with a selfie, mobile or desktop","Name in English and in Urdu","Physical address"]},
+{"tag":"Part 4","icon":"landmark","title":"Bank and proof","points":["Bank account: currency, bank name","Address documents","Verify with a bank statement"]}]},
+{"type":"callout","icon":"shield-check","quote":"Follow the pattern one step at a time.","text":"So that the account is created properly."}]},
+
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-keyword-roadmap-for-beginners-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"The Exact Keyword Roadmap","subtitle":"For a beginner who does not yet know a keyword or a niche",
+"sections":[
+{"type":"flow","items":[{"icon":"bot","title":"Ask ChatGPT","text":"A lot of keywords and seeds"},{"icon":"filter","title":"Check in eRank","text":"Keep the ones that meet the criteria"},{"icon":"copyright","title":"Copyright check","text":"Ask ChatGPT: copyright or trademark?"},{"icon":"key-round","title":"Your keyword","text":"If it is not, it is yours"}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"store","title":"One keyword, one shop","text":"Find one good keyword and build your whole shop on it."},
+{"icon":"split","title":"Keywords inside keywords","text":"\"wall art\" holds \"wall\" and \"art\" as separate keywords."},
+{"icon":"layers","title":"Niche Deck","text":"Keep spying and reverse engineering; sort them with Niche Deck."}]},
+{"type":"callout","icon":"route","quote":"ChatGPT, eRank, copyright check, then build.","text":"That is the whole roadmap."}]},
+
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-keyword-types-infographic.webp","kicker":"Etsy · Class 11 · Sir Zafar Ali","title":"Keyword Research Mastery: The Types","subtitle":"Tools help; become an expert at manual research",
+"sections":[
+{"type":"flow","heading":"Keywords by length","items":[{"label":"Broad","title":"Short tail","text":"One or two words, high volume; never ranks, but supports"},{"label":"Mid","title":"Mid tail","text":"\"baby shower invitation\""},{"label":"Long","title":"Long tail","text":"\"ATS resume template for nurse\""},{"label":"Exact","title":"Exact product","text":"\"editable teddy bear baby shower invitation\""}]},
+{"type":"table","heading":"Keywords by job","columns":["Type","What it does","Example"],"rows":[
+["Focus","Clear understanding of the product",""],
+["Secondary","Improves the CTR","editable, pdf, instant download"],
+["Modifier","Words a buyer clicks on","minimalist, personalized"],
+["Theme","Idea of the file, theme and logic",""],
+["Color","Names a color","sage green invitation"],
+["Delivery type","How it is delivered","digital download, physical invitation"],
+["Audience","Names the audience","resume for nurse, planner for teachers"],
+["Occasion","Based on an event",""],
+["Platform","The platform it is for","canva resume template, google docs resume"]]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","columns":[{"title":"Always","icon":"check","tone":"sage","items":["Start the phrase with editable or downloadable","Add a color if you can","Mention size and quantity","Target evergreen: demand all 12 months"]}]},
+{"type":"compare","columns":[{"title":"Never","icon":"x","tone":"terra","items":["WH words","Informational keywords","Seasonal without at least 2 months before the season"]}]}]},
+{"type":"callout","icon":"store","quote":"Always start the shop general.","text":"A shop has multiple products; custom physical items also cut refunds a lot."}]},
+
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-rankkw-tool-and-listing-criteria-infographic.webp","kicker":"Etsy · Sir Zafar Ali","title":"RankKW: The Etsy SEO Tool and Shop Criteria","subtitle":"Judge the first 10 listings before you commit to a shop",
+"sections":[
+{"type":"chips","heading":"Compared against","items":["RankKW (browser extension)","Everbee","eHunt","eRank"]},
+{"type":"stats","heading":"Shop criteria: the first 10 listings","items":[{"value":"2 of 10","label":"listings under 3 months old"},{"value":"2,500+","label":"views on those listings"},{"value":"3%+","label":"conversion rate, minimum"}]},
+{"type":"cards","heading":"Reading the numbers","cols":3,"items":[
+{"icon":"trending-up","title":"Sale colour","text":"Green rising, red falling, any other colour stable."},
+{"icon":"receipt","title":"Revenue","text":"After Etsy's commission and tax are cut out."},
+{"icon":"percent","title":"Conversion rate","text":"At least 3% minimum."}]},
+{"type":"steps","heading":"Assignment","cols":2,"items":["Pick a keyword: top 10 listings none older than 3 months, 50+ sales each","Reverse-engineer the shop \"SerenatesJourney\""]},
+{"type":"callout","icon":"info","quote":"These criteria judge a shop, not a keyword.","text":"Keyword criteria come later, in the bulk research class."}]}
+]

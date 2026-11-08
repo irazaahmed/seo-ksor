@@ -1,0 +1,41 @@
+[
+{"out":"knowledge/niche-research/niche-types-and-targeting/apk-niche-research-infographic.webp","kicker":"Class 08 · Sir Aswad Baloch","title":"APK Niche Research","subtitle":"A hosting niche, not a development one, with \"apk\" as its seed",
+"sections":[
+{"type":"cards","heading":"APK and its modified forms","cols":3,"items":[
+{"icon":"smartphone","title":"APK","text":"The original app, exactly as its developer released it."},
+{"icon":"wrench","title":"MOD APK","text":"A developer's restriction removed or worked around, e.g. GB WhatsApp."},
+{"icon":"crown","title":"Pro / Premium APK","text":"The paid, premium version of an app, offered for free."}]},
+{"type":"table","heading":"Selection criteria","columns":["Metric","Target"],"rows":[["Search volume","More than 30,000"],["Moz DA and Ahrefs DR","Less than 30 (a later pass: DR under 20)"],["SERP analysis","At least 2 to 3 competing sites with DA under 30"],["Number of pages","Less than 150"],["Site age","Target sites under 1 year old are easier to displace"]]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","heading":"Where demand is biggest","columns":[{"title":"Markets and languages","icon":"globe","tone":"blue","items":["India, Indonesia, Gulf countries, South America","Spanish, Arabic, Turkish, German, French"]}]},
+{"type":"compare","heading":"Budget to set one up","columns":[{"title":"Minimal investment","icon":"wallet","tone":"sage","items":["Domain: $10 per year","Hosting: free for the first year","APK file: available free","Content and design: self-produced"]}]}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"layers","title":"Micro vs Macro","text":"One specific APK, or a brand site with many APKs across categories."},
+{"icon":"shield-alert","title":"DMCA","text":"A developer can complain, and Google may remove the page or file."},
+{"icon":"badge-dollar-sign","title":"Monetization","text":"AdSense pays the publisher a 68% share; other ad networks supplement it."}]},
+{"type":"callout","icon":"search","quote":"Even one low-DR site among the competitors is enough reason to pursue it.","text":"Ahrefs Organic Competitors gives a ready-made competitor list for the niche."}]},
+
+{"out":"knowledge/niche-research/niche-types-and-targeting/country-and-language-targeting-infographic.webp","kicker":"Class 09 · Ammar Ashfaq","title":"Country and Language Targeting","subtitle":"Ranking in one region is usually far easier than ranking globally",
+"sections":[
+{"type":"compare","heading":"Country code SEO: same look, different behaviour","columns":[{"title":"\"Spotify Mod APK\"","icon":"globe","tone":"terra","items":["Searched all over the world","Global intent, global competition"]},{"title":"\"MEPCO bill check\"","icon":"map-pin","tone":"sage","items":["Searched almost entirely in Pakistan","Narrow audience, narrow competition"]}]},
+{"type":"callout","icon":"percent","quote":"More than 80% of volume from one country? It is that country's keyword.","text":"The same keyword returns a different SERP depending on the country you search from."},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"steps","heading":"Approach A: keyword-first","cols":1,"items":[{"title":"Keyword Explorer, select the country"},{"title":"KD up to 20, DR down to 20"},{"title":"Include term, e.g. calcult*"}]},
+{"type":"steps","heading":"Approach B: site-first via ccTLD","cols":1,"items":[{"title":"DR above 10, traffic under 50,000, target language"},{"title":"Empty Content Explorer search, Websites filter: .br"},{"title":"Paste the URLs into Batch Analysis, find the goldmine"}]}]},
+{"type":"table","heading":"Revenue per 1,000 visits, by tier","columns":["Tier","English-speaking users","Other-language users"],"rows":[["Tier 1","$15-20","$7-10"],["Tier 2","$6-10","$3-5"],["Tier 3","$2-4","$1"]]},
+{"type":"chips","heading":"Priority languages: about half of Google searches are not in English","items":["Spanish (ES)","German (DE)","French (FR)","Portuguese (PT)","Italian (IT)","Saudi Arabia / UAE","Egypt","Holland"]},
+{"type":"cards","cols":3,"items":[
+{"icon":"languages","title":"Optimise for language","text":"Not tier. A Tier 2 or 3 language still adds up at scale."},
+{"icon":"copy","title":"Scale across countries","text":"Reuse niche and structure; redo local keywords and translation."},
+{"icon":"calculator","title":"Revenue formula","text":"(traffic / 1,000) × RPM"}]}]},
+
+{"out":"knowledge/niche-research/untapped-niches-and-timing/finding-untapped-niches-google-com-and-google-trends-infographic.webp","kicker":"Make-up session · Sir Athar Bajwa","title":"Untapped Niches: google.com and Google Trends","subtitle":"Google has 85 to 90% of the world's traffic, so everyone's data is there",
+"sections":[
+{"type":"flow","heading":"Method 1: google.com in Ahrefs Site Explorer","items":[{"icon":"search","title":"google.com","text":"Into Site Explorer"},{"icon":"list","title":"Organic keywords","text":"Everything that ranks on Google"},{"icon":"gauge","title":"KD at most 20","text":"First filter"},{"icon":"type","title":"Word count 3","text":"Via Add filter"},{"icon":"languages","title":"Language, country","text":"And any other filters"}]},
+{"type":"cards","cols":2,"items":[
+{"icon":"waves","title":"An ocean of niches","text":"Search a niche on the SERP; if it meets the criteria, it is yours."},
+{"icon":"download","title":"The \"download\" filter","text":"Keywords with \"download\": a brand may be blocked or not working in a country."}]},
+{"type":"flow","heading":"Method 2: Google Trends","items":[{"icon":"bot","title":"10 seed ideas","text":"From ChatGPT or Claude"},{"icon":"trending-up","title":"New Explore","text":"Not the old classic one"},{"icon":"git-branch","title":"Related keywords","text":"Take one from there"},{"icon":"search","title":"Check the SERP","text":"And explore"}]},
+{"type":"compare","columns":[{"title":"Niches not to work on","icon":"ban","tone":"terra","items":["Any niche that is haram for us as Muslims"]},{"title":"Bonus: other search engines","icon":"compass","tone":"blue","items":["Do not look only at google.com","Russia is ignored because people think there is no monetization"]}]},
+{"type":"callout","icon":"sparkles","quote":"Every new keyword goes into Google Trends first.","text":"It is an ocean with a great many fish, and they are all yours to catch."}]}
+]

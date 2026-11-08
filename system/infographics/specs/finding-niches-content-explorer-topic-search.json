@@ -1,0 +1,6 @@
+{"out":"knowledge/niche-research/finding-niches/finding-niches-content-explorer-topic-search-infographic.webp","kicker":"Finding niches · Method 7 · Class 12","title":"Topic Search in Content Explorer",
+"subtitle":"Search a topic, filter to weak sites, reverse engineer the best one",
+"sections":[
+{"type":"steps","heading":"Steps","cols":2,"items":[{"title":"Open Ahrefs Content Explorer"},{"title":"Search a topic, e.g. \"AI convertor\"","text":"With Everywhere selected"},{"title":"Pull topic ideas from ChatGPT"},{"title":"Filter Domain Rating 0 to 20","text":"Apply it and show the results"},{"title":"Click the websites in the results","text":"Each shows total pages, total traffic and DR"},{"title":"Open the best one's organic keywords"},{"title":"Reverse engineer it","text":"This is where goldmine niches turn up","tone":"terra"},{"title":"Go on to its top competitors","text":"Explore them and work on them the same way"}]},
+{"type":"compare","heading":"Site age","columns":[{"title":"Younger site","icon":"sprout","tone":"sage","items":["Easy to compete with"]},{"title":"Older site","icon":"castle","tone":"terra","items":["Harder to compete with"]}]},
+{"type":"callout","icon":"search","quote":"DR 0 to 20, then reverse engineer.","text":"Weak sites that already earn traffic point straight at goldmine niches."}]}

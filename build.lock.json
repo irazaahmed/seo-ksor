@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:b04ee20c3cfc3c724b259c1e902749797681ce8008f0724f28355e3e1680db76",
+  "build_id": "sha256:9a8a853245cfab3a1126563cd772b4e3ccef06815e314156c8284f2212546fb9",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "fd9d8658100890e1c3a72b3f7e6d296b456abfc8",
+  "source_commit": "92254ddb018a946810fe35723deb0442d7791978",
   "dirty": true,
-  "as_of": "2026-11-06T18:21:03.764Z",
+  "as_of": "2026-11-08T19:56:32.647Z",
   "drafts": "hidden",
   "instance_sha256": "9bdd2d283c06caf14400415311dd968361c93ae236b1fcf534c7efd73dc921cd",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -1113,15 +1113,15 @@
   "assets": [
     {
       "path": "ai-agents/ai-agents-vocabulary-infographic.webp",
-      "sha256": "e927de510e0713ae48a19431a33ccab0806133a27cba5a010fe080f999eab721"
+      "sha256": "69a0538de5d3381fd425e3d63689775c8f6c77a8ff3caaa4fd6289363dde07e4"
     },
     {
       "path": "ai-agents/introduction-and-setup-infographic.webp",
-      "sha256": "8c52fcd428d9202ebcf16b6c36dc28a0617a31b50de402d1b48c4928e810ad17"
+      "sha256": "1daecdfeb2ae646584eba2d5468db572fbc2357c8b4a4f386cf80ee56b381acb"
     },
     {
       "path": "ai-agents/vibe-coding-in-practice-infographic.webp",
-      "sha256": "82c39e7af352339b1523737b5dd2f36780d8143438442239a7490c1e2f7e0a1d"
+      "sha256": "ed3d4193124b344f0295c4dc67b3e97869e13311cc0f1adbe4036b0aa2b28770"
     },
     {
       "path": "connect-chatgpt-1.png",
@@ -1141,31 +1141,31 @@
     },
     {
       "path": "content-writing/writing-fundamentals/content-writing-above-the-fold-class-5-infographic.webp",
-      "sha256": "b9f7eccd8ac66d690493a6cda8c55388b7fa3e5a8bb42bb3c57d3f464c696eb0"
+      "sha256": "0dcffae565306fba80eb68870e57fb44ae12ec7856d6ff3451b9adbbad05d08e"
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage/content-coverage-competitors-and-keyword-grouping-infographic.webp",
-      "sha256": "4bff3ce157ae02974fdf77288128d5b89161b00aefbc50d6a7043a3020fe28da"
+      "sha256": "ac488f7aa9b2af58154a02c54ccedeb32cde43bdb9fab434357aae74e29a06cf"
     },
     {
       "path": "keyword-research-and-content-planning/content-coverage/content-coverage-related-keywords-and-programmatic-seo-infographic.webp",
-      "sha256": "3b8685b21bd59612a0211dad4c7e5e9b4656b66311c82c714c8f847f90bcb96b"
+      "sha256": "cb01767d13849ab6afda4d7d53c6091779d7b22b7e3b788b9bf2e255b078c527"
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-cheat-sheet-infographic.webp",
-      "sha256": "942af9e239b6507f855564d2c67a43c42020a39e0eb22519b54e3a1d8ef2d556"
+      "sha256": "9c186def7668108c11bdaf3812e31ba1678a16ec920dc85392d899340fdd7859"
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-guide-infographic.webp",
-      "sha256": "a7e4ca1a1f1a484fd9433be006f192dada5f1534bd8fe33e55e4bd078be4d0c0"
+      "sha256": "ffc8d6d1c2db0a0ac57bcd5e6649ded263275bd9b4238b501bcda0400633b2fa"
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-1-infographic.webp",
-      "sha256": "488e8b9c930d684908689d1e9f0d4dde739053378c4014df11d8eee22394bdd3"
+      "sha256": "7e92565152203c517bc44ee2cc7e1db8340c15e92df1fd46b910ad8a91db328e"
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-2-infographic.webp",
-      "sha256": "24a328c0f3900701ff3ac4cc40b5709963df76a1ecd9bbd969eab5ce0c26e82e"
+      "sha256": "4b3a770e297def49f9c08d13ac7a6478f43c45e83f0b1565e039f4084489740a"
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-sheet-example.webp",
@@ -1173,167 +1173,167 @@
     },
     {
       "path": "keyword-research-and-content-planning/grouping-and-site-structure/keyword-coverage-other-languages-class-5-infographic.webp",
-      "sha256": "920313bdc217de22b34cc947add5c12d8cc1f7df5b03478379fbba1dafb5d702"
+      "sha256": "3370b7995973c69b7206cfb4d437ab46dbe3b575a0bc4c5ebe4ecfd272a41935"
     },
     {
       "path": "niche-research/finding-niches/automate-niche-research-ahrefs-mcp-infographic.webp",
-      "sha256": "8a6f46eacb38a91bcb3690e22e645220edb327434b00dfd818780615872eef4c"
+      "sha256": "c4943429e9c3ed8fa6c6306abc021b33fd39f64f92642d4daa628c850da08ae0"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-ahrefs-filters-infographic.webp",
-      "sha256": "6d8e84252b23ef95d86a485a96223a60b7e3ace5b250dc23093374c27dff0497"
+      "sha256": "38bfaf1ee344748174a7d673aae2450b777956685b8f079cad3ce84f9fafc75f"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-ahrefs-filters-revision-class-infographic.webp",
-      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
+      "sha256": "b7daa04fcd5d430cab1aee82947ee6790b8367d7162b73df665170e48b1eb1b1"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-backlink-and-ugc-method-infographic.webp",
-      "sha256": "bd760104b3937e6aa555206746f2dee52b0365ec0bc3235932001d4a5d8ad100"
+      "sha256": "1fbd8ea7063a64f932d3238fb6042545fffe25e26a6e5c95d99759bd53c6d589"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-content-explorer-topic-search-infographic.webp",
-      "sha256": "103fb82dfce88ecc4bd64c28a53c0f2f56a528433e21173518c906bbf0efdc28"
+      "sha256": "5d352a75884c8db4aa0852954a4a2e98b3a758dac33678c8665373a45da05a25"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-marketplaces-infographic.webp",
-      "sha256": "797721f8238a30e3fe8dc64c9c7fcd503bd58ea0cec44982d1597d9a63b8934c"
+      "sha256": "85e09e06d5adffa0e57e656de8162d81e555956556be4a00e954ec81cf224556"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-marketplaces-revision-class-infographic.webp",
-      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
+      "sha256": "b7daa04fcd5d430cab1aee82947ee6790b8367d7162b73df665170e48b1eb1b1"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-page-replication-infographic.webp",
-      "sha256": "098951fa393dff99c1cd06e943bbfb593a929c6ba2d9f259a846af8b92836e69"
+      "sha256": "2331781c83bea4dc6cf0407df9677a648aa80be53cbe269fec6bde9ebffcc95f"
     },
     {
       "path": "niche-research/finding-niches/finding-niches-saas-and-ai-tools-infographic.webp",
-      "sha256": "cbbe8f632b2625ffcc3a7cfdc38d35a2fb06d4111c72913a2e58f6c687859e67"
+      "sha256": "9f45e44dd8e42090dfa765e82a4070eee70f52a16d8b0b23a6755cbab5bdcac2"
     },
     {
       "path": "niche-research/niche-types-and-targeting/apk-niche-research-infographic.webp",
-      "sha256": "fa5cdc74c682ec2d862fa921bfd08538f11c90f610dddc170e6bfacaeb9d4cc5"
+      "sha256": "78d767dd8165475df7790f54b310770ea6fe10e9350c72e9f801e63ad0654961"
     },
     {
       "path": "niche-research/niche-types-and-targeting/country-and-language-targeting-infographic.webp",
-      "sha256": "c99c85e5b8fbd4569598702d765f9e04c8796e792914adeadead61fd1bf58547"
+      "sha256": "66858573cd7aa0bcd0ca411c80d9336634560b4eb972ec57f617bc5a58bec155"
     },
     {
       "path": "niche-research/niche-types-and-targeting/easy-niche-categories-infographic.webp",
-      "sha256": "9252b9b7f5aa7c46ada3f9dde285fef233bf84b40f9f54b904d57f21f76eadb6"
+      "sha256": "dbf245eaca29463e0ef9fa0aac71650be2dbe797697be0fb6c1b01c6218e9934"
     },
     {
       "path": "niche-research/niche-types-and-targeting/easy-niche-categories-revision-class-infographic.webp",
-      "sha256": "d14e384ff06beb5a5eeda4d92aaec1da8ad54696c8c017b18ba6ffc9a27e768d"
+      "sha256": "b7daa04fcd5d430cab1aee82947ee6790b8367d7162b73df665170e48b1eb1b1"
     },
     {
       "path": "niche-research/overview-beginner-special-infographic.webp",
-      "sha256": "22c47478b9e8c94e7df96f8c58ebf93330c85c574d59f08021823bb1042fdb4e"
+      "sha256": "5a94467ad59e3e0a8dd8c82ec05741d764b2ac7f98115725438df314cbadf218"
     },
     {
       "path": "niche-research/overview-class-1-infographic.webp",
-      "sha256": "4cd4f582d9eae2961203231779ca695a899a7e7821fd5ab95d04093313234f68"
+      "sha256": "27cdb288b1d44b2f3b527c8ce111d862f014f905244eb0edb4e10c915379a6e9"
     },
     {
       "path": "niche-research/overview-infographic.webp",
-      "sha256": "64bc15a86a1267f01a456dc1904cfd03dd6d28adc4088c9ede28d2e5c5899ba8"
+      "sha256": "24d0cfd734ba3c7d5c16c55a5fcd032ee09a1c7797b19cd352171a170a8cd34c"
     },
     {
       "path": "niche-research/untapped-niches-and-timing/finding-untapped-niches-google-com-and-google-trends-infographic.webp",
-      "sha256": "09096456c3c2bedbb0a0036d34e7945541acbb77a17e3f92dcace5edc1020764"
+      "sha256": "365b6c5f916f43c2f4f1c33061b077b9f492a6b8e4ad7c744eec4a4ff66e8550"
     },
     {
       "path": "quick-skills/etsy/getting-started/etsy-account-creation-infographic.webp",
-      "sha256": "6c231d4e00f9c7230c7a5c08d201f208f45887d8e012cddf7d8a5236f064b1f6"
+      "sha256": "e89ff0bf207ff24991ad85e458295749243f1346a2353f7d517b3118459dc48f"
     },
     {
       "path": "quick-skills/etsy/getting-started/etsy-free-listings-referral-link-infographic.webp",
-      "sha256": "ddad490cc2ea3277def7d235f9a112a198ec1185d6740a9d0093d44bc5132a6f"
+      "sha256": "be5f190687cd7453a15748584be64e81809a6fe02376fe7f77ef3a231762e742"
     },
     {
       "path": "quick-skills/etsy/getting-started/payoneer-account-creation-infographic.webp",
-      "sha256": "8595b5d0d756e7b40f8f8e3b7a225dd99d263396db86d7d4a9bfdd6a0077c0c2"
+      "sha256": "711f3106f5dbe0376053421795235b41bb099625bd29faa5c50ce8cec0c383f9"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion-infographic.webp",
-      "sha256": "a958edc15a2032086e6ec671efc6fccf625b77683e9868b8321ca7be27d279ea"
+      "sha256": "8cec29e24bdf046c599ef4aba68405c2de24e7ee67ff8c644740715e944be61f"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-in-bulk-infographic.webp",
-      "sha256": "1c1b124b827f50a05be5c5167cd794446edf8bf158808a3a45f46f9545afd959"
+      "sha256": "452fd97a95016e813891d60708cc9952d7b9f7e81ae2767b18d36dc759b296a1"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-roadmap-for-beginners-infographic.webp",
-      "sha256": "c88c28887f13a802e0882da5d5126f67582a5c9fccccd7230213e0ffcc81dfa6"
+      "sha256": "a16a1eebfda9dbaa8223029573696b1749f311432628b4a84757e062fc585570"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-types-infographic.webp",
-      "sha256": "45d3ac9ea427e2cac8e26c7acd220ea99e365bee20ae0d648a4d5df0bbe13d71"
+      "sha256": "eb870b4106592fe3941b46d5b5f0fef8013dae3f40542ec7f7efeb06985034ee"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-manual-research-methods-and-shop-assignment-infographic.webp",
-      "sha256": "1c024f3a02bbb06821db6354f97c7e3754b830e9773c8737ca5467dce7e9e3bb"
+      "sha256": "f93585e7540ee7ce06ba8fbffd1778edfc96ec5b2271c3a276120bebd55b194d"
     },
     {
       "path": "quick-skills/etsy/keyword-research/etsy-rankkw-tool-and-listing-criteria-infographic.webp",
-      "sha256": "80e9b534bd7173b1532e9800949415778f5e171537a46217ade0c420b0a5fa2f"
+      "sha256": "8715800b516cde4e4d791290b858b9a9fff3964e7d71061d50a525e0afc14466"
     },
     {
       "path": "quick-skills/etsy/listings-and-images/etsy-listing-and-sales-infographic.webp",
-      "sha256": "084fd607413eade6958ca2897c5561716e1a3d1abcfd219423feed17a2fab5e3"
+      "sha256": "e9ee3335e7ddaf02f1c8119412aa8fd81ae67fe8bba1daa20e44048709c93912"
     },
     {
       "path": "quick-skills/etsy/listings-and-images/etsy-listing-and-shop-overview-infographic.webp",
-      "sha256": "3bd256fa8e3d4b70cc8d6756f6c1b71ca83b045052910180d14ac052a3bd6f77"
+      "sha256": "16c432773cf95be6cea19b8b64d40683b7d22ef2aa2954deb531164eef660c5c"
     },
     {
       "path": "quick-skills/etsy/listings-and-images/etsy-listing-creation-infographic.webp",
-      "sha256": "08d9d192c99ea8f6d233a1f7db932d48b89baf87a659444c6f36de07bc7e35c8"
+      "sha256": "ff9651a22e0857b3a210accb5abc0d8f05457976463720502d3ea2336c42ca55"
     },
     {
       "path": "quick-skills/etsy/listings-and-images/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp",
-      "sha256": "b6a8e44e4edb93c8fc30e4c14943afae2e58c0dde9e7b02029aa5472e46461ff"
+      "sha256": "7a3e7a4670f1b2c25b46fe1fd96192579ac8bfa083092f5198a01bba103a9375"
     },
     {
       "path": "quick-skills/etsy/product-and-niche-research/etsy-keyword-research-erank-and-ehunt-infographic.webp",
-      "sha256": "5df47980a90ea6b31f08271d5c284372fcd6e9914894b522e405e9df8f7283aa"
+      "sha256": "f017fe6f974ea859dc7f563b90a15af8d870a2132576521f5f2d9d54c2d1e69a"
     },
     {
       "path": "quick-skills/etsy/product-and-niche-research/etsy-listing-and-competitor-research-infographic.webp",
-      "sha256": "9c42eb1b4b48c16d0a16e62e6c41cf0b06af0d11b2b775e1081c3197969be04f"
+      "sha256": "08f5fe8ef36fc30607570d13b51e678ab6a98738a714cc4ec9cc13f08efd45fe"
     },
     {
       "path": "quick-skills/etsy/product-and-niche-research/etsy-niche-and-keyword-research-practical-infographic.webp",
-      "sha256": "93b9c97d85b5b510a1a07ca1b3138ac7abad9b680c18597be46b82c0f36d1d03"
+      "sha256": "65d2114b1dbb65bd496f10f483cf8ef85f03416e67aaea06e8cf14a3d92a07e8"
     },
     {
       "path": "quick-skills/etsy/product-and-niche-research/etsy-product-research-infographic.webp",
-      "sha256": "7859f8948903a034311e9ba3285ad38b20526a74981f8fdd5b8dd99d6bf33032"
+      "sha256": "62fbb37e379944e12c75813138da4298ea7e28256f5a0e3cb423387507698499"
     },
     {
       "path": "quick-skills/etsy/products-to-sell/canva-course-invitations-and-planners-infographic.webp",
-      "sha256": "5eb29b399dcfb77662ab217a9d5d24a8f64e9e9ff6e6db5a478af014d5239b6b"
+      "sha256": "9666b15af2cb9953166be82c04f87961e6d7780c0b1fc745ab3cf67c7d2726c5"
     },
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-digital-product-creation-and-listing-infographic.webp",
-      "sha256": "2a72c008cde1098e3061a82399aafadf4708a07ad74d1e6c7c153c2adb128523"
+      "sha256": "8a9b1d0b18fcc6f340d0a45d3a6dda6938ddb92faa55679127be379c047c6547"
     },
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify-infographic.webp",
-      "sha256": "149ef7ffe420f8610364e927b3b9d7a0184379907f2618497d8ad01be1253a0b"
+      "sha256": "36be912bcdcd4e4ef1da61fdf12b54390da5c762424897f14e99ed4cdb951aa5"
     },
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-shop-and-products-infographic.webp",
-      "sha256": "0f4f6d70c8e0d8e72580c5395a105479432426f99c14443dcb9a68328f2c5785"
+      "sha256": "129cba9c78d3306f11eff123ec60338d141d5dfea178ffeac0a953577cb29994"
     },
     {
       "path": "quick-skills/etsy/ranking-and-growth/etsy-pro-strategy-to-grow-fast-infographic.webp",
-      "sha256": "b0eb1cdac229942d5d4d789fe8dc86cd23b1e55793153080091e1362b6254b68"
+      "sha256": "e62c8e5ba18d7e50be3289f39593aaf4249b2da46e35c4bd321788bb8fcab641"
     },
     {
       "path": "quick-skills/etsy/ranking-and-growth/etsy-ranking-funnel-and-pro-tips-infographic.webp",
-      "sha256": "21d2494c0717b16144bb4b3630cef396d9975f12f49f7bf640ad71f1d2c01e87"
+      "sha256": "3865370e2ce50375895977df1a630ac1dbcec55937aec555bbeb233041da8d3b"
     }
   ],
   "indexes": [
@@ -1473,7 +1473,7 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "3a329439cc2356a64006ec482aacdb74d8fccf8915d923ebeac892b4d337a75f",
+      "sha256": "d17201ec2d41899ef83f28d3efe38777bf962f7cab18d0ce3221640babb8cd0d",
       "files": 188
     }
   ]

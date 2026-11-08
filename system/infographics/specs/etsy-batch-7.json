@@ -1,0 +1,13 @@
+[
+{"out":"knowledge/quick-skills/etsy/products-to-sell/etsy-shop-and-products-infographic.webp","kicker":"Etsy · Class 17 · Sir Zafar Ali","title":"One Shop, Many Products","subtitle":"Treat your Etsy shop like a mart: you do not need multiple shops",
+"sections":[
+{"type":"cards","cols":3,"items":[
+{"icon":"file-down","title":"Digital","text":"Planners, templates, printables and coloring books."},
+{"icon":"package","title":"Physical","text":"Items you make or stock and ship yourself."},
+{"icon":"printer","title":"Print on demand","text":"A partner prints and ships when a buyer orders."}]},
+{"type":"table","heading":"Master prompt: five listing images from one reference image + focus keyword","columns":["#","Image","What it shows"],"rows":[["1","Main thumbnail","The product dominant, short title, clean background"],["2","What's included","Only verified pages or components, short labels"],["3","Key features","3 to 5 verified features, each tied to a buyer benefit"],["4","Lifestyle mockup","A real setting; props that do not look included"],["5","How it works","Purchase, download, use; else \"A closer look\""]]},
+{"type":"chips","items":["3000 × 3000 px, 1:1 (your request, not an Etsy rule)","Five separate files, never a collage","No fake reviews, discounts or urgency","Product accuracy first"]},
+{"type":"flow","heading":"The coloring book method","items":[{"icon":"search","title":"Coloring book GPT","text":"Search \"coloring book chatGPT\""},{"icon":"image","title":"Give a listing","text":"Screenshot, URL and title; ask for a prompt"},{"icon":"wand-sparkles","title":"New chat","text":"Paste the prompt, generate pictures"},{"icon":"file-text","title":"One PDF","text":"Complete the book and list it"}]},
+{"type":"compare","heading":"Keep it original","columns":[{"title":"Do","icon":"check","tone":"sage","items":["Use competitors only to understand niche and style","Disclose AI use where Etsy asks","Check every page before you sell"]},{"title":"Never","icon":"x","tone":"terra","items":["Copy pages, title, wording or characters","Use trademarked characters or brand names"]}]},
+{"type":"callout","icon":"list-checks","quote":"Task: publish at least 10 listings before the next lecture.","text":"This is compulsory. Save the listing video prompt in your AI's memory to reuse it."}]}
+]

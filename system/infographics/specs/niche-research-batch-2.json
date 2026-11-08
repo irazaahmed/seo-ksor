@@ -1,0 +1,43 @@
+[
+{"out":["knowledge/niche-research/finding-niches/finding-niches-marketplaces-revision-class-infographic.webp","knowledge/niche-research/finding-niches/finding-niches-ahrefs-filters-revision-class-infographic.webp","knowledge/niche-research/niche-types-and-targeting/easy-niche-categories-revision-class-infographic.webp"],
+"kicker":"Revision class · Sir Naveed Kalro","title":"Three Ways to Find a Niche","subtitle":"Macro site, keyword filters, fresh content: three doors into the same goldmine",
+"sections":[
+{"type":"cards","cols":3,"items":[
+{"tag":"Method 1","icon":"building-2","title":"Macro site to nano niche","points":["Open an established site in Site Explorer","Review its top pages","Pull top keywords from the strongest pages","Search them on Google's own SERP"],"foot":"One page can point to a small niche"},
+{"tag":"Method 2","icon":"sliders-horizontal","title":"Keyword Explorer filters","points":["Select a country","Intent: informational","Volume around 30,000, KD up to 25","SERP features: exclude AI Overview or video-heavy","An include term matching your niche"],"foot":"Keywords that already fit"},
+{"tag":"Method 3","icon":"newspaper","title":"Content Explorer, fresh","points":["Published in the last 90 days","Platform: blog","Language you target, e.g. Spanish","DR up to 20"],"foot":"Low DR, good traffic sites"}]},
+{"type":"compare","heading":"Hot goldmine leads from the class (time-sensitive)","columns":[{"title":"\"portal\" in Spanish","icon":"search","tone":"gold","items":["Searched in Content Explorer, filtered to Spanish","Turned up niches with traffic in the millions"]},{"title":"Dominican Republic","icon":"map-pin","tone":"sage","items":["Its top niches were called out as an especially good opportunity","Re-verify with fresh data before trusting it"]}]},
+{"type":"callout","icon":"lightbulb","quote":"No dedicated site for a micro-niche is not disqualifying.","text":"Clear intent, high volume and 12 months of steady Google Trends searches: the gap itself is the opportunity."}]},
+
+{"out":"knowledge/niche-research/finding-niches/finding-niches-page-replication-infographic.webp","kicker":"Finding niches · Method 6","title":"Replicate One Strong Page","subtitle":"Find a single page already pulling traffic, and build a site around it",
+"sections":[
+{"type":"flow","heading":"Steps in Ahrefs Content Explorer","items":[{"icon":"languages","title":"Language filter","text":"Only this, e.g. Portuguese"},{"icon":"shield","title":"DR filter 20","text":"Pages from sites below DR 20"},{"icon":"search","title":"Blank search","text":"Leave the box empty"},{"icon":"arrow-down-wide-narrow","title":"Sort by page traffic","text":"Top pages come first"},{"icon":"list-checks","title":"Check one by one","text":"Open every link"}]},
+{"type":"compare","heading":"What to do with a page you find","columns":[{"title":"Do","icon":"check","tone":"sage","items":["Replicate that page","Build a dedicated website around it"]},{"title":"Do not","icon":"x","tone":"terra","items":["Replicate the whole website","The site may not meet your criteria, but this one page does"]}]},
+{"type":"callout","icon":"file-text","quote":"The page is what you replicate, not the website.","text":"The page that shows up here is the one to target."}]},
+
+{"out":"knowledge/niche-research/finding-niches/finding-niches-saas-and-ai-tools-infographic.webp","kicker":"Finding niches · Method 5","title":"SaaS and AI Tool Marketplaces","subtitle":"The marketplace method, pointed at products instead of content sites",
+"sections":[
+{"type":"cards","heading":"Five places to look","cols":5,"items":[
+{"icon":"store","title":"Acquire.com","text":"The SaaS Flippa: startups and SaaS for sale"},
+{"icon":"rocket","title":"Product Hunt","text":"Launched ideas; ask AI to find replicable ones"},
+{"icon":"star-half","title":"AppSumo","text":"Lifetime deals; the signal is in the reviews"},
+{"icon":"puzzle","title":"Chrome Web Store","text":"Small extensions; gaps are quick to spot"},
+{"icon":"shopping-bag","title":"Shopify apps","text":"Store owners already paying for software"}]},
+{"type":"flow","heading":"The Acquire.com loop","items":[{"icon":"camera","title":"Screenshot","text":"Listings that look promising"},{"icon":"bot","title":"Ask ChatGPT or Claude","text":"Identify the product, or describe a replica"},{"icon":"link","title":"Get a URL","text":"Found or replicated"},{"icon":"search","title":"Reverse engineer","text":"Where its traffic comes from"}]},
+{"type":"table","heading":"Reading AppSumo reviews","columns":["Review spread","What it means"],"rows":[["5 stars","No visible gap left to build into"],["3 to 4 stars","Real paying demand with a specific, nameable flaw: the sweet spot"],["1 star","The whole idea is usually broken"]],"highlight":[1]},
+{"type":"callout","icon":"wrench","quote":"Build the version that fixes the flaw reviewers keep raising.","text":"It can be sold on the same platform to the same audience already looking for it."}]},
+
+{"out":"knowledge/niche-research/finding-niches/automate-niche-research-ahrefs-mcp-infographic.webp","kicker":"SEO Class 13 · Automate niche research","title":"Ahrefs MCP, Connected to Claude","subtitle":"Let the assistant run the research and the reverse engineering",
+"sections":[
+{"type":"stats","heading":"What you need (costs as given in class)","items":[{"value":"$129","label":"Ahrefs, paid plan"},{"value":"$20","label":"An AI assistant: ChatGPT Astra, Claude, Grok Bot or Muse"}]},
+{"type":"flow","heading":"How the research goes","items":[{"icon":"plug","title":"Connect","text":"The Ahrefs MCP to Claude"},{"icon":"message-square","title":"Prompt","text":"Keywords with DR under 20, related to AI"},{"icon":"gem","title":"Goldmines","text":"Claude does the research itself"},{"icon":"search","title":"Reverse engineer","text":"A site you think you can replicate"}]},
+{"type":"callout","icon":"sparkles","quote":"The more refined the input, the more refined the answer.","text":"Take help from ChatGPT to write a good prompt."}]},
+
+{"out":"knowledge/niche-research/niche-types-and-targeting/easy-niche-categories-infographic.webp","kicker":"SEO Class 6 · Finding easy niches","title":"Niche Categories That Rank Easier","subtitle":"Narrow, transactional intent, in essentially any country",
+"sections":[
+{"type":"chips","heading":"Categories worth defaulting to","items":["Informational: a restaurant menu","Downloadable: an APK","Government programs","Government certificates","Government products","Government portal login","Government bills"]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"steps","heading":"Government-program niches","cols":1,"items":[{"title":"Ask ChatGPT or Claude","text":"Program ideas, per country"},{"title":"Add modifiers in Keyword Explorer","text":"portal, login, status, registration"},{"title":"Run a normal SERP analysis"},{"title":"Reverse engineer one competitor URL"},{"title":"Look at its keywords for a goldmine"}]},
+{"type":"steps","heading":"Ahrefs Content Explorer","cols":1,"items":[{"title":"Search a topic, e.g. \"apk\""},{"title":"Platform: WordPress"},{"title":"Language: the one you target"},{"title":"Minimum page traffic, e.g. 5,000"},{"title":"Show results, reverse engineer low-DR sites"}]}]},
+{"type":"callout","icon":"globe","quote":"Philippines, Thailand, South Africa, or anywhere else.","text":"These categories work in essentially any country."}]}
+]

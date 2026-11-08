@@ -1,0 +1,53 @@
+[
+{"out":"knowledge/keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-guide-infographic.webp","kicker":"SEO Class 3 · Sir Tanveer Nandla","title":"From Approved Niche to a Live Site","subtitle":"Content preparation, site building and launch, worked through calmly",
+"sections":[
+{"type":"timeline","heading":"The proactive sequence","items":[
+{"label":"Plan","icon":"target","title":"Niche and groups","text":"An approved niche is \"70% of success\" in the teacher's words."},
+{"label":"Write","icon":"file-stack","title":"10 articles ready","text":"At least 10 before launching (an earlier chapter gives 3 as a minimum)."},
+{"label":"Build","icon":"hammer","title":"Staging site","text":"Hostinger staging: content, design, admin workflow, all tested."},
+{"label":"Launch","icon":"rocket","title":"Go live complete","text":"A useful experience for visitors from the start."}]},
+{"type":"table","heading":"WordPress or a custom site?","columns":["Option","How the class describes it","When to choose it"],"rows":[["WordPress","A CMS the course will teach","Wait for the WordPress lessons if you cannot yet build and manage a custom site"],["Custom site","Built through vibe coding with AI-assisted tools; around 2 hours for a basic one (class example)","Start now if you can build it and manage it afterward: more flexibility"]],"highlight":[1]},
+{"type":"cards","cols":3,"items":[
+{"icon":"server","title":"Hosting and domain","text":"Hostinger hosting at no cost to students; buy your own domain."},
+{"icon":"layout-dashboard","title":"Front end + admin","text":"A strong custom site also needs a back end to manage articles."},
+{"icon":"sprout","title":"Easier first niches","text":"APK, government-program or menu topics, for someone completely new."}]},
+{"type":"compare","heading":"The \"honeymoon period\": the teacher's model, not a Google rule","columns":[{"title":"In class","icon":"presentation","tone":"gold","items":["Google tests how users experience a new site","A correction period follows; a sandbox is a severe drop","So make the site top-notch before launch"]},{"title":"Google's own guidance","icon":"book-open","tone":"blue","items":["Many ranking signals; helpful, people-first content","A new site may simply take time to be crawled and indexed","A strong launch does not ensure a ranking boost"]}]},
+{"type":"callout","icon":"check-circle","quote":"Build on staging, launch when it is ready.","text":"AI helps most when the person guiding it understands the SEO basics."}]},
+
+{"out":"knowledge/keyword-research-and-content-planning/grouping-and-site-structure/content-and-site-planning-class-3-cheat-sheet-infographic.webp","kicker":"SEO Class 3 · Cheat sheet","title":"Content and Site Planning, at a Glance","subtitle":"Five decisions before a site goes live",
+"sections":[
+{"type":"table","columns":["Decision","Class 3 answer"],"rows":[
+["Niche","Do not rush it: an approved niche is \"70% of success\" (teacher's emphasis, not a measured rate)"],
+["Keyword grouping","Google Instant / Autocomplete and NicheSpark; or collect ideas from competitors' pages"],
+["Launch threshold","At least 10 articles ready before launch"],
+["Hosting","Hostinger, free for students; build on staging first. Offshore alternative to be explained later"],
+["Domain","Students buy their own"],
+["Platform","WordPress (taught later) or a custom vibe-coded site with an admin panel"]],"highlight":[2]},
+{"type":"steps","heading":"Launch checklist","cols":1,"items":["Finish the niche and keyword groups","Prepare at least 10 articles","Build the site on staging","Test content, design, admin workflow and other requirements","Make the complete site live"]},
+{"type":"note","text":"Open question: the notes show Workar.com but do not say what it is for."},
+{"type":"callout","icon":"shield-check","quote":"Make the site top-notch before launch.","text":"Use any early opportunity well; no launch guarantees a ranking boost."}]},
+
+{"out":"knowledge/keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-1-infographic.webp","kicker":"Class 4 · Part 1 · Ammar Ashfaq","title":"Topical Coverage, Step 1: Keyword Research","subtitle":"Everything covered in a single website, with boundaries defined",
+"sections":[
+{"type":"flow","heading":"Topical coverage in three steps","items":[{"icon":"search","title":"Keyword research","text":"This part"},{"icon":"group","title":"Grouping","text":"By intent"},{"icon":"network","title":"Site structure","text":"One group, one post"}]},
+{"type":"flow","heading":"Step 1: collect every keyword","items":[{"icon":"flag","title":"Start","text":"Your niche in front of you"},{"icon":"expand","title":"Expand","text":"Alternatives, singulars, plurals, ask AI"},{"icon":"keyboard","title":"Autocomplete","text":"Every keyword, A to Z and 1 to 9"},{"icon":"sheet","title":"Collect","text":"Paste it all into one sheet"}]},
+{"type":"table","heading":"What counts as an alternative: the word changes, the meaning stays","columns":["Keyword","Alternative?"],"rows":[["best running shoes → top running shoes","Yes, only the word changed"],["clash of clans → COC","Yes, an abbreviation"],["best running shoes → best running shoes for men","No, words were added"]]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","heading":"Three ways to get keywords","columns":[{"title":"Sources","icon":"layers","tone":"blue","items":["Google Autocomplete via AI","Google Autocomplete via a tool, e.g. NicheSpark","An SEO tool: Ahrefs"]}]},
+{"type":"compare","heading":"The Ahrefs filter method","columns":[{"title":"Matching keywords","icon":"filter","tone":"sage","items":["Search your keyword in Ahrefs","Go to Matching keywords","Minimum volume 10","Include: best running shoe*"]}]}]},
+{"type":"callout","icon":"target","quote":"Become the best inside your boundaries.","text":"Topical coverage helps Google understand your site, but does not guarantee rankings."}]},
+
+{"out":"knowledge/keyword-research-and-content-planning/grouping-and-site-structure/content-coverage-and-grouping-class-4-part-2-infographic.webp","kicker":"Class 4 · Part 2 · Ammar Ashfaq","title":"Grouping and Site Structure","subtitle":"Group by intent, then every group becomes one post",
+"sections":[
+{"type":"cards","heading":"Step 2: grouping by intent, not by words","cols":3,"items":[
+{"icon":"bot","title":"Let AI group it","text":"Give the sheet to AI and group the keywords on intent."},
+{"icon":"mouse-pointer-click","title":"The click test","text":"Search one, then the other: would you click the second's results?"},
+{"icon":"list-ordered","title":"Top 10 overlap","text":"Many of the same pages for both: one group. Mostly different: two."}]},
+{"type":"table","heading":"Step 3: does a group get its own post?","columns":["Condition","Separate post?"],"rows":[["Main keyword volume above 50","Yes"],["Main keyword volume below 50","No: adjust it into a group that does"],["Navigational keyword (user wants another site)","No"]],"highlight":[0]},
+{"type":"cards","cols":3,"items":[
+{"icon":"folder-tree","title":"Big site: categories","text":"Each category is a post; each main keyword a heading in it."},
+{"icon":"calculator","title":"Size follows volume","text":"A tool site needs 1 or 2 posts; more volume, more posts."},
+{"icon":"globe","title":"Never an IDN domain","text":"Always take the domain in English or Roman letters."}]},
+{"type":"note","text":"The 50 volume line is the teacher's rule of thumb, not a Google rule; Ahrefs volume is an estimate."},
+{"type":"callout","icon":"line-chart","quote":"No structure can promise rankings.","text":"After publishing, check Search Console for impressions, clicks and indexed pages."}]}
+]

@@ -1,0 +1,34 @@
+[
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Keyword Research: Clearing the Confusion","subtitle":"Copyright, keyword hats, pricing and a strong product",
+"sections":[
+{"type":"cards","heading":"Three kinds of keyword","cols":3,"items":[
+{"icon":"ban","tone":"navy","title":"Black hat","text":"Illegal keywords."},
+{"icon":"triangle-alert","tone":"gold","title":"Grey hat","text":"Copyright keywords: the account may be removed, or may not."},
+{"icon":"shield-check","tone":"sage","title":"White hat","text":"Not copyright, completely fine. Start here, grey hat only later."}]},
+{"type":"compare","heading":"Copyright strikes","columns":[{"title":"New account","icon":"user-x","tone":"terra","items":["Removed directly"]},{"title":"Old account","icon":"history","tone":"plum","items":["Listing removed 3 times, then the account goes","Trademarks are copyright too"]}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"languages","title":"Orders, no volume?","text":"The keyword may be in another language."},
+{"icon":"truck","title":"Physical or digital?","text":"Search it on EHunt; products that talk shipping are physical."},
+{"icon":"tag","title":"Setting the price","text":"Use the average of existing listings; leave a market spoiled by low prices."}]},
+{"type":"stats","heading":"The strong Etsy product formula","items":[{"value":"Demand","label":"existing search volume"},{"value":"+ Gap","label":"missing value competitors left"},{"value":"+ Look","label":"better presentation"}]},
+{"type":"callout","icon":"arrow-up-right","quote":"Go from low competition to high volume.","text":"Organise keywords with Niche Deck (nichedeck.com); a keyword cannot be uploaded twice."}]},
+
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-keyword-research-in-bulk-infographic.webp","kicker":"Etsy · Class 08 · Sir Zafar Ali","title":"Finding Etsy Keywords in Bulk","subtitle":"70 to 80 of a listing's 100 SEO points come from keywords",
+"sections":[
+{"type":"cards","heading":"Three methods","cols":3,"items":[
+{"tag":"Method 1","icon":"keyboard","title":"Etsy suggestions","text":"Focus keyword + space, then + a to z. Note every suggestion."},
+{"tag":"Method 2","icon":"bot","title":"Ask any LLM","text":"Low-KD, high-volume keywords for your niche, with KD, volume and trend."},
+{"tag":"Recommended","icon":"list-ordered","title":"Top 10 titles","text":"Copy the top 10 listings' titles into AI with the expert prompt.","tone":"terra"}]},
+{"type":"note","text":"The improved prompt forbids invented numbers: missing data is marked \"Data unavailable\"."},
+{"type":"table","heading":"The keyword selection formula","columns":["Metric","Threshold"],"rows":[["Competition","Under 50K"],["Average views","Over 5K"],["Average price","Over $2"],["Favourites per view","Over 1%"],["Google volume","Green / healthy"],["12-month trend","Stable or growing"],["Target countries","USA, UK, Canada, Germany"],["KD","50 or below (easy or medium)"]]},
+{"type":"callout","icon":"key-round","quote":"Low competition, strong views, healthy engagement, stable demand, KD under 50.","text":"Never select on one strong metric alone; and one keyword is not enough, find related ones."}]},
+
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-manual-research-methods-and-shop-assignment-infographic.webp","kicker":"Etsy · Classes 12 and 13 · Sir Zafar Ali","title":"Manual Research Methods","subtitle":"90% of the Etsy game is niche research and keyword research",
+"sections":[
+{"type":"chips","heading":"Fourteen ways to find keywords","items":["Autocomplete (incognito)","Alphabet a to z","Category","Google search","Google related searches","Pinterest style search","Competitor titles","Competitor tags","Word frequency","Competitor shop","Keyword gap (RankKW)","Product + attributes","Buyer intent formula","Google Trends"]},
+{"type":"cards","cols":2,"items":[
+{"icon":"bar-chart-3","title":"Word frequency","text":"Sheet of 30 to 50 competitors, 50 titles; ChatGPT counts the most-used words."},
+{"icon":"git-compare","title":"Keyword gap","text":"Put a listing's URL into RankKW's keyword gap analysis."}]},
+{"type":"stats","heading":"Shop assignment criteria","items":[{"value":"< 6 mo","label":"shop age"},{"value":"100+","label":"sales"},{"value":"10+","label":"favourites"},{"value":"5,000+","label":"views"}]},
+{"type":"callout","icon":"copy","quote":"Find shops like this, then replicate them.","text":"Their top listing can be copied."}]}
+]

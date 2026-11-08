@@ -1,0 +1,10 @@
+{"out":"knowledge/niche-research/overview-class-1-infographic.webp","kicker":"SEO Class 1 · Niche research","title":"Tools, Metrics and Selection Criteria",
+"subtitle":"Find a real market gap: low competition, profitable demand",
+"sections":[
+{"type":"chips","heading":"Tools required","items":["SEO Quake","ChatGPT","Moz Pro","SEMrush","Ahrefs","Moz Bar","Keyword Everywhere","Similar Web","WHOIS"]},
+{"type":"cards","heading":"Metrics for SEO analysis","cols":4,"items":[{"icon":"shield","title":"DA and PA","text":"Moz authority, for the site and for the page"},{"icon":"bar-chart-3","title":"DR and RD","text":"Ahrefs backlink strength; low RD on a competitor is a weakness"},{"icon":"gauge","title":"Volume and KD","text":"Keyword Everywhere volume; KD via Moz or SEMrush"},{"icon":"trending-up","title":"Trend above 30","text":"Google Trends score, seasonal or evergreen"}]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","columns":[{"title":"Choose","icon":"check","tone":"sage","items":["Specific, problem-solving topics (\"Tim Hortons Menu\", not \"Menus\")","At least 3 SERP sites with DA under 20","Micro or nano niches, expand later","Under 100 to 150 pages for an informational site","No AI Overview, or a search-intent mismatch"]}]},
+{"type":"compare","columns":[{"title":"Avoid","icon":"x","tone":"terra","items":["Single-word niches: Motivation, Beauty, Food, Samsung, Sports","Judging competition beyond page 1 of the SERP","Trusting one metrics provider as ground truth","Competitors with high DR and RD"]}]}]},
+{"type":"chips","heading":"Monetization methods","items":["Google AdSense","Affiliate marketing","Sponsored and guest posts","Selling products or services","Subscription model","APIs and developer tools","Selling a course","Lead generation","Build and sell"]},
+{"type":"callout","icon":"scale","quote":"Always sanity-check a metric against a second source.","text":"No single metrics provider is treated as ground truth."}]}

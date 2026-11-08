@@ -1,0 +1,25 @@
+[
+{"out":"knowledge/quick-skills/etsy/ranking-and-growth/etsy-pro-strategy-to-grow-fast-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Pro Strategy to Grow Fast","subtitle":"Multiple shops, eHunt, Etsy Ads and business growth",
+"sections":[
+{"type":"flow","heading":"Start by diagnosing the shop","items":[{"icon":"eye-off","title":"No impressions?","text":"Improve SEO first"},{"icon":"mouse-pointer-click","title":"Visible, no orders?","text":"Review the offer and account performance"},{"icon":"store","title":"Around $100 earned","text":"Then consider a second shop (class suggestion)"}]},
+{"type":"compare","heading":"Multiple shops: the class vs Etsy's published rules","columns":[{"title":"In class","icon":"presentation","tone":"gold","items":["\"One IP, one account\": separate device, connection and access","Proxies or RDP, roughly 1,000 to 3,000; no VPN","Teacher's technical claims, not Etsy requirements"]},{"title":"Etsy says","icon":"book-open","tone":"blue","items":["Multiple shops are allowed","A separate account and email per shop","List all your shops in each public profile"]}]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"steps","heading":"Weekly eHunt loop","cols":1,"items":["Find Hot Product: search e.g. Bill Tracker","Study listings that get sales","Use them as inspiration; create your own","Only 2 to 4 sellers selling? Consider another keyword"]},
+{"type":"steps","heading":"Test Etsy Ads","cols":1,"items":["Start at $1 per day (Etsy's minimum)","Review after 7 days; keep listings that sold","Etsy recommends at least 30 days to evaluate","Optional test: $1 for 6 hours, off, on again"]}]},
+{"type":"flow","heading":"The proposed growth path","items":[{"icon":"file-down","title":"Digital","text":"More work, little investment"},{"icon":"printer","title":"Print on demand","text":"Allowed with disclosure"},{"icon":"truck","title":"Drop shipping","text":"Generally not allowed on Etsy"},{"icon":"package","title":"Physical","text":"Requires investment"}]},
+{"type":"callout","icon":"mountain","quote":"Mistakes and ups and downs are part of building a business.","text":"Keep learning and improving instead of expecting instant success."}]},
+
+{"out":"knowledge/quick-skills/etsy/ranking-and-growth/etsy-ranking-funnel-and-pro-tips-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"The Etsy Ranking Funnel","subtitle":"SEO only brings impressions; the rest of the funnel earns the ranking",
+"sections":[
+{"type":"flow","items":[{"icon":"eye","title":"Impression","text":"The buyer sees it"},{"icon":"mouse-pointer-click","title":"Click","text":"Thumbnail and title"},{"icon":"heart","title":"Favorite / Cart","text":"Interest"},{"icon":"shopping-bag","title":"Purchase","text":"Conversion"},{"icon":"star","title":"Review","text":"Positive"},{"icon":"trending-up","title":"Ranking","text":"Better potential"}]},
+{"type":"callout","icon":"percent","quote":"Clicks under 10% of impressions? The funnel is poor.","text":"If impressions come but clicks do not, nobody buys."},
+{"type":"compare","heading":"The thumbnail and first image","columns":[{"title":"Best image","icon":"check","tone":"sage","items":["Clearly shows the product","Professional, readable on mobile","Stands out, matches expectations"]},{"title":"Bad thumbnail","icon":"x","tone":"terra","items":["Busy collage, unclear product","Weak contrast, too much text","No focal point"]}]},
+{"type":"table","heading":"Diagnosing a listing problem","columns":["What you see","Where the problem is"],"rows":[["No impressions","SEO"],["Impressions but no clicks","Thumbnail, price or title"],["Clicks but no sales","Product, trust or offer"],["Sales, then a drop","A seasonal product"]]},
+{"type":"chips","heading":"The listing image plan","items":["1 Hero image","2 Close-up preview","3 File format","4 Sizing and resolution","5 How it is used","6 How to download","7 Disclaimer","8 Support info"]},
+{"type":"cards","heading":"Pro tips","cols":4,"items":[
+{"icon":"calendar-check","title":"Consistency","text":"2 or 3 quality listings daily; minimum 1 every 2 to 3 days."},
+{"icon":"flag","title":"30-listing checkpoint","text":"Track impressions, clicks, favorites, orders, keywords."},
+{"icon":"message-circle-heart","title":"Reviews","text":"After-sales support, then ask a happy buyer."},
+{"icon":"ban","title":"Never fake orders","text":"Bring real traffic from Pinterest instead."}]},
+{"type":"note","text":"Also taught: a website with 5,000 monthly traffic can sell digital products or earn from ads, then be flipped after 6 months."}]}
+]

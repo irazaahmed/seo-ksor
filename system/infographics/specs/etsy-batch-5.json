@@ -1,0 +1,33 @@
+[
+{"out":"knowledge/quick-skills/etsy/products-to-sell/canva-course-invitations-and-planners-infographic.webp","kicker":"Etsy · Canva course · Sir Zakria Afzal","title":"Canva for Invitations and Planners","subtitle":"Idea, design and edit, cover and mockups, buyer delivery",
+"sections":[
+{"type":"cards","heading":"Explore the editor one tool at a time","cols":4,"items":[
+{"icon":"shapes","title":"Elements","text":"Search, add, adjust with the controls above it."},
+{"icon":"type","title":"Text","text":"Add text, try its editing and styling."},
+{"icon":"image","title":"Images","text":"Add one, explore its editing controls."},
+{"icon":"layout-grid","title":"Apps","text":"Image and video mockup tools."}]},
+{"type":"flow","heading":"Invitation templates: AI with Canva","items":[{"icon":"wand-sparkles","title":"Prompt the idea","text":"e.g. a fairy-tale birthday card; Pinterest reference"},{"icon":"pen-tool","title":"Edit in Canva","text":"Not stopping at the AI output"},{"icon":"text-select","title":"Grab Text","text":"Embedded words into editable boxes"},{"icon":"image","title":"Cover and mockups","text":"For the Etsy listing"},{"icon":"file-text","title":"Delivery PDF","text":"Template link and clear instructions"}]},
+{"type":"steps","heading":"Planners in Canva","cols":2,"items":["Study competing planners for pages buyers need","Design your own; rectangles for table-like sections","Draft content with ChatGPT, then review it","Show finished pages in mockups for listing images"]},
+{"type":"compare","heading":"Platform rules to respect","columns":[{"title":"Originality","icon":"badge-check","tone":"terra","items":["Editing an AI image or template is not automatically original","Canva content cannot be resold as-is","Etsy requires AI disclosure in the description"]},{"title":"Template links","icon":"link","tone":"blue","items":["Need an eligible paid or organizational Canva plan","Pro content sells as a Template link, not a PDF file","Test the link before listing"]}]},
+{"type":"callout","icon":"check-circle","quote":"The preview must match what the buyer actually receives.","text":"Check the file or editable template before you list."}]},
+
+{"out":"knowledge/quick-skills/etsy/products-to-sell/etsy-digital-product-creation-and-listing-infographic.webp","kicker":"Etsy · Class 16 · Sir Zafar Ali","title":"Digital Products: Gemini, Then Claude","subtitle":"Planners, after Etsy's AI update, in the instructor's judgement",
+"sections":[
+{"type":"flow","heading":"The planner workflow","items":[{"icon":"link","title":"Competitor URL","text":"Copy a planner listing's URL"},{"icon":"sparkles","title":"Gemini","text":"Prompt 1: Python code for a better planner"},{"icon":"bot","title":"Claude","text":"Prompt 2: run it, return an Excel sheet"},{"icon":"table","title":"Google Sheets","text":"Test every sheet, formula and chart"},{"icon":"mail-open","title":"Thank you card","text":"Sheet link inside; list on Etsy"}]},
+{"type":"cards","heading":"More AI-built products","cols":2,"items":[
+{"icon":"layout-template","title":"Canva post templates","text":"30 daily templates for a niche, one at a time: check and approve each."},
+{"icon":"video","title":"AI listing video","text":"3 to 10 images + focus keyword: 5 to 10 s, 4:3, 1920 × 1440, no music."}]},
+{"type":"compare","heading":"Keep it original","columns":[{"title":"Do","icon":"check","tone":"sage","items":["Build your own better version","Disclose AI use where Etsy asks","Test every file before you sell"]},{"title":"Never","icon":"x","tone":"terra","items":["Reuse a competitor's text, layout or images","Upload a video that misses the prompt's requirements"]}]},
+{"type":"callout","icon":"list-checks","quote":"Assignment: at least 10 listings of planners and templates.","text":"By next week, using this method."}]},
+
+{"out":"knowledge/quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify-infographic.webp","kicker":"Etsy · Class 18 · Sir Zafar Ali","title":"Print on Demand with Printify","subtitle":"Zero investment physical products: you design, a third party prints and ships",
+"sections":[
+{"type":"flow","heading":"How an order and the money move","items":[{"icon":"shopping-cart","title":"Buyer orders","text":"On Etsy"},{"icon":"send","title":"To Printify","text":"The order goes there"},{"icon":"printer","title":"Printed, shipped","text":"In 2 to 5 days (teacher's estimate)"},{"icon":"wallet","title":"You get paid","text":"Etsy, then Payoneer; cost charged to your card"}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"link-2","title":"Link the shop","text":"Printify account linked with Etsy; manage listings from Printify."},
+{"icon":"award","title":"Choose the provider","text":"Best seller, lowest price; check feedback and shipping."},
+{"icon":"palette","title":"Designs in Canva","text":"Listing happens automatically; set margin as a percentage."}]},
+{"type":"stats","heading":"Pricing","items":[{"value":"Cost","label":"product on Printify"},{"value":"+ Fees","label":"tax, fees and shipping"},{"value":"+ 25 to 30%","label":"your profit"}]},
+{"type":"compare","heading":"Reality check","columns":[{"title":"Before you sell","icon":"package-check","tone":"gold","items":["Order a sample: Printify still charges your card per order","Check real margin after Etsy's own fees"]},{"title":"Etsy's rules","icon":"scale","tone":"terra","items":["Disclose the production partner","Never copyrighted or trademarked designs"]}]},
+{"type":"callout","icon":"truck","quote":"You never ship it yourself.","text":"Custom products that meet the requirements do not get their orders cancelled."}]}
+]

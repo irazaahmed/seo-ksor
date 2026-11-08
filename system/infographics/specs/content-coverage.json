@@ -1,0 +1,23 @@
+[
+{"out":"knowledge/keyword-research-and-content-planning/content-coverage/content-coverage-related-keywords-and-programmatic-seo-infographic.webp","kicker":"Content coverage · Class 1","title":"From One Keyword to a Whole Website","subtitle":"Related keywords, Google Autocomplete and programmatic SEO",
+"sections":[
+{"type":"compare","heading":"One niche keyword, many related keywords","columns":[{"title":"Niche: \"USA Scholarships\"","icon":"graduation-cap","tone":"blue","items":["usa scholarship for Pakistan","usa scholarships application","usa scholarships for science"],"foot":"Collect them in one place, then write content on them"}]},
+{"type":"flow","heading":"Google Autocomplete: live, authentic, actionable","items":[{"icon":"space","title":"Niche + space","text":"Suggestions are related keywords"},{"icon":"expand","title":"Expand","text":"With the words you took out"},{"icon":"case-sensitive","title":"A to Z","text":"Copy the suggestions per letter"},{"icon":"text-cursor-input","title":"Space at the start","text":"Copy and save those too"}]},
+{"type":"note","text":"Two related keywords whose SERPs are almost the same have the same intent: treat them as one keyword."},
+{"type":"cards","heading":"Automation with AI","cols":3,"items":[
+{"icon":"bot","title":"Ask an LLM","text":"Say you do not know content coverage; ask for valuable strategies."},
+{"icon":"combine","title":"Combine entities","text":"PSL + a plate's name + a season gives many combinations."},
+{"icon":"layout-template","title":"Programmatic templates","text":"[City] Weather, [Player] Salary: agentic AI builds every page."}]},
+{"type":"callout","icon":"rocket","quote":"When manual SEO gets the touch of programmatic SEO, nobody will come close.","text":"Sir Tanveer Nandla"}]},
+
+{"out":"knowledge/keyword-research-and-content-planning/content-coverage/content-coverage-competitors-and-keyword-grouping-infographic.webp","kicker":"Content coverage · Class 2","title":"Competitor Keywords to Article Topics","subtitle":"Finding keywords is easy; making sense of them is the work",
+"sections":[
+{"type":"compare","heading":"Two things to avoid","columns":[{"title":"Thin content","icon":"file-minus","tone":"terra","items":["Content just filled in, with no value added"]},{"title":"Cannibalisation","icon":"swords","tone":"plum","items":["Several of your pages fight to rank on the same keyword","Keyword grouping exists to prevent it"]}]},
+{"type":"chips","heading":"The four sources of content coverage","items":["1. Google Autocomplete","2. ChatGPT","3. ChatGPT for programmatic combinations","4. Competitors via Ahrefs"]},
+{"type":"steps","heading":"Source 4: competitors via Ahrefs","cols":2,"items":[{"title":"Search the keyword on Google","text":"Take out your competitors"},{"title":"Put a competitor into Ahrefs"},{"title":"Export its organic keywords","text":"Give the whole CSV to AI, not one keyword at a time"},{"title":"ChatGPT makes combinations","text":"City-wise, or any other way"},{"title":"Sort by position","text":"See where it is at the top"},{"title":"Group the high keywords","text":"Thousands of keyword combinations"}]},
+{"type":"flow","heading":"The whole flow","items":[{"title":"Niche"},{"title":"Keyword research"},{"title":"Thousands of keywords"},{"title":"Purify"},{"title":"Keyword grouping"},{"title":"Article topics"}]},
+{"type":"cards","cols":2,"items":[
+{"icon":"newspaper","title":"More sources","text":"Google Trends, Quora and Google News, which is important."},
+{"icon":"bell-ring","title":"Google Alerts","text":"google.com/alerts: keyword, region, language. The best option for fresh content."}]},
+{"type":"callout","icon":"zap","quote":"Don't be a perfectionist. Go and do it.","text":"Assignment: plan your niche's complete keyword research in one week."}]}
+]

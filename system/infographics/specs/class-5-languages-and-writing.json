@@ -1,0 +1,24 @@
+[
+{"out":"knowledge/keyword-research-and-content-planning/grouping-and-site-structure/keyword-coverage-other-languages-class-5-infographic.webp","kicker":"Class 5 · Part 1 · Ammar Ashfaq","title":"Keyword Coverage in Another Language","subtitle":"The same research and grouping, done again in a new language",
+"sections":[
+{"type":"cards","heading":"Which region's keywords?","cols":3,"items":[
+{"icon":"pie-chart","title":"Around 80% rule","text":"80% of traffic from one region makes it that region's niche; 65 or 70% still counts."},
+{"icon":"globe","title":"Global niches","text":"Find where the traffic is highest and work on keywords from there."},
+{"icon":"languages","title":"Multilingual site","text":"When both languages send almost the same traffic; keywords in both."}]},
+{"type":"flow","heading":"Grouping in another language","items":[{"icon":"sheet","title":"Sheet","text":"Write the keywords as before"},{"icon":"languages","title":"Translate","text":"=GOOGLETRANSLATE(C2, \"es\", \"en\")"},{"icon":"group","title":"Group","text":"On the translated words, by intent"}]},
+{"type":"table","heading":"Layout example (from the infographic)","columns":["B: English translation","C: Spanish keyword"],"rows":[["best running shoes","mejores zapatillas para correr"],["running shoes for men","zapatillas de running para hombre"],["cheap running shoes","zapatillas para correr baratas"]]},
+{"type":"compare","heading":"Minimum volume for a post","columns":[{"title":"Class 4","icon":"hash","tone":"gold","items":["Separate post when main keyword volume is above 50"]},{"title":"Class 5","icon":"hash","tone":"terra","items":["Main keyword of a post: minimum volume 300","Which applies to your site? Ask the teacher"]}]},
+{"type":"steps","heading":"Assignment","cols":2,"items":["Find the keywords of your niche","Group them","Build the site structure","Write each main keyword's intent and how you will fulfil it"]},
+{"type":"callout","icon":"user-check","quote":"Machine translation can miss how people really search.","text":"Check keywords in the local Autocomplete and, if you can, with a native speaker."}]},
+
+{"out":"knowledge/content-writing/writing-fundamentals/content-writing-above-the-fold-class-5-infographic.webp","kicker":"Class 5 · Part 2 · Content writing","title":"Above the Fold: Fulfil the Intent First","subtitle":"Content writing is the backbone of on-page SEO",
+"sections":[
+{"type":"cards","heading":"Content is the backbone","cols":3,"items":[
+{"icon":"file-text","title":"Each page separately","text":"The content of every post and every page is made on its own."},
+{"icon":"ban","title":"No good content, no SEO","text":"If the content is not good, there is no SEO."},
+{"icon":"link-2-off","title":"Sometimes no off-page","text":"Holds for easy keywords; competitive ones usually still need links."}]},
+{"type":"flow","heading":"The above the fold area: what you see before scrolling","items":[{"icon":"crosshair","title":"Main intent","text":"Read the keyword, fulfil its intent"},{"icon":"tags","title":"Page meta","text":"Comes later"},{"icon":"align-left","title":"Intro","text":"Comes later"}]},
+{"type":"table","heading":"Fulfilling the intent: the teacher's examples","columns":["Keyword","Fulfil the intent with"],"rows":[["download mod apk","A download button"],["alternative of magis tv","An initial list or links"],["magis tv link downloader","A tool"]]},
+{"type":"note","text":"Learn the method from these; mod apk and streaming keywords carry malware, piracy and brand-owner risk."},
+{"type":"callout","icon":"list-checks","quote":"Start from the main keyword, with its related keywords below it.","text":"Assignment: for every group's main keyword, write its intent and how you will fulfil it."}]}
+]

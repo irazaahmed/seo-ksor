@@ -1,0 +1,31 @@
+{
+  "out": "knowledge/niche-research/finding-niches/finding-niches-marketplaces-infographic.webp",
+  "kicker": "Finding niches · Method 1",
+  "title": "Reverse-Engineering Marketplaces",
+  "subtitle": "Every listed site is a niche someone already proved makes money",
+  "sections": [
+    { "type": "cards", "heading": "The goal", "cols": 2, "items": [
+      { "icon": "search", "title": "Find an untapped niche", "text": "A low-competition niche, not a guess." },
+      { "icon": "copy", "title": "Replicate a winner", "text": "Find a good competitor in it and replicate what works." } ] },
+    { "type": "steps", "heading": "Seven steps, marketplace to validated niche", "cols": 2, "items": [
+      { "title": "Browse marketplaces", "text": "Flippa, Empire Flippers, Motion Invest, FE International." },
+      { "title": "Filter for high performers", "text": "Sort by revenue, profit, traffic or growth rate." },
+      { "title": "Analyze a promising site", "text": "Ahrefs, SEMrush or Similar Web: SEO, traffic sources, backlinks." },
+      { "title": "Check keyword opportunities", "text": "Site Explorer top keywords: high volume, low competition." },
+      { "title": "Analyze monetization", "text": "Ads, affiliate, digital products or dropshipping." },
+      { "title": "Validate demand and trends", "text": "Google Trends, plus forums, Reddit and Facebook groups." },
+      { "title": "Choose and validate", "text": "Consistent demand, more than one monetization option; skip saturated or declining markets." } ] },
+    { "type": "flow", "heading": "Reverse-engineering directly: macro site to nano niche", "items": [
+      { "icon": "globe", "title": "Macro site", "text": "Open it in Ahrefs Site Explorer" },
+      { "icon": "file-text", "title": "Top pages", "text": "Review which pages look strongest" },
+      { "icon": "key-round", "title": "Top keywords", "text": "Pull them from those pages" },
+      { "icon": "search", "title": "Google SERP", "text": "Search those keywords on Google" },
+      { "icon": "gem", "title": "Nano niche", "text": "One page can point to a niche worth owning" } ] },
+    { "type": "cards", "heading": "Brand hijacking: four forms to recognise", "cols": 4, "items": [
+      { "icon": "tag", "title": "Brand keywords", "text": "Content built on a brand name, e.g. \"Nike Shoes Review\"." },
+      { "icon": "link", "title": "Affiliate hijacking", "text": "Rank for brand terms, redirect to affiliate products." },
+      { "icon": "venetian-mask", "title": "Mimicking identity", "text": "Site, logo or content made to resemble a known brand." },
+      { "icon": "megaphone", "title": "Paid ads on brands", "text": "PPC on a competitor's brand name to intercept clicks." } ] },
+    { "type": "callout", "icon": "lightbulb", "quote": "No dedicated site for the micro-niche? That is the opportunity.", "text": "Clear intent, high search volume and 12 months of steady Google Trends interest are enough to build one." }
+  ]
+}

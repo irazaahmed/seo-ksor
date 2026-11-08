@@ -1,0 +1,41 @@
+[
+{"out":"knowledge/ai-agents/introduction-and-setup-infographic.webp","kicker":"AI Agents · Class 1","title":"The AI Agents Module, and What to Set Up","subtitle":"A new module, running in parallel with SEO",
+"sections":[
+{"type":"cards","heading":"The module","cols":3,"items":[
+{"icon":"layers","title":"What it covers","text":"Vibe coding, agentic AI, LLM integration and more."},
+{"icon":"user","title":"The instructor","text":"Sir Faheem Akhtar: built workar.com end to end, KWScanner, dozens of projects."},
+{"icon":"git-merge","title":"In parallel","text":"SEO carries on; this runs alongside it."}]},
+{"type":"compare","heading":"Why AI, and who it is for","columns":[{"title":"Why now","icon":"sparkles","tone":"gold","items":["SEO alone will not do the work any more","After 2023 it is a completely new world","Useful in every business and every industry"]},{"title":"Who it is for","icon":"cpu","tone":"blue","items":["Not for everyone: only a technical person","A lot of self study","Good at maths? This is for you"]}]},
+{"type":"timeline","heading":"What to set up first","items":[
+{"label":"Install","icon":"download","title":"IDE, Git, Python","text":"Cursor as the IDE"},
+{"label":"Account","icon":"git-branch","title":"GitHub","text":"Create an account"},
+{"label":"Subscribe","icon":"credit-card","title":"$20 plan","text":"One of Cursor, Claude or ChatGPT"}]},
+{"type":"callout","icon":"mountain","quote":"AI agents are the highest stage.","text":"To get there, you will go through quite a few stages first."}]},
+
+{"out":"knowledge/ai-agents/ai-agents-vocabulary-infographic.webp","kicker":"AI Agents · Class 5","title":"The Vocabulary of AI Agents","subtitle":"The learning map: AI fundamentals, then product planning",
+"sections":[
+{"type":"cards","heading":"AI fundamentals","cols":5,"items":[
+{"icon":"wand-sparkles","title":"Generative AI","text":"AI that generates something."},
+{"icon":"brain","title":"LLM","text":"Large Language Model."},
+{"icon":"cog","title":"Automation","text":"You decide what it does and how it does each thing."},
+{"icon":"bot","title":"AI Agents","text":"You give the result; the AI plans and does the work itself."},
+{"icon":"message-square-code","title":"Vibe Coding","text":"Getting anything built by telling AI your requirements."}]},
+{"type":"cards","heading":"Tools and workflow","cols":3,"items":[
+{"icon":"code","title":"IDE","text":"Read code, see code, see output: Cursor, VS Code."},
+{"icon":"toggle-left","title":"Modes","text":"Plan, debug, multitask and Ask Mode."},
+{"icon":"scroll-text","title":"Agent Instructions","text":"Project rules for coding agents."}]},
+{"type":"table","heading":"Product planning","columns":["Term","Meaning"],"rows":[["User journey","The complete path on a website, from arriving to exit"],["Website vs web app","A website has only content pages; a web application is interactive software with 2 way interaction"],["DBMS","Database management system"],["Primary key","A unique identifier for a database"],["API","A contract enabling systems to communicate"]]},
+{"type":"callout","icon":"target","quote":"Automation: you define the how. An agent: you define the result.","text":"The AI agent plans the how itself."}]},
+
+{"out":"knowledge/ai-agents/vibe-coding-in-practice-infographic.webp","kicker":"AI Agents · Class 6 · Sir Faheem","title":"Vibe Coding in Practice","subtitle":"Plan well, run locally, test as you build",
+"sections":[
+{"type":"flow","heading":"How to start a project","items":[{"icon":"download","title":"Install Cursor"},{"icon":"folder-plus","title":"Make a folder","text":"Named after the app"},{"icon":"folder-open","title":"Open Cursor there"},{"icon":"message-square","title":"Open chat","text":"Get the AI to start"}]},
+{"type":"cards","heading":"Habits that pay off","cols":4,"items":[
+{"icon":"file-text","title":"A good PRD first","text":"Good code the first time; put in effort initially."},
+{"icon":"monitor","title":"Run on localhost","text":"AI runs it, fixes bugs, you keep refining."},
+{"icon":"test-tube","title":"Test as you build","text":"Tell the AI to test as it goes."},
+{"icon":"pen-tool","title":"SVG icons","text":"Vector graphics you can style and animate in code."}]},
+{"type":"compare","heading":"Which framework for which app","columns":[{"title":"Web apps","icon":"globe","tone":"blue","items":["Built on Next.js"]},{"title":"Mobile apps","icon":"smartphone","tone":"sage","items":["Built on React Native","Android and iOS from one code"]}]},
+{"type":"steps","heading":"Selling automation to businesses","cols":2,"items":["Do outreach to businesses","Understand their day-to-day workflow","Find the bottleneck that can be automated","Sell them the automation, e.g. a restaurant inventory system"]},
+{"type":"callout","icon":"repeat","quote":"SaaS: a product people buy and use on a subscription."}]}
+]

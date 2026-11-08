@@ -1,0 +1,42 @@
+[
+{"out":"knowledge/quick-skills/etsy/product-and-niche-research/etsy-keyword-research-erank-and-ehunt-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Keyword and Product Research: eRank and EHunt","subtitle":"A keyword is the buyer's language, where the door to a sale opens",
+"sections":[
+{"type":"chips","heading":"What every keyword carries","items":["Search volume","Competition","Target country","Trend graph"]},
+{"type":"flow","heading":"The research flow","items":[{"icon":"sprout","title":"Seed","text":"Give a seed keyword"},{"icon":"expand","title":"Expand","text":"Autocomplete, a to z, related"},{"icon":"scan-eye","title":"Spy","text":"Top listings' titles, tags, description"},{"icon":"filter","title":"Filter","text":"Down to the keepers"}]},
+{"type":"compare","columns":[{"title":"eRank, for keywords","icon":"key-round","tone":"blue","items":["Dashboard: searches, competition, trend","Compare listing: a listing's revenue and sales","Shop info: reverse engineer the best shop","Top sellers with the 2026 filter","Global search led by Pakistan = sellers; check by country"]},{"title":"EHunt, for products","icon":"package-search","tone":"sage","items":["Find hot products","Shops started 30 days ago, earning well","Days and niche filters for digital products","Start with lower sales, not high","Go past the first page"]}]},
+{"type":"cards","heading":"The rules to work by","cols":4,"items":[
+{"icon":"lightbulb","title":"Inspired, not copied","text":"Learn from shops; do not copy them."},
+{"icon":"handshake","title":"Competitor = friend","text":"Your best friend; analyse it well."},
+{"icon":"target","title":"One niche","text":"Always one niche, not multiple."},
+{"icon":"hammer","title":"Make it yourself","text":"Start with what you can make; outsource later."}]},
+{"type":"callout","icon":"coins","quote":"Do not always look at the big numbers.","text":"Small numbers can also make you good money."}]},
+
+{"out":"knowledge/quick-skills/etsy/product-and-niche-research/etsy-listing-and-competitor-research-infographic.webp","kicker":"Etsy · Sir Zafar Ali","title":"Listings and Competitor Research","subtitle":"Digital products: a first shop without investment",
+"sections":[
+{"type":"compare","heading":"Why most Etsy sellers fail: the listing display","columns":[{"title":"Do","icon":"smartphone","tone":"sage","items":["Build the image for a mobile view","Use proper branding"]},{"title":"Avoid","icon":"x","tone":"terra","items":["Overloading the image with text"]}]},
+{"type":"cards","heading":"Pick the right shop to study","cols":3,"items":[
+{"icon":"list","title":"Few listings","text":"A small catalogue is easier to reverse-engineer."},
+{"icon":"calendar","title":"Under one year old","text":"Older shops are a harder reference point now."},
+{"icon":"search","title":"Read it in detail","text":"Design, products, sale numbers and strategies."}]},
+{"type":"callout","icon":"eye","quote":"Use tools, but do not rely on them alone.","text":"Manual review of a shop still matters."}]},
+
+{"out":"knowledge/quick-skills/etsy/product-and-niche-research/etsy-niche-and-keyword-research-practical-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Niche and Keyword Research, Step by Step","subtitle":"Top sellers, eRank and EHunt, Trend Buzz",
+"sections":[
+{"type":"cards","heading":"Part 1: find the niche","cols":3,"items":[
+{"icon":"crown","title":"eRank top sellers","text":"Look at the best sellers' shops; niches are easy to find."},
+{"icon":"flame","title":"EHunt hot products","text":"Apply the digital products filter."},
+{"icon":"shapes","title":"Patterns","text":"In heavy demand on Etsy; pick one category and note it."}]},
+{"type":"steps","heading":"Part 2: find the keywords (niche: \"PNG\")","cols":2,"items":[{"title":"Spy on the niche's shops"},{"title":"Shop link into eRank Shop info","text":"Shows what is in demand"},{"title":"Note the tags of fastest sellers","text":"Most sales in the fewest days"},{"title":"Work on the same kind of product"},{"title":"Export tags into Niche Deck and sort","text":"Keep high volume, low competition"},{"title":"Check a listing in Compare listing"}]},
+{"type":"chips","heading":"Shops noted in class","items":["patternmasterone","joyfulloop","SewlunaDesigns","artsudio611","astheticsshopcrafts","aricanocraft"]},
+{"type":"callout","icon":"tree-pine","quote":"Within a niche, always stay inside one tree.","text":"Finding a good niche is the main task."}]},
+
+{"out":"knowledge/quick-skills/etsy/product-and-niche-research/etsy-product-research-infographic.webp","kicker":"Etsy · Make up session · Shanawar Aslam","title":"Product Research with ChatGPT","subtitle":"Newer shops, competitor footprints, planners and trackers",
+"sections":[
+{"type":"flow","items":[{"icon":"plug","title":"Connect Etsy","text":"To ChatGPT through a plugin"},{"icon":"search","title":"Find shops","text":"No older than 6 months, 100 digital sales"},{"icon":"store","title":"Visit them","text":"Inspect their products"},{"icon":"bot","title":"Ask AI","text":"Ideas, help and the product prompt"}]},
+{"type":"compare","heading":"Niches highlighted in class","columns":[{"title":"Planners","icon":"calendar-days","tone":"gold","items":["Daily, weekly, monthly","Goal and productivity"]},{"title":"Trackers","icon":"activity","tone":"sage","items":["Habit and budget","Fitness and progress"]}]},
+{"type":"cards","cols":2,"items":[
+{"icon":"footprints","title":"Competitor footprints","text":"Your competitor is your best friend: study, follow, do better."},
+{"icon":"briefcase","title":"Motion Invest","text":"Compared to Flippa; study listings with good monthly income."}]},
+{"type":"note","text":"Open question: the notes say \"wahi product, wahi title\", while the infographic source says make an original product with fresh titles. Clarify before copying anything."},
+{"type":"callout","icon":"sparkles","quote":"Have AI do as much of the work as possible.","text":"Including writing the prompt needed to create the product."}]}
+]

@@ -1,0 +1,49 @@
+[
+{"out":"knowledge/quick-skills/etsy/listings-and-images/etsy-listing-and-sales-infographic.webp","kicker":"Etsy · Class 15 · Sir Zafar","title":"Views but No Sales? Fix the Listing","subtitle":"Views mean keywords and title work; missing sales point to image and description",
+"sections":[
+{"type":"flow","heading":"Review products that are not selling","items":[{"icon":"link","title":"Two URLs to ChatGPT","text":"Your product and a competitor's"},{"icon":"scan-search","title":"Analyse both","text":"Better title, description, image ideas"},{"icon":"palette","title":"Finish in Canva","text":"Edit, add your logo, make it yours"},{"icon":"file-image","title":"Name the file","text":"After the product's main name"}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"file-text","title":"The source file","text":"What the buyer pays for: search the keyword, ask for a Canva-editable file."},
+{"icon":"mail-open","title":"Thank You Card","text":"Put the Canva template link in it to deliver the editable template."},
+{"icon":"folder-tree","title":"Pick the category","text":"Open a top listing; use the last category in its path if it fits."}]},
+{"type":"note","text":"\"AI images do not rank well\" is the instructor's advice, not a proven ranking rule. Check every file and template link before listing."},
+{"type":"callout","icon":"refresh-cw","quote":"Publish normal listings, then keep improving as you learn.","text":"Low CTR is the class's diagnosis: review the images and description first."}]},
+
+{"out":"knowledge/quick-skills/etsy/listings-and-images/etsy-listing-and-shop-overview-infographic.webp","kicker":"Etsy · Class 14 · Sir Zafar","title":"Brand Identity, Listing Health, Growth Habits","subtitle":"Without proper SEO, neither ads nor ranking can get you a sale",
+"sections":[
+{"type":"cards","heading":"Brand identity","cols":3,"items":[
+{"icon":"image","title":"Banner and logo","text":"Your theme; listings follow it. A logo is only an icon or text."},
+{"icon":"type","title":"Shop name","text":"One word, easy to remember."},
+{"icon":"palette","title":"Brand everywhere","text":"Color theme and color logic, wherever you appear."}]},
+{"type":"timeline","heading":"Listing health: when views do not come","items":[
+{"label":"Wait","icon":"hourglass","title":"2 to 3 weeks","text":"After you publish"},
+{"label":"Under 10 views","icon":"pencil","title":"Change three","text":"Title, tags and description"},
+{"label":"Still none","icon":"refresh-cw","title":"Redo five","text":"Title, tags, description, price, image"},
+{"label":"Still none","icon":"trash-2","title":"Delete it","text":"The listing goes"}]},
+{"type":"cards","heading":"Growth habits","cols":3,"items":[
+{"icon":"columns-3","title":"Search terms are pillars","text":"Sheet them, target them, make new listings for them."},
+{"icon":"share-2","title":"Share every listing","text":"Social media, above all Pinterest; separate browsers."},
+{"icon":"thumbs-down","title":"Negative feedback","text":"Double your listings per day and start sharing."}]},
+{"type":"stats","heading":"Shop health numbers","items":[{"value":"4+","label":"shop rating, never below"},{"value":"3 to 5%","label":"conversion rate"},{"value":"< 3%","label":"bad, needs fixing","tone":"terra"}]},
+{"type":"callout","icon":"eye","quote":"Low visits? The problem is in the title.","text":"Do not let the shop go dead."}]},
+
+{"out":"knowledge/quick-skills/etsy/listings-and-images/etsy-listing-creation-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"Creating an Etsy Listing","subtitle":"From final SEO to publish",
+"sections":[
+{"type":"cards","heading":"Before you start: finalize your SEO","cols":3,"items":[
+{"icon":"file-check","title":"Title, description, tags","text":"Finalized by what you have learned."},
+{"icon":"key-round","title":"Your keyword first","text":"Always at the start of the title."},
+{"icon":"tags","title":"Tags from competitors","text":"In priority order, below."}]},
+{"type":"table","heading":"The order to pick tags in","columns":["Priority","Competition","Search"],"rows":[["1","Low","High"],["2","High","High"],["3","High","Low"]],"highlight":[0]},
+{"type":"steps","heading":"How to create the listing","cols":2,"items":["Add photos","Keywords in the image names","Upload one video, if made","Select the category, e.g. Digital Print","Made on order only for custom products","Add title, description and tags","Physical: material, sizing; digital: ignore","Price high, then adjust a discount","Complete the remaining checks","Create shop sections for the buyer"]},
+{"type":"callout","icon":"store","quote":"Sections in the shop give the buyer a good experience."}]},
+
+{"out":"knowledge/quick-skills/etsy/listings-and-images/etsy-seo-ranking-formula-and-keyword-layering-infographic.webp","kicker":"Etsy · Sir Zakria Afzal","title":"The Etsy Ranking Formula","subtitle":"Visibility + Clicks + Sales = Higher Ranking",
+"sections":[
+{"type":"flow","items":[{"icon":"eye","title":"Visibility","text":"Driven by SEO"},{"icon":"mouse-pointer-click","title":"Click","text":"CTR and thumbnail"},{"icon":"shopping-cart","title":"Sale","text":"Conversion and purchase"},{"icon":"trophy","title":"Higher ranking","text":"Orders come on the first page"}]},
+{"type":"table","heading":"Keyword layering: low, then mid, then high competition","columns":["Keyword","Competition"],"rows":[["kaws wall art","1,700"],["kaws","3,000"],["wall art","1 lac (100,000)"]],"highlight":[0]},
+{"type":"steps","heading":"Building the title, tags and description","cols":2,"items":[{"title":"Top 10 listings into Compare listing"},{"title":"Copy all their tags to ChatGPT","text":"Ask for the 13 most used"},{"title":"Copy all their titles","text":"Use the most repeated keywords"},{"title":"Your keyword at the start","text":"e.g. \"kaws wall art\""},{"title":"Competitors' descriptions","text":"ChatGPT writes yours and flags changes"},{"title":"Never promise what you do not provide"}]},
+{"type":"cards","cols":2,"items":[
+{"icon":"layers","title":"The parts of SEO","text":"Title, description, tags, attributes. The title plays the main role."},
+{"icon":"cookie","title":"Keep the same niche","text":"Show in related fields under first-page listings, via tags and cookies."}]},
+{"type":"callout","icon":"badge-dollar-sign","quote":"The most important thing is the sale.","text":"SEO ranks what people buy and takes it upwards."}]}
+]
