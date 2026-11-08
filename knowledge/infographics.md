@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-11-06T18:20:49Z }
+generated: { by: human:ahmedraza, at: 2026-11-08T20:04:14Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-11-06T18:20:49Z }
+  approval: { by: human:ahmedraza, at: 2026-11-08T20:04:14Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -229,3 +229,11 @@ chapter's title to read the full lesson behind it.*
 ### [AI Agents, Class 6: vibe coding in practice](ai-agents/vibe-coding-in-practice.md)
 
 ![Infographic: AI Agents, Class 6: vibe coding in practice](ai-agents/vibe-coding-in-practice-infographic.webp)
+
+### [AI Agents, Class 10: small web tools for your niche, built with AI](ai-agents/small-web-tools-with-ai.md)
+
+![Infographic: AI Agents, Class 10: small web tools for your niche, built with AI](ai-agents/small-web-tools-with-ai-infographic.webp)
+
+### [AI Agents, Class 11: the right way to build a custom site](ai-agents/right-way-to-build-a-custom-site.md)
+
+![Infographic: AI Agents, Class 11: the right way to build a custom site](ai-agents/right-way-to-build-a-custom-site-infographic.webp)

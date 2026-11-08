@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:9a8a853245cfab3a1126563cd772b4e3ccef06815e314156c8284f2212546fb9",
+  "build_id": "sha256:128a8b1360ced6ddbb0c0b71538830f041dd59743a3c508b0951c48ecd1edc67",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "92254ddb018a946810fe35723deb0442d7791978",
+  "source_commit": "bb40634a50240a3e228a518b2c4a230f4bafab5d",
   "dirty": true,
-  "as_of": "2026-11-08T19:56:32.647Z",
+  "as_of": "2026-11-08T20:06:43.631Z",
   "drafts": "hidden",
   "instance_sha256": "9bdd2d283c06caf14400415311dd968361c93ae236b1fcf534c7efd73dc921cd",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -50,6 +50,28 @@
     {
       "path": "ai-agents/llms-tokens-git-and-github.md",
       "sha256": "99ed13cec2727e7763a24b678899bde1e53476485cf2cf8c6fb64b9291d3e496",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "ai-agents/right-way-to-build-a-custom-site.md",
+      "sha256": "49487dda32e8ccdffafdc82d75a4b8bb41784d6edb07f605829821d0d6e70fdd",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "ai-agents/small-web-tools-with-ai.md",
+      "sha256": "705f38603d5f7d09507285072f97ed36e8eb58b6147ef7231cc37704a328b831",
       "status": "stable",
       "audience": [
         "public"
@@ -159,7 +181,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "f1bc4d0233274e963adfc44e8f5a4090371055ffd0649ffb04d1131c7eb1cb4a",
+      "sha256": "1c9dd6786a39563b27ba4a7a77460ed042d23dffd80dd7b573a2a90330c9fd55",
       "status": "stable",
       "audience": [
         "public"
@@ -1120,6 +1142,14 @@
       "sha256": "1daecdfeb2ae646584eba2d5468db572fbc2357c8b4a4f386cf80ee56b381acb"
     },
     {
+      "path": "ai-agents/right-way-to-build-a-custom-site-infographic.webp",
+      "sha256": "61fa88efe8591e7d70a53afbe0015e49dfa3d6fdce2fcc02bcf4a14c3608b757"
+    },
+    {
+      "path": "ai-agents/small-web-tools-with-ai-infographic.webp",
+      "sha256": "6ec096ba2b13dc3b57b2e9b281194095b348284fa18aa21c1ec2fbf64a7611e0"
+    },
+    {
       "path": "ai-agents/vibe-coding-in-practice-infographic.webp",
       "sha256": "ed3d4193124b344f0295c4dc67b3e97869e13311cc0f1adbe4036b0aa2b28770"
     },
@@ -1339,7 +1369,7 @@
   "indexes": [
     {
       "path": "ai-agents/index.md",
-      "sha256": "cfb1166edfb669193c3b7ee85280d08b8732eab02abbce5b890f03865ad4f21c"
+      "sha256": "ccb41622ad73fdf765464a1fb98292095d1a723aa1d693c187ff4b6ef5223034"
     },
     {
       "path": "apk-websites/index.md",
@@ -1473,8 +1503,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "d17201ec2d41899ef83f28d3efe38777bf962f7cab18d0ce3221640babb8cd0d",
-      "files": 188
+      "sha256": "33b374ef32311cb9e5526bd87dcac621ff6ee631cb31e7ced13b774d3fb595d5",
+      "files": 192
     }
   ]
 }

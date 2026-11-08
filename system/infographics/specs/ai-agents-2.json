@@ -1,0 +1,21 @@
+[
+{"out":"knowledge/ai-agents/small-web-tools-with-ai-infographic.webp","kicker":"AI Agents · Class 10 · Sir Tanveer Nandla","title":"Small Web Tools for Your Niche, Built with AI","subtitle":"Calculators, word unscramblers and more, with programmatic SEO in every niche",
+"sections":[
+{"type":"flow","heading":"Discuss with the AI before you build","items":[{"icon":"messages-square","title":"Discuss the idea","text":"Before any site or any work"},{"icon":"layers","title":"Decide the stack","text":"What will it be built with?"},{"icon":"server","title":"Tell it your hosting","text":"Normally shared hosting, so it builds to suit"},{"icon":"hammer","title":"Then build","text":"The tool for your niche"}]},
+{"type":"cards","heading":"What to tell the AI while it builds","cols":3,"items":[
+{"icon":"monitor","title":"Tool above the fold","text":"The main thing on the first screen."},
+{"icon":"search","title":"SEO, GEO, AEO","text":"Optimized for search and for AI answers."},
+{"icon":"sparkles","title":"Top-notch UI and UX","text":"A first class interface and experience."},
+{"icon":"scan-search","title":"Analyse competitors","text":"Any gap they have must not be in your site."},
+{"icon":"smartphone","title":"Mobile optimized","text":"Works properly on a phone."},
+{"icon":"palette","title":"Premium, non-AI design","text":"No typical AI design or AI colours."}]},
+{"type":"chips","heading":"Example tools from class","items":["Calculator","Word unscrambler","Any tool related to your niche"]},
+{"type":"callout","icon":"message-square","quote":"Discuss first, then build.","text":"Stack and hosting decided with the AI before a single line is built."}]},
+
+{"out":"knowledge/ai-agents/right-way-to-build-a-custom-site-infographic.webp","kicker":"AI Agents · Class 11 · Sir Faheem Akhtar","title":"The Right Way to Build a Custom Site","subtitle":"Built with one thing in mind: it has to rank",
+"sections":[
+{"type":"compare","heading":"Static, not dynamic","columns":[{"title":"Static site: what we build","icon":"file-code","tone":"sage","items":["Everything inside HTML and CSS","SEO friendly","Easy to crawl"]},{"title":"Dynamic site","icon":"x","tone":"terra","items":["Not built in this class"]}]},
+{"type":"flow","heading":"What the example prompt asks for","items":[{"icon":"code","title":"Custom HTML static","text":"The opening of every build prompt"},{"icon":"calculator","title":"The tool","text":"e.g. a words counter"},{"icon":"sparkles","title":"Modern design","text":""},{"icon":"zap","title":"Fast speed","text":""},{"icon":"smartphone","title":"Mobile friendly","text":""},{"icon":"trophy","title":"Better version","text":"Analyze top sites, beat them"}]},
+{"type":"timeline","heading":"Build order","items":[{"label":"First","icon":"layout-template","title":"The whole website","text":"Get the complete site built."},{"label":"Then","icon":"file-plus","title":"Articles, one by one","text":"Add them to the finished site."}]},
+{"type":"callout","icon":"terminal","quote":"\"Build Custom HTML Static Website ...\"","text":"Start every site build with this prompt."}]}
+]
