@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:128a8b1360ced6ddbb0c0b71538830f041dd59743a3c508b0951c48ecd1edc67",
+  "build_id": "sha256:90314123c1870a68cda7f0c2cab29f03d72717277cd0803c61a20bd17b867ae4",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "bb40634a50240a3e228a518b2c4a230f4bafab5d",
+  "source_commit": "9cde87d5e7777228d7e0187a4fe548f5db231cc6",
   "dirty": true,
-  "as_of": "2026-11-08T20:06:43.631Z",
+  "as_of": "2026-11-16T20:12:44.247Z",
   "drafts": "hidden",
   "instance_sha256": "9bdd2d283c06caf14400415311dd968361c93ae236b1fcf534c7efd73dc921cd",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -181,7 +181,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "1c9dd6786a39563b27ba4a7a77460ed042d23dffd80dd7b573a2a90330c9fd55",
+      "sha256": "a64e28d51ff5b8a97bbceb909b87cb84c5062266970c494b240050585da0a821",
       "status": "stable",
       "audience": [
         "public"
@@ -851,6 +851,17 @@
       ]
     },
     {
+      "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-and-seo-maam-aiman.md",
+      "sha256": "fc40e5991f2463b8c24a155ef86b6bbf96527cead20593d585647dc35b00b7a3",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion.md",
       "sha256": "825a2162ef2cf5f98aeadc3cd721a92a8569370c5c7da28eda5e983f82d4c7bf",
       "status": "stable",
@@ -1051,6 +1062,17 @@
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify.md",
       "sha256": "cb5d374957263cf67b4b4317c9ec8a0f739385e3676d0277b43707b8d7866d9d",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
+      "path": "quick-skills/etsy/products-to-sell/etsy-print-on-demand-printkk.md",
+      "sha256": "08c80738355062d4cbaa57dd3f093d00f60472f4e86428f7cdf4df810930bcb4",
       "status": "stable",
       "audience": [
         "public"
@@ -1286,6 +1308,10 @@
       "sha256": "711f3106f5dbe0376053421795235b41bb099625bd29faa5c50ce8cec0c383f9"
     },
     {
+      "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-and-seo-maam-aiman-infographic.webp",
+      "sha256": "2b36ce782a107c6eb918f7a4139b4e482eab8844001cf2bcee81d1103cbf3cad"
+    },
+    {
       "path": "quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion-infographic.webp",
       "sha256": "8cec29e24bdf046c599ef4aba68405c2de24e7ee67ff8c644740715e944be61f"
     },
@@ -1352,6 +1378,10 @@
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify-infographic.webp",
       "sha256": "36be912bcdcd4e4ef1da61fdf12b54390da5c762424897f14e99ed4cdb951aa5"
+    },
+    {
+      "path": "quick-skills/etsy/products-to-sell/etsy-print-on-demand-printkk-infographic.webp",
+      "sha256": "44c58efaa122d32a7140667c3cf5c74ff2cd0c5679056accc5b71c627c369396"
     },
     {
       "path": "quick-skills/etsy/products-to-sell/etsy-shop-and-products-infographic.webp",
@@ -1473,7 +1503,7 @@
     },
     {
       "path": "quick-skills/etsy/keyword-research/index.md",
-      "sha256": "beff179f441639aeae88d2983320326ef1af141597fc58ca74e087e477a9bc11"
+      "sha256": "c204959a3e1f63117f2f3b1de467727e6151bace51845713f72a578e8a52149e"
     },
     {
       "path": "quick-skills/etsy/listings-and-images/index.md",
@@ -1485,7 +1515,7 @@
     },
     {
       "path": "quick-skills/etsy/products-to-sell/index.md",
-      "sha256": "3a0b1f86aa1aa9c39dfb11718fe1f9125efc945a37b9c6dc6b3f899732e1745b"
+      "sha256": "86a57fcd6386d28312e5e88f2a9139758cc1c574efe732df213c240f91081be1"
     },
     {
       "path": "quick-skills/etsy/ranking-and-growth/index.md",
@@ -1503,8 +1533,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "33b374ef32311cb9e5526bd87dcac621ff6ee631cb31e7ced13b774d3fb595d5",
-      "files": 192
+      "sha256": "0c028a40d54a42a84b43a05f2a7cb014cf5232ab80e69316cfabe8557d2a86c3",
+      "files": 196
     }
   ]
 }

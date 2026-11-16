@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-11-08T20:04:14Z }
+generated: { by: human:ahmedraza, at: 2026-11-16T20:12:31Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-11-08T20:04:14Z }
+  approval: { by: human:ahmedraza, at: 2026-11-16T20:12:31Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -170,6 +170,10 @@ chapter's title to read the full lesson behind it.*
 
 ![Infographic: Etsy keyword research, clearing the confusion: copyright, keyword hats, pricing and a strong product](quick-skills/etsy/keyword-research/etsy-keyword-research-clear-all-confusion-infographic.webp)
 
+### [Etsy keyword research and SEO with Ma'am Aiman: eRank, keyword mix, pricing and product gaps](quick-skills/etsy/keyword-research/etsy-keyword-research-and-seo-maam-aiman.md)
+
+![Infographic: Etsy keyword research and SEO with Ma'am Aiman: eRank, keyword mix, pricing and product gaps](quick-skills/etsy/keyword-research/etsy-keyword-research-and-seo-maam-aiman-infographic.webp)
+
 ## Quick Skills: Etsy: Listings and images
 
 ### [Etsy SEO: the ranking formula, keyword layering, and writing the title, tags and description](quick-skills/etsy/listings-and-images/etsy-seo-ranking-formula-and-keyword-layering.md)
@@ -205,6 +209,10 @@ chapter's title to read the full lesson behind it.*
 ### [Print on demand on Etsy with Printify: zero investment, nothing to ship](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify.md)
 
 ![Infographic: Print on demand on Etsy with Printify](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printify-infographic.webp)
+
+### [Print on demand with PrintKK: AI keyword research, designs and publishing to Etsy](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printkk.md)
+
+![Infographic: Print on demand with PrintKK: AI keyword research, designs and publishing to Etsy](quick-skills/etsy/products-to-sell/etsy-print-on-demand-printkk-infographic.webp)
 
 ## Quick Skills: Etsy: Ranking and growth
 

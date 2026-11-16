@@ -1,0 +1,36 @@
+[
+{"out":"knowledge/quick-skills/etsy/keyword-research/etsy-keyword-research-and-seo-maam-aiman-infographic.webp","kicker":"Etsy · KW Research · Ma'am Aiman","title":"Etsy Keyword Research and SEO","subtitle":"High searches, low competition, the right price and a gap worth filling",
+"sections":[
+{"type":"cards","heading":"Where to find keywords","cols":3,"items":[
+{"icon":"search","title":"Etsy search bar","text":"The best place: search directly and take ideas."},
+{"icon":"bar-chart-3","title":"eRank","text":"High searches, low competition. Note the top countries."},
+{"icon":"flame","title":"EHunt","text":"Good products via Find hot products."}]},
+{"type":"flow","heading":"From a keyword to its competitors","items":[{"icon":"key-round","title":"Keyword from eRank"},{"icon":"search","title":"Search it on Etsy"},{"icon":"list-ordered","title":"Top 8 to 10","text":"Into eRank and compare"},{"icon":"user-check","title":"The competitor","text":"Low age, high sales"}]},
+{"type":"note","text":"Keyword or listings the issue? Go to Top sellers on Etsy in eRank and pick small competitors."},
+{"type":"stats","heading":"The keyword mix, as given in class","items":[{"value":"50%","label":"evergreen"},{"value":"50%","label":"seasonal"},{"value":"10%","label":"trending","tone":"gold"}]},
+{"type":"note","text":"As written these add up to 110%; check with the teacher which share is meant to be smaller. Never trademark or copyright keywords."},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","heading":"Pricing","columns":[{"title":"Top 10 average","icon":"calculator","tone":"blue","items":["Add the top 10 competitors' prices","Divide by 10","Always price at that average"]}]},
+{"type":"compare","heading":"Product gap","columns":[{"title":"\"floral invitation wedding\"","icon":"mail-open","tone":"plum","items":["Look at the top sellers","Find a bad review: that is the gap","Fill the gap, then replicate"]}]}]},
+{"type":"flow","heading":"Replicate an invitation, the easy way","items":[{"icon":"image","title":"Competitor image","text":"Give it to ChatGPT"},{"icon":"bot","title":"ChatGPT","text":"Replicates the design"},{"icon":"palette","title":"Canva","text":"Put the image in"},{"icon":"layers","title":"Magic Layers","text":"Everything becomes editable"}]},
+{"type":"flow","heading":"Etsy SEO: what each step earns","items":[{"icon":"key-round","title":"Good keyword","text":"Search visibility and views"},{"icon":"mouse-pointer-click","title":"A click","text":"Boosts your CTR"},{"icon":"image","title":"Thumbnail","text":"Most important after SEO; product visible"}]},
+{"type":"callout","icon":"calendar-check","quote":"One listing every day is a must.","text":"Never compromise on design, and the product must be valuable."}]},
+
+{"out":"knowledge/quick-skills/etsy/products-to-sell/etsy-print-on-demand-printkk-infographic.webp","kicker":"Etsy · Print on demand · Sir Zafar Ali","title":"Print on Demand with PrintKK","subtitle":"Your custom design; a third party prints, packs and ships",
+"sections":[
+{"type":"chips","heading":"Sell the same products on","items":["Etsy","Amazon","Shopify","Your own website"]},
+{"type":"timeline","heading":"The workflow","items":[
+{"label":"Research","icon":"bot","title":"AI keywords","text":"Best sellers, trends, styles, niches; then volume and trend."},
+{"label":"Validate","icon":"bar-chart-3","title":"eRank or RankKW","text":"Check volume and competitors, then finalise."},
+{"label":"Analyse","icon":"search","title":"PrintKK top 5","text":"Same products on Etsy: price and variants."},
+{"label":"Design","icon":"palette","title":"Your design","text":"Pinterest idea, AI makes it, at the right pixel size."},
+{"label":"Publish","icon":"upload","title":"To Etsy","text":"Connect the store, publish, Standard delivery."}]},
+{"type":"cards","cols":3,"items":[
+{"icon":"trending-up","title":"Trending in class","text":"\"iPhone 18 pro max cover\", plus pet-related items. Re-check trends."},
+{"icon":"pin","title":"Pinterest","text":"Put the final keyword in for design ideas."},
+{"icon":"badge-check","title":"Why PrintKK","text":"Cancellations come from late delivery or poor quality; good products cheaply."}]},
+{"type":"stats","heading":"Numbers to remember","items":[{"value":"25 to 40%","label":"margin: platform fee, ads, cancellations"},{"value":"7 to 10 days","label":"delivery for a custom order"},{"value":"Top 5","label":"PrintKK listings to analyse"}]},
+{"type":"steps","heading":"Before the listing goes live","cols":2,"items":["It arrives on Etsy as a draft","Set title, tags, description and the rest","Then make it active","\"Who made it\": another company made it"]},
+{"type":"note","text":"Buyer brings the custom design? List it without making a design yourself. Payment for PrintKK was left blank in the notes."},
+{"type":"callout","icon":"truck","quote":"Late delivery and poor quality cause cancellations.","text":"Choose the supplier for both."}]}
+]
