@@ -1,5 +1,6 @@
 # Writing fundamentals
 
 * [Starting content writing: the above the fold area and fulfilling search intent](content-writing-above-the-fold-class-5.md) - Ammar Ashfaq's SEO Class 5 on why content is the backbone of on-page SEO, starting from the main and related keywords, and fulfilling the page's intent in the above the fold area.
+* [Content Writing, Session 1: site structure, intent above the fold, intro writing and article structure](content-writing-session-1-intent-intro-and-structure.md) - Ammar Ashfaq's Content Writing Session 1: one page per group, fulfilling the main keyword's intent above the fold, writing an answer-first intro backed by facts, site identity and page meta for YMYL topics, and building an article's heading structure from the top 10 competitors.
 * [Article structure: headings, competitor analysis, and keyword prominence](article-writing-and-seo-structure.md) - How to structure an SEO article with HTML headings, build it from competitor heading analysis, and place the main keyword for maximum prominence.
 * [SEO content writing: HTML formatting, structure, and copywriting](seo-content-writing-guide.md) - A complete guide to writing SEO-optimized blog content: HTML tags, blog post structure, competitor SERP research, content density, and emotional copywriting.

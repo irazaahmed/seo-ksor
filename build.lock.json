@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:90314123c1870a68cda7f0c2cab29f03d72717277cd0803c61a20bd17b867ae4",
+  "build_id": "sha256:35db0c19c6f1f7d9c432107cfe800d7c47dd105e5d27ddcd4129add3ed2cb552",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "9cde87d5e7777228d7e0187a4fe548f5db231cc6",
+  "source_commit": "082261b66be727cfddcdcc075d7ca99adf74972f",
   "dirty": true,
-  "as_of": "2026-11-16T20:12:44.247Z",
+  "as_of": "2026-11-17T16:00:02.137Z",
   "drafts": "hidden",
   "instance_sha256": "9bdd2d283c06caf14400415311dd968361c93ae236b1fcf534c7efd73dc921cd",
   "policy_sha256": "947bca5937af5eaa43acdabc1717ff0631b604e078bdbb6a65c206f51b930991",
@@ -158,6 +158,17 @@
       ]
     },
     {
+      "path": "content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure.md",
+      "sha256": "1d1109fb1d084c20140b897444074a1a6d0e54b2e49b298382c3f2dd3e72e9e2",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
+    {
       "path": "content-writing/writing-fundamentals/seo-content-writing-guide.md",
       "sha256": "05a3f9d4e178cf7e51b14bb49e99c84600383e475d05396ebab702d1803e69bd",
       "status": "stable",
@@ -181,7 +192,7 @@
     },
     {
       "path": "infographics.md",
-      "sha256": "a64e28d51ff5b8a97bbceb909b87cb84c5062266970c494b240050585da0a821",
+      "sha256": "99ed540b8201eba8a8d5542d906e4056359796b41e427153004487e9348b0542",
       "status": "stable",
       "audience": [
         "public"
@@ -1196,6 +1207,18 @@
       "sha256": "0dcffae565306fba80eb68870e57fb44ae12ec7856d6ff3451b9adbbad05d08e"
     },
     {
+      "path": "content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-1-infographic.webp",
+      "sha256": "3a0c34f6241d859fa556f9ce1f62dfebfbc6b8ca8513906117285ae41bc259e7"
+    },
+    {
+      "path": "content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-2-infographic.webp",
+      "sha256": "a5a1a7e73e81e5d2cccef82dc9d759c5acab2dcdd92bc3869d090255f4163046"
+    },
+    {
+      "path": "content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-3-infographic.webp",
+      "sha256": "323900d0d6fda1997cf18b7fc0c137e5cafaecf65b51628dbbd4cd433b802bff"
+    },
+    {
       "path": "keyword-research-and-content-planning/content-coverage/content-coverage-competitors-and-keyword-grouping-infographic.webp",
       "sha256": "ac488f7aa9b2af58154a02c54ccedeb32cde43bdb9fab434357aae74e29a06cf"
     },
@@ -1415,7 +1438,7 @@
     },
     {
       "path": "content-writing/writing-fundamentals/index.md",
-      "sha256": "75bc6733117e4d03e72246d921fcbd0bc90a7621b6f6399234bb5b0829f0e53d"
+      "sha256": "bd88f7159e61a46d44c2e4ad221397adc597f89b564e1b2b6e5f8e6bd696e6fa"
     },
     {
       "path": "index.md",
@@ -1533,8 +1556,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "0c028a40d54a42a84b43a05f2a7cb014cf5232ab80e69316cfabe8557d2a86c3",
-      "files": 196
+      "sha256": "b17a64d84a88df36051e046de9591f0043511bf8abc8e1ea04b106284652afd9",
+      "files": 200
     }
   ]
 }

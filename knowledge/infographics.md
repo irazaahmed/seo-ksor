@@ -5,11 +5,11 @@ description: Every class infographic in the record on one page, grouped by modul
 status: stable
 order: 0.6
 added: 2026-10-18T18:10:29Z
-generated: { by: human:ahmedraza, at: 2026-11-16T20:12:31Z }
+generated: { by: human:ahmedraza, at: 2026-11-17T15:59:57Z }
 ksor:
   audience: [public]
   owner: human:ahmedraza
-  approval: { by: human:ahmedraza, at: 2026-11-16T20:12:31Z }
+  approval: { by: human:ahmedraza, at: 2026-11-17T15:59:57Z }
 ---
 
 *Every class infographic in this record, gathered in one place by module
@@ -111,6 +111,14 @@ chapter's title to read the full lesson behind it.*
 ### [Starting content writing: the above the fold area and fulfilling search intent](content-writing/writing-fundamentals/content-writing-above-the-fold-class-5.md)
 
 ![Infographic: Starting content writing, Class 5: the above the fold area and fulfilling search intent](content-writing/writing-fundamentals/content-writing-above-the-fold-class-5-infographic.webp)
+
+### [Content Writing, Session 1: site structure, intent above the fold, intro writing and article structure](content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure.md)
+
+![Infographic: Content Writing, Session 1, Part 1: site structure and fulfilling the intent above the fold](content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-1-infographic.webp)
+
+![Infographic: Content Writing, Session 1, Part 2: the above the fold area, intro writing and page meta](content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-2-infographic.webp)
+
+![Infographic: Content Writing, Session 1, Part 3: building the article structure from competitors](content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-3-infographic.webp)
 
 ## Quick Skills: Etsy: Getting started
 

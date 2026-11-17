@@ -1,0 +1,36 @@
+[
+{"out":"knowledge/content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-1-infographic.webp","kicker":"Content Writing · Session 1 · Part 1 · Ammar Ashfaq","title":"Fulfil the Intent Above the Fold","subtitle":"The first thing in article writing is the intent",
+"sections":[
+{"type":"flow","heading":"Where we are in the course","items":[{"icon":"search","title":"Niche finding"},{"icon":"group","title":"Grouping","text":"Topical mapping"},{"icon":"network","title":"Site structure","text":"This class"},{"icon":"file-text","title":"Content writing","text":"One page per group"}]},
+{"type":"cards","heading":"Site structure: fix what grouping left loose","cols":3,"items":[
+{"icon":"arrow-left-right","title":"Move","text":"A keyword that belongs with another group."},
+{"icon":"puzzle","title":"Adjust","text":"Left-over keywords go into a group."},
+{"icon":"files","title":"One page each","text":"Every group or post gets its own page."}]},
+{"type":"callout","icon":"crosshair","quote":"The main keyword tells you the intent.","text":"What all its related keywords are about, and what the user wants. Cover it above the fold."},
+{"type":"rows","heading":"The class examples","columns":["The user wants","Above the fold"],"items":[
+{"icon":"calculator","title":"vat calculator","text":"VAT = Value Added Tax","cells":["To find out the VAT","A tool: UAE VAT by default on a UAE site; the selected country's VAT on a global one"]},
+{"icon":"utensils","title":"Tim Hortons Menu","text":"Too big for one screen","cells":["The items and their prices","4 or 5 buttons (Breakfast, Lunch, Dinner) that jump to the menu"]},
+{"icon":"download","title":"APK","cells":["The download","A download button plus how to download"]}]},
+{"type":"chips","heading":"Other ways to fulfil an intent","items":["A list","A TOC (table of contents)","A video","Whatever the niche needs"]}]},
+
+{"out":"knowledge/content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-2-infographic.webp","kicker":"Content Writing · Session 1 · Part 2 · Ammar Ashfaq","title":"Inside the Above the Fold Area","subtitle":"Intent, intro, site identity and page meta, then the rest of the article",
+"sections":[
+{"type":"flow","items":[{"icon":"crosshair","title":"Intent","text":"Fulfilled first"},{"icon":"align-left","title":"Intro","text":"1 to 3 paragraphs"},{"icon":"badge","title":"Site identity","text":"Logo or name"},{"icon":"calendar-clock","title":"Page meta","text":"When the topic needs it"},{"icon":"file-text","title":"Rest of article"}]},
+{"type":"stats","heading":"Measure in sentences, not lines (lines change with the viewport)","items":[{"value":"2 to 4","label":"sentences in a paragraph"},{"value":"1 to 3","label":"paragraphs in the intro"}]},
+{"type":"compare","heading":"How intros changed","columns":[{"title":"Before AI","icon":"history","tone":"plum","items":["Start from the user's problem","Acknowledge it, or ask a question about it"]},{"title":"After AI","icon":"sparkles","tone":"sage","items":["Reach the user and the AI Overview","Give the direct answer, with the problem","An Answer Backed by Facts","Prefer the active voice"]}]},
+{"type":"note","text":"Tim Hortons example: \"Tim Hortons has added this brunch to its menu. For the complete menu, click this button.\""},
+{"type":"table","heading":"Page meta: published or modified date, author name, bio optional","columns":["Kind of page","Page meta"],"rows":[["YMYL (Your Money or Your Life), e.g. could be life-threatening","A must: dates, author, bio, shown above the fold"],["A simple tool, e.g. a calculator","Not needed in this much detail"],["Not YMYL, but changes weekly or daily","Add it, so readers know when it was published"]],"highlight":[0]},
+{"type":"callout","icon":"message-square-quote","quote":"Answer first, backed by facts.","text":"That is how an intro reaches both the reader and the AI Overview."}]},
+
+{"out":"knowledge/content-writing/writing-fundamentals/content-writing-session-1-intent-intro-and-structure-part-3-infographic.webp","kicker":"Content Writing · Session 1 · Part 3 · Ammar Ashfaq","title":"Build the Article Structure from Competitors","subtitle":"Expand the structure, summarize the article",
+"sections":[
+{"type":"steps","heading":"The steps","cols":2,"items":[{"title":"Search the keyword on Google","text":"In the country you target"},{"title":"Open the top 10 competitors","text":"Take them out and keep them separate"},{"title":"Write the title","text":"A proper title comes in a later class"},{"title":"Tool, then a 1 to 2 paragraph intro","text":"Research it with Claude or ChatGPT"},{"title":"Copy the competitors' headings","text":"A structure is built from headings"},{"title":"Clean them up","text":"Remove unrelated and duplicate headings, fix mistakes, adopt what is right"}]},
+{"type":"cards","heading":"Keep the hierarchy like a family tree","cols":3,"items":[
+{"icon":"heading-1","title":"One H1","text":"Exactly one per article."},
+{"icon":"heading-2","title":"H2 under it","text":"Every section under the H1."},
+{"icon":"heading-3","title":"H3 inside H2","text":"Sub-sections, related branches."}]},
+{"type":"split","ratio":[1,1],"parts":[
+{"type":"compare","heading":"Writing rules","columns":[{"title":"Do","icon":"check","tone":"sage","items":["Just write what you understand","Fine-tune later","Keep going step by step"]}]},
+{"type":"compare","heading":"Never","columns":[{"title":"Avoid","icon":"x","tone":"terra","items":["Filler sentences","Forcing the keyword in","Being a perfectionist"]}]}]},
+{"type":"callout","icon":"sigma","quote":"Google runs on an algorithm, and an algorithm is math.","text":"The teacher's view: if a site is first, something in its content put it there."}]}
+]
